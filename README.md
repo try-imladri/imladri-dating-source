@@ -1,6 +1,8 @@
 # Imladri dating source archive
 
-This private source snapshot preserves the November 19 dating implementation, including uncommitted work, and the Personal code it was built on. It is a **reuse reference**, not a release-certified iOS app or instructions to restore the old website.
+This reviewed source snapshot preserves the November 19 dating implementation, including uncommitted work, and the Personal code it was built on. It is a **reuse reference**, not a release-certified iOS app or instructions to restore the old website.
+
+Public read access was authorized by the owner on November 21, 2026. The source and linked iOS blueprint can be read or cloned without a GitHub token. Public visibility does not grant write access to this repository; changes to the owner's branches still require authorized access.
 
 ## Start here
 
