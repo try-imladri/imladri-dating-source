@@ -1,0 +1,49 @@
+.settings-workspace { min-width: 0; width: 100%; }
+.settings-workspace .clerk-profile { min-width: 0; width: 100%; }
+.settings-workspace .cl-rootBox,
+.settings-workspace .cl-cardBox,
+.settings-workspace .cl-card,
+.settings-workspace .cl-scrollBox,
+.settings-workspace .cl-pageScrollBox {
+  height: auto;
+  max-height: none;
+}
+.settings-workspace .cl-scrollBox,
+.settings-workspace .cl-pageScrollBox { overflow: visible; }
+.settings-workspace .cl-page,
+.settings-workspace .cl-profilePage,
+.settings-workspace .cl-profilePageContent { min-width: 0; max-width: 100%; }
+.settings-workspace .settings-pane { min-width: 0; width: 100%; }
+.settings-workspace .settings-pane > .card { width: 100%; }
+.settings-workspace .settings-pane p { overflow-wrap: anywhere; line-height: 1.6; }
+.settings-workspace .settings-purpose-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.settings-workspace .settings-purpose-nav button {
+  min-height: 2.25rem;
+  padding: .4rem .7rem;
+  border: 1px solid var(--line);
+  border-radius: .6rem;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.35;
+  text-align: left;
+}
+.settings-workspace .settings-purpose-nav button[aria-current="page"] {
+  color: var(--bg);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.settings-workspace .settings-purpose-nav button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+@media (max-width: 639px) {
+  .settings-workspace .settings-purpose-nav { gap: .35rem; }
+  .settings-workspace .settings-purpose-nav button { flex: 1 1 8rem; }
+}

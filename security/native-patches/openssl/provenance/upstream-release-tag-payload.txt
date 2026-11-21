@@ -1,0 +1,6 @@
+object af1775b60dfa141a4ad762585052cabeb9f37e9e
+type commit
+tag openssl-4.0.3
+tagger openssl-machine <openssl-machine@openssl.org> 1790689495 +0000
+
+OpenSSL 4.0.3 release tag

@@ -1,0 +1,2362 @@
+{
+  "reviewed_utc": "2026-11-10T06:49:28.810812+00:00",
+  "artifact": {
+    "image_id": "sha256:81d6f841abfef09758e85e83a4a13c7867ee20d9dcb09f1629818e106b8b04fd",
+    "image_manifest": "sha256:81d6f841abfef09758e85e83a4a13c7867ee20d9dcb09f1629818e106b8b04fd",
+    "operating_system": {
+      "id": "debian",
+      "version": "13",
+      "codename": "trixie"
+    },
+    "source_commit": "05c12081fcbab4d8601aa510fc4c6e8270626a1f",
+    "render_verified_deployments": {
+      "preview": {
+        "source_commit": "dce32ac873928cd1ac7968e013fa814fbedb194b",
+        "shell_instance": "gz75w",
+        "runtime_fingerprint": {
+          "python": "3.12.16",
+          "pip": "26.2",
+          "openssl": "OpenSSL 3.5.7 9 Jun 2026",
+          "expat": "expat_2.9.0",
+          "os": {
+            "ID": "debian",
+            "VERSION_ID": "13"
+          },
+          "uid": 65532,
+          "effective_capabilities": "0000000000000000",
+          "application_processes": [
+            {
+              "pid": 1,
+              "uids": [
+                "65532",
+                "65532",
+                "65532",
+                "65532"
+              ],
+              "effective_capabilities": "0000000000000000"
+            }
+          ],
+          "python_distributions": {
+            "count": 71,
+            "sha256": "ab1bb2be054492f0aac318e36f8d7574740fdc6449c01f38f34f1e81febd9e4a"
+          },
+          "debian_binaries": {
+            "count": 87,
+            "sha256": "285e2c8f3b117653d442e0a3338305301607c89ac6507ab4b73f93c1d138e68d"
+          },
+          "debian_sources": {
+            "count": 61,
+            "sha256": "9700919c9b2c7e466a2867ae5f93fb581af871a13848fef4ab1f53b7bb5ff302"
+          },
+          "application_files": {
+            "count": 516,
+            "sha256": "c741cd1f09d76cdbba06200170dcfa5b2bdee0d2f37b2f3f7340e7aa9dec6388"
+          },
+          "privileged_helpers": [],
+          "node": null
+        },
+        "evidence": "Render Docker actual runtime dce32ac87392 preview.json"
+      },
+      "standby": {
+        "source_commit": "dce32ac873928cd1ac7968e013fa814fbedb194b",
+        "shell_instance": "6txfv",
+        "runtime_fingerprint": {
+          "python": "3.12.16",
+          "pip": "26.2",
+          "openssl": "OpenSSL 3.5.7 9 Jun 2026",
+          "expat": "expat_2.9.0",
+          "os": {
+            "ID": "debian",
+            "VERSION_ID": "13"
+          },
+          "uid": 65532,
+          "effective_capabilities": "0000000000000000",
+          "application_processes": [
+            {
+              "pid": 1,
+              "uids": [
+                "65532",
+                "65532",
+                "65532",
+                "65532"
+              ],
+              "effective_capabilities": "0000000000000000"
+            }
+          ],
+          "python_distributions": {
+            "count": 71,
+            "sha256": "ab1bb2be054492f0aac318e36f8d7574740fdc6449c01f38f34f1e81febd9e4a"
+          },
+          "debian_binaries": {
+            "count": 87,
+            "sha256": "285e2c8f3b117653d442e0a3338305301607c89ac6507ab4b73f93c1d138e68d"
+          },
+          "debian_sources": {
+            "count": 61,
+            "sha256": "9700919c9b2c7e466a2867ae5f93fb581af871a13848fef4ab1f53b7bb5ff302"
+          },
+          "application_files": {
+            "count": 516,
+            "sha256": "c741cd1f09d76cdbba06200170dcfa5b2bdee0d2f37b2f3f7340e7aa9dec6388"
+          },
+          "privileged_helpers": [],
+          "node": null
+        },
+        "evidence": "Render Docker actual runtime dce32ac87392 standby.json"
+      }
+    }
+  },
+  "interpretation": {
+    "vendor_state": "Retained independently of the application exposure decision.",
+    "not_affected": "The affected component or prerequisite is demonstrably absent, or the vendor marks this Debian release unaffected.",
+    "mitigated": "Affected code remains, with verified restrictions on relevant prerequisites.",
+    "needs_review": "The affected code is present and available evidence leaves native, transitive or operator reachability unresolved.",
+    "proof_drift": "Image, version, vendor-record or supporting-proof changes reopen local decisions for assessment."
+  },
+  "counts": {
+    "mitigated": 10,
+    "not_affected": 24,
+    "needs_review": 49
+  },
+  "maintenance": {
+    "automation_id": "imladri-debian-maintenance",
+    "status": "ACTIVE",
+    "schedule": "Daily at 09:00 America/Chicago",
+    "local_requirement": "The computer and Codex desktop app must be available for the scheduled local work.",
+    "refresh_command": "python -m scripts.review_debian_security --inventory <verified-current-inventory.json> --output <review-report.json>",
+    "package_updates": "Check signed stable package candidates, build and test scoped updates, verify current deployment configuration, deploy with recovery checks and retain residual uncertainty."
+  },
+  "raw_records": 83,
+  "proof_files": [
+    {
+      "id": "core_runtime",
+      "path": "security/evidence/core_runtime.json",
+      "canonical_json_sha256": "b26a1ee1b82d2a8d97767913075ec3d05b5c6c54e9202eaac4d58c3df84760ba"
+    },
+    {
+      "id": "native_symbols",
+      "path": "security/evidence/native_symbols.json",
+      "canonical_json_sha256": "9fb41d84f0a5ed914882579a22a1e01fb65150a0823c3699fe2a7cd60b47be39"
+    },
+    {
+      "id": "privileges",
+      "path": "security/evidence/privileges.json",
+      "canonical_json_sha256": "b3e6828cd1e0d0aa8ed250a67cbbb0b2faafe32ea0e80a47969803c7be83a002"
+    },
+    {
+      "id": "utilities",
+      "path": "security/evidence/utilities.json",
+      "canonical_json_sha256": "4ac8d424e8613ad7ddbffa9b770eca2e379c31f53fdf58b7c9776196f88d8a93"
+    },
+    {
+      "id": "utility_configuration",
+      "path": "security/evidence/utility_configuration.json",
+      "canonical_json_sha256": "680cbff99c40cf0be79f8fb07583a13dc15f3f033dcd1f4ccb7e6d884dc6d122"
+    },
+    {
+      "id": "utility_application_paths",
+      "path": "security/evidence/utility_application_paths.json",
+      "canonical_json_sha256": "a9ab160c15140d57e1def890ddeca0eb5b5284d8f4bbad5be1c6a8ffe87b6327"
+    },
+    {
+      "id": "sqlite_removal",
+      "path": "security/evidence/sqlite_removal.json",
+      "canonical_json_sha256": "ad9f5d6742f004252036ae6ca7da50334c74a93d075318c42f812d9f016151b5"
+    }
+  ],
+  "records": [
+    {
+      "source": "acl",
+      "version": "2.3.2-2",
+      "cve": "CVE-2026-54369",
+      "vendor_status": "open",
+      "vendor_record_sha256": "16954877a23a8d9449b93804c9f12937243c8925277babbf954666943f72bcef",
+      "decision": "mitigated",
+      "decision_basis": "mitigated",
+      "affected_condition": "libacl pathname functions require a privileged caller processing a replaceable path.",
+      "evidence_summary": "libacl1 is installed; all ACL utilities are absent. The application process has UID 65532, no effective capabilities and no privileged helpers.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the vendor-open library record and existing process restrictions. Recheck the signed stable update adding the new ACL API; review before any privileged filesystem operation is added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-54369"
+    },
+    {
+      "source": "acl",
+      "version": "2.3.2-2",
+      "cve": "CVE-2026-54370",
+      "vendor_status": "open",
+      "vendor_record_sha256": "fedd7d9b196d8b170fa5952af803026ad0ba0a0231e6cd32269afd5715ceeb00",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The reported recursive path race is exercised by getfacl, setfacl or chacl.",
+      "evidence_summary": "The acl utility package is absent. All three named executables are absent from PATH and the /usr, /opt and /app file inventory; only libacl1 is installed.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the component-absence exception attached to this image. Reopen if the acl utility package or equivalent executable is introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-54370"
+    },
+    {
+      "source": "apt",
+      "version": "3.0.4",
+      "cve": "CVE-2011-3374",
+      "vendor_status": "open",
+      "vendor_record_sha256": "e238cb744cc48e69d9425477845295dccd1ac93277d3da8b9d712d29aa154b56",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The reported trust problem requires apt-key and a configured keyring URI.",
+      "evidence_summary": "apt-key is absent from PATH and the filesystem inventory. apt-config reports no keyring URI. Both signed sources pin the local Debian archive keyring. Debian's tracker independently describes its default configuration as unexploitable.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the configuration and component evidence with the raw record. Reopen if repository/keyring settings change or apt-key is introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2011-3374"
+    },
+    {
+      "source": "attr",
+      "version": "1:2.5.2-3",
+      "cve": "CVE-2026-54371",
+      "vendor_status": "open",
+      "vendor_record_sha256": "672b30dce5808a652e32a84c26f7cc13de9847b1dc89b51fa17ed95c2bd9b4cc",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The reported path traversal is in the getfattr and setfattr utilities.",
+      "evidence_summary": "The attr utility package and both executables are absent from PATH and the /usr, /opt and /app inventory. The installed package is libattr1.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the component-absence exception. Reopen if the attr utility package or equivalent executable is added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-54371"
+    },
+    {
+      "source": "bzip2",
+      "version": "1.0.8-6",
+      "cve": "CVE-2026-42250",
+      "vendor_status": "open",
+      "vendor_record_sha256": "15a367509a849d5aaf0cd78bba4a7e577c3952d5d4f0a69dd5e9ed0c2eb9eef4",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "Processing an attacker-supplied recovery input in bzip2recover.",
+      "evidence_summary": "The utility and bzip2 executable package are absent. The separate libbz2 library is installed and is loaded by Python.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Reopen if the recovery utility or executable package is added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-42250"
+    },
+    {
+      "source": "coreutils",
+      "version": "9.7-3",
+      "cve": "CVE-2017-18018",
+      "vendor_status": "open",
+      "vendor_record_sha256": "203e4708bc057a7d0fa3e386d6ef761af99a49b26cd398a4ca10f2d6f564f21b",
+      "decision": "mitigated",
+      "decision_basis": "mitigated",
+      "affected_condition": "The chown/chgrp recursive symlink race requires an ownership-changing caller with relevant privileges.",
+      "evidence_summary": "Both binaries are installed. The application has no effective capabilities, UID 65532 and no implemented utility invocation path in its local module graph.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the vendor-open record and unprivileged execution. Reassess before any ownership-changing service operation or elevated capability is introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2017-18018"
+    },
+    {
+      "source": "coreutils",
+      "version": "9.7-3",
+      "cve": "CVE-2025-5278",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b49c43565dcbfa6927bf1a9b1803b9d9534d2c84905f76eca070bfe0f2c3b3ce",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "sort receives attacker-controlled field arguments and text.",
+      "evidence_summary": "sort is installed. The 71-module local runtime graph implements no sort subprocess or general shell endpoint. Third-party or operator invocation remains outside that static proof.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the package record open. Validate any transitive or operational caller before accepting untrusted sort arguments; adopt the signed vendor fix when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2025-5278"
+    },
+    {
+      "source": "coreutils",
+      "version": "9.7-3",
+      "cve": "CVE-2026-56391",
+      "vendor_status": "open",
+      "vendor_record_sha256": "28aae04d09ffef8ead36f054e99532196b654b85789f91ad0a34301eda0a1d80",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "uniq processes multibyte data under caller-controlled width options.",
+      "evidence_summary": "uniq is installed. No application utility caller or utility-related import was found in the local runtime graph.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the record open pending vendor update or complete caller evidence. Review if a shell/text-processing feature is added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-56391"
+    },
+    {
+      "source": "coreutils",
+      "version": "9.7-3",
+      "cve": "CVE-2026-56392",
+      "vendor_status": "open",
+      "vendor_record_sha256": "8eb7f755bc031698d96e53908c262e73597b45d6bfd721d3be67e031b24954b2",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "unexpand processes large caller-controlled tab-stop arguments.",
+      "evidence_summary": "unexpand is installed. No application subprocess invocation is implemented in the inspected runtime modules.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the raw record and investigate a caller if this utility becomes part of a feature or operational input pipeline.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-56392"
+    },
+    {
+      "source": "dash",
+      "version": "0.5.12-12",
+      "cve": "CVE-2026-102473",
+      "vendor_status": "open",
+      "vendor_record_sha256": "10b901366c1b14bac8b36c7b62a54b0a2eaa7c6a7a93c8d066879bd960366016",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "dash's internal pattern matcher processes attacker-controlled names or patterns.",
+      "evidence_summary": "dash is installed and its dynamic symbol inventory has no libc fnmatch import. The affected build prerequisite therefore remains possible. Application launchers use direct Python execution and the local runtime graph contains no shell invocation.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the record open. Preserve shell-free entrypoints and assess any future shell-pattern caller; adopt a stable vendor fix.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-102473"
+    },
+    {
+      "source": "dash",
+      "version": "0.5.12-12",
+      "cve": "CVE-2026-102474",
+      "vendor_status": "open",
+      "vendor_record_sha256": "a09aba5aa408db717d934cbcb70c1e8c796b527792bd35a554ff24b756733194",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "dash's printf/echo builtin receives caller-controlled Unicode escapes.",
+      "evidence_summary": "dash is installed. Current API and Render entrypoints use direct Python execution and the inspected application graph implements no shell command endpoint.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the vendor-open record and shell-free start commands. Reassess if application data is ever passed to a shell builtin.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-102474"
+    },
+    {
+      "source": "diffutils",
+      "version": "1:3.10-4",
+      "cve": "CVE-2026-53910",
+      "vendor_status": "open",
+      "vendor_record_sha256": "01af7a3be611a19c4062120311013a3aa9770cd1a399859f96b678754df88ce3",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "diff3 consumes manipulated diff-program output or a caller-supplied diff program.",
+      "evidence_summary": "diff3 is installed. No application diff3 or shell/process pipeline was found. Debian assigns unimportant urgency and records upstream disagreement on security impact.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the vendor record and review before adding a diff-program feature or operational caller that accepts untrusted programs/output.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-53910"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-102010",
+      "vendor_status": "open",
+      "vendor_record_sha256": "850bf47a039314c5f27bd94fef2ee707595c9776ad529dc6be5951c84f36e46e",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "libstdc++ policy-based binary-heap priority_queue erase_if",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-102010"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-114690",
+      "vendor_status": "open",
+      "vendor_record_sha256": "94a941f49fb3ef2d97d5f145d8078309eeccdd3b0e20f82c991f64004229a789",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "libstdc++ parallel-mode search",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-114690"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-114691",
+      "vendor_status": "open",
+      "vendor_record_sha256": "864dcb1d85a148577250a61fc64a2ae6ed097d81683ccc6848eb237f9e3b1ae7",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "std::vector<bool> construction with very large element counts",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-114691"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-115455",
+      "vendor_status": "open",
+      "vendor_record_sha256": "814bab717a17306fe2f1df5caf656f9eb56187192490a10907ecb8df9a128d37",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "wide-character stream extraction into std::bitset",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-115455"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-115456",
+      "vendor_status": "open",
+      "vendor_record_sha256": "81db6f63cfb678802372d9d1e90fcd080550eff3c93e28ba73fec2cbbabe1bb7",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "std::from_chars on a non-terminated string input",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-115456"
+    },
+    {
+      "source": "gcc-14",
+      "version": "14.2.0-19",
+      "cve": "CVE-2026-95619",
+      "vendor_status": "open",
+      "vendor_record_sha256": "f3d990886d56315fb33b5f35c6293270da226f7e28c8615406b99f5127c7d6d0",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "aligned operator new with very large input sizes",
+      "evidence_summary": "Only gcc-14-base, libgcc-s1 and libstdc++6 are installed from this source. No gcc, g++ or c++ command and no C++ header roots are present. Native Python wheels may embed C++ templates or call shared libstdc++ functions; header absence alone cannot settle those paths.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package, or complete evidence that the affected operation is absent from every applicable native wheel and shared library path.",
+      "next_action": "Retain the runtime libraries. Establish wheel build provenance and affected-operation/input paths, or deploy a vendor-fixed stable package when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-95619"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2010-4756",
+      "vendor_status": "open",
+      "vendor_record_sha256": "6188d8ed4d7f974f015f488dacc5e7840904515985db1ff299672b3e85e443c7",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A caller passes attacker-influenced patterns to glibc glob.",
+      "evidence_summary": "Application patterns use Python re. The Python executable, extensions and wheels contain no dynamic glob/glob64 import; internal system-library paths remain outside that proof.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Inspect any system-library and operational callers before closing the user-controlled pattern condition.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2010-4756"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2018-20796",
+      "vendor_status": "open",
+      "vendor_record_sha256": "026cd49254925a23143850a230ac4f7d6c7ce4f35ef3753f1b92dcfb354432c5",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An affected POSIX regex caller compiles and executes attacker-controlled patterns.",
+      "evidence_summary": "Python re uses its separate engine; no regcomp/regexec import exists in the 473 inspected Python and wheel ELF objects. No complete transitive-system-library proof is claimed.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Verify all actual native callers and any operator grep exposure; retain the vendor-open record meanwhile.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2018-20796"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2019-1010022",
+      "vendor_status": "open",
+      "vendor_record_sha256": "650ff0fbfc304be4491d3adc7863cf2776c4125033b3bc3e5bbb81d71bbcc001",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A separate stack-memory corruption condition combines with the reported mitigation bypass.",
+      "evidence_summary": "The application is unprivileged with zero effective capabilities. The upstream/debian non-security dispute is preserved, and separate memory-corruption chains remain unproven.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Track the vendor assessment and evaluate this record alongside any concrete memory-corruption finding.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2019-1010022"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2019-1010023",
+      "vendor_status": "open",
+      "vendor_record_sha256": "6c6fecaba270efe03d2eaa0eedf77fa87520196b4a9208a55c0b71920e502be8",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An operator or application runs ldd on attacker-supplied ELF objects.",
+      "evidence_summary": "ldd exists. Application request handlers contain no ldd invocation; the sole subprocess helper is an offline silhouette asset utility. This preserves an operator-controlled exposure condition.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Document that operational ldd checks accept only package-owned image objects; reassess if binary-analysis uploads are added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2019-1010023"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2019-1010024",
+      "vendor_status": "open",
+      "vendor_record_sha256": "49aa35097f4dde0febd1a802c6c01b155beb620a12984bc8fccd911929c73c2e",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A separate memory-disclosure or corruption path makes address reuse useful to an attacker.",
+      "evidence_summary": "The service runs as UID 65532 with no effective capabilities. That limits privilege impact and leaves possible same-process data exposure unproven.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the conditional chain record and revisit if an application-native memory issue is identified.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2019-1010024"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2019-1010025",
+      "vendor_status": "open",
+      "vendor_record_sha256": "7c678fe64c1b44c2b37b955a241eb138da86b2456fa43b6b3a3a1952bee29e20",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An attacker combines predictable thread allocation with another memory-safety defect.",
+      "evidence_summary": "The vendor disputes the standalone vulnerability. Current runtime hardening supplies privilege isolation, with no proof excluding every dependent memory-safety chain.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review with other memory-safety findings and signed vendor updates.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2019-1010025"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2019-9192",
+      "vendor_status": "open",
+      "vendor_record_sha256": "d2d0c763fb01ca4b46808dabc8480c46628e730dc242056e42144c2880c66dc5",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An affected POSIX regex caller accepts a crafted pattern.",
+      "evidence_summary": "The Python/wheel ELF scan has zero regcomp/regexec imports. The app's Python regex rules are separate; indirect system paths remain an explicit limit.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Verify actual native regex callers and operational grep input before closing the record.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2019-9192"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-18374",
+      "vendor_status": "open",
+      "vendor_record_sha256": "8d28199a457142807d19be3d69f3650998195e70d7236e941a80080fd1fdb848",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A caller provides an attacker-influenced character-conversion mode string.",
+      "evidence_summary": "Application code has no passthrough mode field. fopen imports exist in cffi, cryptography and jq native objects, so caller-specific review remains required.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Inspect the three native callers and their mode arguments; keep the record open until that condition is demonstrated absent.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-18374"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-19499",
+      "vendor_status": "open",
+      "vendor_record_sha256": "f8728c5f646122d8e16271ffc0c0f6cea7efdc814c529ec7ac9226e666929fe3",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A caller uses the affected right-justified format and destination-buffer combination.",
+      "evidence_summary": "No application references or Python/wheel ELF imports for strfmon/strfmon_l were found. System-library internal callers were not exhaustively proved absent.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review any monetary/localization native paths before claiming the function condition is absent.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-19499"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-19542",
+      "vendor_status": "open",
+      "vendor_record_sha256": "a011c6028ad77180ca2f8d73094d351ee790df1ffa76bbffde6de8e05ad5e264",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A native tsearch/tdelete tree grows to the affected depth and deletion shape.",
+      "evidence_summary": "No Python/wheel dynamic tsearch/tdelete imports or application API references were found. A system-library internal tree path remains unverified.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Trace transitive native tree users and their input/count bounds.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-19542"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-5435",
+      "vendor_status": "open",
+      "vendor_record_sha256": "c6d0f97855cbcf6f1bd70dfcb20ff866ebf43cd8ee83360c150cad6fe3254ad2",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application invokes the affected DNS-debug printing functions on relevant records.",
+      "evidence_summary": "No ns_printrr/ns_printrrf/fp_nquery import exists in the inspected Python/wheel ELF set. The vendor distinguishes these debug helpers from ordinary name resolution.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Confirm all actual system-library callers/configuration before closing; ordinary DNS use alone does not establish exposure.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-5435"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-6238",
+      "vendor_status": "open",
+      "vendor_record_sha256": "bffee8faab2554dd35c2f2b02db4c85e955a1193ff4e69418b9d22d0c51c41db",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application sends DNS record data through the deprecated debug printers.",
+      "evidence_summary": "The relevant imports are absent from inspected Python/wheel objects; normal socket resolution and system-library internal paths have separate evidence limits.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Complete system/native caller verification while retaining vendor-open status.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-6238"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-6368",
+      "vendor_status": "open",
+      "vendor_record_sha256": "a96d93f2104578a6fc121010ed01e1a8df2e6891619b1cf17e6e7b53996436b5",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A caller uses the affected wordexp append and subsequent free operation.",
+      "evidence_summary": "Application code contains no wordexp interface, user shell execution or Python ctypes usage. Python/wheel dynamic imports for wordexp/wordfree are absent.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Check transitive system-library and operator callers; preserve the current shell-free process launch model.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-6368"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-6791",
+      "vendor_status": "open",
+      "vendor_record_sha256": "56c7c041f1cee6da09790feb00278fd3250f09a4bc1b7d255a1ea1e9af6c300a",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application passes attacker-controlled expansion input to wordexp.",
+      "evidence_summary": "Current process launchers exec fixed argument lists. The affected symbols have no Python/wheel dynamic import, with internal system calls outside that scan.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Complete indirect caller review and reopen immediately if shell expansion is added to user workflows.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-6791"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-77117",
+      "vendor_status": "open",
+      "vendor_record_sha256": "2742446309d6fd65c31aabcfdeb1506f4a79ed85b8e39cf68bb7b5a2e7275738",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application invokes the affected iconv conversion with controlled input and constrained output chunks.",
+      "evidence_summary": "The application uses fixed UTF-8 JSON/CSV encodings and exposes no iconv API. Python/wheel native imports of iconv are absent; gconv internal dispatch remains a separate possibility.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review native conversion dispatch and caller encodings before closing.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-77117"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-80489",
+      "vendor_status": "open",
+      "vendor_record_sha256": "9a03b046e77bf7e958e5137c04cf5e4bbef05bd594ec67fafe206b5ec6b82eb9",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application invokes the affected iconv conversion with the specific input/output conditions.",
+      "evidence_summary": "Fixed UTF-8 application encodings and absent Python/wheel iconv imports reduce observed exposure. The system gconv path remains installed.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Establish whether any native consumer can select this converter from application input.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-80489"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-84243",
+      "vendor_status": "open",
+      "vendor_record_sha256": "f8f29b4cecb7135a834d2a0e9532c4cdd155573cf203d770d5ed3fb8a879337a",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "A program activates a non-C message locale and accepts attacker-controlled locale/environment and message-catalog paths.",
+      "evidence_summary": "The image only supplies C, C.utf8 and POSIX locales. The vendor states LANGUAGE is unused for those locale classes; application code provides no locale/environment input interface.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Invalidate this closure if non-C locale data, LOCPATH mounts or a locale-selection API are added.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-84243"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-8674",
+      "vendor_status": "open",
+      "vendor_record_sha256": "bd322a85d4d73edfeb4611e1fdefdc4eecd3706a01fee73fecfa86baef74e916",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "The actual resolver configuration or LOCALDOMAIN includes a search domain approximately 200 characters or longer.",
+      "evidence_summary": "The local image proof does not establish the provider-generated resolver settings used by the deployed services.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Collect actual service search-domain/LOCALDOMAIN length summaries and provider configuration control evidence.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-8674"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-86805",
+      "vendor_status": "open",
+      "vendor_record_sha256": "cad120ee9d113048a30e7fa9a739392c25c64df538ee2777920f6526d9aed224",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "A privileged loader path and attacker-controlled hardlink/symlink conditions exist.",
+      "evidence_summary": "All SUID/SGID executable mode bits are removed; the app runs UID 65532 with zero effective capabilities. The affected loader package remains installed.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the mode/capability checks and vendor-open record; apply a signed vendor fix when supplied.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-86805"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-89092",
+      "vendor_status": "open",
+      "vendor_record_sha256": "5e2a3765555662d0f9239144e3b3066355843c254a08580239ef2d4e3aaf63c9",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The nscd daemon is installed/enabled and processes relevant DNS replies.",
+      "evidence_summary": "The nscd package and executable are absent from the exact image. Uvicorn is the service entrypoint.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Invalidate the closure if nscd or a host nscd socket integration is introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-89092"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-95818",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b190e91b89f726989228d888d691caaee319e00e400dbf9dd96cd1a8b796589e",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "The affected loader executes an AT_SECURE setuid/setgid program with the relevant origin-path layout.",
+      "evidence_summary": "The app is unprivileged, capabilities are zero and all installed helper privilege bits were stripped. The vulnerable loader code remains present.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the hardening prerequisites enforced and monitor the signed glibc update.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-95818"
+    },
+    {
+      "source": "glibc",
+      "version": "2.41-12+deb13u4",
+      "cve": "CVE-2026-97399",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b0c42dda236bc4ac91c0f9e132cdf7393766329293c4f65086e16587fd646fbc",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The service executes the Power8 optimized implementation.",
+      "evidence_summary": "The inspected deployed image is 64-bit x86_64/amd64; the affected Power8 implementation is outside this architecture.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Reassess if the service image/platform architecture changes.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-97399"
+    },
+    {
+      "source": "ncurses",
+      "version": "6.5+20250216-2",
+      "cve": "CVE-2025-6141",
+      "vendor_status": "open",
+      "vendor_record_sha256": "249648b2160eb8ca5024a9bac23226095e1cef1061da3c20e02e57764397453c",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "The ncurses termcap compiler/parser handles untrusted terminal descriptions.",
+      "evidence_summary": "tic and ncurses libraries are installed. No curses/readline import appears in the local application graph, and server import mapped none of libtinfo/libncurses. This sample does not establish every transitive or console path.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the finding open while confirming whether the parser is confined to operator tooling. Reassess terminal/console feature changes and apply the stable vendor fix.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2025-6141"
+    },
+    {
+      "source": "ncurses",
+      "version": "6.5+20250216-2",
+      "cve": "CVE-2025-69720",
+      "vendor_status": "open",
+      "vendor_record_sha256": "e466f2099c04cb5bd87ef82884b3cab9ba5f013eb907cd370404fc77b0fe8c44",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "infocmp analyzes caller-controlled terminal-description strings.",
+      "evidence_summary": "infocmp is installed. No application caller or terminal library import was identified in the runtime source graph.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the finding open for operator/transitive-call review. Apply a stable vendor update when released.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2025-69720"
+    },
+    {
+      "source": "pam",
+      "version": "1.7.0-5",
+      "cve": "CVE-2025-8941",
+      "vendor_status": "undetermined",
+      "vendor_record_sha256": "1342c45ea495496a9c89d8ff127ed54340e35a5d355c3248f2ac3aaffe469b8b",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "pam_namespace",
+      "evidence_summary": "pam_namespace.so is installed. No uncommented line in any /etc/pam.d configuration enables pam_namespace or pam_userdb. Application authentication uses Clerk JWT/JWKS; application source has no PAM authentication or session invocation. The application is UID 65532 with zero effective capabilities and no SUID/SGID executables.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "The affected module is unconfigured and outside the reviewed application authentication/session path.",
+      "next_action": "Close local exposure for the current authentication configuration; preserve the vendor status, including the undetermined PAM record, and reopen before enabling this PAM module.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2025-8941"
+    },
+    {
+      "source": "pam",
+      "version": "1.7.0-5",
+      "cve": "CVE-2026-54411",
+      "vendor_status": "open",
+      "vendor_record_sha256": "4795142f1ae4e473643795982ed27be53cc30e535cc75c878de10efde176f6f4",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "pam_userdb",
+      "evidence_summary": "pam_userdb.so is installed. No uncommented line in any /etc/pam.d configuration enables pam_namespace or pam_userdb. Application authentication uses Clerk JWT/JWKS; application source has no PAM authentication or session invocation. The application is UID 65532 with zero effective capabilities and no SUID/SGID executables.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "The affected module is unconfigured and outside the reviewed application authentication/session path.",
+      "next_action": "Close local exposure for the current authentication configuration; preserve the vendor status, including the undetermined PAM record, and reopen before enabling this PAM module.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-54411"
+    },
+    {
+      "source": "perl",
+      "version": "5.40.1-6+deb13u1",
+      "cve": "CVE-2011-4116",
+      "vendor_status": "open",
+      "vendor_record_sha256": "cc31f2df78624cc76aeaa7e9c7443bda8bc231a4221933b2963d4e69e27cd55c",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "Perl File::Temp checks a path whose symlinks may be replaced.",
+      "evidence_summary": "The installed Perl base can load File::Temp 0.2311. No API module invokes Perl or imports a utility subprocess. The Perl module remains present.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the record. Confirm any operational Perl temporary-file caller uses controlled directories; follow Debian's package disposition.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2011-4116"
+    },
+    {
+      "source": "perl",
+      "version": "5.40.1-6+deb13u1",
+      "cve": "CVE-2026-15534",
+      "vendor_status": "open",
+      "vendor_record_sha256": "83bb03cbee1797335aac7e44565ae9dd7200a100c4acc23f8f3feb2501a13bb9",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "Perl's regex engine handles a very large caller-supplied subject under a specific repeated pattern.",
+      "evidence_summary": "Perl base and its regex engine are installed. No Perl subprocess is implemented in the inspected application graph.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the record and keep member input within Python processing. Review if a Perl matching pipeline is introduced; adopt the stable fix.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-15534"
+    },
+    {
+      "source": "perl",
+      "version": "5.40.1-6+deb13u1",
+      "cve": "CVE-2026-82560",
+      "vendor_status": "open",
+      "vendor_record_sha256": "59afded4315f9a9785cbf47f005985b3db45ce5bdd8f17820e93093933c9d589",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "Perl Pod::Text formats an untrusted nested POD document.",
+      "evidence_summary": "The Pod::Text import fails because its module is absent. The /usr, /opt and /app inventory contains no Pod/Text.pm.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the affected-module absence exception. Reopen if Perl modules or POD rendering are introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-82560"
+    },
+    {
+      "source": "perl",
+      "version": "5.40.1-6+deb13u1",
+      "cve": "CVE-2026-9538",
+      "vendor_status": "open",
+      "vendor_record_sha256": "650c94f61a4ac9e2a2660e20cabeb6d3b0859b384c2e8c2166bad3e11dd030f5",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "Perl Archive::Tar allocates storage from an untrusted archive entry size.",
+      "evidence_summary": "The Archive::Tar import fails because its module is absent. The /usr, /opt and /app inventory contains no Archive/Tar.pm.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the affected-module absence exception. Reopen if that module or Perl archive processing is introduced.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-9538"
+    },
+    {
+      "source": "shadow",
+      "version": "1:4.17.4-2",
+      "cve": "CVE-2007-5686",
+      "vendor_status": "open",
+      "vendor_record_sha256": "82e0ef630709d7d4f0d56713959da52ac37fa01bb27b524ae4fd9816253b5074",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "failed OS-login logging into btmp with insecure permissions",
+      "evidence_summary": "/var/log/btmp is root-owned mode 0660 and unreadable by UID 65532. LOG_UNKFAIL_ENAB is explicitly no in /etc/login.defs. The application uses Clerk authentication and runs no OS-login service.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Secure btmp permissions and disabled unknown-user logging remain in effect.",
+      "next_action": "Close this configuration-specific application exposure with file-permission and logging-setting evidence.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2007-5686"
+    },
+    {
+      "source": "shadow",
+      "version": "1:4.17.4-2",
+      "cve": "CVE-2024-56433",
+      "vendor_status": "open",
+      "vendor_record_sha256": "fa20d070d5554abbbcf14c70aae47f9b34fe4358bb29557fa7f79c4cfea0a2ff",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "conflicting subordinate-UID allocations used with local/network OS accounts",
+      "evidence_summary": "/etc/subuid and /etc/subgid are empty. newuidmap and newgidmap executables are absent. The application uses a dedicated UID 65532 and no OS-user creation or remote OS-login path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "The conflicting subordinate identity allocation condition is absent from the application image.",
+      "next_action": "Close local exposure for the empty subordinate-ID configuration. Reopen before adding subordinate identities, UID-mapping helpers or network OS-account integration.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2024-56433"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2021-45346",
+      "vendor_status": "open",
+      "vendor_record_sha256": "d70f7815cc37fc615eee1a9b27049ba645a07c811e988aa862163ab5e376efb9",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application opens attacker-influenced database contents and runs affected queries.",
+      "evidence_summary": "SQLite is installed but was not loaded by the ordinary application routes. Backend Python code contains no SQLite/SQL database API; this is partial path evidence.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Verify every transitive consumer before closing the database-input condition. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2021-45346"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2025-70873",
+      "vendor_status": "open",
+      "vendor_record_sha256": "fa33a2dbd0904c7b3f7d290db842ffdd1b1febad97affcc58dcffe1b21f9b1c5",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The zipfile extension is compiled/loaded and consumes ZIP contents.",
+      "evidence_summary": "Debian states this extension is not built for its binary packages. The exact library's function/module lists omit zipfile/SQLAR functions, and extension loading is unauthorized by default.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Invalidate this closure if a custom extension is installed or enabled. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2025-70873"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119371",
+      "vendor_status": "open",
+      "vendor_record_sha256": "bde5c7c4ebf74bc3b28083a7ab9af3e4439a4734c43952be045530b3bf3fa2cb",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A SQLite consumer accepts attacker-controlled SQL or views.",
+      "evidence_summary": "The SQL engine is installed. No SQLite module was loaded by the normal app route probe and the backend has no direct SQLite callsite.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Complete transitive consumer review and keep untrusted database/SQL input outside the current app workflow. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119371"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119372",
+      "vendor_status": "open",
+      "vendor_record_sha256": "e6de6a9ade544e153bcb5732df6aea323da10387c20440d835aabacccf4587c8",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "The compiled FTS3/4 parenthesis feature is used with attacker-controlled table/query content.",
+      "evidence_summary": "ENABLE_FTS3, ENABLE_FTS4 and ENABLE_FTS3_PARENTHESIS are present. No application SQL path was found; enabled code prevents a build-feature closure.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Establish all native/optional consumer paths and supported input limits. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119372"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119373",
+      "vendor_status": "open",
+      "vendor_record_sha256": "d0ad7549890435c965224e8a9b68886304d49759b229fd3db2c9fb4385c237fe",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "The compiled FTS5 engine processes attacker-controlled full-text table/query data.",
+      "evidence_summary": "ENABLE_FTS5 is present and fts5 appears in the module list. Current application SQL invocation remains unobserved.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Verify transitive SQLite consumers and their accepted database/query inputs. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119373"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119374",
+      "vendor_status": "open",
+      "vendor_record_sha256": "374ddb81b865dfa45a19cdf0861042bfb28b3a8e532ad066da974b773aff62c2",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application opens a corrupted FTS5 database and uses the affected delete configuration.",
+      "evidence_summary": "FTS5 is compiled in. The app does not directly open SQLite databases; indirect/native consumers remain outside the current proof.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Trace database provenance and secure-delete callers before closing. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119374"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119375",
+      "vendor_status": "open",
+      "vendor_record_sha256": "52c92b95661fddd14bbe20054026ce0bb671c482fe2ea63be375dd774d473690",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application opens attacker-controlled database/WAL content.",
+      "evidence_summary": "The core SQLite library is present. An ordinary memory database query passes, while malicious-data behavior was deliberately not exercised.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Establish all SQLite data sources and retain the vendor-open finding until exposure is resolved. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119375"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119376",
+      "vendor_status": "open",
+      "vendor_record_sha256": "6f8f2a0f31601c45015eebd1710cd3292cebd2800590f6e0b092853f63b8768b",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A SQLite caller accepts attacker-controlled SQL or a database view.",
+      "evidence_summary": "The affected library family is installed; app-level direct SQLite routes are absent and transitive use remains unproven.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review transitive query/data entry points and engine input limits. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119376"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119377",
+      "vendor_status": "open",
+      "vendor_record_sha256": "8a19e33d03489f3ed9b9781c0313283087be58fab4efc02d025f05766b265cbc",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A consumer relies on SQLite authorizer restrictions while accepting relevant SQL joins.",
+      "evidence_summary": "The app uses MongoDB and contains no SQLite authorizer setup. Native and optional package consumers were not exhaustively proved absent.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Confirm whether any transitive consumer installs an authorizer or accepts SQL input. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119377"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119378",
+      "vendor_status": "open",
+      "vendor_record_sha256": "e82f0930dd8f3310251e5b7deb74e63ea1c6a5001cccc2544344b77face0f383",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A compiled R-Tree consumer opens attacker-controlled shadow-table data.",
+      "evidence_summary": "ENABLE_RTREE is compiled and rtree/rtree_i32 modules are present. Current app SQLite use remains unobserved.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Trace database/extension consumers before closing the record. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119378"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119379",
+      "vendor_status": "open",
+      "vendor_record_sha256": "60efb2d69a691f6a522e7e328299fe57abae845a7165b12990b243abb6e341b8",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A session-extension consumer applies untrusted changesets.",
+      "evidence_summary": "ENABLE_SESSION and sqlite3changeset_apply are present. The application exposes no direct changeset interface; transitive consumers remain unproven.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Inspect all session-extension consumers and changeset provenance. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119379"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119586",
+      "vendor_status": "undetermined",
+      "vendor_record_sha256": "337b5dc70d3dbe2cc4ca0538b072cecf8bfcf543a83ac9d9b9c8fdd220ffb600",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The SQLite C shell recovers an untrusted database and its output is piped back into that shell.",
+      "evidence_summary": "The sqlite3 executable/package is absent. The installed libsqlite3 library and Python module do not provide the C shell's dot-command interface.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Invalidate this closure if the SQLite C command-line package or an equivalent recovery workflow is added. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119586"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-119591",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b99a08b5eb5536657b35936a6f65707cbca863f47fa97baf9ef0984a441f4bb9",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "A consumer accepts attacker-controlled SQL or database views.",
+      "evidence_summary": "The SQLite library is installed; application source and sampled routes show no direct SQLite use. Full transitive proof remains outstanding.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review all engine consumers and input provenance. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-119591"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-39113",
+      "vendor_status": "resolved",
+      "vendor_record_sha256": "bf7362d3a35c606a2bc763025e32f0bc719e20ac8a91f92671f8b2c5bfa307ba",
+      "decision": "not_affected",
+      "decision_basis": "not_affected",
+      "affected_condition": "The specifically affected upstream snapshot/SQLAR code is included.",
+      "evidence_summary": "Debian explicitly states the vulnerable code never appeared in a Debian released version and records fixed_version=0.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain vendor evidence and reevaluate if the image adopts a custom SQLite build. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-39113"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-50812",
+      "vendor_status": "open",
+      "vendor_record_sha256": "8ebec9a252e65b2b99fae4139732aa93b1625acd5c15201d88ef536fbe6fe765",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "The affected session implementation processes untrusted changesets.",
+      "evidence_summary": "The specifically named sqlite3changeset_apply_v3 symbol is absent, but older session entrypoints are enabled. Debian still marks Trixie vulnerable, so the missing named API alone does not close the underlying code condition.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Review the upstream change and older session implementation before any applicability override. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-50812"
+    },
+    {
+      "source": "sqlite3",
+      "version": "3.46.1-7+deb13u2",
+      "cve": "CVE-2026-50813",
+      "vendor_status": "open",
+      "vendor_record_sha256": "2c9e3e080a4260685bc8e526debcb21cc932ce0d28b202df78b26ec9d4fd32b5",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "An application processes attacker-controlled session changegroups.",
+      "evidence_summary": "ENABLE_SESSION is compiled in. No app changeset entrypoint is observed; the native feature remains available.",
+      "proof_ids": [
+        "core_runtime",
+        "native_symbols",
+        "sqlite_removal"
+      ],
+      "closure_condition": null,
+      "next_action": "Establish complete session-consumer paths and apply the signed vendor fix when available. Retain the package while the essential util-linux \u2192 liblastlog2-2 \u2192 libsqlite3-0 dependency remains; a single-package purge simulation failed with exit 100.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image digest or package version change",
+        "proof hash drift",
+        "new backend/native dependency or execution/data path",
+        "relevant locale, privilege, database or resolver configuration change"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-50813"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2013-4392",
+      "vendor_status": "open",
+      "vendor_record_sha256": "c91baeaff5a1f49678a6053dc401e65b149cb5579275e94e6dfd6feb3cbb0ddb",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_component",
+      "affected_condition": "systemd permission/context updater with SELinux integration",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2013-4392"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2023-31437",
+      "vendor_status": "open",
+      "vendor_record_sha256": "bb5389256b144f87556105f5572ecafe6d6bcb95d68312d7280d80fef6776aea",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "journald sealed-log presentation",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation. The application neither consumes nor relies on FSS-sealed journal records. The vendor also disputes these three reports.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2023-31437"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2023-31438",
+      "vendor_status": "open",
+      "vendor_record_sha256": "891ef3a1381c2b7a044b0723e38714f23620434b011511dc5cba6c91373671d5",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "journald sealed-log verification",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation. The application neither consumes nor relies on FSS-sealed journal records. The vendor also disputes these three reports.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2023-31438"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2023-31439",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b340d28da3f00e3b5feb7c562c2336031bb16cadc173d6ea3282ff0fb49f909e",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_configuration",
+      "affected_condition": "journald sealed-log verification",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation. The application neither consumes nor relies on FSS-sealed journal records. The vendor also disputes these three reports.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2023-31439"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2026-15059",
+      "vendor_status": "open",
+      "vendor_record_sha256": "b6315de32d643e678200a432fa55e324fc704f1d138682cb3e621987664099d0",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_component",
+      "affected_condition": "systemd-oomd IPC service",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-15059"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2026-16742",
+      "vendor_status": "open",
+      "vendor_record_sha256": "a404cca396a8f6357dd67e8f9f2ebead8f3774e786150d861b4d010cce87b633",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_component",
+      "affected_condition": "systemd-homed local-account management",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-16742"
+    },
+    {
+      "source": "systemd",
+      "version": "257.13-1~deb13u1",
+      "cve": "CVE-2026-40228",
+      "vendor_status": "open",
+      "vendor_record_sha256": "bcb9b3eefe5e1c31ed11c75ff5ac058965875756497c28de847eba3d4fa3093e",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_component",
+      "affected_condition": "systemd-journald emergency forwarding to user terminals",
+      "evidence_summary": "Only libsystemd0 and libudev1 are installed from the systemd source. systemd, tmpfiles, journalctl, journald, oomd and homed executables are absent in all checked standard paths. The image has no runtime or persistent journal directories; the application has no journal/sealing or systemd service invocation.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Required affected application or configured operation absent in the reviewed image. Reopen when such components or journal workflows are introduced.",
+      "next_action": "Close the application-container exposure record with component/configuration evidence; retain the raw source/version scanner match and vendor patch watch.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-40228"
+    },
+    {
+      "source": "tar",
+      "version": "1.35+dfsg-3.1",
+      "cve": "CVE-2005-2541",
+      "vendor_status": "open",
+      "vendor_record_sha256": "827ae9a16fd1c6f8509386f45704c458f17d8738e100c8c9cebf7ff696e03a95",
+      "decision": "mitigated",
+      "decision_basis": "mitigated",
+      "affected_condition": "GNU tar extracts files carrying privileged mode bits under a privileged workflow.",
+      "evidence_summary": "tar is installed. The application runs as UID/GID 65532 with no effective capabilities, and deployed helper executables have no setuid/setgid mode. No application archive extraction path was identified.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the package record and unprivileged execution. Review any future archive upload, extraction or privileged restore feature.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2005-2541"
+    },
+    {
+      "source": "tar",
+      "version": "1.35+dfsg-3.1",
+      "cve": "CVE-2026-18477",
+      "vendor_status": "open",
+      "vendor_record_sha256": "1e679e7329f43fe7f9e014a32d1fab85223de91f24142b4ef33c2a3435b75466",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "GNU tar restores incremental archives while directory paths are locally replaceable.",
+      "evidence_summary": "tar is installed. The runtime source graph contains no tar subprocess or archive extraction feature. Operator restore workflows are outside the application proof.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the record and keep restore operations under separate review. Adopt the stable vendor package fix when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-18477"
+    },
+    {
+      "source": "tar",
+      "version": "1.35+dfsg-3.1",
+      "cve": "CVE-2026-18508",
+      "vendor_status": "open",
+      "vendor_record_sha256": "89f6bc0b16e9343084a5482bea56f90ab7a4b553ec76d316f1fd47d0b2997822",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "GNU tar extracts linked paths under the one-top-level option.",
+      "evidence_summary": "tar is installed. No member-facing archive extraction or tar invocation is implemented in the inspected runtime modules.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Retain the record and review any proposed extraction feature or operational tar caller before accepting untrusted archives.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-18508"
+    },
+    {
+      "source": "tar",
+      "version": "1.35+dfsg-3.1",
+      "cve": "CVE-2026-5704",
+      "vendor_status": "open",
+      "vendor_record_sha256": "2bac948fabaff3a0d0287e376f45f81734dd92af89390783277660a2b0bf2a38",
+      "decision": "needs_review",
+      "decision_basis": "needs_review",
+      "affected_condition": "GNU tar's archive inspection/extraction can disagree on adversarial archive contents.",
+      "evidence_summary": "tar is installed. The inspected API graph contains no GNU tar caller or archive upload/extraction pipeline.",
+      "proof_ids": [
+        "utilities",
+        "utility_configuration",
+        "utility_application_paths"
+      ],
+      "closure_condition": null,
+      "next_action": "Keep the record open for operational/transitive use review and apply the signed stable fix when available.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "base or package change",
+        "vendor correction/fix",
+        "new utility or module use",
+        "privilege or startup configuration change",
+        "new applicable exploitation evidence"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-5704"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2022-0563",
+      "vendor_status": "open",
+      "vendor_record_sha256": "cb1a08cdf02aab478e1f0f595d2f7f9383022d46cc646e05f623ffc0a6a22aa7",
+      "decision": "not_affected",
+      "decision_basis": "not_affected_build",
+      "affected_condition": "util-linux readline-enabled chfn/chsh",
+      "evidence_summary": "Debian's vendor note states its util-linux build uses --disable-chfn-chsh. dpkg-query identifies /usr/bin/chfn and /usr/bin/chsh as files of passwd, from the shadow source. Both installed shadow utilities lack setuid and setgid permissions.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "The affected util-linux chfn/chsh implementation is absent.",
+      "next_action": "Close the util-linux component mismatch with Debian's build note and package ownership evidence.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2022-0563"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2026-3184",
+      "vendor_status": "open",
+      "vendor_record_sha256": "56138a895723d90b0a01ddf1de92fd1cbe8e1399492c601c9d23d63542d13160",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "A calling OS-login service using login -h and hostname-based PAM rules.",
+      "evidence_summary": "The util-linux executable is present as mode 0755 with no SUID/SGID permissions. The application is UID 65532 with zero effective capabilities. CAP_SYS_ADMIN is absent from the observed local probe's bounding set; provider runtime effective capabilities were separately verified as zero. /etc/fstab contains only its unconfigured-base comment. Application source has no OS-login, namespace entry or mount execution path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package or removal of the affected binary with dependency and role-boot verification.",
+      "next_action": "Keep the exposure mitigated and open for a signed vendor fix. Maintain the unprivileged launch and stripped helper permissions; reevaluate any feature needing OS-login, mount or namespace operations.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-3184"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2026-76642",
+      "vendor_status": "open",
+      "vendor_record_sha256": "4e580f8bffd702cadd13b9248dff6fc94f6b39a6631f26429f3a55bf2d812ea4",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "A privileged mount helper and authorized post-mount hook operations.",
+      "evidence_summary": "The util-linux executable is present as mode 0755 with no SUID/SGID permissions. The application is UID 65532 with zero effective capabilities. CAP_SYS_ADMIN is absent from the observed local probe's bounding set; provider runtime effective capabilities were separately verified as zero. /etc/fstab contains only its unconfigured-base comment. Application source has no OS-login, namespace entry or mount execution path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package or removal of the affected binary with dependency and role-boot verification.",
+      "next_action": "Keep the exposure mitigated and open for a signed vendor fix. Maintain the unprivileged launch and stripped helper permissions; reevaluate any feature needing OS-login, mount or namespace operations.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-76642"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2026-78408",
+      "vendor_status": "open",
+      "vendor_record_sha256": "e8e13fc2f92778a56f3aada6c032a82d3ab823c93ec32d517a42f019a57e7b5c",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "A privileged operator invoking nsenter --join-cgroup on attacker-controlled namespaces.",
+      "evidence_summary": "The util-linux executable is present as mode 0755 with no SUID/SGID permissions. The application is UID 65532 with zero effective capabilities. CAP_SYS_ADMIN is absent from the observed local probe's bounding set; provider runtime effective capabilities were separately verified as zero. /etc/fstab contains only its unconfigured-base comment. Application source has no OS-login, namespace entry or mount execution path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package or removal of the affected binary with dependency and role-boot verification.",
+      "next_action": "Keep the exposure mitigated and open for a signed vendor fix. Maintain the unprivileged launch and stripped helper permissions; reevaluate any feature needing OS-login, mount or namespace operations.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78408"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2026-78409",
+      "vendor_status": "open",
+      "vendor_record_sha256": "a67281057660901fa0db48f9aef044a7756a7968d273bd87ad53a70441c1b1bf",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "An authorized fstab X-mount.subdir entry and privileged mount operation.",
+      "evidence_summary": "The util-linux executable is present as mode 0755 with no SUID/SGID permissions. The application is UID 65532 with zero effective capabilities. CAP_SYS_ADMIN is absent from the observed local probe's bounding set; provider runtime effective capabilities were separately verified as zero. /etc/fstab contains only its unconfigured-base comment. Application source has no OS-login, namespace entry or mount execution path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package or removal of the affected binary with dependency and role-boot verification.",
+      "next_action": "Keep the exposure mitigated and open for a signed vendor fix. Maintain the unprivileged launch and stripped helper permissions; reevaluate any feature needing OS-login, mount or namespace operations.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78409"
+    },
+    {
+      "source": "util-linux",
+      "version": "2.41.5-0+deb13u1",
+      "cve": "CVE-2026-78410",
+      "vendor_status": "open",
+      "vendor_record_sha256": "ddc510e823365ac326bbe537e57862c37011f6ca6967dd3f64000b1411fd637b",
+      "decision": "mitigated",
+      "decision_basis": "mitigated_open",
+      "affected_condition": "SUID mount operating on an authorized, replaceable fstab bind-mount source.",
+      "evidence_summary": "The util-linux executable is present as mode 0755 with no SUID/SGID permissions. The application is UID 65532 with zero effective capabilities. CAP_SYS_ADMIN is absent from the observed local probe's bounding set; provider runtime effective capabilities were separately verified as zero. /etc/fstab contains only its unconfigured-base comment. Application source has no OS-login, namespace entry or mount execution path.",
+      "proof_ids": [
+        "privileges"
+      ],
+      "closure_condition": "Vendor-fixed installed package or removal of the affected binary with dependency and role-boot verification.",
+      "next_action": "Keep the exposure mitigated and open for a signed vendor fix. Maintain the unprivileged launch and stripped helper permissions; reevaluate any feature needing OS-login, mount or namespace operations.",
+      "owner": "Imladri security maintenance",
+      "review_due_at": "2026-11-10T09:00:00-06:00",
+      "reopen_on": [
+        "image/package change",
+        "application authentication or process-execution change",
+        "vendor status or fixed-version update"
+      ],
+      "reference": "https://security-tracker.debian.org/tracker/CVE-2026-78410"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "classification": "custom_backport",
+  "OpenSSL_version": "4.0.3",
+  "vendor_binary_equivalence_claimed": false,
+  "source_sha256": "219c0a389f3c76e58f2d9e2b216101887f94747e669bb79c43225d7b6ac1253a",
+  "source_commit": "af1775b60dfa141a4ad762585052cabeb9f37e9e",
+  "artifact_sha256": "0cfe167f837dbfad27a6293b09c9f86e843d2bfa910eb7ef51e4f1edbb01ed02",
+  "recipe_sha256": "acb5fade5247991641b3a1d8f16c87a7895a3ff5bea663db53d44a230e034f09",
+  "toolchain_recipe_sha256": "0ed6116a31ae410f7b8a0a82541ed8546aaa66b043db95c838d6c29c71e753a4",
+  "SOURCE_DATE_EPOCH": 1794528477,
+  "builder_image": "sha256:edddb188dc2194e44a33796dd7e481ea2a2b88a767b56cfd4e3a01e9c7c29c13",
+  "libraries": [
+    {
+      "install_path": "usr/lib/libcrypto.so.4",
+      "bytes": 6842064,
+      "sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629",
+      "baseline_sha256": "43b6069ad5faf129518fc492292c0c60e98796a96dd920c08cc696e9392c19b7",
+      "file_mode": "0444"
+    },
+    {
+      "install_path": "usr/lib/libssl.so.4",
+      "bytes": 1383336,
+      "sha256": "0e910460047c81acc24c5a15a4e928c94d71e37a907ee7076fdd0f21230008af",
+      "baseline_sha256": "004e8efba8e198531d86b52dba0d2277f10f6ccbc3b09dd08109409049afc3da",
+      "file_mode": "0444"
+    }
+  ],
+  "patches": [
+    {
+      "path": "patches/upstream/CVE-2026-107496-a8531368ddb1f86d2a2782a8b693926bb67b59e7.patch",
+      "sha256": "50f9dd4cb6e193cc6e3d23179ca3817491873109205516793cb97f8b8aadef20"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-88822-911eee8eb7550b95a206f1ad8cbdb986098982f3.patch",
+      "sha256": "379bd978090b771d91f319119e5e40d6656f512b2fd6138fc95b8f5a2558439c"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-88823-2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682.patch",
+      "sha256": "6626f2fc1834647586a505583b9dcb42be0d762eaa3f92159219db7947cb16ba"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-95691-ec9d4de9d03989b29db5a3d7efdb4c285deaf386.patch",
+      "sha256": "8f3ea9e7e6f0387dc0bcf988ae590a9cf103494999258f585c5fe342e91d9d4d"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-95692-510872388f5d145cf870868b3d288a23822cb776.patch",
+      "sha256": "f6e60d254e9bfbe3b6e599f0eb65bf6639e9dacb48ca77b5a61b116a6f266b42"
+    },
+    {
+      "path": "patches/upstream/vendor-x509-7c7b9684.patch",
+      "sha256": "1af346e710d82b67fc731df16a7b6e84bc3a8b62e423433b5462304f33cb47fb"
+    },
+    {
+      "path": "patches/vendor/0001-Chainguard-Cryptographic-Hardening.patch",
+      "sha256": "0e9223e417e4cd1c96783dee823ca50928f40a7e23979faf07e9c170ddc542d2"
+    },
+    {
+      "path": "patches/vendor/0001-fips-block-HMAC-calculation-with-unapproved-digests.patch",
+      "sha256": "db8f1ad246da8d6513f4f70e1159c4ab1069ca038bb2895af7336d31660adc9f"
+    },
+    {
+      "path": "patches/vendor/0001-fips-retain-FIPS-140-2-TLSv1.2-connectivity.patch",
+      "sha256": "669bb39204ff191fd19c31358923fb6b4c31f332811fa8dab126402870ff035d"
+    },
+    {
+      "path": "patches/vendor/0001-Look-for-providers-in-ossl-modules-4-before-ossl-mod.patch",
+      "sha256": "1a2b93755403654735340e3f0e7684ddc568ea36dcaf059e8cd1f663e262ed9f"
+    },
+    {
+      "path": "patches/vendor/0001-Remove-pre-share-from-default-TLS-groups.patch",
+      "sha256": "fa11a80b1524b641831b89c0ee6aff953015f317b988bce7bc23dee640f9a28d"
+    },
+    {
+      "path": "patches/vendor/0001-Revert-fips-Align-PKCS5_PBKDF2_HMAC-defaults-with-EV.patch",
+      "sha256": "bf379dd810c1694176612f744b4edceb63d68dac87f221e6472e30d15800394d"
+    }
+  ],
+  "upstream_fixes": [
+    {
+      "case": "CVE-2026-88822",
+      "commit": "911eee8eb7550b95a206f1ad8cbdb986098982f3",
+      "official_advisory_links_exact_commit": true
+    },
+    {
+      "case": "CVE-2026-88823",
+      "commit": "2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682",
+      "official_advisory_links_exact_commit": true
+    },
+    {
+      "case": "CVE-2026-95691",
+      "commit": "ec9d4de9d03989b29db5a3d7efdb4c285deaf386",
+      "official_advisory_links_exact_commit": true
+    },
+    {
+      "case": "CVE-2026-95692",
+      "commit": "510872388f5d145cf870868b3d288a23822cb776",
+      "official_advisory_links_exact_commit": true
+    },
+    {
+      "case": "CVE-2026-107496",
+      "commit": "a8531368ddb1f86d2a2782a8b693926bb67b59e7",
+      "official_advisory_links_exact_commit": true
+    }
+  ],
+  "inputs": [
+    {
+      "path": "Dockerfile.rebuild",
+      "bytes": 2525,
+      "sha256": "0ed6116a31ae410f7b8a0a82541ed8546aaa66b043db95c838d6c29c71e753a4"
+    },
+    {
+      "path": "install_payload.py",
+      "bytes": 6684,
+      "sha256": "02edb06aafa25121ae8724a11c48025aba96db2d0f890809f2ac4089881b487e"
+    },
+    {
+      "path": "LICENSE-OpenSSL.txt",
+      "bytes": 10175,
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "path": "LICENSE-Wolfi-OS.txt",
+      "bytes": 12003,
+      "sha256": "5f7a57459627fff76b53831c6582d839da4cbd8d31de642452f28dd0adcb4d01"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-107496-a8531368ddb1f86d2a2782a8b693926bb67b59e7.patch",
+      "bytes": 3405,
+      "sha256": "50f9dd4cb6e193cc6e3d23179ca3817491873109205516793cb97f8b8aadef20"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-88822-911eee8eb7550b95a206f1ad8cbdb986098982f3.patch",
+      "bytes": 2321,
+      "sha256": "379bd978090b771d91f319119e5e40d6656f512b2fd6138fc95b8f5a2558439c"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-88823-2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682.patch",
+      "bytes": 3485,
+      "sha256": "6626f2fc1834647586a505583b9dcb42be0d762eaa3f92159219db7947cb16ba"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-95691-ec9d4de9d03989b29db5a3d7efdb4c285deaf386.patch",
+      "bytes": 7377,
+      "sha256": "8f3ea9e7e6f0387dc0bcf988ae590a9cf103494999258f585c5fe342e91d9d4d"
+    },
+    {
+      "path": "patches/upstream/CVE-2026-95692-510872388f5d145cf870868b3d288a23822cb776.patch",
+      "bytes": 2845,
+      "sha256": "f6e60d254e9bfbe3b6e599f0eb65bf6639e9dacb48ca77b5a61b116a6f266b42"
+    },
+    {
+      "path": "patches/upstream/vendor-x509-7c7b9684.patch",
+      "bytes": 3429,
+      "sha256": "1af346e710d82b67fc731df16a7b6e84bc3a8b62e423433b5462304f33cb47fb"
+    },
+    {
+      "path": "patches/vendor/0001-Chainguard-Cryptographic-Hardening.patch",
+      "bytes": 36271,
+      "sha256": "0e9223e417e4cd1c96783dee823ca50928f40a7e23979faf07e9c170ddc542d2"
+    },
+    {
+      "path": "patches/vendor/0001-fips-block-HMAC-calculation-with-unapproved-digests.patch",
+      "bytes": 2181,
+      "sha256": "db8f1ad246da8d6513f4f70e1159c4ab1069ca038bb2895af7336d31660adc9f"
+    },
+    {
+      "path": "patches/vendor/0001-fips-retain-FIPS-140-2-TLSv1.2-connectivity.patch",
+      "bytes": 1815,
+      "sha256": "669bb39204ff191fd19c31358923fb6b4c31f332811fa8dab126402870ff035d"
+    },
+    {
+      "path": "patches/vendor/0001-Look-for-providers-in-ossl-modules-4-before-ossl-mod.patch",
+      "bytes": 4690,
+      "sha256": "1a2b93755403654735340e3f0e7684ddc568ea36dcaf059e8cd1f663e262ed9f"
+    },
+    {
+      "path": "patches/vendor/0001-Remove-pre-share-from-default-TLS-groups.patch",
+      "bytes": 2246,
+      "sha256": "fa11a80b1524b641831b89c0ee6aff953015f317b988bce7bc23dee640f9a28d"
+    },
+    {
+      "path": "patches/vendor/0001-Revert-fips-Align-PKCS5_PBKDF2_HMAC-defaults-with-EV.patch",
+      "bytes": 8536,
+      "sha256": "bf379dd810c1694176612f744b4edceb63d68dac87f221e6472e30d15800394d"
+    },
+    {
+      "path": "provenance/authenticated-apk-provenance.json",
+      "bytes": 4465,
+      "sha256": "9e97bade8895c791f789f816dbde185b11e894468199210634587e5c4b2d0a64"
+    },
+    {
+      "path": "provenance/authenticated-installed-r8-melange.yaml",
+      "bytes": 78945,
+      "sha256": "d64daf9efae8b478e90b24e856d66e2563136b1eb1359b598130df6ddc41b074"
+    },
+    {
+      "path": "provenance/builder-installed-packages.json",
+      "bytes": 11980,
+      "sha256": "af8614e0c68b94502e45c8a0e34eebdeb4d297f385c0c3025412b41d28b4ba1b"
+    },
+    {
+      "path": "provenance/debug-strip-allocation-proof.json",
+      "bytes": 18115,
+      "sha256": "ff16593ef2942320cb851c964799c67cbadf5694a9daa49a2ebc65d8ee8a9391"
+    },
+    {
+      "path": "provenance/final-abi-proof.json",
+      "bytes": 2140,
+      "sha256": "7b88117af2094f6d87f2f9aba5d40cd86a95fc6277addf96b160e714c466648c"
+    },
+    {
+      "path": "provenance/final-runtime-probes.json",
+      "bytes": 12349,
+      "sha256": "1fd23fa7063f751dd48b85a13402e6cdb5bd775132944f25cad28653099dd246"
+    },
+    {
+      "path": "provenance/hardened-existing-failure-AB.json",
+      "bytes": 34239,
+      "sha256": "d302ba326983eb3fb6ff674f032c9048bc02c95274343698fabba1cb3a94ca24"
+    },
+    {
+      "path": "provenance/hardened-upstream-summary.json",
+      "bytes": 2522,
+      "sha256": "91b70671a447901277b6d2af0bb8f1af6bd0a9d55c352a0f455f872d2ece3174"
+    },
+    {
+      "path": "provenance/hardening-causal-control.json",
+      "bytes": 2820,
+      "sha256": "13a795385512b31aa07d81b9383e60b3de42f4e6d972258d8e9a7faee7c6544e"
+    },
+    {
+      "path": "provenance/independent-rebuild-proof.json",
+      "bytes": 1856,
+      "sha256": "5df0c678d65b73942304b586312ef15550e9bfbea52647e3b6e40c78d707dd14"
+    },
+    {
+      "path": "provenance/PEM-failure-case-identity.json",
+      "bytes": 6520,
+      "sha256": "0dbc929c713cca06d54298d620530ce046200723f519987e8d8ca94d5a466328"
+    },
+    {
+      "path": "provenance/public-wolfi-recipe.yaml",
+      "bytes": 12796,
+      "sha256": "d4a1a30a46f7fa0a8a04aa9d0f80ca0bdaad868c7b03c4411094cca81a3c18af"
+    },
+    {
+      "path": "provenance/upstream-base-tag-proof.json",
+      "bytes": 1464,
+      "sha256": "1845a3f7d206620529b339d82084f231e59b3e3631b20d0ae5864b48db1f56e2"
+    },
+    {
+      "path": "provenance/upstream-public-keys.asc",
+      "bytes": 45049,
+      "sha256": "56e106cd1c44bdb117aec24795f6dfbecaa9bfa0a2901b85331f0059aad16d53"
+    },
+    {
+      "path": "provenance/upstream-release-tag-payload.txt",
+      "bytes": 175,
+      "sha256": "09a6965661ac1e9800f2682b1ba7ebd9adea7f4d36a83418a87708c5f492e74f"
+    },
+    {
+      "path": "provenance/upstream-release-tag-signature.asc",
+      "bytes": 931,
+      "sha256": "999b6c2740897527c0b627642b238c07699c177246c3fc1603dee91fd1461efb"
+    },
+    {
+      "path": "rebuild.py",
+      "bytes": 4024,
+      "sha256": "acb5fade5247991641b3a1d8f16c87a7895a3ff5bea663db53d44a230e034f09"
+    },
+    {
+      "path": "sources/openssl-af1775b6.tar.gz",
+      "bytes": 55429548,
+      "sha256": "219c0a389f3c76e58f2d9e2b216101887f94747e669bb79c43225d7b6ac1253a"
+    }
+  ],
+  "tested_final_artifact": {
+    "actual_runtime_assertions": 24,
+    "CLI_commands": 6,
+    "hardening_capability_outputs_exactly_match_signed_r8": 5,
+    "exported_ABI_libraries_exactly_match": 2,
+    "raw_independent_rebuild_artifacts_identical": 3,
+    "all_allocated_sections_unchanged_by_debug_strip": true
+  },
+  "upstream_full_hardened_suite": {
+    "result": "FAIL",
+    "recipes": 368,
+    "TAP_tests": 3152,
+    "failed_recipes": 83,
+    "raw_failures_and_timeouts_retained": true,
+    "existing_failure_A_B_review": "All 83 failed recipe and case identities also fail in the old-code hardened control; 82 exact outer TAP summaries, remaining unsorted-Perl-hash PEM case identities matched on the actual signed baseline and final candidate. No additional candidate failures. This is not an assertion that the full hardened upstream suite passes."
+  },
+  "hardening_causal_control": {
+    "role": "TEST ONLY; never exported or shipped",
+    "only_two_vendor_hardening_patches_reversed": true,
+    "all_five_CVE_fixes_retained": true,
+    "previously_failed_recipes": 83,
+    "TAP_tests": 1948,
+    "result": "PASS",
+    "shipped_hardening_unchanged": true
+  },
+  "runtime_APK_database": "retain original signed-vendor records; these two files are custom replacements and require this separate manifest",
+  "production_deployment_authorized_by_this_manifest": false
+}

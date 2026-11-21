@@ -1,0 +1,1062 @@
+{
+  "talk": [
+    {
+      "id": "conversations",
+      "title": "Starting the conversation",
+      "description": "How you like to bring up intimacy, find the words and hear each other.",
+      "followUp": "What helps you say something that feels hard to put into words?",
+      "prompts": [
+        [
+          "Choosing a time to talk",
+          "Would you like to pick a quiet time in advance to talk about intimacy?",
+          "choosing a quiet time to talk about intimacy"
+        ],
+        [
+          "Starting with a note",
+          "If a topic felt hard to say out loud, would writing your partner a note feel comfortable?",
+          "starting with a note when something feels hard to say aloud"
+        ],
+        [
+          "Naming what feels good",
+          "Would you enjoy opening a conversation by naming one thing you already enjoy together?",
+          "telling a partner one thing I already enjoy about our time together"
+        ],
+        [
+          "Talking side by side",
+          "Would talking during a walk feel easier than sitting face to face?",
+          "talking side by side on a walk"
+        ],
+        [
+          "Asking with an example",
+          "Would a scene from a book or film help you put a personal preference into words?",
+          "using a scene from a book or film to explain what I like"
+        ],
+        [
+          "Choosing words for your body",
+          "Would you like to tell a partner which words for your body feel comfortable to hear?",
+          "telling a partner which words for my body feel comfortable"
+        ],
+        [
+          "Hearing their own words",
+          "After you share a wish, would you like a partner to say what they understood in their own words?",
+          "hearing a partner put what I’ve shared into their own words"
+        ],
+        [
+          "Coming back to a question",
+          "Would it suit you to take a question away and return to it another day?",
+          "taking time to think before coming back to a question"
+        ]
+      ]
+    },
+    {
+      "id": "affection",
+      "title": "Affection and closeness",
+      "description": "The small gestures, kinds of touch and shared moments that feel intimate to you.",
+      "followUp": "Which small gesture makes you feel especially close to me?",
+      "prompts": [
+        [
+          "Being held",
+          "Would being held after a long day feel like a welcome form of closeness?",
+          "being held after a long day"
+        ],
+        [
+          "Initiating affectionate touch",
+          "Would you enjoy offering your hand as an invitation to be physically close?",
+          "offering my hand when I want to be close"
+        ],
+        [
+          "Companionable silence",
+          "Does spending time quietly together, each absorbed in your own thing, feel intimate to you?",
+          "spending time quietly together while we each do our own thing"
+        ],
+        [
+          "Playful affection",
+          "Would sharing an inside joke or a silly pet name make you feel close?",
+          "sharing an inside joke or a silly pet name"
+        ],
+        [
+          "Being noticed",
+          "Would it feel affectionate if a partner remembered a detail you mentioned in passing?",
+          "having a partner remember a small detail I mentioned"
+        ],
+        [
+          "Saying what you appreciate",
+          "Would you enjoy telling a partner one particular thing you appreciate about them?",
+          "telling a partner something specific I appreciate about them"
+        ],
+        [
+          "Affectionate eye contact",
+          "How would a moment of unhurried eye contact with someone you trust feel to you?",
+          "sharing unhurried eye contact with someone I trust"
+        ],
+        [
+          "A shared outing",
+          "Would making time for a little adventure together feel like an expression of affection?",
+          "making time for a little adventure together"
+        ]
+      ]
+    },
+    {
+      "id": "desire-pace",
+      "title": "Desire and pace",
+      "description": "What sparks your interest, how you initiate and how much time you like.",
+      "followUp": "How do you like to be invited, and how much time do you like to decide?",
+      "prompts": [
+        [
+          "A direct invitation",
+          "Would you like a partner to ask plainly when they’re interested in being intimate?",
+          "hearing a partner ask me directly about being intimate"
+        ],
+        [
+          "Making the first move",
+          "How do you feel about being the one to initiate closeness?",
+          "being the one to invite a partner closer"
+        ],
+        [
+          "Anticipation",
+          "Would you enjoy planning a date together and looking forward to intimacy ahead of time?",
+          "planning a date together and enjoying the anticipation"
+        ],
+        [
+          "Spontaneous invitations",
+          "Would a spur-of-the-moment invitation to be close appeal to you on an ordinary day?",
+          "getting a spontaneous invitation to be close"
+        ],
+        [
+          "Time to warm up",
+          "Would you enjoy easing into closeness slowly and discovering whether desire follows?",
+          "easing into closeness and seeing whether desire follows"
+        ],
+        [
+          "Affection on its own",
+          "Would it appeal to you to plan an affectionate evening with an agreement to keep it nonsexual?",
+          "planning an affectionate evening we agree to keep nonsexual"
+        ],
+        [
+          "Trying something unfamiliar",
+          "If you weren’t sure whether a new idea would appeal to you, would you enjoy exploring it at your own pace?",
+          "exploring an unfamiliar idea at my own pace"
+        ],
+        [
+          "Keeping a fantasy imaginary",
+          "Would you enjoy sharing a fantasy that you want to keep entirely in your imagination?",
+          "sharing a fantasy I want to keep imaginary"
+        ]
+      ]
+    },
+    {
+      "id": "pleasure-feedback",
+      "title": "Pleasure, comfort & feedback",
+      "description": "Find words for what feels good, how you like to give feedback and what helps you feel at ease.",
+      "followUp": "If something feels just right, how would you like to tell me?",
+      "prompts": [
+        [
+          "Showing a preferred touch",
+          "Would you enjoy showing a partner a touch you like by demonstrating it on your own hand?",
+          "showing a partner a touch I like on my own hand"
+        ],
+        [
+          "Asking for more of the same",
+          "When a touch feels good, would saying “just like that” feel natural to you?",
+          "saying “just like that” when a touch feels good"
+        ],
+        [
+          "Choosing between two options",
+          "Would a choice like “lighter or the same?” make it easier to give feedback in the moment?",
+          "giving feedback by choosing between two options"
+        ],
+        [
+          "Inviting touch in a familiar spot",
+          "Would it feel good to invite a partner to touch a place you already find comforting, such as your shoulders?",
+          "inviting a partner to touch a place I already find comforting"
+        ],
+        [
+          "Arranging a comfortable position",
+          "Would you like a little time to get comfortable with cushions or supports before settling in together?",
+          "taking time to get comfortable with cushions or supports"
+        ],
+        [
+          "Closeness through voice alone",
+          "Would hearing a partner speak to you with their full attention feel intimate on a day you want no touch?",
+          "feeling close through a partner’s voice on a day I want no touch"
+        ],
+        [
+          "Pleasure without a planned outcome",
+          "Would you enjoy an intimate experience with no particular goal beyond noticing what feels good?",
+          "enjoying what feels good without aiming for a particular outcome"
+        ],
+        [
+          "Exploring pleasure on your own",
+          "Would you enjoy discovering on your own what feels pleasant before you consider sharing it with someone?",
+          "discovering on my own what feels pleasant to me"
+        ]
+      ]
+    },
+    {
+      "id": "boundaries",
+      "title": "Expressing boundaries",
+      "description": "Ways to express a limit, ask for something different or sit with uncertainty.",
+      "followUp": "How would you like us to respond when one of us names a limit?",
+      "prompts": [
+        [
+          "A written boundaries list",
+          "Would you like to put a few personal limits in writing before talking them through?",
+          "writing down a few limits before talking them through"
+        ],
+        [
+          "A short answer",
+          "When you decline an invitation, would a simple “that’s off limits for me” suit your style?",
+          "using a brief phrase to decline an invitation"
+        ],
+        [
+          "Offering an alternative",
+          "When one idea doesn’t appeal, would you enjoy suggesting something else you might both like?",
+          "suggesting an alternative when an idea doesn’t appeal"
+        ],
+        [
+          "A list of open questions",
+          "Would you like a separate place for topics you’re curious to discuss before deciding how you feel?",
+          "keeping a list of things I want to talk through before deciding"
+        ],
+        [
+          "Using an “only if” phrase",
+          "When an idea appeals only in a particular setting, would a phrase like “only if we’re at home” fit your style?",
+          "saying “only if” when a particular setting matters to me"
+        ],
+        [
+          "Practising a boundary phrase",
+          "Would you like to rehearse a sentence for speaking up before you need it in the moment?",
+          "rehearsing a way to speak up before I need it"
+        ],
+        [
+          "A fresh conversation about a limit",
+          "If one of your own limits changes, would you like to bring it up yourself at a time you choose?",
+          "bringing up a change in one of my own limits when I’m ready"
+        ],
+        [
+          "A private pause signal",
+          "Would you like a discreet signal to tell your partner that a personal conversation can wait until you’re alone?",
+          "using a private signal to save a conversation for later"
+        ]
+      ]
+    },
+    {
+      "id": "digital-privacy",
+      "title": "Privacy and digital intimacy",
+      "description": "Decide what has a place on a screen, what stays private and when messages are welcome.",
+      "followUp": "What would you want us to agree stays private?",
+      "prompts": [
+        [
+          "A neutral text to check for privacy",
+          "Once you’ve agreed you both welcome intimate messages, would a neutral “Is this a private moment?” text suit you?",
+          "using a neutral text to check for privacy before an intimate exchange we both welcome"
+        ],
+        [
+          "Flirting by text",
+          "Would you enjoy a flirtatious exchange by text with a partner who has opted in?",
+          "flirting by text with a partner who welcomes it"
+        ],
+        [
+          "A private video date",
+          "Would a planned, private video date feel like a way to be close when you’re apart?",
+          "planning a private video date when we’re apart"
+        ],
+        [
+          "Keeping intimacy in person",
+          "Would it suit you to reserve intimate conversation for times you’re physically together?",
+          "keeping intimate conversations for times we’re together in person"
+        ],
+        [
+          "Keeping phones away",
+          "How would you feel about putting phones in another room during intimate time together?",
+          "putting phones in another room during intimate time"
+        ],
+        [
+          "Keeping relationship updates offline",
+          "Would you enjoy keeping updates about your relationship off social media altogether?",
+          "keeping updates about our relationship off social media"
+        ],
+        [
+          "Choosing a message window",
+          "Would you like to choose times when intimate messages are welcome, such as after work?",
+          "choosing when intimate messages are welcome"
+        ],
+        [
+          "Keeping an agreed message as a memento",
+          "If everyone involved explicitly agreed to keep a particular intimate message, would keeping it appeal to you?",
+          "keeping a particular intimate message with everyone’s explicit agreement"
+        ]
+      ]
+    },
+    {
+      "id": "relationship-agreements",
+      "title": "Relationship agreements",
+      "description": "Explore exclusivity, openness and what you might agree to with informed, consenting adult partners.",
+      "followUp": "What would feel right as an agreement, and what would you prefer to keep in imagination?",
+      "prompts": [
+        [
+          "Sexual exclusivity",
+          "Would a relationship in which you and one partner both choose sexual exclusivity appeal to you?",
+          "choosing sexual exclusivity together with one partner"
+        ],
+        [
+          "Openness in imagination",
+          "Would you enjoy imagining having more than one partner while keeping your actual relationship exclusive?",
+          "imagining more than one partner while keeping my relationship exclusive"
+        ],
+        [
+          "An open sexual relationship",
+          "Would a relationship that allows other sexual partners appeal to you if everyone involved knew and agreed?",
+          "having an open sexual relationship with everyone’s knowledge and agreement"
+        ],
+        [
+          "Multiple romantic relationships",
+          "With everyone’s knowledge and agreement, would you want room to build romantic relationships with more than one person?",
+          "building more than one romantic relationship with everyone’s knowledge and agreement"
+        ],
+        [
+          "Room for flirting",
+          "Would you enjoy an agreement that leaves room to flirt with other interested adults?",
+          "leaving room in our agreement to flirt with other interested adults"
+        ],
+        [
+          "Reserved time together",
+          "Would setting aside a regular evening for a particular relationship help it feel cared for?",
+          "setting aside a regular evening for one relationship"
+        ],
+        [
+          "Scheduled agreement check-ins",
+          "Would choosing a time each season to talk about how your agreements feel suit you?",
+          "checking in each season about how our agreements feel"
+        ],
+        [
+          "Hearing about other dates",
+          "If everyone agreed on what could be shared, would hearing about a partner’s other dates appeal to you?",
+          "hearing about a partner’s other dates within privacy limits everyone agreed to"
+        ]
+      ]
+    },
+    {
+      "id": "reconnect",
+      "title": "Reconnecting",
+      "description": "What helps after an awkward moment, a difference in desire or time apart.",
+      "followUp": "What helps you feel close again after an awkward moment?",
+      "prompts": [
+        [
+          "Reconnecting through everyday affection",
+          "After a busy week apart, would a small affectionate gesture help you find your way back to each other?",
+          "reconnecting through a small gesture of affection after time apart"
+        ],
+        [
+          "Laughing together",
+          "If something feels awkward, would sharing a laugh help you feel close again?",
+          "sharing a laugh after an awkward moment"
+        ],
+        [
+          "Hearing reassurance",
+          "If you and a partner want different things that day, would hearing that their affection hasn’t changed feel good?",
+          "hearing reassurance when we want different things that day"
+        ],
+        [
+          "Asking to be heard",
+          "After a misunderstanding, would you like to ask a partner to listen before suggesting solutions?",
+          "asking a partner to listen before offering solutions after a misunderstanding"
+        ],
+        [
+          "Naming the impact",
+          "If a comment lands badly, would telling your partner what it brought up for you help you reconnect?",
+          "explaining how a hurtful comment landed for me"
+        ],
+        [
+          "A concrete change",
+          "After talking through a difficult experience, would choosing one small change for next time help?",
+          "choosing one small change together after a difficult experience"
+        ],
+        [
+          "Closeness at a distance",
+          "When you’re apart, would swapping short voice messages feel like an intimate way to reconnect?",
+          "swapping short voice messages when we’re apart"
+        ],
+        [
+          "An ordinary activity together",
+          "After a heavy conversation, would doing something familiar together, like cooking, feel grounding?",
+          "doing something familiar together after a heavy conversation"
+        ]
+      ]
+    }
+  ],
+  "bdsm": [
+    {
+      "id": "exchange",
+      "title": "Power and roles",
+      "description": "Which parts of leading, following and sharing or giving direction appeal to you.",
+      "followUp": "Which decisions would you enjoy making yourself?",
+      "prompts": [
+        [
+          "Taking the lead",
+          "How would you feel about leading a scene that you and a partner have agreed on together?",
+          "taking the lead in a scene we agreed on together"
+        ],
+        [
+          "Being guided",
+          "How would it feel to let a partner guide a scene within the limits you’ve set together?",
+          "having a partner guide a scene within the limits we agreed on"
+        ],
+        [
+          "Giving clear directions",
+          "Would you enjoy giving a partner a simple direction they’ve asked to receive?",
+          "giving a partner a direction they asked to receive"
+        ],
+        [
+          "Delegating a choice",
+          "Would you enjoy handing one decision, like choosing from two agreed activities, to a partner?",
+          "letting a partner choose between activities we agreed on"
+        ],
+        [
+          "Encouraging words while leading",
+          "Would offering encouragement out loud feel like a natural part of leading a scene?",
+          "offering words of encouragement while I lead a scene"
+        ],
+        [
+          "Being invited to lead",
+          "Would hearing a partner explicitly ask you to take charge add to the appeal of leading?",
+          "hearing a partner explicitly invite me to take the lead"
+        ],
+        [
+          "Choosing the scope of a role",
+          "Would you enjoy leading only one part of a shared experience while your partner directs the rest?",
+          "leading one part of a shared experience while a partner leads the rest"
+        ],
+        [
+          "Sharing in-scene decisions",
+          "How would you feel about choosing each next activity together throughout a scene?",
+          "choosing each next activity together throughout a scene"
+        ]
+      ]
+    },
+    {
+      "id": "switching",
+      "title": "Switching roles",
+      "description": "When a role fits, when it changes and who you’d like to explore it with.",
+      "followUp": "Is there a role you enjoy imagining, whether or not you ever try it?",
+      "prompts": [
+        [
+          "Switching on different days",
+          "Would it appeal to you to lead on one occasion and follow on another?",
+          "leading on one occasion and following on another"
+        ],
+        [
+          "Keeping a familiar role",
+          "How would you feel about returning to the same role each time you explore with someone?",
+          "returning to the same role each time I explore with someone"
+        ],
+        [
+          "Taking turns in one scene",
+          "Would you enjoy planning a point in one scene where you and a partner trade roles?",
+          "planning a moment to trade roles during a scene"
+        ],
+        [
+          "Different roles with different partners",
+          "Could you see yourself enjoying different roles with different partners?",
+          "taking different roles with different partners"
+        ],
+        [
+          "Letting mood guide the role",
+          "Would you like to decide which role feels good on the day you meet?",
+          "choosing my role according to how I feel that day"
+        ],
+        [
+          "Trying a role in imagination",
+          "Would you enjoy talking through what the other role might feel like, even if you never try it?",
+          "talking through what a different role might feel like"
+        ],
+        [
+          "Choosing by activity",
+          "Would you like to lead in one activity and follow in another based on what each involves?",
+          "choosing whether to lead or follow based on the activity"
+        ],
+        [
+          "Exploring without a label",
+          "How would it feel to explore different roles without choosing a word like dominant, submissive or switch for yourself?",
+          "exploring roles without choosing a label for myself"
+        ]
+      ]
+    },
+    {
+      "id": "role-play",
+      "title": "Fantasy and role-play",
+      "description": "Explore characters, storytelling and how much structure feels right.",
+      "followUp": "Is there a story you would enjoy simply imagining together?",
+      "prompts": [
+        [
+          "Inventing characters together",
+          "Would you enjoy making up two adult characters and deciding together how they meet?",
+          "inventing two adult characters together and deciding how they meet"
+        ],
+        [
+          "A fictional persona",
+          "Would playing an adult character quite different from your everyday self appeal to you?",
+          "playing an adult character who feels different from my everyday self"
+        ],
+        [
+          "A simple premise",
+          "How would you feel about choosing a setting and improvising the rest within agreed boundaries?",
+          "improvising a story in a setting and within limits we both chose"
+        ],
+        [
+          "A rehearsed exchange",
+          "Would it appeal to you to agree on a few lines of dialogue in advance?",
+          "agreeing on a few lines of dialogue in advance"
+        ],
+        [
+          "Costume and atmosphere",
+          "Would a change of clothes or a carefully chosen setting help you enjoy a role?",
+          "using clothes or a setting to help me get into character"
+        ],
+        [
+          "A caring character",
+          "Would you like to play a caring adult character whose part in the story is to welcome and reassure someone?",
+          "playing a caring adult character who welcomes and reassures someone"
+        ],
+        [
+          "Telling the story together",
+          "Would you enjoy describing an imagined scene to each other while staying entirely out of character?",
+          "telling an imagined story together while we both stay out of character"
+        ],
+        [
+          "A recurring storyline",
+          "Would you like to return to the same fictional characters over several occasions and see how their story develops?",
+          "returning to the same characters to see how their story develops"
+        ]
+      ]
+    },
+    {
+      "id": "restraint",
+      "title": "Restraint and freedom of movement",
+      "description": "Consider the active role, the receiving role and the meaning of restraint to you.",
+      "followUp": "What appeals to you in imagination, and what would you leave there?",
+      "prompts": [
+        [
+          "Taking the lead with restraint",
+          "If a partner expressed interest in consensual restraint, would you want the active role in that experience?",
+          "taking the active role in restraint a partner and I both want"
+        ],
+        [
+          "Being restrained",
+          "How would you feel about taking the receiving role in an agreed restraint scene?",
+          "being restrained in a scene we both agreed on"
+        ],
+        [
+          "Symbolic restraint",
+          "Would an agreed pose or gesture that represents restraint appeal to you while leaving you free to move?",
+          "using an agreed gesture to represent restraint while staying free to move"
+        ],
+        [
+          "The visual side of bondage",
+          "Would the look of bondage interest you as art, even if participation held little appeal?",
+          "enjoying the look of bondage as art"
+        ],
+        [
+          "Restraint in fiction",
+          "Would you enjoy exploring restraint as a theme in a story you make up together?",
+          "exploring restraint in a story we make up together"
+        ],
+        [
+          "Giving the opening cue",
+          "In the receiving role, would you enjoy giving the opening cue once everyone is ready for a planned scene?",
+          "giving the opening cue from the receiving role once everyone is ready"
+        ],
+        [
+          "The feeling of stillness",
+          "Does a quiet moment of chosen stillness appeal to you as the focus of a scene?",
+          "making a moment of chosen stillness the focus of a scene"
+        ],
+        [
+          "Freedom to move throughout",
+          "Would you like to build a whole scene around having complete freedom of movement?",
+          "staying free to move throughout a scene"
+        ]
+      ]
+    },
+    {
+      "id": "sensation",
+      "title": "Sensation and the senses",
+      "description": "Explore texture, rhythm, sound and scent from the giving and receiving sides.",
+      "followUp": "Which sounds, textures or rhythms are comfortable for you?",
+      "prompts": [
+        [
+          "Exploring texture",
+          "Would you enjoy making the feel of different soft fabrics the focus of a scene?",
+          "exploring the feel of different soft fabrics"
+        ],
+        [
+          "Giving sensation",
+          "Does choosing sensations for a partner from options they’ve requested sound appealing?",
+          "choosing sensations from options a partner has asked for"
+        ],
+        [
+          "Receiving sensation",
+          "Would you enjoy being on the receiving side while a partner follows your stated preferences?",
+          "receiving sensations that follow the preferences I’ve shared"
+        ],
+        [
+          "A predictable rhythm",
+          "Would a steady, predictable rhythm help you settle into a sensory experience?",
+          "settling into a steady, predictable rhythm"
+        ],
+        [
+          "An element of surprise",
+          "Would you enjoy a surprise picked from a small set of sensations you’ve already approved?",
+          "being surprised by a sensation from a set I’ve already agreed to"
+        ],
+        [
+          "Sound as the focus",
+          "How would you feel about building an experience around music or a partner’s voice?",
+          "building an experience around music or a partner’s voice"
+        ],
+        [
+          "Scent as part of a scene",
+          "Would an agreed scent, such as a familiar fragrance, help set the atmosphere for you?",
+          "choosing a familiar scent together to set the atmosphere"
+        ],
+        [
+          "Describing a sensation",
+          "Would you enjoy putting a sensation into words while it’s happening and hearing what your partner notices?",
+          "describing a sensation as it happens and hearing what my partner notices"
+        ]
+      ]
+    },
+    {
+      "id": "rituals",
+      "title": "Rituals and recognition",
+      "description": "How words, routines and symbols might give a shared dynamic meaning.",
+      "followUp": "Is there a word or gesture that would feel meaningful to you?",
+      "prompts": [
+        [
+          "An opening ritual",
+          "Would a shared phrase marking the start of a scene feel meaningful to you?",
+          "using a shared phrase to mark the start of a scene"
+        ],
+        [
+          "A chosen title",
+          "How would you feel about using a name or title you both chose for a role?",
+          "using a name or title we chose together for a role"
+        ],
+        [
+          "A gesture of greeting",
+          "Would learning a special gesture to greet your partner in role feel meaningful?",
+          "greeting a partner in role with a special gesture"
+        ],
+        [
+          "A regular occasion",
+          "Would setting aside a particular evening for your dynamic make it feel more special?",
+          "setting aside a particular evening for our shared dynamic"
+        ],
+        [
+          "A playful rule",
+          "Would a made-up rule, chosen together for one scene, add to the fun?",
+          "playing with a made-up rule we chose together for one scene"
+        ],
+        [
+          "A private symbol",
+          "Would a small private symbol that reminds you of your shared dynamic appeal to you?",
+          "having a small private symbol of our shared dynamic"
+        ],
+        [
+          "An everyday ritual",
+          "Would you enjoy carrying one agreed ritual into everyday life, like a particular greeting?",
+          "bringing an agreed ritual into everyday life"
+        ],
+        [
+          "Keeping roles within the scene",
+          "Would it suit you to have all role-specific names and routines end with the scene?",
+          "keeping role-specific names and routines within the scene"
+        ]
+      ]
+    },
+    {
+      "id": "service",
+      "title": "Giving and receiving service",
+      "description": "What practical acts can mean when you both choose them as part of a dynamic.",
+      "followUp": "What makes an act of service feel personal to you?",
+      "prompts": [
+        [
+          "Offering a service",
+          "Would you enjoy offering to do a small task for a partner as part of a chosen role?",
+          "offering a small task as part of a role I chose"
+        ],
+        [
+          "Receiving a service",
+          "How would it feel if a partner prepared something for you as an expression of their role?",
+          "having a partner prepare something for me as part of their chosen role"
+        ],
+        [
+          "Being given a specific request",
+          "Would following a partner’s specific request feel satisfying when the task is one you’ve agreed to?",
+          "following a partner’s specific request for a task I’ve agreed to"
+        ],
+        [
+          "Choosing your own gesture",
+          "Would you enjoy inventing a gesture of service based on something you know a partner likes?",
+          "inventing a gesture of service around something a partner likes"
+        ],
+        [
+          "A ceremonial task",
+          "Would a task performed mainly for its symbolic meaning appeal to you, like presenting a chosen object?",
+          "doing a small ceremonial task for its symbolic meaning"
+        ],
+        [
+          "An everyday act of care",
+          "Would giving an ordinary task, such as making tea, a special meaning within a scene appeal to you?",
+          "giving an everyday task special meaning within a scene"
+        ],
+        [
+          "Accepting service without directing it",
+          "Would you enjoy receiving a gesture that a partner plans and carries out in their own way?",
+          "receiving a gesture of service a partner plans in their own way"
+        ],
+        [
+          "Reciprocal service",
+          "Would you like to take turns doing something meaningful for one another as equals?",
+          "taking turns doing something meaningful for each other as equals"
+        ]
+      ]
+    },
+    {
+      "id": "playful-challenge",
+      "title": "Playful challenge and praise",
+      "description": "Explore banter, friendly challenges and the kinds of recognition you like.",
+      "followUp": "What kind of praise or teasing feels good to hear?",
+      "prompts": [
+        [
+          "Playing a defiant character",
+          "Real hesitation calls for a pause, and either person can end the scene. Would you enjoy acting out playful defiance in a script you both chose?",
+          "playing a defiant character in a script we both chose"
+        ],
+        [
+          "Receiving playful banter",
+          "Would you enjoy a partner teasing you about a fictional rivalry you came up with together?",
+          "being teased about a fictional rivalry we invented together"
+        ],
+        [
+          "A friendly competition",
+          "Would a low-stakes contest, such as choosing who can stay in character longest, appeal to you?",
+          "trying a friendly contest with low stakes"
+        ],
+        [
+          "A cooperative challenge",
+          "Would you enjoy a game where you and a partner work toward the same playful goal?",
+          "working with a partner toward the same playful goal"
+        ],
+        [
+          "Receiving praise",
+          "Would hearing a partner praise one particular thing you did during a scene feel good?",
+          "hearing praise for something specific I did in a scene"
+        ],
+        [
+          "Giving praise",
+          "Would you enjoy letting a partner know, in the moment, exactly what you appreciated?",
+          "telling a partner in the moment exactly what I appreciated"
+        ],
+        [
+          "Praise about effort",
+          "How would praise about the effort you put into a role feel, even when things turn out differently than planned?",
+          "hearing praise for the effort I put into a role"
+        ],
+        [
+          "A chosen reward",
+          "Would adding a symbolic reward you picked together, like choosing the next game, make a challenge more enjoyable?",
+          "adding a symbolic reward we chose together to a playful challenge"
+        ]
+      ]
+    },
+    {
+      "id": "intensity",
+      "title": "Intensity and impact",
+      "description": "Consider impact as a fantasy or an interest, and which role or level of intensity fits you.",
+      "followUp": "When you say something feels intense, what do you mean by that?",
+      "prompts": [
+        [
+          "Impact as a conversation",
+          "Would you like to discuss what consensual impact means to a partner, even if you have no plans to try it?",
+          "talking about what consensual impact play means to a partner"
+        ],
+        [
+          "Impact in fantasy",
+          "Does a fictional scene involving consensual impact interest you as something to imagine?",
+          "imagining a fictional scene involving consensual impact"
+        ],
+        [
+          "Receiving impact",
+          "If you and a partner both specifically wanted to explore consensual impact, would the receiving role appeal to you?",
+          "receiving impact in a scene we both specifically want"
+        ],
+        [
+          "Giving impact",
+          "Would taking the giving role in mutually desired impact play interest you?",
+          "taking the giving role in impact play we both want"
+        ],
+        [
+          "A low-intensity experience",
+          "If you explored impact, would you be interested in a scene that stays low in intensity throughout?",
+          "keeping an agreed impact scene low in intensity throughout"
+        ],
+        [
+          "An intense sensation",
+          "Does the receiving side of a stronger physical sensation you’ve chosen appeal to you?",
+          "receiving a stronger physical sensation I’ve chosen"
+        ],
+        [
+          "Seeing temporary marks on yourself",
+          "Regardless of how you feel about intense sensations, how would you feel about seeing temporary marks on your own skin after an agreed scene?",
+          "seeing temporary marks on my own skin after an agreed scene"
+        ],
+        [
+          "Emotional intensity",
+          "Would you enjoy a scene built around anticipation and emotional intensity while keeping physical sensation gentle?",
+          "exploring emotional intensity while keeping physical sensations gentle"
+        ]
+      ]
+    },
+    {
+      "id": "language-tone",
+      "title": "Language & tone",
+      "description": "Explore the words you might hear or say in a scene where everyone has agreed on the language.",
+      "followUp": "Which words or tones belong only in fiction for you, and which feel welcome in person?",
+      "prompts": [
+        [
+          "A matter-of-fact voice",
+          "Would a partner speaking in a level, matter-of-fact voice during a scene appeal to you?",
+          "hearing a partner use a level, matter-of-fact voice in a scene"
+        ],
+        [
+          "A theatrical voice",
+          "Would you enjoy giving your own voice a dramatic, larger-than-life quality in a role?",
+          "using a dramatic voice when I’m playing a character"
+        ],
+        [
+          "Formal phrasing",
+          "Would it appeal to you to address each other in deliberately formal language for a scene?",
+          "addressing each other in deliberately formal language for a scene"
+        ],
+        [
+          "Hearing direct adult language",
+          "Would you enjoy hearing direct sexual language from a partner using words you chose together?",
+          "hearing direct sexual language in words we chose together"
+        ],
+        [
+          "Humiliation as a fictional theme",
+          "Would a story about adults who choose a humiliating role dynamic interest you as fiction?",
+          "reading fiction about adults who choose a humiliating role dynamic"
+        ],
+        [
+          "Hearing a chosen put-down in role",
+          "Would you want to hear a pretend put-down that you personally selected for use in a scene?",
+          "hearing a pretend put-down I personally chose for a scene"
+        ],
+        [
+          "Speaking a chosen put-down in role",
+          "Would saying a pretend put-down appeal to you if a partner chose the words and asked to hear them in role?",
+          "saying a pretend put-down a partner specifically asked to hear in role"
+        ],
+        [
+          "Mostly quiet scenes",
+          "Would a mostly quiet scene appeal to you, with room for the check-ins you’ve agreed on?",
+          "sharing a mostly quiet scene with room for our agreed check-ins"
+        ]
+      ]
+    },
+    {
+      "id": "audience",
+      "title": "Watching and being seen",
+      "description": "All scenarios here are private and involve only adults who agreed to participate or observe.",
+      "followUp": "Would this feel different in imagination than it would with an invited observer?",
+      "prompts": [
+        [
+          "An audience of one",
+          "Would you enjoy being seen by one invited partner during a private scene?",
+          "being seen by one invited partner during a private scene"
+        ],
+        [
+          "Being an invited observer",
+          "Would watching an adult partner perform a scene especially for you appeal to you?",
+          "watching an adult partner perform a private scene especially for me"
+        ],
+        [
+          "Watching together",
+          "Would you enjoy sitting alongside a partner as invited observers at a private adult performance?",
+          "watching a private adult performance together as invited observers"
+        ],
+        [
+          "A small invited audience",
+          "Would being seen by a small group of invited, consenting adults feel appealing to you?",
+          "being seen by a small group of invited, consenting adults in private"
+        ],
+        [
+          "Switching who watches",
+          "Would you and a partner taking turns as performer and observer appeal to you?",
+          "taking turns performing and watching with a consenting partner in private"
+        ],
+        [
+          "Feedback from an observer",
+          "After a private performance, would you enjoy asking an invited observer what they appreciated?",
+          "asking an invited observer what they appreciated after a private performance"
+        ],
+        [
+          "Imagining an audience",
+          "Would you like to imagine an audience while keeping the actual experience just between you and a partner?",
+          "imagining an audience while keeping the actual experience just between us"
+        ],
+        [
+          "Choosing what an observer sees",
+          "Would it appeal to you to design a private performance around exactly what you want an invited partner to see?",
+          "choosing exactly what an invited partner sees in a private performance"
+        ]
+      ]
+    },
+    {
+      "id": "privacy-community",
+      "title": "Privacy & community",
+      "description": "Ways you might learn, meet other adults or keep an interest part of your private life.",
+      "followUp": "How public or private would you want this interest to be in your own life?",
+      "prompts": [
+        [
+          "Learning through personal accounts",
+          "Would you enjoy reading accounts that adults have chosen to publish about their own experiences?",
+          "reading personal accounts other adults chose to publish"
+        ],
+        [
+          "Asking a question under a pseudonym",
+          "Would you like to ask an educational question under a pseudonym in a moderated adults-only discussion?",
+          "asking an educational question under a pseudonym in a moderated adult discussion"
+        ],
+        [
+          "A social-only community gathering",
+          "Would an adults-only kink social where people come to chat and no scenes take place appeal to you?",
+          "meeting other adults at a kink gathering devoted to conversation"
+        ],
+        [
+          "Going with a trusted friend",
+          "Would attending a community gathering with a trusted adult friend appeal to you?",
+          "attending a community gathering with a trusted adult friend"
+        ],
+        [
+          "A workshop as a listener",
+          "Would you enjoy an adults-only educational workshop where you can listen and pass on every exercise?",
+          "listening at an adults-only workshop where every exercise is optional"
+        ],
+        [
+          "A group with shared lived experience",
+          "Would a discussion group with people who share part of your identity or your access needs feel inviting?",
+          "joining a discussion with adults who share my experiences or access needs"
+        ],
+        [
+          "Keeping your own community name private",
+          "Would using a community name separate from your everyday name feel right for you?",
+          "using a community name separate from my everyday name"
+        ],
+        [
+          "A one-to-one peer conversation",
+          "Would you like to trade reading recommendations privately with another adult who welcomes that conversation?",
+          "exchanging reading recommendations privately with another interested adult"
+        ]
+      ]
+    },
+    {
+      "id": "scene-planning",
+      "title": "Planning and check-ins",
+      "description": "Choose a setting, decide what’s on the table and find a check-in style that works.",
+      "followUp": "What words or signals are easiest for you to use in the moment?",
+      "prompts": [
+        [
+          "A shared menu",
+          "Would you like to plan by each choosing from a short menu of possible activities?",
+          "planning a scene by each choosing from a short menu of activities"
+        ],
+        [
+          "Choosing the room setup yourself",
+          "Would you enjoy choosing the lighting, sound or room setup yourself when you plan a scene?",
+          "choosing the lighting, sound or room setup myself"
+        ],
+        [
+          "One new element at a time",
+          "Would you enjoy changing just one element in an otherwise familiar scene?",
+          "changing just one thing in an otherwise familiar scene"
+        ],
+        [
+          "Check-ins in plain words",
+          "Would a straightforward question such as “How does this feel?” suit you during a scene?",
+          "using plain words to check in during a scene"
+        ],
+        [
+          "A colour check-in",
+          "Would using a shared word like green, yellow or red feel natural for communicating how a scene is going?",
+          "using a colour word to say how a scene is going"
+        ],
+        [
+          "A nonverbal signal",
+          "Would you like to agree on a gesture as another way to ask for a pause or stop?",
+          "using an agreed gesture when I want to pause or stop"
+        ],
+        [
+          "A planned interval",
+          "Would agreeing on a time to pause and talk mid-scene help you feel present?",
+          "planning a time to pause and talk during a scene"
+        ],
+        [
+          "A change of plan",
+          "If either of you wanted to change something, would you prefer stepping fully out of your roles to discuss it?",
+          "stepping out of our roles to talk through a change of plan"
+        ]
+      ]
+    },
+    {
+      "id": "aftercare",
+      "title": "Aftercare",
+      "description": "The transition out of a scene, from immediate comfort to a later conversation.",
+      "followUp": "When things wind down, what would you like me to offer first?",
+      "prompts": [
+        [
+          "Quiet time together",
+          "Would sitting quietly together after a scene help you settle?",
+          "sitting quietly together after a scene"
+        ],
+        [
+          "Some time alone",
+          "Would you like a little space to yourself immediately after a scene?",
+          "having a little time to myself right after a scene"
+        ],
+        [
+          "Physical closeness afterward",
+          "Would you enjoy being offered a hug or hand to hold when a scene ends?",
+          "being offered a hug or a hand to hold after a scene"
+        ],
+        [
+          "Practical comforts",
+          "Would having something familiar ready, like a favourite drink or blanket, appeal to you afterward?",
+          "having a familiar comfort waiting for me afterward"
+        ],
+        [
+          "Returning to everyday names",
+          "Would hearing your everyday name help you shift out of a role?",
+          "hearing my everyday name as I come out of a role"
+        ],
+        [
+          "A direct question after leading",
+          "When you take the lead, would hearing “What can I get you?” from a partner afterward feel welcome?",
+          "having a partner ask what I need after I’ve led a scene"
+        ],
+        [
+          "Sharing a highlight",
+          "Would you enjoy each naming a moment you appreciated once a scene is over?",
+          "telling each other a moment we appreciated after a scene"
+        ],
+        [
+          "A next-day check-in",
+          "Would you like to arrange a next-day check-in to talk about how the experience feels in hindsight?",
+          "checking in the next day about how the experience feels"
+        ]
+      ]
+    }
+  ]
+}

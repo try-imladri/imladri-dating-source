@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-13T00:26:16.853624+00:00",
+  "exit_code": 0,
+  "command": [
+    "docker",
+    "--context",
+    "desktop-linux",
+    "run",
+    "--rm",
+    "--cpus",
+    "1",
+    "--memory",
+    "1g",
+    "--pids-limit",
+    "128",
+    "--cap-drop",
+    "ALL",
+    "--security-opt",
+    "no-new-privileges",
+    "--mount",
+    "type=bind,source=E:/codex/imladri-native-patches-20261112/glibc/signed-candidate-authenticated-02,target=/output",
+    "imladri-glibc-builder:20261112-v2",
+    "/bin/bash",
+    "-c",
+    "mkdir /candidate; apk --root /candidate --initdb --no-cache --no-scripts --keys-dir /etc/apk/keys --repositories-file /etc/apk/repositories add glibc-2.44=2.44-r17 && cp -a /candidate/lib/apk/db /output/candidate-apk-db && tar --exclude=./etc/shadow --exclude=./etc/gshadow -czf /output/glibc-r17-authenticated-root.tar.gz -C /candidate ."
+  ],
+  "allow_untrusted": false,
+  "provider_changes": 0,
+  "log_sha256": "ef8c7abff65fd1b0fe70233edc09e64693f67bb27d33e8d3d49d06454aa87940"
+}

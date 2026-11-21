@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-13T02:06:09.888579+00:00",
+  "status": "local_candidate_actual_application_and_provider_release_gates_still_required",
+  "production_deployments_in_this_review": 0,
+  "postgresql_remains_authoritative": true,
+  "priority_1_untouched": true,
+  "services_plans_roles_network_billing_and_unrelated_secrets_preserved": true,
+  "previous_sources": {
+    "personal": "70a7a39b3d1533b46822c991b6e882678faff521",
+    "legacy": "061019dbb631a1aa70619cf8636de861a4f63538"
+  },
+  "unique_scope": {
+    "shared_source_cases": 29,
+    "manual_OpenSSL_cases": 5,
+    "total": 34,
+    "new_glibc_cases_already_in_shared_29_not_additional": true,
+    "original_aggregate_intent_not_reconstructed_as_fact": true
+  },
+  "casebook": {
+    "evidence": "debian-native/explicit-shared-casebook-29.json",
+    "sha256": "67e97eb3f4ef4d1915291f66765bc14dd02781470b030aee99862b1ec1b54df2"
+  },
+  "candidate_changes": {
+    "OpenSSL": "Five exact upstream fixes in system libraries and the static cryptography wheel copy; all vendor hardening retained.",
+    "SQLite": "Personal retains signed 3.54.1 bytes. Legacy rebuilds signed Debian 3.54.1 source on stable; no testing binary repository or SQLite CLI added.",
+    "ncurses": "Personal retains reviewed signed package. Legacy backports two upstream patches to its stable package.",
+    "C_plus_plus": "Legacy normal dpkg dependency checks permit removal of APT, libapt-pkg7.0 and libstdc++6; final image/client absence still must be verified.",
+    "native_attestation": "Inventory public source/artifact/recipe hashes, exact installed ELF bytes and the actual loaded application library mappings."
+  },
+  "glibc": {
+    "custom_bundles_released": false,
+    "decision": "Hold both custom glibc bundles. Retain signed baseline packages; do not claim held CVEs patched.",
+    "Personal_vendor_package": "glibc-2.44=2.44-r17",
+    "Legacy_vendor_package": "libc6=2.41-12+deb13u4",
+    "static_review": {
+      "evidence": "glibc-safe-release-review/release-safety-review.txt",
+      "sha256": "88e9a7332f8267ec9e3ef98ac6888989378f010b7c7a35f09d777a191c8b417b"
+    },
+    "held_bundle_inventory": {
+      "evidence": "held-glibc-bundles/hold-record.json",
+      "sha256": "9cf95a925a16f524e5ed8419079fdbc344e56deadbecfdee44e3855452b3bcd5"
+    },
+    "optional_test": "FAIL. Exact archived signal attribution remains unverified; inherited source defect is consistent with the observed failure, not proven crash attribution.",
+    "automatic_safety_review": "Rejected the supplemental allocation-failure test for possible cybersecurity risk. It was not retried.",
+    "source_cases_still_open": [
+      "CVE-2018-20796",
+      "CVE-2019-9192",
+      "CVE-2026-100290",
+      "CVE-2026-115819",
+      "CVE-2026-5435",
+      "CVE-2026-6238",
+      "CVE-2026-6368",
+      "CVE-2026-6791"
+    ],
+    "older_four_may_already_be_fixed_in_Wolfi_but_not_transferred_to_Debian": true,
+    "C_or_C_UTF8_locale_does_not_exclude_new_two_cases": true
+  },
+  "additional_open_source_case": {
+    "CVE-2021-45346": "Disputed SQLite record; not claimed patched or closed."
+  },
+  "standard_test_limitations": {
+    "Wolfi_OpenSSL": {
+      "full_hardened_suite": "FAIL: 83 recipes, including two bounded busy-loop timeouts.",
+      "causal_control": "Same failed identities on old-code hardened control; removing only two vendor hardening patches in a test-only control passed 83 recipes / 1948 assertions. Shipped candidate retains all hardening.",
+      "normal_application_TLS_and_GCM_SIV_assertions_passed": 24
+    },
+    "Legacy_SQLite": {
+      "full_veryquick_suite": "FAIL: 4 failures / 395808 tests.",
+      "unchanged_isolated_sessionnoact_shell1_zipfile": "32/32, 199/199 and124/124 pass.",
+      "unchanged_isolated_io": "FAIL:1/29. Debian official31patch raises MAX_DEFAULT_PAGE_SIZE to32768; unchanged upstream test still hardcodes8192 for a16384 sector.",
+      "old_and_candidate_ordinary_page_size_behavior": "Both actual libraries use ordinary4096 and MAX_DEFAULT_PAGE_SIZE32768. No test edited, skipped or relabeled passed."
+    }
+  },
+  "fresh_deployed_runtime_and_sql_role_verification_still_required": true,
+  "no_closure_from_other_distribution_feed_absence": true,
+  "raw_vendor_history_failed_runs_and_source_hashes_preserved": true
+}

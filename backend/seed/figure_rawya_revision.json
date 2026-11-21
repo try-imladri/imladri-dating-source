@@ -1,0 +1,58 @@
+{
+  "groups": [
+    {
+      "paths": [
+        "identity",
+        "sections.identity"
+      ],
+      "digest": "bf48138eda2bc3ebc00ad76f9ae088f71ce70d6e6f56f31f9200451637af1514"
+    },
+    {
+      "paths": [
+        "matches",
+        "sections.matches",
+        "sections.map"
+      ],
+      "digest": "d983cedbd09cc6829a899c5e425a9767e35d0b90b7769ce799fae239bf4260e0"
+    }
+  ],
+  "items": {
+    "sections.pattern": {
+      "f5741eb4bfb3611c64318830bc441086d89a71a7e176c4ad81c7a5df1eccf39c": 0,
+      "7e96f9b15403b3ddd684cdd04b877200413058b5b4864d87fc14d58367fa6171": 1,
+      "d88d44c335f0aa8a8c34537d388141318cad4139197ab48f16bf1be2649eb4ce": 2,
+      "17d702395b44eaaf7a29a486cc77806377ab8de70fd8c5e82db5e549b3f78dd8": 3
+    },
+    "sections.communicates.text": {
+      "2ba8e94ca2528458e9d9fc7b7c28615bee1b84dc6cc5c01aab7479a5c5b5718d": 0,
+      "fdf79574e015f75610f6076e0717bd375462aaaa037f0fb39e2802feec6b3c19": 1
+    },
+    "sections.handling.works": {
+      "ae37d3f5721c88a9411959bba87e8398bee02eebb613b9b3e427d4ada59cea19": 0,
+      "f31cd9a953b989ca6f38aacdf77b1e64b0b609a26bba2ed4873baf6ae71fe0e3": 1,
+      "0e9e4eb53e53af724baecc59ddc7dd7333c32cc920809cbd004d13bdc1fa6ab3": 3,
+      "90a7dbcd49fdd9b43fc1e8b6c64873fe056fd4271386020547241a896634be5f": 4
+    },
+    "sections.handling.never": {
+      "5dc9181d84a54bc2c7c69be2f69cb733940ef81d3b4701e770bc15caa4a3afc4": 0,
+      "fb5ab2bb402d9b590b58faff4b87b1dd2cc29bcb5d80f2c9d15dda5d7258b026": 1,
+      "2722751ec24c35112e1b467debadd3c4b159b6c3d42e89a89b656cb755feb6e8": 2,
+      "1ca9c4e19a5f1b4815297d8e835143da9ef2fdb98f9a2c7278d12d471c000362": 4
+    },
+    "sections.power_moves": {
+      "24b532b3e7489e52289170787e61175658aba9b48961323c65ca2390d498ba75": 0,
+      "3515e81d66fcb1f8e36aeb4f52103bc3a46102b60ec984aea91cc44588d2c9bd": 1,
+      "98b0dae7e5c8b18a1b7c8e9f2c516f6e0b54881b54773333c764746864264081": 4
+    },
+    "sections.leverage": {
+      "7849ca9dfcc299282a8a1a22928bdbe4c7394adcff6a1753150d1cbcc27039f9": 2,
+      "aec9d0e955b6e9fa7da20bd6d62f6ec01951c7a49e80c72892d7baac82a14bb2": 4
+    }
+  },
+  "cards": {
+    "c2f0d135af411d8f80a85c2fd37ec7aa273fe9cce6846497cca31ec0de93d4bc": 0,
+    "33ccf847d147bf33f1e310add55ef3188767ea5c72b9ad60f9b156f754e4c25c": 1,
+    "637d2a9894bfc7a7d3d7d34681875dcf02d26d2c5f6f84ee41518fc4fa2d5699": 2,
+    "075d648855908e5251a1699335f63a1757f0d3eaa49da5f430e22fd6577d4cfa": 3
+  }
+}

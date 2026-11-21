@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "imladri-personal-api",
+  "main": "src/container.js",
+  "compatibility_date": "2026-11-07",
+  "workers_dev": false,
+  "preview_urls": false,
+  "version_metadata": { "binding": "API_RELEASE" },
+  "containers": [{
+    "class_name": "PersonalApi",
+    "scheduling_policy": "durable_object",
+    "observability": { "enabled": true },
+    "images": { "base": { "dockerfile": "../Dockerfile", "build_context": ".." } }
+  }],
+  "durable_objects": { "bindings": [{ "name": "CONTAINER", "class_name": "PersonalApi" }] },
+  "exports": { "PersonalApi": { "type": "durable-object", "storage": "sqlite" } },
+  "vars": {
+    "DB_NAME": "imladri_personal_live",
+    "PUBLIC_APP_URL": "https://imladri.com"
+  }
+}

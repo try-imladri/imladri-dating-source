@@ -1,0 +1,82 @@
+{
+  "checked_utc": "2026-11-13T00:43:13.542798+00:00",
+  "libraries": [
+    {
+      "library": "libcrypto.so.4",
+      "baseline_sha256": "43b6069ad5faf129518fc492292c0c60e98796a96dd920c08cc696e9392c19b7",
+      "candidate_sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629",
+      "export_count": 5594,
+      "exported_ABI_exactly_matches": true,
+      "needed_libraries_exactly_match": true,
+      "nonexecuting_stack": true,
+      "RELRO": true,
+      "baseline_GLIBC_imports": [
+        "GLIBC_2.12",
+        "GLIBC_2.14",
+        "GLIBC_2.15",
+        "GLIBC_2.16",
+        "GLIBC_2.17",
+        "GLIBC_2.2.5",
+        "GLIBC_2.25",
+        "GLIBC_2.3",
+        "GLIBC_2.3.2",
+        "GLIBC_2.3.4",
+        "GLIBC_2.33",
+        "GLIBC_2.34",
+        "GLIBC_2.38",
+        "GLIBC_2.4"
+      ],
+      "candidate_GLIBC_imports": [
+        "GLIBC_2.12",
+        "GLIBC_2.14",
+        "GLIBC_2.15",
+        "GLIBC_2.16",
+        "GLIBC_2.17",
+        "GLIBC_2.2.5",
+        "GLIBC_2.25",
+        "GLIBC_2.3",
+        "GLIBC_2.3.2",
+        "GLIBC_2.3.4",
+        "GLIBC_2.33",
+        "GLIBC_2.34",
+        "GLIBC_2.38",
+        "GLIBC_2.4"
+      ]
+    },
+    {
+      "library": "libssl.so.4",
+      "baseline_sha256": "004e8efba8e198531d86b52dba0d2277f10f6ccbc3b09dd08109409049afc3da",
+      "candidate_sha256": "0e910460047c81acc24c5a15a4e928c94d71e37a907ee7076fdd0f21230008af",
+      "export_count": 628,
+      "exported_ABI_exactly_matches": true,
+      "needed_libraries_exactly_match": true,
+      "nonexecuting_stack": true,
+      "RELRO": true,
+      "baseline_GLIBC_imports": [
+        "GLIBC_2.14",
+        "GLIBC_2.17",
+        "GLIBC_2.2.5",
+        "GLIBC_2.3",
+        "GLIBC_2.3.2",
+        "GLIBC_2.3.4",
+        "GLIBC_2.33",
+        "GLIBC_2.34",
+        "GLIBC_2.38",
+        "GLIBC_2.4"
+      ],
+      "candidate_GLIBC_imports": [
+        "GLIBC_2.14",
+        "GLIBC_2.17",
+        "GLIBC_2.2.5",
+        "GLIBC_2.3",
+        "GLIBC_2.3.2",
+        "GLIBC_2.3.4",
+        "GLIBC_2.33",
+        "GLIBC_2.34",
+        "GLIBC_2.38",
+        "GLIBC_2.4"
+      ]
+    }
+  ],
+  "provider_calls": 0
+}

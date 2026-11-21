@@ -1,0 +1,412 @@
+{
+  "checked_utc": "2026-11-13T00:43:07.293465+00:00",
+  "image": "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+  "provider_calls": 0,
+  "commands": [
+    {
+      "name": "version",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "version",
+        "-a"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "90223420002a3eeb180e51b29fc2e8f73c319ade80df57fb47726568e08532c6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "ciphers",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "ciphers",
+        "-s",
+        "-v",
+        "ALL:@SECLEVEL=0"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "fd598dfad39dec1f0d3935e07e667891315c8fa33bf0a87f281835cac24a7e92",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "curves",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "ecparam",
+        "-list_curves"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "3ad42392e78db31f543971aad6180bb89d18597edf6109365821d68e0b511de0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "digests",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "list",
+        "-digest-algorithms",
+        "-provider",
+        "default"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "5679979a7e7b53ad3c94ab93ea8b7545d3bb36a33391c650dfccfa92615d17c2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "cipher-algorithms",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "list",
+        "-cipher-algorithms",
+        "-provider",
+        "default"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "4be5affdff63340e7782430a4316395dcec565ef98d269f43bfddf5d6b2e1bb8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "signatures",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "/work/final-payload/openssl",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "list",
+        "-signature-algorithms",
+        "-provider",
+        "default"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "e3d20a46463853a503c997065df8407bfffb32ac5cd4677688d9dcf6ad4c2db4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "tls-functional",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "python",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "/work/functional_runtime_probe.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "8c1020aad98800db5009208acd74e671c48f7c792c795f63e242b1ba02778ef8",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "gcm-siv-regressions",
+      "command": [
+        "docker",
+        "--context",
+        "desktop-linux",
+        "run",
+        "--rm",
+        "--read-only",
+        "--network",
+        "none",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "512m",
+        "--mount",
+        "type=bind,source=E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl,target=/work,readonly",
+        "--env",
+        "LD_LIBRARY_PATH=/work/final-payload",
+        "--env",
+        "IMLADRI_QA_LIBRARY_DIRECTORY=final-payload",
+        "--entrypoint",
+        "python",
+        "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+        "/work/gcm_siv_regressions.py"
+      ],
+      "exit_code": 0,
+      "stdout_sha256": "4cb77e5b85ed682a5dc1a59efe657ddb495ea922a335eb98bdc1fda85aff8ee2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "all_five_hardening_capability_outputs_exactly_equal_baseline": true,
+  "functional": {
+    "tls-functional": {
+      "passed": 16,
+      "cases": [
+        {
+          "name": "actual candidate libcrypto.so.4 loaded",
+          "passed": true
+        },
+        {
+          "name": "actual candidate libssl.so.4 loaded",
+          "passed": true
+        },
+        {
+          "name": "same OpenSSL4 ABI version",
+          "passed": true
+        },
+        {
+          "name": "771 integrity",
+          "passed": true
+        },
+        {
+          "name": "771 certificate verified",
+          "passed": true
+        },
+        {
+          "name": "771 negotiated protocol",
+          "passed": true
+        },
+        {
+          "name": "771 server completed",
+          "passed": true
+        },
+        {
+          "name": "771 rejects hostname",
+          "passed": true
+        },
+        {
+          "name": "771 rejects untrusted CA",
+          "passed": true
+        },
+        {
+          "name": "772 integrity",
+          "passed": true
+        },
+        {
+          "name": "772 certificate verified",
+          "passed": true
+        },
+        {
+          "name": "772 negotiated protocol",
+          "passed": true
+        },
+        {
+          "name": "772 server completed",
+          "passed": true
+        },
+        {
+          "name": "772 rejects hostname",
+          "passed": true
+        },
+        {
+          "name": "772 rejects untrusted CA",
+          "passed": true
+        },
+        {
+          "name": "baseline TLS1 disabled",
+          "passed": true
+        }
+      ],
+      "ssl_version": "OpenSSL 4.0.3 29 Sep 2026",
+      "libraries": {
+        "libcrypto.so.4": {
+          "mapped_path": "/work/final-payload/libcrypto.so.4",
+          "sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629"
+        },
+        "libssl.so.4": {
+          "mapped_path": "/work/final-payload/libssl.so.4",
+          "sha256": "0e910460047c81acc24c5a15a4e928c94d71e37a907ee7076fdd0f21230008af"
+        }
+      },
+      "loopback_only": true,
+      "provider_calls": 0
+    },
+    "gcm-siv-regressions": {
+      "passed": 8,
+      "cases": [
+        "empty incremental AAD update is a no-op",
+        "key-and-nonce reinitialization clears prior AAD",
+        "rejects unsupported IV length 0",
+        "rejects unsupported IV length 1",
+        "rejects unsupported IV length 11",
+        "rejects unsupported IV length 13",
+        "rejects unsupported IV length 16",
+        "accepts required 12-byte IV length"
+      ],
+      "library": "/work/final-payload/libcrypto.so.4",
+      "sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629",
+      "test_class": "normal local API validation; no exploit or external connection",
+      "provider_calls": 0
+    }
+  },
+  "tested_artifacts": [
+    {
+      "name": "libcrypto.so.4",
+      "final_sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629",
+      "final_bytes": 6842064
+    },
+    {
+      "name": "libssl.so.4",
+      "final_sha256": "0e910460047c81acc24c5a15a4e928c94d71e37a907ee7076fdd0f21230008af",
+      "final_bytes": 1383336
+    },
+    {
+      "name": "openssl",
+      "final_sha256": "e12eed1153c8af3328b21047fdd74fd33b77fae0b6d92155e2a646c4ce7f25c7",
+      "final_bytes": 1295056
+    }
+  ]
+}

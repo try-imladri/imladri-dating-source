@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "components": [
+    {
+      "name": "sqlite",
+      "mode": "signed_vendor",
+      "source_sha256": "387e7f6cad4797b17848c07d453dc6606917bb356a6cfe5a3abafd38c240c71b",
+      "artifact_sha256": "5ea68a7dad00791dbc5eff42aad9022b0984f82e271058811a4d72181e450144",
+      "recipe_sha256": "e1dc6628aa45c51e817654fe6debb513d49d0409c504a0973c5f9aae5776d2af",
+      "patches": [],
+      "cases": [
+        "CVE-2026-119371",
+        "CVE-2026-119372",
+        "CVE-2026-119373",
+        "CVE-2026-119374",
+        "CVE-2026-119375",
+        "CVE-2026-119376",
+        "CVE-2026-119377",
+        "CVE-2026-119378",
+        "CVE-2026-119379",
+        "CVE-2026-119591",
+        "CVE-2026-50812",
+        "CVE-2026-50813"
+      ]
+    },
+    {
+      "name": "ncurses",
+      "mode": "signed_vendor",
+      "source_sha256": "25994d33686beb39391e8303c9dfe6c8b8549b12f19a1b80a9609b9cc4c6b76e",
+      "artifact_sha256": "5df69757d7d3a484277bf70c53c569a582a3a5cd3cbc7f22186d30ff8fe97b71",
+      "recipe_sha256": "6156c6913f4e755245c1d148fce151f51409f7ed47999bd4b22d2c7c819db090",
+      "patches": [],
+      "cases": [
+        "CVE-2025-6141",
+        "CVE-2025-69720"
+      ]
+    },
+    {
+      "name": "glibc",
+      "mode": "signed_vendor",
+      "source_sha256": "bf981d2b9e7ecc92ba91723a8371119161a6c54ccc03606250079b30f8810e82",
+      "artifact_sha256": "d9bebb6c4bfecd754771cbff9bf9a3477ac5fede63bb76a7883f8a3035461cfd",
+      "recipe_sha256": "2b294801838f2f27498a8077f530d86514effe124d19bfdbb70638f8993a898d",
+      "patches": [],
+      "cases": []
+    }
+  ],
+  "files": [
+    {
+      "path": "/usr/bin/ldconfig",
+      "resolved_path": "/usr/bin/ldconfig",
+      "sha256": "42a068999d310ca4fe28c1fb6c8a831801dbf6e46741813645d2d1f355d3949e",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/ld-linux-x86-64.so.2",
+      "resolved_path": "/usr/lib/ld-linux-x86-64.so.2",
+      "sha256": "66b3c985cb0e720394f22e9b5433c007436c07faec1ba83c5c94240c992f4649",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libBrokenLocale.so.1",
+      "resolved_path": "/usr/lib/libBrokenLocale.so.1",
+      "sha256": "5ce121d7221f4f4fa0a58cb9e1efc945da39d7b54c9e9589122c5066da833f64",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libanl.so.1",
+      "resolved_path": "/usr/lib/libanl.so.1",
+      "sha256": "3ef2d0fd14638e31cca89c330359b4d6756903f1b7404585764410347e9858f3",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libc.so.6",
+      "resolved_path": "/usr/lib/libc.so.6",
+      "sha256": "d8f5518b55975eeb42c0b0eb6132e717e4a57a6f787f08e3c80d2cdbb11e31ec",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libc_malloc_debug.so.0",
+      "resolved_path": "/usr/lib/libc_malloc_debug.so.0",
+      "sha256": "52594f7d4646e757adda366acb185c7d54636721ae76a8c1f3d40ac7f2832063",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libdl.so.2",
+      "resolved_path": "/usr/lib/libdl.so.2",
+      "sha256": "b4361b404502b703b7ee5a19aae70c132decdaa164953ce32110b5f1493580fc",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libm.so.6",
+      "resolved_path": "/usr/lib/libm.so.6",
+      "sha256": "492d375c83bbfedae45c31230da651d573e72a33aeeab2ecf341692cfa5b812b",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libmemusage.so",
+      "resolved_path": "/usr/lib/libmemusage.so",
+      "sha256": "619bcccf4b5cbaa3b1431f4396409cc5e1c6a9a38298677ca6a92c10cb6dab79",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libmvec.so.1",
+      "resolved_path": "/usr/lib/libmvec.so.1",
+      "sha256": "095e4ec1b68001f725015476d6ecf833b319b543974edfca2efdaaddf8214f17",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libnsl.so.1",
+      "resolved_path": "/usr/lib/libnsl.so.1",
+      "sha256": "b729d93d2a765710e22e7713c00592cfbe876e050b1c262eb27dd479a22b17be",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libnss_compat.so.2",
+      "resolved_path": "/usr/lib/libnss_compat.so.2",
+      "sha256": "7c1eaddf29bb5c8b3c7ad6a2b85b3f5df91ceaf9e4334e6f2228edb5f3ca0ead",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libnss_dns.so.2",
+      "resolved_path": "/usr/lib/libnss_dns.so.2",
+      "sha256": "7197a6ffe324f93cf2400898bb605e79c2b726b856231746f2d5a26a2236c373",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libnss_files.so.2",
+      "resolved_path": "/usr/lib/libnss_files.so.2",
+      "sha256": "3e28a50096840fe2b59e2a0b63e5fe539f0c96049cac976e1acb7df3b44be365",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libpthread.so.0",
+      "resolved_path": "/usr/lib/libpthread.so.0",
+      "sha256": "3f590d221c0553053dbb88804c241eb1f37c8979132429a09c3d78193c77fbbb",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libresolv.so.2",
+      "resolved_path": "/usr/lib/libresolv.so.2",
+      "sha256": "9201e97f415859b1015282366fa98f2a49edf6640769d7c59d20662aa9f03ef8",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/librt.so.1",
+      "resolved_path": "/usr/lib/librt.so.1",
+      "sha256": "e0b0aee757afa78e0743f7e35c3a8c3e722390112ec521a51970aa22cfd3fdcc",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libthread_db.so.1",
+      "resolved_path": "/usr/lib/libthread_db.so.1",
+      "sha256": "ae50c0e60a40e83d6b87d5ae94c9899852a0062adf8ac819f9b707c0cc75b97f",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/lib/libutil.so.1",
+      "resolved_path": "/usr/lib/libutil.so.1",
+      "sha256": "9b508964a52fadecbbb5e012d50e358e55b888f3394ec5131f7b92b477472592",
+      "component": "glibc"
+    },
+    {
+      "path": "/usr/bin/captoinfo",
+      "resolved_path": "/usr/bin/tic",
+      "sha256": "4a383ea66b5198e457479925e63d38b47cca9fdffae8c2b6023f45d66d9f5e93",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/clear",
+      "resolved_path": "/usr/bin/clear",
+      "sha256": "18361ec0025c5e8434dad554fe6bf422a989d0bc37db78972a853b384296a2d3",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/infocmp",
+      "resolved_path": "/usr/bin/infocmp",
+      "sha256": "0e6d90eb0e782f22311b55fc99ba1227aed1c842e6df0f4779bb3b89ff7ef64b",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/infotocap",
+      "resolved_path": "/usr/bin/tic",
+      "sha256": "4a383ea66b5198e457479925e63d38b47cca9fdffae8c2b6023f45d66d9f5e93",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/reset",
+      "resolved_path": "/usr/bin/tset",
+      "sha256": "46b4367964659bb950efa288cdceda37328f84b9f92ff6d7c5c1f0c8f57e2e87",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/tabs",
+      "resolved_path": "/usr/bin/tabs",
+      "sha256": "cfe719e04331e13409538ffab6a95b2e7d201d6d1245a342cfc968e907af296f",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/tic",
+      "resolved_path": "/usr/bin/tic",
+      "sha256": "4a383ea66b5198e457479925e63d38b47cca9fdffae8c2b6023f45d66d9f5e93",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/toe",
+      "resolved_path": "/usr/bin/toe",
+      "sha256": "d9fabf1c65cfd2583476f857b90f7104b69af4348fecdfc8fc27b235db359c49",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/tput",
+      "resolved_path": "/usr/bin/tput",
+      "sha256": "9b2c467a77c2aeadaa974130c00e90f7d4ab584725331279d4302e55fe7a5c46",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/bin/tset",
+      "resolved_path": "/usr/bin/tset",
+      "sha256": "46b4367964659bb950efa288cdceda37328f84b9f92ff6d7c5c1f0c8f57e2e87",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libmenu.so.6",
+      "resolved_path": "/usr/lib/libmenu.so.6.6",
+      "sha256": "2593d1e513ba34af8d734d10346c35af7a4e50f93c325ba3e2d2f1a8f3b39796",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libmenu.so.6.6",
+      "resolved_path": "/usr/lib/libmenu.so.6.6",
+      "sha256": "2593d1e513ba34af8d734d10346c35af7a4e50f93c325ba3e2d2f1a8f3b39796",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libmenuw.so.6",
+      "resolved_path": "/usr/lib/libmenuw.so.6.6",
+      "sha256": "bef0c9ccbbe54d6a287b5a29ac9ca69f0fcdd0e2e4921432b394aefd0f8dcb44",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libmenuw.so.6.6",
+      "resolved_path": "/usr/lib/libmenuw.so.6.6",
+      "sha256": "bef0c9ccbbe54d6a287b5a29ac9ca69f0fcdd0e2e4921432b394aefd0f8dcb44",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libncurses.so.6",
+      "resolved_path": "/usr/lib/libncurses.so.6.6",
+      "sha256": "a3c4e33e4650342e10fe330a29846e2fab90fb5b11b4e653c8033dae7234fa16",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libncurses.so.6.6",
+      "resolved_path": "/usr/lib/libncurses.so.6.6",
+      "sha256": "a3c4e33e4650342e10fe330a29846e2fab90fb5b11b4e653c8033dae7234fa16",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libncursesw.so.6",
+      "resolved_path": "/usr/lib/libncursesw.so.6.6",
+      "sha256": "0198f9dd08f7c5d52fafec3f7c8e4c5e1de63d978d622d1253458d4b8be4b1f5",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libncursesw.so.6.6",
+      "resolved_path": "/usr/lib/libncursesw.so.6.6",
+      "sha256": "0198f9dd08f7c5d52fafec3f7c8e4c5e1de63d978d622d1253458d4b8be4b1f5",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libpanel.so.6",
+      "resolved_path": "/usr/lib/libpanel.so.6.6",
+      "sha256": "df69ab5b2735146f02c518b4e1e9b6ebd3423acf131a75d8ed2747e6dc5f782e",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libpanel.so.6.6",
+      "resolved_path": "/usr/lib/libpanel.so.6.6",
+      "sha256": "df69ab5b2735146f02c518b4e1e9b6ebd3423acf131a75d8ed2747e6dc5f782e",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libpanelw.so.6",
+      "resolved_path": "/usr/lib/libpanelw.so.6.6",
+      "sha256": "5a7677dc89c64b778f6d1ad50e19f30cf4a4d64e3c844ad970b87f3be8fa296b",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libpanelw.so.6.6",
+      "resolved_path": "/usr/lib/libpanelw.so.6.6",
+      "sha256": "5a7677dc89c64b778f6d1ad50e19f30cf4a4d64e3c844ad970b87f3be8fa296b",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libtic.so.6",
+      "resolved_path": "/usr/lib/libtic.so.6.6",
+      "sha256": "b0e227465257c67320d9cd5372f76b23800808dc1b8ce0a046f0cf7c126be3c6",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libtic.so.6.6",
+      "resolved_path": "/usr/lib/libtic.so.6.6",
+      "sha256": "b0e227465257c67320d9cd5372f76b23800808dc1b8ce0a046f0cf7c126be3c6",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libtinfo.so.6",
+      "resolved_path": "/usr/lib/libtinfo.so.6.6",
+      "sha256": "4f40974a53fedd46125c146a8ea394e67fc637aecec5525d9c5c2adcfeebf7d1",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libtinfo.so.6.6",
+      "resolved_path": "/usr/lib/libtinfo.so.6.6",
+      "sha256": "4f40974a53fedd46125c146a8ea394e67fc637aecec5525d9c5c2adcfeebf7d1",
+      "component": "ncurses"
+    },
+    {
+      "path": "/usr/lib/libsqlite3.so.0",
+      "resolved_path": "/usr/lib/libsqlite3.so.3.54.1",
+      "sha256": "7c8f466fe08716da0c3ce29ef451e8443313b296717fd8ef98b020030fb282f7",
+      "component": "sqlite"
+    },
+    {
+      "path": "/usr/lib/libsqlite3.so.3.54.1",
+      "resolved_path": "/usr/lib/libsqlite3.so.3.54.1",
+      "sha256": "7c8f466fe08716da0c3ce29ef451e8443313b296717fd8ef98b020030fb282f7",
+      "component": "sqlite"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "authenticated-APKINDEX.tar.gz",
+      "sha256": "c16492edf1e632abd6959b53031c4a46a85641d8cbbafa0544e7e3076785d68d",
+      "bytes": 7710091
+    },
+    {
+      "path": "glibc-2.44-2.44-r17.apk",
+      "sha256": "d9bebb6c4bfecd754771cbff9bf9a3477ac5fede63bb76a7883f8a3035461cfd",
+      "bytes": 3174626
+    },
+    {
+      "path": "glibc-2.44-embedded-recipe.yaml",
+      "sha256": "2b294801838f2f27498a8077f530d86514effe124d19bfdbb70638f8993a898d",
+      "bytes": 125601
+    },
+    {
+      "path": "glibc-48fa38b9.tar.gz",
+      "sha256": "bf981d2b9e7ecc92ba91723a8371119161a6c54ccc03606250079b30f8810e82",
+      "bytes": 41454772
+    },
+    {
+      "path": "glibc-r17-authenticated-install-proof.json",
+      "sha256": "e8867182c57832347b2d226111919adf63cc92da0ca5a17258ba86ffeb994f12",
+      "bytes": 1031
+    },
+    {
+      "path": "glibc-r17-authenticated-install.log",
+      "sha256": "ef8c7abff65fd1b0fe70233edc09e64693f67bb27d33e8d3d49d06454aa87940",
+      "bytes": 356
+    },
+    {
+      "path": "glibc-r17-source-commit.json",
+      "sha256": "9396a7410e84cd50d853fb03df820932e168b9adaadafeb95d0403789e488fae",
+      "bytes": 1381
+    },
+    {
+      "path": "glibc-source-download.json",
+      "sha256": "f884df50a426f3bd748cdcc3aad98d0b57fbd171e971168bd8820f0091e8d81e",
+      "bytes": 3703
+    },
+    {
+      "path": "ld-linux-2.44-2.44-r17.apk",
+      "sha256": "34aecd4083504d3d2393903287d492dc590f094339e7544a18188c8c46055ddc",
+      "bytes": 169081
+    },
+    {
+      "path": "ld-linux-2.44-embedded-recipe.yaml",
+      "sha256": "2b294801838f2f27498a8077f530d86514effe124d19bfdbb70638f8993a898d",
+      "bytes": 125601
+    },
+    {
+      "path": "ncurses-6.6.20261107-r0.apk",
+      "sha256": "5df69757d7d3a484277bf70c53c569a582a3a5cd3cbc7f22186d30ff8fe97b71",
+      "bytes": 632836
+    },
+    {
+      "path": "ncurses-7404b376.tar.gz",
+      "sha256": "25994d33686beb39391e8303c9dfe6c8b8549b12f19a1b80a9609b9cc4c6b76e",
+      "bytes": 3703933
+    },
+    {
+      "path": "ncurses-embedded-recipe.yaml",
+      "sha256": "6156c6913f4e755245c1d148fce151f51409f7ed47999bd4b22d2c7c819db090",
+      "bytes": 73468
+    },
+    {
+      "path": "source-downloads.json",
+      "sha256": "9d043b41f3010978facc2be83067e794e8007f84d7c8ec2065d45996437d10f2",
+      "bytes": 1833
+    },
+    {
+      "path": "sqlite-cte-primary-source.json",
+      "sha256": "59b8bd277763d67a8820ba3ad9fbb2eeae2baf37f55bf08c7772e2d9f024cb1d",
+      "bytes": 309
+    },
+    {
+      "path": "sqlite-CVE-2026-119371-source-proof.json",
+      "sha256": "72501937fb2b7a88626c466c3b4288feddd173e23e8d5b32cbff7e033e304f70",
+      "bytes": 5732
+    },
+    {
+      "path": "sqlite-CVE-2026-119371.patch",
+      "sha256": "1c85c5d7019e6de2ea7fc9c082ed73d86c51903da3a73bec6f09b26796269afb",
+      "bytes": 7764
+    },
+    {
+      "path": "sqlite-embedded-recipe.yaml",
+      "sha256": "e1dc6628aa45c51e817654fe6debb513d49d0409c504a0973c5f9aae5776d2af",
+      "bytes": 22752
+    },
+    {
+      "path": "sqlite-libs-3.54.1-r0.apk",
+      "sha256": "5ea68a7dad00791dbc5eff42aad9022b0984f82e271058811a4d72181e450144",
+      "bytes": 989586
+    },
+    {
+      "path": "sqlite-src-3540100.zip",
+      "sha256": "387e7f6cad4797b17848c07d453dc6606917bb356a6cfe5a3abafd38c240c71b",
+      "bytes": 14899528
+    }
+  ],
+  "vendor_package_evidence": [
+    {
+      "component": "sqlite",
+      "package": "sqlite-libs",
+      "version": "3.54.1-r0",
+      "control_checksum": "Q1VRLw0RR5HoAu1uTfKALfMDoAMco=",
+      "signed_index_record_matches": 1,
+      "payload_datahash_matches": true,
+      "recipe_sha256": "e1dc6628aa45c51e817654fe6debb513d49d0409c504a0973c5f9aae5776d2af",
+      "source_archive": "sqlite-src-3540100.zip",
+      "no_new_case_closure": true
+    },
+    {
+      "component": "ncurses",
+      "package": "ncurses",
+      "version": "6.6.20261107-r0",
+      "control_checksum": "Q1KZcaaxvGGjHI4EeXdp6TnxNA5SA=",
+      "signed_index_record_matches": 1,
+      "payload_datahash_matches": true,
+      "recipe_sha256": "6156c6913f4e755245c1d148fce151f51409f7ed47999bd4b22d2c7c819db090",
+      "source_archive": "ncurses-7404b376.tar.gz",
+      "no_new_case_closure": true
+    },
+    {
+      "component": "glibc",
+      "manager": "apk",
+      "package": "glibc-2.44",
+      "version": "2.44-r17",
+      "control_checksum": "Q1V/ES9CpS01jVC8Bf04fNqmQ4bLo=",
+      "signed_index_record_matches": 1,
+      "authenticated_root_identity_matches": true,
+      "payload_datahash_matches": true,
+      "artifact_sha256": "d9bebb6c4bfecd754771cbff9bf9a3477ac5fede63bb76a7883f8a3035461cfd"
+    },
+    {
+      "component": "glibc",
+      "manager": "apk",
+      "package": "ld-linux-2.44",
+      "version": "2.44-r17",
+      "control_checksum": "Q1Nwe+KbQuPvxB7prwao9MJd5c28k=",
+      "signed_index_record_matches": 1,
+      "authenticated_root_identity_matches": true,
+      "payload_datahash_matches": true,
+      "artifact_sha256": "34aecd4083504d3d2393903287d492dc590f094339e7544a18188c8c46055ddc"
+    }
+  ],
+  "signed_repository_index": {
+    "sha256": "c16492edf1e632abd6959b53031c4a46a85641d8cbbafa0544e7e3076785d68d",
+    "verified_by": "apk --cache-dir /work/authenticated-index update; exit0, no allow-untrusted; host bytes identical authenticated cache",
+    "standalone_APK_signature_claimed": false
+  },
+  "actual_reference_image": "sha256:a091412d74ed28b8fb169119939d0134f3a0b71889ba3f762ab4371dd33d8623",
+  "actual_reference_file_hashes_match_payload": true,
+  "already_fixed_case_provenance": "Retains existing source-matched decisions; not a new closure or independent rebuild",
+  "retained_disputed_case": {
+    "case": "CVE-2021-45346",
+    "globally_fixed": false,
+    "no_current_exposure_decision_made": true,
+    "old_MongoDB_application_description_is_historical": true
+  },
+  "unknown_version_or_hash_policy": "Inventory generator must reject any installed file differing from these exact reference artifacts",
+  "production_changes": 0,
+  "Priority_1_untouched": true,
+  "glibc_baseline_status": {
+    "version": "2.44-r17",
+    "classification": "ordinary signed vendor update; no custom glibc bundle",
+    "actual_artifact_check": "all ELF bytes match independently authenticated vendor root",
+    "unresolved_cases_remain_open": [
+      "CVE-2026-100290",
+      "CVE-2026-115819"
+    ],
+    "no_new_case_closures": true,
+    "source_commit": "48fa38b9218add3a1e5c38c349a3e481a5fcf245",
+    "artifact_sha256_scope": "main glibc APK; separately hashed ld-linux APK and its source recipe are verified inputs"
+  },
+  "retained_SQLite_CLI_case": {
+    "case": "CVE-2026-119586",
+    "globally_fixed": false,
+    "no_new_exposure_decision": true
+  },
+  "sqlite_CTE_source_proof": {
+    "case": "CVE-2026-119371",
+    "file": "sqlite-CVE-2026-119371-source-proof.json",
+    "sha256": "72501937fb2b7a88626c466c3b4288feddd173e23e8d5b32cbff7e033e304f70",
+    "all_five_primary_production_hunks_present": true,
+    "new_production_case_closure": false
+  }
+}

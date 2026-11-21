@@ -1,0 +1,158 @@
+[
+  {
+    "id": "R04",
+    "context": "Sam often names specific days when arranging a catch-up.",
+    "goal": "Making plans",
+    "line": "I can meet Friday after work. Is there a time that suits you?",
+    "options": [
+      {
+        "reaction": "Friday works — how about 6ish at the usual place? I might be a few minutes late depending on trains.",
+        "meaning": "Sam is picking up your suggestion and anchoring it to a specific day and time, which fits how they usually arrange things.",
+        "outcome": "If you confirm the time, a simple plan may firm up; if 6 is tight, naming an alternative time could still keep Friday open.",
+        "suggested": "6 works for me. If trains run late, just message — I'll grab us a table."
+      },
+      {
+        "reaction": "Ah Friday's a bit packed — can I let you know nearer the time?",
+        "meaning": "Sam isn't saying yes or no yet and may need more room before committing to Friday.",
+        "outcome": "If you leave the door open without pressing, Sam may come back with a day that works; if nothing comes, waiting is also a fine outcome.",
+        "suggested": "No pressure — let me know if Friday frees up, otherwise we can find another day."
+      },
+      {
+        "reaction": "Honestly I've got a lot on right now, I'll have to see.",
+        "meaning": "Sam sounds stretched or reluctant to lock in a plan, without saying why.",
+        "outcome": "If you step back and don't push for a date, Sam may reach out when things ease; if they don't, giving space is a valid outcome.",
+        "suggested": "Understood — no rush. I'm around whenever things settle, just say."
+      }
+    ]
+  },
+  {
+    "id": "R17",
+    "context": "Bea is usually brief in messages and last wrote ‘fine’. No other context is available.",
+    "goal": "Checking an interpretation",
+    "line": "When you said fine, did the plan work for you?",
+    "options": [
+      {
+        "reaction": "Yeah, it worked out okay. Why?",
+        "meaning": "She's answering directly and seems open to a short conversation about it.",
+        "outcome": "If you keep it light, the exchange may stay easygoing and she may share a bit more.",
+        "suggested": "Just wanted to make sure — glad it worked out."
+      },
+      {
+        "reaction": "Fine, yeah.",
+        "meaning": "She's being brief again, which could read as either unbothered or not wanting to expand.",
+        "outcome": "If you push for detail, the reply might stay short or dry up; if you let it sit, she may come back to it later.",
+        "suggested": "Okay, no worries. Just checking."
+      },
+      {
+        "reaction": "Look, I said fine, didn't I?",
+        "meaning": "She may be reading your question as reopening something she thought was settled.",
+        "outcome": "If you keep pressing, the thread could get tense; if you step back, it may cool off on its own.",
+        "suggested": "Got it — I'll drop it. I wasn't trying to pick at anything."
+      }
+    ]
+  },
+  {
+    "id": "R25",
+    "context": "Mar asked for a quieter place last time and has not named a favorite spot.",
+    "goal": "Making room for a preference",
+    "line": "Would you rather pick a quieter place this time?",
+    "options": [
+      {
+        "reaction": "Yeah, quieter would be good. There's a little place near the station with a back room — I haven't tried it but it looks calm.",
+        "meaning": "Mar is engaging with your question and offering a concrete suggestion, which reads as openness to planning together.",
+        "outcome": "If you run with their suggestion, you might end up comparing a couple of options and settling on a time.",
+        "suggested": "That back room sounds promising — want to try it and see how it feels?"
+      },
+      {
+        "reaction": "Ha, I'll leave the choosing to you this time. Just tell me where to show up.",
+        "meaning": "Mar is sidestepping the decision, which could be deference or a mild deflection from naming a preference.",
+        "outcome": "If you pick a place, the question of what Mar actually likes may stay open for another time.",
+        "suggested": "I can pick, but I'd genuinely like your input — even just 'quieter, not too loud' helps me."
+      },
+      {
+        "reaction": "Honestly, I'm not sure the quiet thing was about the place. Can we just leave picking somewhere for now?",
+        "meaning": "Mar is signalling the venue question touches something they don't want to get into right now.",
+        "outcome": "If you press on the choice, the conversation may stall; if you let it rest, it may reopen later when Mar is ready.",
+        "suggested": "Fair enough — we can leave it. I'm happy to just wait until you want to sort out a spot."
+      }
+    ]
+  },
+  {
+    "id": "R31",
+    "context": "Lee asked to discuss the handoff on Monday and said they would be offline over the weekend.",
+    "goal": "Respecting a timing limit",
+    "line": "I’ll wait until Monday. Is there anything you want on the agenda then?",
+    "options": [
+      {
+        "reaction": "Thanks for checking in. Let's keep the agenda simple: status of the handoff, open questions, and next steps. Does that work?",
+        "meaning": "A warm reply that suggests Lee is open and appreciates your respectful approach.",
+        "outcome": "If you confirm, the Monday conversation may be productive and collaborative.",
+        "suggested": "That works for me. I’ll come prepared with those points."
+      },
+      {
+        "reaction": "I’ll look at it Monday. Have a good weekend.",
+        "meaning": "A neutral, slightly deflecting reply that suggests Lee prefers not to engage further now.",
+        "outcome": "You might not get more detail until Monday; waiting may be the best course.",
+        "suggested": "Sounds good. See you Monday."
+      },
+      {
+        "reaction": "I said I’m offline this weekend. Please don’t message me about work until Monday.",
+        "meaning": "A difficult reply indicating Lee feels their boundary is being pushed.",
+        "outcome": "If you respond defensively, tension may increase; if you acknowledge calmly, the Monday discussion could still proceed.",
+        "suggested": "Understood. I won’t message again until Monday."
+      }
+    ]
+  },
+  {
+    "id": "R58",
+    "context": "Teo switches between Spanish and English in casual texts. They have shared no opinion about the change of plans.",
+    "goal": "Bilingual planning",
+    "line": "El jueves no puedo. ¿Te parece si elegimos otro día?",
+    "options": [
+      {
+        "reaction": "Ah okay, no pasa nada. ¿El finde tal vez? Aviso si me sale algo, pero en principio sí.",
+        "meaning": "This reads as an easygoing acceptance that leaves the door open without locking anything down yet.",
+        "outcome": "If you name a specific day for the weekend, a concrete plan could firm up from here.",
+        "suggested": "Va, ¿el sábado entonces? Dime si te funciona y lo dejamos fijo."
+      },
+      {
+        "reaction": "Sure, we'll figure it out sometime",
+        "meaning": "This could be a light acknowledgement that keeps things friendly while postponing any commitment.",
+        "outcome": "If the thread stays open, the plan may simply wait until one of you brings it up again.",
+        "suggested": "Perfecto, sin prisa. Cuando te venga bien me dices y lo vemos."
+      },
+      {
+        "reaction": "Honestly this week is pretty packed, I don't know when I'm free.",
+        "meaning": "This may signal that scheduling is genuinely tight right now rather than a lack of interest.",
+        "outcome": "If you leave the ball in their court, a quieter stretch may open up later on.",
+        "suggested": "Tranqui, no hay prisa. Escríbeme cuando tengas un hueco y buscamos algo."
+      }
+    ]
+  },
+  {
+    "id": "R81",
+    "context": "Mira suggested meeting as a group and the member prefers a one-to-one catch-up.",
+    "goal": "Choosing the format",
+    "line": "Would you be open to coffee just us two instead?",
+    "options": [
+      {
+        "reaction": "Ooh yes, I'd love that actually — just us two sounds lovely. When works for you?",
+        "meaning": "She's genuinely happy with the one-to-one idea and is handing the planning back to you.",
+        "outcome": "If you suggest a day, a simple two-person catch-up likely gets planned without friction.",
+        "suggested": "That's great — how about a weekday evening next week? I'll sort the place."
+      },
+      {
+        "reaction": "Oh, I already told the others about the group thing. Maybe we do the group one and sort out a two-person coffee another time?",
+        "meaning": "She's invested in the group plan she's already set in motion and is gently steering back to it.",
+        "outcome": "If you leave the group plan intact and name a separate time, both might end up happening.",
+        "suggested": "Totally fine — keep the group one as is. I'd still love a proper catch-up just us though; want to pick a day?"
+      },
+      {
+        "reaction": "Honestly, I'd rather keep it as the group — I don't want to have to explain to everyone why it's just us.",
+        "meaning": "She reads a one-to-one as loaded and would rather avoid the awkwardness of excluding others.",
+        "outcome": "If you push the two-person plan now, the exchange may stall; if you let it rest, the group catch-up could still go ahead on its own.",
+        "suggested": "Fair enough — let's keep the group plan. I'm happy to just see you there."
+      }
+    ]
+  }
+]

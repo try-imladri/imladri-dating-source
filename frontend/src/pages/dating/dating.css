@@ -1,0 +1,356 @@
+.dating-app {
+  --dating-lime: var(--ink);
+  --dating-lime-ink: var(--bg);
+  --dating-soft: var(--surface);
+  --dating-muted: var(--muted);
+  --dating-danger: var(--crimson);
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.65;
+}
+.dating-app *, .dating-app *::before, .dating-app *::after { box-sizing: border-box; }
+.dating-app button, .dating-app input, .dating-app select, .dating-app textarea { font: inherit; }
+.dating-app button, .dating-app a { -webkit-tap-highlight-color: transparent; }
+.dating-app button:disabled { cursor: not-allowed; opacity: .48; }
+.dating-app button:not(:disabled), .dating-app label:has(input[type="checkbox"]) { cursor: pointer; }
+.dating-app :focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.dating-app h1, .dating-app h2, .dating-app h3, .dating-app p { margin: 0; }
+.dating-app h1, .dating-app h2, .dating-app h3 { font-family: 'Barlow Condensed', sans-serif; text-transform: uppercase; font-weight: 900; letter-spacing: normal; }
+.dating-app h1 { font-size: 48px; line-height: 1; }
+.dating-app h2 { font-size: 30px; line-height: 1.15; }
+.dating-app h3 { font-size: 24px; line-height: 1.2; }
+.dating-app a { color: inherit; }
+.dating-sidebar { position: fixed; inset: 56px auto 0 0; width: 220px; display: flex; flex-direction: column; border-right: 1px solid var(--line); padding: 16px; background: var(--bg); z-index: 30; }
+.dating-brand { display: none; }
+.dating-brand .brand-logo { width: 38px; height: 38px; }
+.dating-brand > span { font-size: 27px; line-height: 1; letter-spacing: -.055em; font-weight: 650; }
+.dating-brand > span > span { display: block; margin-top: 8px; font-size: 11px; font-weight: 500; letter-spacing: .01em; color: var(--dating-muted); }
+.dating-nav { display: flex; flex-direction: column; gap: 4px; }
+.dating-nav a { min-height: 40px; display: flex; gap: 12px; padding: 10px 12px; border-radius: 12px; text-decoration: none; color: var(--dating-muted); font-size: 14px; line-height: 20px; }
+.dating-nav a:hover { background: var(--surface); color: var(--ink); }
+.dating-nav a.is-active { background: var(--dating-lime); color: var(--dating-lime-ink); font-weight: 650; }
+.dating-nav-count { margin-left: auto; font-size: 12px; background: var(--ink); color: var(--bg); padding: 0 6px; border-radius: 20px; }
+.dating-sidebar-note { margin: auto 0 16px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; font-family: 'JetBrains Mono', monospace; font-size: 10px; line-height: 1.6; color: var(--dating-muted); }
+.dating-accent-dot { display: none; }
+.dating-sidebar-footer { border-top: 1px solid var(--line); padding: 21px 5px 0; font-size: 13px; color: var(--dating-muted); }
+.dating-sidebar-footer > a, .dating-sidebar-footer > div, .dating-sidebar-footer > div > button:not([data-testid]) { display: flex; align-items: center; gap: 9px; }
+.dating-sidebar-footer > div { justify-content: space-between; margin-top: 18px; }
+.dating-main-wrap { margin-left: 220px; padding-top: 56px; min-width: 0; }
+.dating-topbar { position: fixed; inset: 0 0 auto; z-index: 40; height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 40px; border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(24px); }
+.dating-topbar-label { font-size: 10px; letter-spacing: .16em; color: var(--dating-muted); }
+.dating-topbar-right { display: flex; align-items: center; gap: 22px; }
+.dating-beta-pill { border: 1px solid var(--line); padding: 4px 11px; border-radius: 20px; font-size: 11px; white-space: nowrap; }
+.dating-account-link { display: flex; align-items: center; gap: 9px; font-size: 13px; text-decoration: none; }
+.dating-account-link span { max-width: 125px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dating-mobile-brand { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.dating-mobile-brand .brand-logo { width: 48px; height: 48px; }
+.dating-mobile-brand > span { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 400; color: var(--muted); }
+.dating-mobile-account-tools { display: flex; align-items: center; gap: 13px; }
+.dating-mobile-account-tools > button:not([data-testid]) { display: none; }
+.dating-main { margin: 0 auto; padding: 24px 40px; min-height: calc(100dvh - 142px); }
+.dating-page-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 24px; }
+.dating-page-heading > div { max-width: 670px; }
+.dating-kicker { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 400; letter-spacing: .1em; line-height: 1.5; text-transform: uppercase; color: var(--dating-muted); margin-bottom: 8px !important; }
+.dating-page-intro { margin-top: 17px !important; color: var(--dating-muted); font-size: 15px; max-width: 600px; }
+.dating-page-heading > .dating-button { flex-shrink: 0; }
+.dating-page-footer { display: flex; flex-wrap: wrap; gap: 15px 24px; margin: 0 clamp(24px, 3vw, 58px); padding: 20px 0 27px; border-top: 1px solid var(--line); color: var(--dating-muted); font-size: 11px; }
+.dating-page-footer > span { margin-right: auto; }
+.dating-bottom-nav { display: none; }
+.dating-button { display: inline-flex; min-height: 40px; justify-content: center; align-items: center; gap: 8px; border: 1px solid transparent; padding: 10px 20px; border-radius: 999px; font-size: 14px !important; font-weight: 700 !important; line-height: 1.45 !important; text-decoration: none; transition: transform .2s, opacity .2s, border-color .2s; }
+.dating-button--dark { background: var(--ink); color: var(--bg) !important; }
+.dating-button--dark:hover:not(:disabled) { opacity: .82; }
+.dating-button--quiet { background: transparent; color: var(--ink); border-color: var(--line); font-weight: 400 !important; }
+.dating-button--quiet:hover:not(:disabled) { border-color: var(--ink); }
+.dating-button--lime { background: var(--dating-lime); color: var(--dating-lime-ink) !important; }
+.dating-button--lime:hover:not(:disabled) { opacity: .82; }
+.dating-button--danger { color: var(--dating-danger) !important; border-color: color-mix(in srgb, var(--dating-danger) 45%, transparent); background: transparent; }
+.dating-button--full { width: 100%; }
+.dating-button-row { display: flex; align-items: center; flex-wrap: wrap; gap: 11px; margin-top: 22px; }
+.dating-text-button { display: inline-flex; align-items: center; gap: 7px; text-decoration: underline; text-underline-offset: 4px; font-size: 13px !important; font-weight: 500; }
+.dating-icon-button { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border: 1px solid var(--line); border-radius: 50%; flex-shrink: 0; }
+.dating-muted { color: var(--dating-muted); }
+.dating-fine { font-size: 12px; line-height: 1.7; color: var(--dating-muted); margin-top: 12px !important; }
+.dating-fine a { text-decoration: underline; text-underline-offset: 3px; }
+.dating-note { background: var(--dating-soft); border: 1px solid var(--line); border-radius: 5px; padding: 18px 20px; font-size: 14px; line-height: 1.7; }
+.dating-note > p { margin-top: 5px; }
+.dating-note strong { font-weight: 650; }
+.dating-alert { border: 1px solid color-mix(in srgb, var(--dating-danger) 35%, var(--line)); background: color-mix(in srgb, var(--dating-danger) 4%, var(--bg)); color: var(--dating-danger); padding: 15px 18px; border-radius: 5px; font-size: 14px; margin: 15px 0; overflow-wrap: anywhere; }
+.dating-success { padding: 12px 0; color: var(--dating-muted); font-size: 14px; }
+.dating-loading { padding: 35px 0; font-size: 14px; color: var(--dating-muted); }
+.dating-preserve { white-space: pre-wrap; overflow-wrap: anywhere; }
+.dating-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.dating-enrollment { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: clamp(30px, 5vw, 90px); padding: 30px 0 40px; align-items: start; }
+.dating-enrollment-copy { padding-top: 20px; }
+.dating-enrollment h1 { font-size: clamp(48px, 4.5vw, 64px); line-height: .95; }
+.dating-enrollment h1 em { font-family: 'Barlow Condensed', sans-serif; font-style: normal; font-weight: 900; letter-spacing: normal; }
+.dating-enrollment-intro { color: var(--dating-muted); margin-top: 26px !important; max-width: 470px; }
+.dating-feature-lines { margin: 38px 0; }
+.dating-feature-lines > div { display: flex; gap: 19px; margin: 22px 0; align-items: start; }
+.dating-feature-lines svg { margin-top: 4px; flex-shrink: 0; }
+.dating-feature-lines strong { display: block; font-size: 14px; font-weight: 650; }
+.dating-feature-lines > div > span > span { display: block; font-size: 13px; color: var(--dating-muted); margin-top: 3px; }
+.dating-enrollment-form { padding: clamp(23px, 3vw, 36px) !important;  }
+.dating-enrollment-form h2 { font-size: 27px; }
+.dating-enrollment-form > p { margin-top: 15px; font-size: 14px; color: var(--dating-muted); }
+.dating-enrollment-form .dating-note { margin-top: 25px; font-size: 13px; }
+.dating-enrollment-form .dating-check { margin-top: 22px; }
+.dating-enrollment-form > .dating-button { margin-top: 25px; }
+.dating-panel { padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); }
+.dating-panel > p { margin-top: 14px; }
+.dating-panel > .dating-kicker { margin-top: 0; }
+.dating-empty { padding: clamp(40px, 5vw, 75px) 25px; border: 1px solid var(--line); background: var(--dating-soft); text-align: center; border-radius: 16px; }
+.dating-empty__icon { width: 70px; height: 70px; border: 1px solid var(--line); border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--bg); margin-bottom: 24px; }
+.dating-empty h2 { font-size: clamp(25px, 3vw, 34px); letter-spacing: -.04em; }
+.dating-empty__copy { max-width: 540px; margin: 18px auto 25px; font-size: 15px; color: var(--dating-muted); }
+.dating-empty > .dating-kicker { margin-bottom: 10px !important; }
+.dating-status-panel { display: flex; gap: 15px; align-items: start; border: 1px solid var(--line); padding: 22px; border-radius: 16px; margin-bottom: 25px; }
+.dating-status-panel > svg { flex-shrink: 0; margin-top: 3px; }
+.dating-status-panel strong { font-size: 14px; font-weight: 650; }
+.dating-status-panel p { font-size: 13px; color: var(--dating-muted); margin-top: 5px; }
+.dating-status-panel .dating-text-button { flex-shrink: 0; margin-left: auto; }
+.dating-understanding-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--line); }
+.dating-understanding-strip h3 { font-size: 15px; }
+.dating-understanding-strip p { font-size: 13px; line-height: 1.8; color: var(--dating-muted); margin-top: 9px; }
+.dating-results-note { display: flex; justify-content: space-between; gap: 20px; font-size: 12px; color: var(--dating-muted); margin: 0 0 20px; }
+.dating-discovery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 25px; align-items: start; }
+.dating-profile-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.dating-card-photo { position: relative; width: 100%; display: block; aspect-ratio: 4 / 5; overflow: hidden; background: var(--surface); text-align: left; }
+.dating-card-photo > img, .dating-card-photo > .dating-photo-placeholder { width: 100%; height: 100%; object-fit: cover; transition: transform .3s; }
+.dating-card-photo:hover > img { transform: scale(1.025); }
+.dating-card-photo::after { content: ""; position: absolute; inset: 55% 0 0; background: linear-gradient(transparent, rgba(0, 0, 0, .62)); }
+.dating-card-photo__caption { position: absolute; bottom: 22px; left: 23px; right: 23px; z-index: 1; color: #fff; }
+.dating-card-photo__caption strong { display: block; font-weight: 600; font-size: 26px; letter-spacing: -.035em; }
+.dating-card-photo__caption > span { display: block; margin-top: 2px; font-size: 13px; }
+.dating-profile-card__body { padding: 21px; }
+.dating-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.dating-chips > span { display: inline-flex; align-items: center; gap: 5px; padding: 4px 8px; background: var(--surface); border-radius: 3px; font-size: 10px; }
+.dating-card-bio { margin-top: 15px !important; font-size: 16px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dating-card-reasons { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 16px; }
+.dating-card-reasons .dating-kicker { font-size: 10px; margin-bottom: 8px !important; }
+.dating-card-reasons ul { padding-left: 16px; margin: 0; font-size: 12px; line-height: 1.9; color: var(--dating-muted); }
+.dating-card-actions { display: flex; gap: 8px; margin-top: 22px; }
+.dating-card-actions .dating-button { font-size: 12px !important; padding: 10px 12px; flex: 1; }
+.dating-mutual { display: flex; align-items: center; gap: 18px; padding: 20px; background: var(--surface); color: var(--ink); border-radius: 16px; margin-bottom: 28px; }
+.dating-mutual__icon { flex-shrink: 0; }
+.dating-mutual strong { font-weight: 650; }
+.dating-mutual p { font-size: 13px; }
+.dating-mutual > .dating-button { margin-left: auto; flex-shrink: 0; background: var(--ink); color: var(--bg) !important; }
+.dating-mutual > .dating-text-button { flex-shrink: 0; }
+.dating-profile-nav { display: flex; gap: 22px; border-bottom: 1px solid var(--line); margin-bottom: 32px; overflow-x: auto; scrollbar-width: thin; }
+.dating-profile-nav a { display: block; text-decoration: none; padding: 0 0 14px; font-size: 13px; color: var(--dating-muted); white-space: nowrap; border-bottom: 2px solid transparent; }
+.dating-profile-nav a.is-active { color: var(--ink); border-bottom-color: var(--ink); font-weight: 650; }
+.dating-profile-layout { display: grid; grid-template-columns: minmax(0, 1fr) 245px; gap: 28px; align-items: start; }
+.dating-profile-primary { min-width: 0; display: grid; gap: 25px; }
+.dating-profile-status { display: flex; align-items: start; flex-wrap: wrap; gap: 20px; padding: 20px; border: 1px solid var(--line); border-left: 3px solid var(--ink); border-radius: 12px; background: var(--dating-soft); }
+.dating-profile-status > div { flex: 1; min-width: 0; }
+.dating-profile-status .dating-kicker { margin-bottom: 7px !important; }
+.dating-profile-status strong { font-size: 18px; font-weight: 600; }
+.dating-profile-status p:not(.dating-kicker) { font-size: 13px; color: var(--dating-muted); margin-top: 7px; }
+.dating-profile-aside { display: grid; gap: 22px; }
+.dating-aside-card { border: 1px solid var(--line); padding: 25px; border-radius: 12px; background: var(--dating-soft); }
+.dating-aside-card > svg { margin-bottom: 19px; }
+.dating-aside-card h3 { font-size: 18px; }
+.dating-aside-card p { font-size: 13px; margin-top: 13px; color: var(--dating-muted); line-height: 1.9; }
+.dating-aside-card a { display: inline-block; margin-top: 18px; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
+.dating-aside-card--lime { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.dating-aside-card--lime p { color: var(--muted); }
+.dating-form { display: flex; flex-direction: column; gap: 24px; align-items: stretch; }
+.dating-form > .dating-kicker { margin-bottom: -14px !important; }
+.dating-form > h2 { margin-bottom: -12px; }
+.dating-form > p { margin: 0; }
+.dating-form > .dating-button { align-self: start; }
+.dating-form label:not(.dating-check, .dating-photo-add, .dating-share-answer, .dating-toggle-options label) { display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 500; }
+.dating-form input:not([type="checkbox"], [type="file"]), .dating-form textarea, .dating-form select { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 5px; min-height: 47px; padding: 11px 13px; font-size: 15px; font-weight: 400; line-height: 1.6; }
+.dating-form input[type="date"] { color-scheme: light; }
+.dark .dating-form input[type="date"] { color-scheme: dark; }
+.dating-form textarea { resize: vertical; }
+.dating-form input::placeholder, .dating-form textarea::placeholder { color: var(--dating-muted); opacity: .85; }
+.dating-form .dating-check { display: flex; align-items: start; gap: 12px; font-size: 14px; line-height: 1.8; font-weight: 400; }
+.dating-check input[type="checkbox"], .dating-share-answer > input { width: 18px; height: 18px; min-width: 18px; margin: 4px 0 0; accent-color: var(--ink); }
+.dating-field-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 20px; }
+.dating-private-label { display: inline-block; font-size: 10px; font-weight: 500; color: var(--dating-muted); text-transform: uppercase; letter-spacing: .08em; }
+.dating-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; margin-top: 23px; }
+.dating-gallery-item { position: relative; min-width: 0; }
+.dating-gallery-item > img, .dating-gallery-item > .dating-photo-placeholder, .dating-photo-add { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 5px; }
+.dating-photo-placeholder { background: var(--surface-2); display: flex; align-items: center; justify-content: center; color: var(--dating-muted); }
+.dating-photo-state { position: absolute; bottom: 10px; left: 8px; color: #fff; background: rgba(0, 0, 0, .65); border-radius: 3px; padding: 2px 6px; font-size: 10px; }
+.dating-gallery-item:has(> p) .dating-photo-state { bottom: auto; top: 10px; }
+.dating-photo-delete { position: absolute; top: 8px; right: 8px; width: 29px; height: 29px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: var(--bg); color: var(--ink); }
+.dating-photo-add { display: flex; position: relative; flex-direction: column; justify-content: center; align-items: center; gap: 10px; border: 1px dashed var(--line); background: var(--dating-soft); font-size: 12px; }
+.dating-photo-add input { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
+.dating-photo-add:focus-within { outline: 2px solid var(--ink); outline-offset: 3px; }
+.dating-choice-group { border: 0; margin: 0; padding: 0; min-width: 0; }
+.dating-choice-group > legend { font-size: 14px; font-weight: 500; margin-bottom: 12px; }
+.dating-toggle-options { display: flex; flex-wrap: wrap; gap: 9px; }
+.dating-toggle-options > label { display: flex; border: 1px solid var(--line); padding: 8px 12px; font-size: 14px; border-radius: 4px; gap: 8px; align-items: center; }
+.dating-toggle-options > label > input { width: 14px; height: 14px; margin: 0; accent-color: var(--ink); }
+.dating-toggle-options > label.is-selected { background: var(--dating-soft); border-color: var(--ink); }
+.dating-question-form { max-width: 840px; }
+.dating-question { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 21px; padding: 25px 0 5px; border: 0; border-top: 1px solid var(--line); min-width: 0; }
+.dating-question > legend { padding: 17px 0 0; font-size: 17px; font-weight: 600; line-height: 1.6; max-width: 100%; }
+.dating-question > .dating-choice-group { grid-column: 1 / -1; grid-row: 2; }
+.dating-question .dating-toggle-options > label { font-size: 14px; }
+.dating-data-controls { display: grid; gap: 25px; max-width: 920px; }
+.dating-block-list { list-style: none; padding: 0; margin: 20px 0 0; }
+.dating-block-list li { display: flex; align-items: center; justify-content: space-between; gap: 25px; padding: 14px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.dating-danger-panel { border-color: color-mix(in srgb, var(--dating-danger) 28%, var(--line)); }
+.dating-modal-backdrop { position: fixed; inset: 0; z-index: 100; background: rgba(8, 13, 5, .55); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; padding: 28px; overflow-y: auto; }
+.dating-modal { width: min(100%, 540px); max-height: calc(100dvh - 56px); overflow-y: auto; padding: 28px; background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 20px 100px rgba(0, 0, 0, .18); }
+.dating-modal--wide { width: min(100%, 740px); }
+.dating-modal > header { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
+.dating-modal > header > h2 { font-size: 23px; }
+.dating-modal > p, .dating-modal > h3, .dating-modal > .dating-note { margin-top: 20px; }
+.dating-modal > h3 { font-size: 27px; }
+.dating-modal .dating-note ul { list-style: disc; padding-left: 18px; margin-top: 10px; }
+.dating-modal-gallery { display: flex; overflow-x: auto; gap: 12px; padding-bottom: 8px; }
+.dating-modal-gallery > img, .dating-modal-gallery > .dating-photo-placeholder { width: 210px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 5px; flex-shrink: 0; }
+.dating-safety-actions { border-top: 1px solid var(--line); margin-top: 25px; padding-top: 18px; display: flex; gap: 24px; }
+.dating-safety-actions button { display: flex; align-items: center; gap: 6px; color: var(--dating-muted); font-size: 12px; }
+.dating-messages-layout { display: grid; grid-template-columns: 275px minmax(0, 1fr); min-height: 600px; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.dating-match-list { border-right: 1px solid var(--line); min-width: 0; }
+.dating-match-list-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 23px 20px; }
+.dating-match-list-heading h2 { font-size: 16px; letter-spacing: -.025em; }
+.dating-match-list-heading > span { font-size: 12px; color: var(--dating-muted); }
+.dating-match-list > .is-active { background: var(--dating-soft); border-left: 3px solid var(--dating-lime); }
+.dating-match-item { display: flex; gap: 11px; align-items: center; padding: 18px 20px; min-width: 0; text-decoration: none; border-top: 1px solid var(--line); }
+.dating-match-item > span:not(.dating-unread) { flex: 1; min-width: 0; }
+.dating-match-item strong { font-weight: 600; font-size: 14px; }
+.dating-match-avatar { width: 43px; height: 48px; border-radius: 5px; object-fit: cover; flex-shrink: 0; }
+.dating-match-avatar svg { width: 18px; }
+.dating-match-preview { display: block; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 12px; color: var(--dating-muted); margin-top: 3px; }
+.dating-unread { background: var(--ink); color: var(--bg); font-size: 10px; line-height: 20px; min-width: 20px; text-align: center; border-radius: 50%; }
+.dating-match-list-empty { padding: 28px 24px; color: var(--dating-muted); font-size: 13px; }
+.dating-match-list-empty p { margin: 15px 0; }
+.dating-match-list-empty a { text-decoration: underline; text-underline-offset: 3px; }
+.dating-conversation-wrap { min-width: 0; }
+.dating-conversation-wrap > .dating-empty { border: 0; border-radius: 0; min-height: 600px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.dating-conversation-wrap > .dating-empty h2 { max-width: 400px; font-size: 28px; }
+.dating-conversation { display: flex; flex-direction: column; height: min(750px, calc(100dvh - 170px)); min-height: 550px; }
+.dating-conversation-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 19px 24px; border-bottom: 1px solid var(--line); }
+.dating-conversation-person { display: flex; gap: 13px; align-items: center; text-align: left; min-width: 0; }
+.dating-conversation-person > span { min-width: 0; }
+.dating-conversation-person strong { font-weight: 600; font-size: 15px; display: block; }
+.dating-conversation-person > span > span { font-size: 11px; color: var(--dating-muted); display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dating-conversation-toolbar { display: flex; flex-wrap: wrap; justify-content: end; gap: 17px; padding: 12px 24px; border-bottom: 1px solid var(--line); background: var(--dating-soft); }
+.dating-conversation-toolbar button { display: flex; gap: 5px; align-items: center; font-size: 10px; color: var(--dating-muted); }
+.dating-back-to-matches { display: none; }
+.dating-message-stream { overflow-y: auto; flex: 1; padding: 25px; overscroll-behavior: contain; }
+.dating-chat-start { text-align: center; color: var(--dating-muted); max-width: 330px; margin: 5px auto 30px; font-size: 12px; }
+.dating-chat-start svg { margin: 0 auto 14px; }
+.dating-chat-start strong { display: block; font-weight: 500; }
+.dating-chat-start p { margin-top: 10px; line-height: 1.8; }
+.dating-message-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 18px; }
+.dating-message-list li { max-width: 82%; align-self: start; }
+.dating-message-list p { padding: 12px 16px; background: var(--surface-2); border-radius: 12px 12px 12px 3px; font-size: 14px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dating-message-list time { display: block; color: var(--dating-muted); font-size: 9px; margin-top: 5px; }
+.dating-message-list .is-mine { align-self: end; }
+.dating-message-list .is-mine p { background: var(--ink); color: var(--bg); border-radius: 12px 12px 3px 12px; }
+.dating-message-list .is-mine time { text-align: right; }
+.dating-load-older { display: block; margin: 0 auto 20px; }
+.dating-message-composer { border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; padding: 17px 20px; align-items: end; }
+.dating-message-composer textarea { resize: vertical; max-height: 180px; min-height: 55px; width: 100%; font-size: 14px; border: 1px solid var(--line); border-radius: 12px; padding: 10px 13px; background: var(--bg); }
+.dating-message-composer .dating-fine, .dating-message-composer .dating-alert { grid-column: 1 / -1; font-size: 10px; margin: 0 !important; }
+.dating-message-composer > button { margin-bottom: 2px; }
+.dating-share-choices { display: grid; gap: 0; border: 1px solid var(--line); border-radius: 5px; padding: 0 19px; }
+.dating-share-choices > legend { font-size: 14px; padding: 0 7px; }
+.dating-share-answer { display: flex; gap: 14px; padding: 18px 0; border-top: 1px solid var(--line); }
+.dating-share-answer:first-of-type { border: 0; }
+.dating-share-answer > span { display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.dating-share-answer strong { font-size: 14px; font-weight: 600; line-height: 1.6; }
+.dating-partner-shares { border-top: 1px solid var(--line); padding-top: 25px; margin-top: 7px; }
+.dating-partner-shares > p { font-size: 14px; margin-top: 13px; }
+.dating-partner-answer { padding: 17px 0; border-bottom: 1px solid var(--line); }
+.dating-partner-answer > strong { display: block; font-size: 14px; font-weight: 600; margin: 5px 0; }
+.dating-partner-answer > p { font-size: 14px; }
+/* Keep the new dating routes inside Imladri's existing visual system. */
+.dating-nav a > svg { width: 16px; height: 16px; flex-shrink: 0; margin-block: 2px; }
+.dating-form input:not([type="checkbox"], [type="file"]), .dating-form textarea, .dating-form select { border-radius: 6px; background: transparent; }
+.dating-enrollment-form h2, .dating-empty h2, .dating-panel h2, .dating-modal > header > h2 { letter-spacing: normal; }
+.dating-enrollment-copy > .dating-text-button { font-size: 14px !important; }
+.dating-card-photo__caption strong { font-family: 'Barlow Condensed', sans-serif; text-transform: uppercase; font-weight: 900; font-size: 30px; letter-spacing: normal; }
+
+@media (max-width: 1250px) { .dating-topbar-label { display: none; } .dating-profile-layout { grid-template-columns: minmax(0, 1fr) 210px; gap: 20px; } .dating-aside-card { padding: 20px; } .dating-messages-layout { grid-template-columns: 220px minmax(0, 1fr); } .dating-match-item { padding-inline: 14px; } .dating-enrollment { gap: 30px; } }
+@media (max-width: 1080px) { .dating-sidebar { width: 220px; padding-inline: 16px; } .dating-main-wrap { margin-left: 220px; } .dating-brand { gap: 8px; } .dating-brand > span { font-size: 24px; } .dating-main { padding-inline: 40px; } .dating-topbar { padding-inline: 40px; } .dating-profile-layout { grid-template-columns: minmax(0, 1fr); } .dating-profile-aside { grid-template-columns: repeat(2, minmax(0, 1fr)); } .dating-enrollment { grid-template-columns: 1fr; max-width: 680px; margin-inline: auto; } .dating-enrollment-copy { padding-top: 0; } .dating-enrollment h1 { font-size: 49px; } .dating-feature-lines { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-block: 30px; } .dating-feature-lines > div { display: block; margin: 0; } .dating-feature-lines svg { margin-bottom: 14px; } .dating-messages-layout { grid-template-columns: 180px minmax(0, 1fr); } .dating-match-item .dating-match-avatar { width: 31px; height: 38px; } .dating-conversation-heading, .dating-message-stream { padding: 18px; } .dating-conversation-heading { gap: 10px; } .dating-conversation-heading > .dating-text-button span { display: none; } .dating-conversation-toolbar { padding-inline: 18px; gap: 13px; } }
+@media (max-width: 1023px) {
+  .dating-sidebar { display: none; }
+  .dating-main-wrap { margin-left: 0; }
+  .dating-topbar { height: 56px; min-height: 56px; padding: 0 32px; justify-content: space-between; }
+  .dating-mobile-brand { display: inline-flex; align-items: baseline; gap: 9px; text-decoration: none; font-size: 27px; font-weight: 600; letter-spacing: normal; }
+  .dating-mobile-brand span { font-size: 11px; letter-spacing: 0; color: var(--dating-muted); font-weight: 400; }
+  .dating-topbar-right { gap: 14px; }
+  .dating-mobile-account-tools { display: flex; align-items: center; gap: 13px; }
+  .dating-mobile-account-tools > button:not([data-testid]) { width: 30px; height: 36px; display: flex; align-items: center; justify-content: center; }
+  .dating-topbar-right .dating-account-link span { display: none; }
+  .dating-beta-pill { font-size: 10px; padding-inline: 9px; }
+  .dating-main { padding: 24px 32px; }
+  .dating-page-heading { display: block; margin-bottom: 29px; }
+  .dating-page-heading h1 { font-size: 36px; }
+  .dating-page-heading > .dating-button { margin-top: 21px; font-size: 12px !important; }
+  .dating-page-intro { font-size: 14px; margin-top: 14px !important; }
+  .dating-page-footer { margin-inline: 23px; gap: 12px 20px; padding-bottom: 105px; }
+  .dating-page-footer > span { flex-basis: 100%; }
+  .dating-bottom-nav { position: fixed; inset: auto 0 0; z-index: 40; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 10px 10px calc(11px + env(safe-area-inset-bottom, 0px)); background: var(--bg); border-top: 1px solid var(--line); }
+  .dating-bottom-nav a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; text-decoration: none; color: var(--dating-muted); font-size: 10px; }
+  .dating-bottom-nav a svg { padding: 2px 12px; width: 47px; height: 27px; border-radius: 15px; }
+  .dating-bottom-nav a.is-active { color: var(--ink); font-weight: 600; }
+  .dating-bottom-nav a.is-active svg { background: var(--dating-lime); color: var(--dating-lime-ink); }
+  .dating-enrollment { padding: 7px 0 0; }
+  .dating-enrollment h1 { font-size: clamp(48px, 8vw, 64px); }
+  .dating-enrollment-intro { font-size: 15px; }
+  .dating-feature-lines { gap: 17px; }
+  .dating-feature-lines strong { font-size: 12px; }
+  .dating-feature-lines > div > span > span { font-size: 11px; }
+  .dating-enrollment-form h2 { font-size: 30px; }
+  .dating-status-panel { display: grid; grid-template-columns: auto 1fr; padding: 19px; gap: 12px; }
+  .dating-status-panel > .dating-text-button { grid-column: 2; margin-left: 0; }
+  .dating-empty { padding: 45px 22px; }
+  .dating-empty__copy { font-size: 14px; }
+  .dating-understanding-strip { grid-template-columns: 1fr; gap: 23px; margin-top: 31px; padding-top: 25px; }
+  .dating-understanding-strip p { margin-top: 6px; }
+  .dating-results-note { display: block; }
+  .dating-results-note > span { display: block; margin-bottom: 3px; }
+  .dating-discovery-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 270px), 1fr)); }
+  .dating-mutual { flex-wrap: wrap; padding: 21px; gap: 14px; }
+  .dating-mutual > div { flex: 1; min-width: 200px; }
+  .dating-mutual > .dating-button { margin-left: 0; }
+  .dating-profile-nav { gap: 23px; margin-right: -23px; padding-right: 23px; }
+  .dating-panel { padding: 20px; }
+  .dating-panel h2 { font-size: 30px; }
+  .dating-panel > p, .dating-form > div > p:not(.dating-kicker) { font-size: 16px; }
+  .dating-field-grid { gap: 20px 15px; }
+  .dating-form { gap: 23px; }
+  .dating-form input:not([type="checkbox"], [type="file"]), .dating-form textarea, .dating-form select { font-size: 16px; }
+  .dating-profile-aside { gap: 16px; }
+  .dating-aside-card { padding: 20px; }
+  .dating-aside-card h3 { font-size: 24px; }
+  .dating-aside-card p { font-size: 12px; }
+  .dating-note { padding: 17px; }
+  .dating-question { gap: 20px 15px; }
+  .dating-toggle-options > label { font-size: 14px; padding: 8px 10px; }
+  .dating-messages-layout { grid-template-columns: 1fr; min-height: 420px; }
+  .dating-match-list { border-right: 0; }
+  .dating-messages-layout:not(.has-conversation) .dating-conversation-wrap { display: none; }
+  .dating-messages-layout.has-conversation .dating-match-list { display: none; }
+  .dating-match-list-heading { padding: 22px; }
+  .dating-match-item { padding: 18px 22px; }
+  .dating-match-item .dating-match-avatar { width: 43px; height: 48px; }
+  .dating-back-to-matches { display: inline-flex; width: 28px; height: 32px; border: 0; }
+  .dating-conversation-heading { padding: 16px 14px; gap: 8px; }
+  .dating-conversation-person { flex: 1; gap: 10px; }
+  .dating-conversation-person .dating-match-avatar { width: 34px; height: 40px; }
+  .dating-conversation-person > span > span { max-width: 200px; font-size: 10px; }
+  .dating-conversation { height: 75dvh; min-height: 560px; }
+  .dating-message-composer { padding: 16px; }
+  .dating-message-composer textarea { font-size: 16px; }
+  .dating-conversation-toolbar { justify-content: start; gap: 16px; padding: 12px 16px; }
+  .dating-message-list p { font-size: 15px; }
+  .dating-modal-backdrop { padding: 14px; }
+  .dating-modal { padding: 23px; max-height: calc(100dvh - 28px); }
+  .dating-modal > header > h2 { font-size: 22px; }
+  .dating-modal-gallery > img, .dating-modal-gallery > .dating-photo-placeholder { width: 180px; }
+}
+@media (max-width: 420px) { .dating-main { padding-inline: 19px; } .dating-topbar { padding-inline: 19px; } .dating-field-grid { grid-template-columns: minmax(0, 1fr); } .dating-profile-aside { grid-template-columns: 1fr; } .dating-question { grid-template-columns: 1fr; } .dating-question > .dating-choice-group { grid-row: auto; } .dating-gallery { gap: 9px; } .dating-photo-add { font-size: 10px; } .dating-button-row > .dating-button { width: 100%; } .dating-conversation-person > span > span { max-width: 150px; } .dating-message-composer > button { padding-inline: 12px; } .dating-message-composer > button span { display: none; } .dating-enrollment-form { padding: 21px !important; } }
+@media (max-width: 600px) { .dating-topbar-right .dating-beta-pill { display: none; } }
+@media (prefers-reduced-motion: reduce) { .dating-app * { scroll-behavior: auto !important; transition: none !important; } }

@@ -1,0 +1,1108 @@
+{
+ "edition": "career-final-ten-2026-11-09",
+ "reviewed_on": "2026-11-09",
+ "profiles": {
+  "aung-san-suu-kyi": {
+   "result": "career_supported",
+   "rationale": "In 1988 Suu Kyi proposed an independent body to oversee the transition to multiparty elections. In 2012 she identified omissions from the voter rolls. By 2013 she was explaining which parliamentary votes constitutional reform required and when the review committee had to report. Those are three occasions when she made the rules of a disputed decision open to public scrutiny.",
+   "scope": "Her campaigning for electoral and constitutional reform in Myanmar, 1988–2013",
+   "alternative": "The Advocate",
+   "sources": [
+    {
+     "label": "UK Cabinet Office · Suu Kyi’s remarks on constitutional reform, 23 October 2013",
+     "url": "https://www.gov.uk/government/speeches/david-cameron-and-aung-san-suu-kyi-press-conference",
+     "evidence": "In her own answer she describes the review committee’s year-end deadline, the ruling party and military representatives whose support amendment required, and her party’s campaign to explain the rules to the public. She also describes ethnic communities’ demands for a federal union."
+    },
+    {
+     "label": "International Court of Justice · provisional measures order, 23 January 2020, paragraphs 13 and 86",
+     "url": "https://icj-web.leman.un-icc.cloud/sites/default/files/case-related/178/178-20200123-ORD-01-00-EN.pdf",
+     "evidence": "The order records Myanmar’s request to remove the case or refuse provisional measures. The Court instead directed Myanmar to protect the Rohingya group against acts covered by the Genocide Convention, preserve evidence and report back. This was an interim order."
+    },
+    {
+     "label": "National Democratic Institute · September 2012 address",
+     "url": "https://www.ndi.org/sites/default/files/ASSK-Remarks-091912.pdf",
+     "evidence": "She explained that omissions from voter lists prevented eligible people from casting ballots in the April by-elections."
+    }
+   ],
+   "previous_number": 162,
+   "lead_number": 162,
+   "alternative_number": 157,
+   "before": "adad2b0ecf3ef15cf89baa3bacbd8d1f58e70048f5b6935f5fdba25c2aa8fa84",
+   "version": "f259a7035a9fabb9c19f57eb5e17b4a983b55b7b9db2fb64ee62610688fadd6e",
+   "patch": {
+    "sections.communicates.examples": [
+     "In an open letter in 1988, Aung San Suu Kyi urged Burma’s government to bring independent figures into a committee that could oversee a transition to multiparty elections. She also pressed for the release of political prisoners.",
+     "In October 2013 Suu Kyi explained why constitutional amendments needed support from the ruling party and military representatives. She identified the review committee’s year-end deadline and described how her party was explaining the process to voters.",
+     "Discussing the April 2012 by-elections, Suu Kyi described eligible people who reached the polls and could not vote because their names were missing from the lists.",
+     "On 11 December 2019 Aung San Suu Kyi appeared before the International Court of Justice to defend Myanmar in The Gambia’s case alleging genocide against the Rohingya. She spoke for the state whose conduct was at issue."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "label": "The Nobel Peace Prize 1991 - Presentation Speech - NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/peace/1991/ceremony-speech/?print=1",
+      "example": "In an open letter in 1988, Aung San Suu Kyi urged Burma’s government to bring independent figures into a committee that could oversee a transition to multiparty elections. She also pressed for the release of political prisoners."
+     },
+     {
+      "example": "In October 2013 Suu Kyi explained why constitutional amendments needed support from the ruling party and military representatives. She identified the review committee’s year-end deadline and described how her party was explaining the process to voters.",
+      "label": "UK Cabinet Office · Suu Kyi’s remarks on constitutional reform, 23 October 2013",
+      "url": "https://www.gov.uk/government/speeches/david-cameron-and-aung-san-suu-kyi-press-conference"
+     },
+     {
+      "example": "Discussing the April 2012 by-elections, Suu Kyi described eligible people who reached the polls and could not vote because their names were missing from the lists.",
+      "label": "National Democratic Institute · September 2012 address",
+      "url": "https://www.ndi.org/sites/default/files/ASSK-Remarks-091912.pdf"
+     },
+     {
+      "label": "UN Web TV | Myanmar’s appearance before the International Court of Justice",
+      "url": "https://webtv.un.org/en/asset/k18/k18inoichc",
+      "example": "On 11 December 2019 Aung San Suu Kyi appeared before the International Court of Justice to defend Myanmar in The Gambia’s case alleging genocide against the Rohingya. She spoke for the state whose conduct was at issue."
+     }
+    ],
+    "matches": [
+     {
+      "number": 162,
+      "why": "In 1988 Suu Kyi proposed an independent body to oversee the transition to multiparty elections. In 2012 she identified omissions from the voter rolls. By 2013 she was explaining which parliamentary votes constitutional reform required and when the review committee had to report. Those are three occasions when she made the rules of a disputed decision open to public scrutiny."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 162,
+      "why": "In 1988 Suu Kyi proposed an independent body to oversee the transition to multiparty elections. In 2012 she identified omissions from the voter rolls. By 2013 she was explaining which parliamentary votes constitutional reform required and when the review committee had to report. Those are three occasions when she made the rules of a disputed decision open to public scrutiny."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 162,
+     "rationale": "In 1988 Suu Kyi proposed an independent body to oversee the transition to multiparty elections. In 2012 she identified omissions from the voter rolls. By 2013 she was explaining which parliamentary votes constitutional reform required and when the review committee had to report. Those are three occasions when she made the rules of a disputed decision open to public scrutiny."
+    },
+    "sections.map.cousin": {
+     "number": 157,
+     "tell": "Advocate fits her appeals for political prisoners and for constitutional protections sought by ethnic communities. Proceduralist is more precise about how she pursued electoral reform. In 2019 she spoke for Myanmar against provisional measures in the Rohingya genocide case, a distinct public responsibility."
+    },
+    "sections.map.basis": {
+     "style": "The Proceduralist",
+     "observation": "In October 2013 Suu Kyi explained why constitutional amendments needed support from the ruling party and military representatives. She identified the review committee’s year-end deadline and described how her party was explaining the process to voters.",
+     "sources": [
+      {
+       "label": "UK Cabinet Office · Suu Kyi’s remarks on constitutional reform, 23 October 2013",
+       "url": "https://www.gov.uk/government/speeches/david-cameron-and-aung-san-suu-kyi-press-conference"
+      }
+     ]
+    },
+    "sections.pattern.3": "On 11 December 2019 she appeared before the International Court of Justice to defend Myanmar in The Gambia’s case alleging genocide against the Rohingya. She spoke for the state whose conduct was at issue. Myanmar asked the Court to remove the case or refuse provisional measures. In January 2020 the Court ordered interim protections for the Rohingya and the preservation of evidence. Her arguments in that case belong to her record as the state’s representative.",
+    "sections.communicates.text.0": "In opposition, Suu Kyi explained who could oversee an election and whose votes could change the constitution. Her 2013 account gave voters a committee deadline they could follow. When someone in a group proposes a rule for deciding a disputed point, ask for the rule in writing and for a date when the result will be shown. That is a way to test whether the proposal is a genuine process or a delay."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.gov.uk/government/speeches/david-cameron-and-aung-san-suu-kyi-press-conference",
+     "label": "UK Cabinet Office · Suu Kyi’s remarks on constitutional reform, 23 October 2013"
+    }
+   ],
+   "previous_copy": {
+    "sections.pattern.3": "On 11 December 2019 she appeared before the International Court of Justice to defend Myanmar in The Gambia’s case alleging genocide against the Rohingya. She spoke for the state whose conduct was at issue. The distinction is between representing an institution and endorsing every action taken in its name. A reader can ask who a speaker is authorized to represent and whether that role limits what they can say.",
+    "sections.communicates.text.0": "Her public communication often takes the form of a procedural proposal: an independent committee, an election, a court appearance. The 1988 open letter and the NLD’s public meetings show a preference for a stated mechanism over a private assurance. When someone in a group proposes a rule for deciding a disputed point, ask for the rule in writing and for a date when the result will be shown. That is a way to test whether the proposal is a genuine process or a delay."
+   }
+  },
+  "berthe-morisot": {
+   "result": "career_limited",
+   "rationale": "Morisot puts her husband at the far left of her Cowes portrait. Following his gaze takes the viewer through a pane of glass to the garden and waterfront. In the Bougival paintings, foliage appears to enter the room. Across these pictures she changes what counts as the subject of a portrait and where the viewer stands in relation to it.",
+   "scope": "How Morisot composed portraits at windows and on terraces",
+   "alternative": "The Storyteller",
+   "sources": [
+    {
+     "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight",
+     "url": "https://www.marmottan.fr/en/notice/6029/",
+     "evidence": "The owning museum identifies Eugène at the left of the hotel window in Cowes. Its curator singles out the garden, waterfront and light through the glass as the focus of this 1875 portrait."
+    },
+    {
+     "label": "Tokyo Fuji Art Museum · On the Terrace",
+     "url": "https://www.fujibi.or.jp/en/collection/artwork/01265/",
+     "evidence": "The collection records the 1874 canvas, identifies the sitter and Fécamp setting and notes that Morisot exhibited this composition publicly in 1877. Orsay includes it in the exhibition’s sequence of thresholds."
+    },
+    {
+     "label": "Musée d’Orsay · Windows and thresholds",
+     "url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/berthe-morisot-1841-1895",
+     "evidence": "This section of the exhibition distinguishes the use of windows in her Bougival paintings from a domestic storyline. Interior and exterior merge, leaving the viewer to work out where the space changes."
+    },
+    {
+     "label": "Musée d’Orsay · The Cradle",
+     "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1132",
+     "evidence": "The linked arms of mother and baby and the mother’s gaze organize the scene around the sleeping child."
+    }
+   ],
+   "previous_number": 159,
+   "lead_number": 156,
+   "alternative_number": 159,
+   "before": "0200dfbfc3afdfd2145258bf827447efd60396d907c6c2d510a71d66374d1730",
+   "version": "4e8101e1ce20c9ca4d6cc3d47c702d90c049ee7cca6b515946c9a86929e7d17b",
+   "patch": {
+    "sections.communicates.examples": [
+     "In The Cradle, a woman watches a sleeping infant through a veil of white fabric. The bend of her arm echoes the baby’s arm, connecting them across the space between their faces.",
+     "Summer’s Day seats two women in an open boat. Morisot lets brisk marks for light and water remain visible around them, so the still figures share the movement of the lake.",
+     "In Eugène Manet on the Isle of Wight (1875), Morisot placed her husband at the left of a hotel window in Cowes. The same pane frames the garden and waterfront, so the viewer can look beyond the sitter and out with him.",
+     "Hanging the Laundry out to Dry sets people doing the wash within a broad, open landscape. The line of pale fabric gives the eye a way across the canvas and gives everyday work a place in the view."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "label": "Musée d’Orsay · The Cradle",
+      "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1132",
+      "example": "In The Cradle, a woman watches a sleeping infant through a veil of white fabric. The bend of her arm echoes the baby’s arm, connecting them across the space between their faces."
+     },
+     {
+      "label": "National Gallery, London · Summer’s Day",
+      "url": "https://www.nationalgallery.org.uk/paintings/berthe-morisot-summer-s-day",
+      "example": "Summer’s Day seats two women in an open boat. Morisot lets brisk marks for light and water remain visible around them, so the still figures share the movement of the lake."
+     },
+     {
+      "example": "In Eugène Manet on the Isle of Wight (1875), Morisot placed her husband at the left of a hotel window in Cowes. The same pane frames the garden and waterfront, so the viewer can look beyond the sitter and out with him.",
+      "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight",
+      "url": "https://www.marmottan.fr/en/notice/6029/"
+     },
+     {
+      "label": "National Gallery of Art · Hanging the Laundry out to Dry",
+      "url": "https://www.nga.gov/artworks/66426-hanging-laundry-out-dry",
+      "example": "Hanging the Laundry out to Dry sets people doing the wash within a broad, open landscape. The line of pale fabric gives the eye a way across the canvas and gives everyday work a place in the view."
+     }
+    ],
+    "matches": [
+     {
+      "number": 156,
+      "why": "Morisot puts her husband at the far left of her Cowes portrait. Following his gaze takes the viewer through a pane of glass to the garden and waterfront. In the Bougival paintings, foliage appears to enter the room. Across these pictures she changes what counts as the subject of a portrait and where the viewer stands in relation to it."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 156,
+      "why": "Morisot puts her husband at the far left of her Cowes portrait. Following his gaze takes the viewer through a pane of glass to the garden and waterfront. In the Bougival paintings, foliage appears to enter the room. Across these pictures she changes what counts as the subject of a portrait and where the viewer stands in relation to it."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 156,
+     "rationale": "Morisot puts her husband at the far left of her Cowes portrait. Following his gaze takes the viewer through a pane of glass to the garden and waterfront. In the Bougival paintings, foliage appears to enter the room. Across these pictures she changes what counts as the subject of a portrait and where the viewer stands in relation to it."
+    },
+    "sections.map.cousin": {
+     "number": 159,
+     "tell": "The Storyteller reading also works inside the Cowes portrait. The sitter looks out, and the viewer follows him. In The Cradle, the mother’s and infant’s echoed arms also carry a scene. Reframer has a slight edge for the window paintings because their composition shifts attention between the sitter and the space beyond."
+    },
+    "sections.map.basis": {
+     "style": "The Reframer",
+     "observation": "In Eugène Manet on the Isle of Wight (1875), Morisot placed her husband at the left of a hotel window in Cowes. The same pane frames the garden and waterfront, so the viewer can look beyond the sitter and out with him.",
+     "sources": [
+      {
+       "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight",
+       "url": "https://www.marmottan.fr/en/notice/6029/"
+      }
+     ]
+    },
+    "identity": "An Impressionist painter who placed a cradle veil, a windowpane or a stretch of water between the viewer and the people she painted.",
+    "sections.identity": "An Impressionist painter who placed a cradle veil, a windowpane or a stretch of water between the viewer and the people she painted."
+   },
+   "human_reason": "In the Cowes portrait, following Eugène’s gaze both opens up the waterfront and gives the viewer a small story to follow. An art editor should compare that picture with the terrace works and The Cradle, and judge which use of the viewer’s attention best fits the lead.",
+   "add_sources": [
+    {
+     "url": "https://www.marmottan.fr/en/notice/6029/",
+     "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight"
+    }
+   ],
+   "previous_copy": {
+    "identity": "A painter who let the mother's hand close the curtain on us, choosing intimacy over spectacle and then living with the quiet that choice produced.",
+    "sections.identity": "A painter who let the mother's hand close the curtain on us, choosing intimacy over spectacle and then living with the quiet that choice produced."
+   }
+  },
+  "fanny-blankers-koen": {
+   "result": "career_supported",
+   "rationale": "At her Amsterdam homecoming, Blankers-Koen described the fuss over her four golds in terms of the races she had run. In 2001 a reporter compared her prize bicycle with a later champion’s sponsorship deal. She answered by recalling how long the bicycle lasted and what it meant to race again after the war. Each answer changed the measure of the achievement the question had supplied.",
+   "scope": "How Blankers-Koen answered public questions about her Olympic career",
+   "alternative": "The Advocate",
+   "sources": [
+    {
+     "label": "Duncan Mackay · Interview with Blankers-Koen, recalled in The Irish Times",
+     "url": "https://www.irishtimes.com/sport/flying-dutchwoman-passes-on-1.1131530",
+     "evidence": "Mackay recounts his 2001 question comparing the bicycle Amsterdam gave her with a later sprinter’s endorsement. Blankers-Koen answered with the years the bicycle served her and what competing after the war meant to her."
+    },
+    {
+     "label": "Australian Broadcasting Corporation · Guy Ryan remembers interviewing Blankers-Koen",
+     "url": "https://www.abc.net.au/news/2012-08-05/blankers-koen-meeting/4178188",
+     "evidence": "Ryan recalls his own one-on-one interview in the Netherlands in 1948. He describes her modest public manner and separately gives his own judgment of her effect on acceptance of women in elite athletics."
+    },
+    {
+     "label": "State Library of Western Australia · signed 1949 tour programme",
+     "url": "https://purl.slwa.wa.gov.au/slwa_b7351321",
+     "evidence": "The programme documents her Australian appearance in women’s athletics. It does not record a specific request she made to an organizer on another athlete’s behalf."
+    },
+    {
+     "label": "World Athletics · Fanny Blankers-Koen’s London events",
+     "url": "https://worldathletics.org/heritage/news/fanny-blankers-koen",
+     "evidence": "Under the cap of three individual events plus the relay, she competed in the 100 metres, 200 metres, 80 metres hurdles and the relay. She won all four."
+    },
+    {
+     "label": "Guus van Holland · NRC Handelsblad roundtable with Blankers-Koen, 2 January 1999",
+     "url": "https://guusvanholland.com/2014/10/09/elke-dag-bruine-bonen-en-levertraan/",
+     "evidence": "Asked what she earned, Blankers-Koen recalled having to surrender a pair of silver candlesticks. She acknowledged how much more modern athletes earned, then said the rivalry she saw in their sport made their pay less enviable to her."
+    }
+   ],
+   "previous_number": 156,
+   "lead_number": 156,
+   "alternative_number": 157,
+   "before": "0d9cf2a1124a8d00f05af44e75316711a82f94cf87b24bdb0bdbe81520e53512",
+   "version": "fddb87e5f4e89dd6d1e7eff585b0fc739c45b5a4158fddae189fec3ed5c207d2",
+   "patch": {
+    "sections.communicates.examples": [
+     "At the 1948 London Olympics, Olympic rules limited athletes to three individual events plus a relay, so Blankers-Koen entered the 100m, 200m and 80m hurdles and the 4x100m relay, opting not to contest the high jump or long jump even though she was the world-record holder in both. She ran 11 races in eight days in London and won them all.",
+     "After winning four events in London in 1948, Blankers-Koen rode through Amsterdam in a public parade. When asked about the excitement surrounding her, she described the achievement simply as winning some footraces.",
+     "In a 2001 interview, Duncan Mackay contrasted the bicycle Amsterdam had given Blankers-Koen with a later champion’s sponsorship. Blankers-Koen recalled the years the bicycle lasted and how wartime disruption had once made competing again seem uncertain.",
+     "Competing under the name Koen at Berlin in 1936, she tied for sixth in the high jump and finished fifth with the Netherlands in the 4 × 100 metres relay."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "label": "Hall of Fame Profile - Fanny Blankers-Koen (The Netherlands) | NEWS | World Athletics",
+      "url": "https://worldathletics.org/news/news/hall-of-fame-profile-fanny-blankers-koen-th",
+      "example": "At the 1948 London Olympics, Olympic rules limited athletes to three individual events plus a relay, so Blankers-Koen entered the 100m, 200m and 80m hurdles and the 4x100m relay, opting not to contest the high jump or long jump even though she was the world-record holder in both. She ran 11 races in eight days in London and won them all."
+     },
+     {
+      "label": "World Athletics · Blankers-Koen recalls the Amsterdam homecoming",
+      "url": "https://worldathletics.org/heritage/news/fanny-blankers-koen-legacy?__nextLocale=en",
+      "example": "After winning four events in London in 1948, Blankers-Koen rode through Amsterdam in a public parade. When asked about the excitement surrounding her, she described the achievement simply as winning some footraces."
+     },
+     {
+      "example": "In a 2001 interview, Duncan Mackay contrasted the bicycle Amsterdam had given Blankers-Koen with a later champion’s sponsorship. Blankers-Koen recalled the years the bicycle lasted and how wartime disruption had once made competing again seem uncertain.",
+      "label": "Duncan Mackay · Interview with Blankers-Koen, recalled in The Irish Times",
+      "url": "https://www.irishtimes.com/sport/flying-dutchwoman-passes-on-1.1131530"
+     },
+     {
+      "example": "Competing under the name Koen at Berlin in 1936, she tied for sixth in the high jump and finished fifth with the Netherlands in the 4 × 100 metres relay.",
+      "label": "Olympedia · Berlin 1936 event results",
+      "url": "https://www.olympedia.org/athletes/73711"
+     }
+    ],
+    "matches": [
+     {
+      "number": 156,
+      "why": "At her Amsterdam homecoming, Blankers-Koen described the fuss over her four golds in terms of the races she had run. In 2001 a reporter compared her prize bicycle with a later champion’s sponsorship deal. She answered by recalling how long the bicycle lasted and what it meant to race again after the war. Each answer changed the measure of the achievement the question had supplied."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 156,
+      "why": "At her Amsterdam homecoming, Blankers-Koen described the fuss over her four golds in terms of the races she had run. In 2001 a reporter compared her prize bicycle with a later champion’s sponsorship deal. She answered by recalling how long the bicycle lasted and what it meant to race again after the war. Each answer changed the measure of the achievement the question had supplied."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 156,
+     "rationale": "At her Amsterdam homecoming, Blankers-Koen described the fuss over her four golds in terms of the races she had run. In 2001 a reporter compared her prize bicycle with a later champion’s sponsorship deal. She answered by recalling how long the bicycle lasted and what it meant to race again after the war. Each answer changed the measure of the achievement the question had supplied."
+    },
+    "sections.map.cousin": {
+     "number": 157,
+     "tell": "Her tour gave women’s athletics a public platform. The signed Australian programme documents that appearance, and a contemporary interviewer recalled the effect of her wins. Neither identified a specific change she personally asked a decision-maker to make on another athlete’s behalf."
+    },
+    "sections.map.basis": {
+     "style": "The Reframer",
+     "observation": "In a 2001 interview, Duncan Mackay contrasted the bicycle Amsterdam had given Blankers-Koen with a later champion’s sponsorship. Blankers-Koen recalled the years the bicycle lasted and how wartime disruption had once made competing again seem uncertain.",
+     "sources": [
+      {
+       "label": "Duncan Mackay · Interview with Blankers-Koen, recalled in The Irish Times",
+       "url": "https://www.irishtimes.com/sport/flying-dutchwoman-passes-on-1.1131530"
+      }
+     ]
+    },
+    "identity": "A Dutch sprinter and hurdler who entered four events in London in 1948 and won all four, then spent decades answering questions about what those wins meant.",
+    "sections.identity": "A Dutch sprinter and hurdler who entered four events in London in 1948 and won all four, then spent decades answering questions about what those wins meant.",
+    "sections.pattern.1": "The London programme allowed her three individual entries and a relay. She ran the 100 metres, 200 metres and 80 metres hurdles and anchored the winning 4 × 100 metres team. The high jump and long jump stayed off her programme despite her world records in both.",
+    "sections.communicates.text.0": "Blankers-Koen gave short, plain replies to questions about her fame. She described the Amsterdam celebrations as a response to some footraces. Years later, when a reporter asked about the value of her prize bicycle, she remembered how long she used it.",
+    "sections.communicates.text.1": "In that interview she also recalled wartime years when she doubted she would compete again. Her answer gave the reporter another way to value those races, alongside the money a champion could earn."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.irishtimes.com/sport/flying-dutchwoman-passes-on-1.1131530",
+     "label": "Duncan Mackay · Interview with Blankers-Koen, recalled in The Irish Times"
+    }
+   ],
+   "previous_copy": {
+    "identity": "The woman who won by choosing her lanes: a Dutch sprinter who set twelve official world records but made her name by narrowing four Olympic events down to the ones she could carry.",
+    "sections.identity": "The woman who won by choosing her lanes: a Dutch sprinter who set twelve official world records but made her name by narrowing four Olympic events down to the ones she could carry.",
+    "sections.pattern.1": "The 1948 Games are the clearest public evidence of how she worked. Olympic rules allowed three individual events plus a relay, and she picked the 100m, 200m and 80m hurdles, leaving out the high jump and long jump even though she held world records in both. She then ran eleven races in eight days and won all of them, the relay included. Whatever one makes of her privately, the public choice was to trade optional glory for a load she could carry.",
+    "sections.communicates.text.0": "Her public communication is largely the communication of decisions rather than speeches. The documented record speaks through event entries, withdrawals, team sheets and a handful of recalled conversations. When she does speak in the sources, it is in short, concrete anecdotes — an autograph, a meeting, a name she did not have to explain.",
+    "sections.communicates.text.1": "That makes her legible to a reader in a specific way: you learn what she values from what she declines. Choosing three events over five when she held world records in the omitted ones is a form of saying no in public. A partner looking for a parallel should look less at what she says about herself and more at which commitments she keeps and which she drops without drama."
+   }
+  },
+  "getulio-vargas": {
+   "result": "career_supported",
+   "rationale": "Vargas asked Congress to authorize a Rural Social Service for agricultural workers and their families. Lawmakers amended the bill, which became law in 1955, after his death. The sequence identifies both the people he invoked and the legislators with power to act. His separate state oil company proposal also changed in Congress.",
+   "scope": "His proposals to Brazil’s Congress during his elected presidency, 1951–1954",
+   "alternative": "The Reframer",
+   "sources": [
+    {
+     "label": "Brazilian Chamber of Deputies · Rural Social Service bill and presidential message, June 1951",
+     "url": "https://imagem.camara.leg.br/Imagem/d/pdf/DCD28JUN1951.pdf#page=19",
+     "evidence": "The 28 June congressional journal prints bill 738 and the executive submission seeking authority to create a Rural Social Service. The accompanying text identifies services for agricultural communities and the welfare of rural workers and their families."
+    },
+    {
+     "label": "Federal Senate of Brazil · legislative record for the Rural Social Service",
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/56436",
+     "evidence": "The docket identifies presidential message 190/1951 and House bill 738/1951, records proposed amendments and shows that the bill became Law 2,613 on 23 September 1955, after Vargas’s death."
+    },
+    {
+     "label": "Brazilian Chamber of Deputies · 1937 Constitution, articles 178 and 180",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html",
+     "evidence": "Article 178 dissolves the federal chambers, state legislatures and municipal chambers. Article 180 authorizes the president to issue decree-laws on federal legislative matters until Parliament meets."
+    },
+    {
+     "label": "Brazilian Chamber of Deputies · original petroleum law, 3 October 1953, articles 1–2",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-2004-3-outubro-1953-366242-publicacaooriginal-1-pl.html",
+     "evidence": "Article 1 vests the monopoly in the federal Union. Article 2 assigns direction and oversight to the National Petroleum Council and execution to Petrobras and its subsidiaries."
+    },
+    {
+     "label": "Federal Senate of Brazil · Vargas’s May Day 1940 address",
+     "url": "https://www2.senado.leg.br/bdsf/bitstream/handle/id/180154/SalMinimo.pdf",
+     "evidence": "In the reproduced speech he announced the minimum-wage measure and presented workers as participants in national economic reconstruction."
+    },
+    {
+     "label": "Federal Senate of Brazil · the Petrobras proposal and debate",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/criacao-da-petrobras-rachou-senado-em-1953",
+     "evidence": "The Senate recounts the proposal sent to Congress and legislative changes before enactment."
+    }
+   ],
+   "previous_number": 54,
+   "lead_number": 54,
+   "alternative_number": 53,
+   "before": "dde5e0a7a3b5ddb93210de2676b44f0ada6c2ff5caa061888bcd74feb2419047",
+   "version": "fcd0c568d20d8fba4f67cd6477a3f84d184f6b54ec260c20633aa975ee39dbf4",
+   "patch": {
+    "sections.communicates.examples": [
+     "In 1951 Vargas sent Congress a bill seeking a Rural Social Service for agricultural workers and their families. Legislators debated and amended the proposal. The service received legal authorization in 1955, after his death.",
+     "Vargas submitted the state oil company proposal to Congress and signed Law 2,004 on 3 October 1953. The law vested the petroleum monopoly in the federal Union, assigned oversight to the National Petroleum Council and made Petrobras and its subsidiaries responsible for operations.",
+     "The constitution Vargas imposed on 10 November 1937 dissolved both houses of Congress as well as state and municipal legislatures. Article 180 gave the president power to issue decree-laws on federal legislative matters until Parliament met.",
+     "Getúlio Vargas signed Decreto nº 35.450 on 1 May 1954, revising the minimum wage table set by Decreto 30.342 of 1951 and granting the increase announced in his Labour Day speech to workers."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "In 1951 Vargas sent Congress a bill seeking a Rural Social Service for agricultural workers and their families. Legislators debated and amended the proposal. The service received legal authorization in 1955, after his death.",
+      "label": "Federal Senate of Brazil · legislative record for the Rural Social Service",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/56436"
+     },
+     {
+      "example": "Vargas submitted the state oil company proposal to Congress and signed Law 2,004 on 3 October 1953. The law vested the petroleum monopoly in the federal Union, assigned oversight to the National Petroleum Council and made Petrobras and its subsidiaries responsible for operations.",
+      "label": "Brazilian Chamber of Deputies · original petroleum law, 3 October 1953, articles 1–2",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-2004-3-outubro-1953-366242-publicacaooriginal-1-pl.html"
+     },
+     {
+      "example": "The constitution Vargas imposed on 10 November 1937 dissolved both houses of Congress as well as state and municipal legislatures. Article 180 gave the president power to issue decree-laws on federal legislative matters until Parliament met.",
+      "label": "Brazilian Chamber of Deputies · 1937 Constitution, articles 178 and 180",
+      "url": "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html"
+     },
+     {
+      "label": "Base Legislação da Presidência da República - Decreto nº 35.450 de 01 de maio de 1954",
+      "url": "https://legislacao.presidencia.gov.br/atos/?ano=1954&ato=f08QTQq5keJRVT246&numero=35450&tipo=DEC",
+      "example": "Getúlio Vargas signed Decreto nº 35.450 on 1 May 1954, revising the minimum wage table set by Decreto 30.342 of 1951 and granting the increase announced in his Labour Day speech to workers."
+     }
+    ],
+    "matches": [
+     {
+      "number": 54,
+      "why": "Vargas asked Congress to authorize a Rural Social Service for agricultural workers and their families. Lawmakers amended the bill, which became law in 1955, after his death. The sequence identifies both the people he invoked and the legislators with power to act. His separate state oil company proposal also changed in Congress."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 54,
+      "why": "Vargas asked Congress to authorize a Rural Social Service for agricultural workers and their families. Lawmakers amended the bill, which became law in 1955, after his death. The sequence identifies both the people he invoked and the legislators with power to act. His separate state oil company proposal also changed in Congress."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 54,
+     "rationale": "Vargas asked Congress to authorize a Rural Social Service for agricultural workers and their families. Lawmakers amended the bill, which became law in 1955, after his death. The sequence identifies both the people he invoked and the legislators with power to act. His separate state oil company proposal also changed in Congress."
+    },
+    "sections.map.cousin": {
+     "number": 53,
+     "tell": "Reframer fits the way Vargas presented workers as partners in building the national economy. His elected government also made specific requests that legislators could amend. His Estado Novo dictatorship had dissolved Congress and governed by decree, so Advocate applies here to the later legislative work."
+    },
+    "sections.map.basis": {
+     "style": "The Advocate",
+     "observation": "In 1951 Vargas sent Congress a bill seeking a Rural Social Service for agricultural workers and their families. Legislators debated and amended the proposal. The service received legal authorization in 1955, after his death.",
+     "sources": [
+      {
+       "label": "Federal Senate of Brazil · legislative record for the Rural Social Service",
+       "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/56436"
+      }
+     ]
+    },
+    "identity": "During his elected presidency, Getúlio Vargas asked Brazil’s Congress to establish a Rural Social Service and a national oil company. During his earlier Estado Novo dictatorship, he dissolved Congress.",
+    "sections.identity": "During his elected presidency, Getúlio Vargas asked Brazil’s Congress to establish a Rural Social Service and a national oil company. During his earlier Estado Novo dictatorship, he dissolved Congress.",
+    "sections.pattern.1": "The 1953 petroleum law shows a plan changing in public. Vargas submitted a bill for a state oil company and signed the amended law on 3 October 1953. It gave the federal Union the monopoly and assigned operations to Petrobras and its subsidiaries. A partner who brings a proposal and returns with a revised version has shown the difference between a wish and a process. Watch whether the revision keeps the promise's core or quietly drops it.",
+    "sections.communicates.text.0": "Listen for a specific request and who has the authority to answer it. Vargas’s rural service bill identified the workers it would serve and the vote Congress needed to take. When a partner says they will do better, your ear can wait for the item, the day and who else it affects. A vague promise about the future is easy. A named change, such as taking the Tuesday school run or splitting the electricity payment, is checkable."
+   },
+   "add_sources": [
+    {
+     "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/56436",
+     "label": "Federal Senate of Brazil · legislative record for the Rural Social Service"
+    },
+    {
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-2004-3-outubro-1953-366242-publicacaooriginal-1-pl.html",
+     "label": "Brazilian Chamber of Deputies · original petroleum law, 3 October 1953, articles 1–2"
+    },
+    {
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html",
+     "label": "Brazilian Chamber of Deputies · 1937 Constitution, articles 178 and 180"
+    }
+   ],
+   "previous_copy": {
+    "identity": "As president of Brazil, Getúlio Vargas signed Decreto 35.450 in 1954 revising the minimum wage table to grant workers the increase announced in his Labour Day speech.",
+    "sections.identity": "As president of Brazil, Getúlio Vargas signed Decreto 35.450 in 1954 revising the minimum wage table to grant workers the increase announced in his Labour Day speech.",
+    "sections.pattern.1": "The 1953 petroleum law shows a plan changing in public. Vargas drafted a bill creating a state oil company and sanctioned Law 2.004 on 3 October 1953, establishing Petrobras as monopoly holder after congressional debate altered the original design. A partner who brings a proposal and returns with a revised version has shown the difference between a wish and a process. Watch whether the revision keeps the promise's core or quietly drops it.",
+    "sections.communicates.text.0": "Listen for a specific ask. The decree changed a 1951 salary table by number rather than restating a broad intention. When a partner says they will do better, your ear can wait for the item, the day and who else it affects. A vague promise about the future is easy. A named change, such as taking the Tuesday school run or splitting the electricity payment, is checkable."
+   }
+  },
+  "megawati-sukarnoputri": {
+   "result": "career_supported",
+   "rationale": "Megawati and Alexander Litaay appealed the court ruling on their challenge to the 1996 Medan congress. In Bandung in 1998 she told supporters that a party congress should decide whether she herself remained leader. Putting even her own office to that test gives Proceduralist the stronger claim.",
+   "scope": "Her challenge over who could choose the Indonesian Democratic Party’s leader, 1996–1998",
+   "alternative": "The Dissenter",
+   "sources": [
+    {
+     "label": "The Jakarta Post · Megawati’s remarks to party members in Bandung, September 1998",
+     "url": "https://www.asia-pacific-solidarity.net/news/1998-09-02/megawati-vows-hold-congress-contest-election.html",
+     "evidence": "The contemporaneous account quotes her saying the forthcoming congress should decide the leadership even if she did not retain it. She invoked the party statutes while refusing reconciliation with her rival and threatened protest if the congress was obstructed."
+    },
+    {
+     "label": "TIME · Megawati’s first presidential interview, 2001",
+     "url": "https://time.com/archive/6683182/our-problems-cant-be-solved-by-violence/",
+     "evidence": "Asked about Aceh and her party, she distinguished her instructions to party members on democratic procedure and nonviolence from her presidential duty to preserve the country’s unity."
+    },
+    {
+     "label": "Republic of Indonesia · Presidential Decree 28 of 2003, articles 1–3 and 5",
+     "url": "https://bnpb.go.id/storage/app/media/uploads/migration/pubs/13.pdf",
+     "evidence": "Megawati signed the decree on 18 May. It imposed martial law across Aceh from midnight on 19 May, gave the president national authority and assigned local control to the Iskandar Muda military commander."
+    },
+    {
+     "label": "UN Commission on Human Rights · Indonesian court proceedings, paragraphs 89–92",
+     "url": "https://digitallibrary.un.org/record/251399/files/E_CN.4_1998_39-EN.pdf?ln=es",
+     "evidence": "The report reproduces the government’s account of the joint filing, the trial court’s jurisdictional ruling and the subsequent appeal concerning the 1996 party congress."
+    }
+   ],
+   "previous_number": 162,
+   "lead_number": 162,
+   "alternative_number": 160,
+   "before": "d126d1a8cdff1169470e2fc0063bf589980a38304b381d4f58248b00334cb5d3",
+   "version": "d4fee654f3f3618208830a829974ff814fc49c995d46f6f96aed99cd74d7a96c",
+   "patch": {
+    "sections.communicates.examples": [
+     "Addressing party members in Bandung in 1998, Megawati said their congress should decide whether she remained leader. She invoked the party statutes and told supporters she would protest if the congress was obstructed.",
+     "In Jakarta on 13 October 2003, Megawati ratified Indonesia’s Law No. 25 of 2003, amending the law on money laundering. The gazetted text names her and State Secretary Bambang Kesowo.",
+     "Megawati signed Presidential Decree 28 on 18 May 2003, imposing martial law across Aceh from the following day. It placed the president in charge nationally and the Iskandar Muda military commander in charge locally.",
+     "Megawati and Alexander Litaay challenged the organization of the 1996 Medan party congress in court. They appealed after the trial court declined jurisdiction, bringing the dispute about party statutes before a higher court."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "Addressing party members in Bandung in 1998, Megawati said their congress should decide whether she remained leader. She invoked the party statutes and told supporters she would protest if the congress was obstructed.",
+      "label": "The Jakarta Post · Megawati’s remarks to party members in Bandung, September 1998",
+      "url": "https://www.asia-pacific-solidarity.net/news/1998-09-02/megawati-vows-hold-congress-contest-election.html"
+     },
+     {
+      "url": "https://digitallibrary.un.org/record/566498/files/E_NL.2005_06-10-EN.pdf?ln=en",
+      "label": "United Nations · Indonesian money laundering law, pp. 55 and 66",
+      "example": "In Jakarta on 13 October 2003, Megawati ratified Indonesia’s Law No. 25 of 2003, amending the law on money laundering. The gazetted text names her and State Secretary Bambang Kesowo."
+     },
+     {
+      "example": "Megawati signed Presidential Decree 28 on 18 May 2003, imposing martial law across Aceh from the following day. It placed the president in charge nationally and the Iskandar Muda military commander in charge locally.",
+      "label": "Republic of Indonesia · Presidential Decree 28 of 2003, articles 1–3 and 5",
+      "url": "https://bnpb.go.id/storage/app/media/uploads/migration/pubs/13.pdf"
+     },
+     {
+      "example": "Megawati and Alexander Litaay challenged the organization of the 1996 Medan party congress in court. They appealed after the trial court declined jurisdiction, bringing the dispute about party statutes before a higher court.",
+      "label": "UN Commission on Human Rights · Indonesian court proceedings, paragraphs 89–92",
+      "url": "https://digitallibrary.un.org/record/251399/files/E_CN.4_1998_39-EN.pdf?ln=es"
+     }
+    ],
+    "matches": [
+     {
+      "number": 162,
+      "why": "Megawati and Alexander Litaay appealed the court ruling on their challenge to the 1996 Medan congress. In Bandung in 1998 she told supporters that a party congress should decide whether she herself remained leader. Putting even her own office to that test gives Proceduralist the stronger claim."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 162,
+      "why": "Megawati and Alexander Litaay appealed the court ruling on their challenge to the 1996 Medan congress. In Bandung in 1998 she told supporters that a party congress should decide whether she herself remained leader. Putting even her own office to that test gives Proceduralist the stronger claim."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 162,
+     "rationale": "Megawati and Alexander Litaay appealed the court ruling on their challenge to the 1996 Medan congress. In Bandung in 1998 she told supporters that a party congress should decide whether she herself remained leader. Putting even her own office to that test gives Proceduralist the stronger claim."
+    },
+    "sections.map.cousin": {
+     "number": 160,
+     "tell": "Dissenter fits her public refusal to recognize the rival leadership and her willingness to protest. Her stated criterion was a congress acting under party rules. As president she later imposed martial law across Aceh, where the decree gave her and the regional military commander authority."
+    },
+    "sections.map.basis": {
+     "style": "The Proceduralist",
+     "observation": "Addressing party members in Bandung in 1998, Megawati said their congress should decide whether she remained leader. She invoked the party statutes and told supporters she would protest if the congress was obstructed.",
+     "sources": [
+      {
+       "label": "The Jakarta Post · Megawati’s remarks to party members in Bandung, September 1998",
+       "url": "https://www.asia-pacific-solidarity.net/news/1998-09-02/megawati-vows-hold-congress-contest-election.html"
+      }
+     ]
+    },
+    "identity": "Indonesian party leader who challenged the disputed 1996 Medan congress and later served as president. The Proceduralist reading concerns her fight over who could choose the party’s leader.",
+    "sections.identity": "Indonesian party leader who challenged the disputed 1996 Medan congress and later served as president. The Proceduralist reading concerns her fight over who could choose the party’s leader.",
+    "sections.pattern.2": "In May 2003 she issued a decree making Law No. 23/1959 the legal basis for martial law in Aceh, and in November the government extended martial law while arguing it was needed to secure the 2004 elections. The decree put people throughout Aceh under martial law. Its text names the president and the regional military commander as the authorities exercising emergency power. This was a different use of law from asking a party congress to decide her own position. A reader can learn to ask who bears the cost when procedure substitutes for deliberation. The extension belongs to the government's decision, not to her alone.",
+    "sections.communicates.text.0": "In the party leadership dispute, Megawati named both the question and who should answer it. She said the congress could decide whether she continued as leader. Who gets to make a decision is a different question from how it will be recorded. It works best when the other person also gets to name items. A meeting that opens with a shared written agenda and closes with a shared written outcome tends to finish business."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.asia-pacific-solidarity.net/news/1998-09-02/megawati-vows-hold-congress-contest-election.html",
+     "label": "The Jakarta Post · Megawati’s remarks to party members in Bandung, September 1998"
+    },
+    {
+     "url": "https://bnpb.go.id/storage/app/media/uploads/migration/pubs/13.pdf",
+     "label": "Republic of Indonesia · Presidential Decree 28 of 2003, articles 1–3 and 5"
+    }
+   ],
+   "previous_copy": {
+    "identity": "President of Indonesia who relied on statutory instruments for security policy.",
+    "sections.identity": "President of Indonesia who relied on statutory instruments for security policy.",
+    "sections.pattern.2": "In May 2003 she issued a decree making Law No. 23/1959 the legal basis for martial law in Aceh, and in November the government extended martial law while arguing it was needed to secure the 2004 elections. The decree activated an existing statute rather than drafting a fresh one. That is a procedural move, and it produced grave consequences for people living under the measures. Observably, she reached for the law book when a dispute about how to decide arose. A reader can learn to ask who bears the cost when procedure substitutes for deliberation. The extension belongs to the government's decision, not to her alone.",
+    "sections.communicates.text.0": "Her public manner in the documented moments is agenda-first and record-second. She lists topics with a counterpart, then her office files ratification with a witness and a gazette entry. Used across a disagreement, that sequence asks: what are we talking about, and where will the result live? It works best when the other person also gets to name items. A meeting that opens with a shared written agenda and closes with a shared written outcome tends to finish business."
+   }
+  },
+  "nadia-comaneci": {
+   "result": "career_supported",
+   "rationale": "Discussing her management role at the academy in 2001, Comăneci described hiring two Romanian coaches as a decision the team had made. In Cluj she recalled that she and Conner had approached Paul Ziert together and credited him with guiding their US projects. Conner also credited Ziert with proposing new ventures. The coaching hires and the choice of adviser show what sharing business decisions looked like in this partnership.",
+   "scope": "How Comăneci ran her gymnastics businesses with her partners after competition",
+   "alternative": "The Bridge Builder",
+   "sources": [
+    {
+     "label": "Mickey Herskowitz · Comăneci on hiring at the gymnastics academy",
+     "url": "https://www.chron.com/sports/article/herskowitz-gymnastics-still-at-heart-of-2012236.php",
+     "evidence": "Interviewed in 2001, Comăneci described the academy’s recent hiring of two coaches from Romania in the first-person plural. She explained her business duties and distinguished them from teaching or demonstrating at the gym."
+    },
+    {
+     "label": "Transilvania Business · Comăneci’s Cluj masterclass",
+     "url": "https://www.transilvaniabusiness.ro/2026/06/14/nadia-80-dintre-ceo-ai-marilor-companii-din-sua-au-facut-sport-de-performanta/",
+     "evidence": "In the Romanian-language account of her June 2026 public remarks, Comăneci says that she and Bart Conner approached manager Paul Ziert together and credits him with directing their work in the United States."
+    },
+    {
+     "label": "Voices of Oklahoma · Conner’s oral history, chapter 17",
+     "url": "https://www.voicesofoklahoma.com/interviews/conner-bart/",
+     "evidence": "Conner identifies Ziert as the partner who suggested business ventures and describes his own role in carrying them out. The interview limits how much credit can be assigned to Comăneci for originating projects."
+    },
+    {
+     "label": "Associated Press · Tim Reynolds interviews Comăneci",
+     "url": "https://www.washingtonpost.com/sports/olympics/in-1976-comanecis-perfect-10s-made-her-the-perfect-one/2020/08/08/270df474-d988-11ea-a788-2ce86ce81129_story.html",
+     "evidence": "Comăneci explains how children at the free sports event tried different activities before choosing one to pursue. The reporter also records her first Olympic ten on bars and Montreal medals."
+    },
+    {
+     "label": "Texas Tech University · The University Daily, 22 October 1993, page 5",
+     "url": "https://newspapers.swco.ttu.edu/items/4bc295d0-5f86-4e91-9ebd-5164808048e9",
+     "evidence": "Conner recalled an explicit touring agreement with Comăneci to train every day, including days on the road. This separately documents a shared professional decision before the later management interviews."
+    }
+   ],
+   "previous_number": 152,
+   "lead_number": 152,
+   "alternative_number": 153,
+   "before": "eb98365ca326b9b396eab22e64a6f8c0dba90a79d0d5b54030aef9f8434f2487",
+   "version": "8accee6dd27395dc426152b5ba83329b253f00b4de1cd07a500786fcd03d022f",
+   "patch": {
+    "sections.communicates.examples": [
+     "In 2001, Comăneci explained her business role at the Norman gymnastics academy to columnist Mickey Herskowitz. The academy had just hired two coaches from Romania. At that point, management took her time there and others did the teaching.",
+     "In Montreal in 1976, Comăneci earned Olympic gymnastics’ first perfect ten on the uneven bars. That routine also counted toward Romania’s team competition, where the gymnasts took silver.",
+     "At the 1980 Moscow Olympics, Comăneci defended her balance beam title and also won gold on floor. Floor gave the audience a different performance from the beam routine for which it already knew her.",
+     "Comăneci and Bart Conner brought gymnastics meets and a free family sports event together at their Bart & Nadia Sports Experience in Oklahoma City. Children could try activities run by local clubs and teams in the same place."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "In 2001, Comăneci explained her business role at the Norman gymnastics academy to columnist Mickey Herskowitz. The academy had just hired two coaches from Romania. At that point, management took her time there and others did the teaching.",
+      "label": "Mickey Herskowitz · Comăneci on hiring at the gymnastics academy",
+      "url": "https://www.chron.com/sports/article/herskowitz-gymnastics-still-at-heart-of-2012236.php"
+     },
+     {
+      "label": "International Gymnastics Hall of Fame · Nadia Comaneci",
+      "url": "https://www.ighof.com/inductees/1993_Nadia_Comaneci.php",
+      "example": "In Montreal in 1976, Comăneci earned Olympic gymnastics’ first perfect ten on the uneven bars. That routine also counted toward Romania’s team competition, where the gymnasts took silver."
+     },
+     {
+      "label": "International Gymnastics Hall of Fame · Nadia Comaneci",
+      "url": "https://www.ighof.com/inductees/1993_Nadia_Comaneci.php",
+      "example": "At the 1980 Moscow Olympics, Comăneci defended her balance beam title and also won gold on floor. Floor gave the audience a different performance from the beam routine for which it already knew her."
+     },
+     {
+      "label": "Bart & Nadia Sports Experience · The Oklahoma City family event",
+      "url": "https://www.bartandnadia.com/sports-experience/",
+      "example": "Comăneci and Bart Conner brought gymnastics meets and a free family sports event together at their Bart & Nadia Sports Experience in Oklahoma City. Children could try activities run by local clubs and teams in the same place."
+     }
+    ],
+    "matches": [
+     {
+      "number": 152,
+      "why": "Discussing her management role at the academy in 2001, Comăneci described hiring two Romanian coaches as a decision the team had made. In Cluj she recalled that she and Conner had approached Paul Ziert together and credited him with guiding their US projects. Conner also credited Ziert with proposing new ventures. The coaching hires and the choice of adviser show what sharing business decisions looked like in this partnership."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 152,
+      "why": "Discussing her management role at the academy in 2001, Comăneci described hiring two Romanian coaches as a decision the team had made. In Cluj she recalled that she and Conner had approached Paul Ziert together and credited him with guiding their US projects. Conner also credited Ziert with proposing new ventures. The coaching hires and the choice of adviser show what sharing business decisions looked like in this partnership."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 152,
+     "rationale": "Discussing her management role at the academy in 2001, Comăneci described hiring two Romanian coaches as a decision the team had made. In Cluj she recalled that she and Conner had approached Paul Ziert together and credited him with guiding their US projects. Conner also credited Ziert with proposing new ventures. The coaching hires and the choice of adviser show what sharing business decisions looked like in this partnership."
+    },
+    "sections.map.cousin": {
+     "number": 153,
+     "tell": "At the Sports Experience, children could try activities with local sports groups and choose one to pursue. Comăneci described those introductions herself. They give the Bridge Builder reading a place in her outreach, while the decisions about staff and advisers illustrate her role in running the businesses."
+    },
+    "sections.map.basis": {
+     "style": "The Co-Builder",
+     "observation": "In 2001, Comăneci explained her business role at the Norman gymnastics academy to columnist Mickey Herskowitz. The academy had just hired two coaches from Romania. At that point, management took her time there and others did the teaching.",
+     "sources": [
+      {
+       "label": "Mickey Herskowitz · Comăneci on hiring at the gymnastics academy",
+       "url": "https://www.chron.com/sports/article/herskowitz-gymnastics-still-at-heart-of-2012236.php"
+      }
+     ]
+    },
+    "identity": "A Romanian gymnast who earned the first perfect ten in Olympic gymnastics on the uneven bars and later helped run a gymnastics academy in Oklahoma.",
+    "sections.identity": "A Romanian gymnast who earned the first perfect ten in Olympic gymnastics on the uneven bars and later helped run a gymnastics academy in Oklahoma.",
+    "sections.pattern.0": "In Montreal in 1976, Comăneci finished her uneven-bars routine and the board displayed 1.00. It had only three digits available for a score. The judges had awarded 10.00, the first perfect ten in Olympic gymnastics.",
+    "sections.communicates.text.0": "As an athlete Comăneci communicated in routines that spectators could watch from start to finish. As a manager she explained her work in interviews. When asked about the academy in 2001, she gave the example of two new coaches and described her own responsibilities there.",
+    "sections.handling.works.0.detail": "When discussing a routine, name a hold, a shift of weight or the preparation for a landing. Ask what came next. It gives the other person something specific to answer."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.chron.com/sports/article/herskowitz-gymnastics-still-at-heart-of-2012236.php",
+     "label": "Mickey Herskowitz · Comăneci on hiring at the gymnastics academy"
+    }
+   ],
+   "previous_copy": {
+    "identity": "A Romanian gymnast whose name became a number — the first perfect ten in Olympic history — but whose real signature is the seamless transition between one held skill and the next, watched more closely than the scoreboard.",
+    "sections.identity": "A Romanian gymnast whose name became a number — the first perfect ten in Olympic history — but whose real signature is the seamless transition between one held skill and the next, watched more closely than the scoreboard.",
+    "sections.pattern.0": "The Montreal routine is usually remembered for its number, but the number only exists because the judges were already watching the transitions. Comăneci's bar work was scored on how she moved between skills, not on one isolated release. That ordering — craft observed before verdict — is a useful template for reading any public performance, including the way a person handles the gaps between big announcements.",
+    "sections.communicates.text.0": "Comăneci's public communication is largely non-verbal and sequential: she lets a routine build, holds a position, and moves on without commentary. The record we have is of performed choices — apparatus, timing, repetition — rather than interviews or explanations. Reading her means reading sequence, not soundbite.",
+    "sections.handling.works.0.detail": "When discussing a performance, name one specific moment between two skills — a hold, a shift of weight, a preparation — and ask what it made possible. This mirrors how the Montreal bars routine was actually judged and shows you are reading the craft rather than the scoreboard."
+   }
+  },
+  "saara-kuugongelwa": {
+   "result": "career_supported",
+   "rationale": "As finance minister, Kuugongelwa-Amadhila told legislators what agreement a state enterprise needed to receive a subsidy and where to check its performance. As Speaker, she explained why moving bills ahead of questions required three quarters of members to agree. In each case she named who could make the decision and how it could be checked.",
+   "scope": "Public spending and parliamentary decisions in Namibia",
+   "alternative": "The Advocate",
+   "sources": [
+    {
+     "label": "Namibian Ministry of Finance · 2011/12 budget statement, paragraphs 40–41",
+     "url": "https://www.cabri-sbo.org/uploads/files/Documents/namibia_2011_approval_external_budget_speech_ministry_of_finance_sadc_english_1.pdf",
+     "evidence": "In presenting the budget, Kuugongelwa-Amadhila specified that state-owned enterprises would need subsidy agreements for government funding and directed legislators to the budget’s accountability report for results."
+    },
+    {
+     "label": "Namibian Broadcasting Corporation · the Speaker explains the order of business",
+     "url": "https://nbcnews.na/index.php/node/117845",
+     "evidence": "In her own account of the legislative backlog, she explained that taking bills before questions required suspending Rule 117 and support from three quarters of members. She acknowledged the House had failed to reach that threshold."
+    },
+    {
+     "label": "Namibian Parliament · the finance minister’s April 2011 reply, paragraphs 55–56",
+     "url": "https://www.parliament.na/wp-content/uploads/2021/08/Reply-by-the-Minister-of-Finance-to-issues-raised-during-discussions-on-the-Main-Appropriation-Bill-2011-2012.pdf",
+     "evidence": "Answering legislators seeking accountability for state enterprises, she identified the boards and portfolio ministers who would sign performance agreements. The ministers were responsible for enforcing them and reporting on the enterprises."
+    },
+    {
+     "label": "Office of the Prime Minister of Namibia · remarks to the 2024 national drought platform",
+     "url": "https://opm.gov.na/documents/1150081/3406818/Right%2BHonorable%2BPrime%2BMinisters%2BOpening%2BStatement%2BNational%2BDrought%2BPlatform%2B20240925%2B%28003%29.pdf/aefd2707-c353-41e9-1447-abf552a45271",
+     "evidence": "She asked for greater publicity for livestock assistance because uptake was low. This identifies farmers as beneficiaries of a specific request and supports the alternate reading."
+    }
+   ],
+   "previous_number": 162,
+   "lead_number": 162,
+   "alternative_number": 157,
+   "before": "2bef80ef62ea6fc5d9028b06ca78c12cf171041fbd86006279bd252a91cf0e6c",
+   "version": "84bef08f3a0ada13fd7a9f0feb68e35f7b77349477220005bd9e601e1786f901",
+   "patch": {
+    "sections.communicates.examples": [
+     "At the National Assembly on 7 May 2019, Prime Minister Saara Kuugongelwa-Amadhila motivated the President's declaration of an emergency national disaster due to drought, presenting the case to legislators who had to act on it.",
+     "As Speaker, Kuugongelwa-Amadhila pressed for a parliamentary budget office that could give legislators independent analysis of government spending. She described why the office was needed while it was still in the planning stage.",
+     "In her 2011/12 budget statement, Kuugongelwa-Amadhila told Namibia’s legislators that state enterprises would need signed subsidy agreements to receive public funds. She also pointed them to the accountability report where they could check the enterprises’ performance.",
+     "On 5 September 2023, Kuugongelwa-Amadhila briefed Parliament on the outcome of the Namibia Livelihood Vulnerability Assessment and Analysis, presenting findings to lawmakers."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "label": "National Assembly motivation on drought emergency by Prime Minister",
+      "url": "https://www.parliament.na/wp-content/uploads/2021/03/drought_statement.pdf",
+      "example": "At the National Assembly on 7 May 2019, Prime Minister Saara Kuugongelwa-Amadhila motivated the President's declaration of an emergency national disaster due to drought, presenting the case to legislators who had to act on it."
+     },
+     {
+      "example": "As Speaker, Kuugongelwa-Amadhila pressed for a parliamentary budget office that could give legislators independent analysis of government spending. She described why the office was needed while it was still in the planning stage.",
+      "label": "Namibian Parliament · Speaker on a parliamentary budget office",
+      "url": "https://www.parliament.na/namibia-reaffirms-commitment-to-establish-parliamentary-budget-office/"
+     },
+     {
+      "example": "In her 2011/12 budget statement, Kuugongelwa-Amadhila told Namibia’s legislators that state enterprises would need signed subsidy agreements to receive public funds. She also pointed them to the accountability report where they could check the enterprises’ performance.",
+      "label": "Namibian Ministry of Finance · 2011/12 budget statement, paragraphs 40–41",
+      "url": "https://www.cabri-sbo.org/uploads/files/Documents/namibia_2011_approval_external_budget_speech_ministry_of_finance_sadc_english_1.pdf"
+     },
+     {
+      "label": "Office of the Prime Minister briefing to Parliament on VAA",
+      "url": "https://opm.gov.na/documents/1150081/1844291/Parliament%2BBriefing%2Bby%2Bthe%2BPrime%2BMinister%2BVAA%2BFind_230905_181646.pdf/b2748a31-cdf5-5421-1cbf-38039cdfbddc?t=1693984145826",
+      "example": "On 5 September 2023, Kuugongelwa-Amadhila briefed Parliament on the outcome of the Namibia Livelihood Vulnerability Assessment and Analysis, presenting findings to lawmakers."
+     }
+    ],
+    "matches": [
+     {
+      "number": 162,
+      "why": "As finance minister, Kuugongelwa-Amadhila told legislators what agreement a state enterprise needed to receive a subsidy and where to check its performance. As Speaker, she explained why moving bills ahead of questions required three quarters of members to agree. In each case she named who could make the decision and how it could be checked."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 162,
+      "why": "As finance minister, Kuugongelwa-Amadhila told legislators what agreement a state enterprise needed to receive a subsidy and where to check its performance. As Speaker, she explained why moving bills ahead of questions required three quarters of members to agree. In each case she named who could make the decision and how it could be checked."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 162,
+     "rationale": "As finance minister, Kuugongelwa-Amadhila told legislators what agreement a state enterprise needed to receive a subsidy and where to check its performance. As Speaker, she explained why moving bills ahead of questions required three quarters of members to agree. In each case she named who could make the decision and how it could be checked."
+    },
+    "sections.map.cousin": {
+     "number": 157,
+     "tell": "The Advocate fits her appeal for officials to publicise livestock assistance to farmers during the drought. Her budget statement and her explanation of who could change the House agenda give the Proceduralist a clearer lead on public spending and House business."
+    },
+    "sections.map.basis": {
+     "style": "The Proceduralist",
+     "observation": "In her 2011/12 budget statement, Kuugongelwa-Amadhila told Namibia’s legislators that state enterprises would need signed subsidy agreements to receive public funds. She also pointed them to the accountability report where they could check the enterprises’ performance.",
+     "sources": [
+      {
+       "label": "Namibian Ministry of Finance · 2011/12 budget statement, paragraphs 40–41",
+       "url": "https://www.cabri-sbo.org/uploads/files/Documents/namibia_2011_approval_external_budget_speech_ministry_of_finance_sadc_english_1.pdf"
+      }
+     ]
+    },
+    "identity": "Namibian finance minister, prime minister and later Speaker who explained how Parliament could check public spending and decide what came to a vote.",
+    "sections.identity": "Namibian finance minister, prime minister and later Speaker who explained how Parliament could check public spending and decide what came to a vote."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.cabri-sbo.org/uploads/files/Documents/namibia_2011_approval_external_budget_speech_ministry_of_finance_sadc_english_1.pdf",
+     "label": "Namibian Ministry of Finance · 2011/12 budget statement, paragraphs 40–41"
+    }
+   ],
+   "previous_copy": {
+    "identity": "Namibia's Prime Minister who turned a presidential drought emergency into a parliamentary motivation on 7 May 2019.",
+    "sections.identity": "Namibia's Prime Minister who turned a presidential drought emergency into a parliamentary motivation on 7 May 2019."
+   }
+  },
+  "shelly-ann-fraser-pryce": {
+   "result": "career_reassigned",
+   "rationale": "At Waterhouse, Fraser-Pryce urged young athletes to choose an interest outside sport and keep working at it. In St Vincent she drew on having started with one training outfit and asked athletes to speak up for what they wanted. On both occasions she gave listeners a practical choice they could make for themselves.",
+   "scope": "How Fraser-Pryce advises young athletes",
+   "alternative": "The Storyteller",
+   "sources": [
+    {
+     "label": "Searchlight · Fraser-Pryce’s April 2026 session in St Vincent",
+     "url": "https://www.searchlight.vc/sports/2026/04/17/young-athletes-get-earful-advice-jamaican-track-field-star/",
+     "evidence": "Speaking to young Vincentian athletes on April 9, she drew on her experience of training with one outfit and urged them to speak up for what they wanted rather than wait for someone else to choose their goals."
+    },
+    {
+     "label": "The Gleaner · Fraser-Pryce at Waterhouse Football Club",
+     "url": "https://past.jamaica-gleaner.com/article/sports/20251230/fraser-pryce-urges-athletes-balance-their-passions",
+     "evidence": "Reporting her answers after the Waterhouse Football Club presentation in December 2025, Livingston Scott records her advice to choose another interest alongside sport and keep developing it through uneven seasons."
+    },
+    {
+     "label": "Akashic Books · I Am a Promise",
+     "url": "https://www.akashicbooks.com/catalog/i-am-a-promise/",
+     "evidence": "Her book with Ashley Rousseau and illustrator Rachel Moss uses scenes from her own childhood and introduction to sprinting to tell young readers a story."
+    },
+    {
+     "label": "World Athletics · Fraser-Pryce’s fifth world 100m title",
+     "url": "https://worldathletics.org/heritage/news/wch-oregon22-report-women-100m",
+     "evidence": "The competition report records 10.67 in Eugene in 2022 and describes the five-title record specifically for a single individual running event."
+    }
+   ],
+   "previous_number": 159,
+   "lead_number": 154,
+   "alternative_number": 159,
+   "before": "a6c3cdf9c51851276df73b1e7dd8ff5d3bea212fe7d2992fa5bebb3446977fa4",
+   "version": "b1e9c25a6022be34c3157b5f2adfa7e768e3c82b51bb8c276d2c57c5034894e2",
+   "patch": {
+    "sections.communicates.examples": [
+     "In April 2026, Fraser-Pryce told young athletes at the Diamond Track Facility in St Vincent that she had started with one training outfit. She urged them to speak up about their own goals and choose what they wanted from the sport.",
+     "Fraser-Pryce co-wrote I Am a Promise with Ashley Rousseau. Illustrated by Rachel Moss, the book follows Fraser-Pryce from Waterhouse in Kingston to her first Olympic 100-metre gold medal.",
+     "After taking silver in the 100m at the Tokyo Olympics, she became the only woman to win four individual 100m medals in Olympic history, per the Zurich media information sheet.",
+     "Fraser-Pryce started the Pocket Rocket Foundation in Jamaica to help high-school student-athletes. Its scholarships support students who have to cover the costs of training while staying in school."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "In April 2026, Fraser-Pryce told young athletes at the Diamond Track Facility in St Vincent that she had started with one training outfit. She urged them to speak up about their own goals and choose what they wanted from the sport.",
+      "label": "Searchlight · Fraser-Pryce’s April 2026 session in St Vincent",
+      "url": "https://www.searchlight.vc/sports/2026/04/17/young-athletes-get-earful-advice-jamaican-track-field-star/"
+     },
+     {
+      "example": "Fraser-Pryce co-wrote I Am a Promise with Ashley Rousseau. Illustrated by Rachel Moss, the book follows Fraser-Pryce from Waterhouse in Kingston to her first Olympic 100-metre gold medal.",
+      "label": "Akashic Books · I Am a Promise",
+      "url": "https://www.akashicbooks.com/catalog/i-am-a-promise/"
+     },
+     {
+      "label": "Shelly-Ann FRASER-PRYCE | Profile | World Athletics",
+      "url": "https://worldathletics.org/athletes/jamaica/shelly-ann-fraser-pryce-14285680?__nextLocale=en",
+      "example": "After taking silver in the 100m at the Tokyo Olympics, she became the only woman to win four individual 100m medals in Olympic history, per the Zurich media information sheet."
+     },
+     {
+      "label": "Pocket Rocket Foundation · Its mission and origins",
+      "url": "https://pocketrocketfoundation.org/about",
+      "example": "Fraser-Pryce started the Pocket Rocket Foundation in Jamaica to help high-school student-athletes. Its scholarships support students who have to cover the costs of training while staying in school."
+     }
+    ],
+    "matches": [
+     {
+      "number": 154,
+      "why": "At Waterhouse, Fraser-Pryce urged young athletes to choose an interest outside sport and keep working at it. In St Vincent she drew on having started with one training outfit and asked athletes to speak up for what they wanted. On both occasions she gave listeners a practical choice they could make for themselves."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 154,
+      "why": "At Waterhouse, Fraser-Pryce urged young athletes to choose an interest outside sport and keep working at it. In St Vincent she drew on having started with one training outfit and asked athletes to speak up for what they wanted. On both occasions she gave listeners a practical choice they could make for themselves."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 154,
+     "rationale": "At Waterhouse, Fraser-Pryce urged young athletes to choose an interest outside sport and keep working at it. In St Vincent she drew on having started with one training outfit and asked athletes to speak up for what they wanted. On both occasions she gave listeners a practical choice they could make for themselves."
+    },
+    "sections.map.cousin": {
+     "number": 159,
+     "tell": "Her book I Am a Promise builds a story from her childhood in Kingston. At the St Vincent session she told a childhood story, too. There the story served a specific request to the athletes in front of her, which gives Mentor the lead for her work advising young competitors."
+    },
+    "sections.map.basis": {
+     "style": "The Mentor",
+     "observation": "In April 2026, Fraser-Pryce told young athletes at the Diamond Track Facility in St Vincent that she had started with one training outfit. She urged them to speak up about their own goals and choose what they wanted from the sport.",
+     "sources": [
+      {
+       "label": "Searchlight · Fraser-Pryce’s April 2026 session in St Vincent",
+       "url": "https://www.searchlight.vc/sports/2026/04/17/young-athletes-get-earful-advice-jamaican-track-field-star/"
+      }
+     ]
+    },
+    "sections.pattern.1": "In Eugene in 2022, Fraser-Pryce ran 10.67 to win her fifth world 100-metre title. She led a Jamaican sweep of the medals, with Shericka Jackson second and Elaine Thompson-Herah third.",
+    "sections.pattern.3": "At Waterhouse Football Club, Fraser-Pryce gave young athletes advice that extended beyond fast times and medals. She asked them to develop another interest alongside sport so that their lives would still hold something they valued through a difficult season.",
+    "sections.communicates.text.0": "Fraser-Pryce speaks directly to athletes about decisions that results tables leave out. At Waterhouse she urged them to choose an interest beyond their sport. In St Vincent she asked them to speak up about what they wanted from training."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.searchlight.vc/sports/2026/04/17/young-athletes-get-earful-advice-jamaican-track-field-star/",
+     "label": "Searchlight · Fraser-Pryce’s April 2026 session in St Vincent"
+    }
+   ],
+   "previous_copy": {
+    "sections.pattern.1": "She has made a public practice of returning to the same arena. In July 2022 in Eugene, according to the Zurich media information sheet, she became the first woman to win five world titles in an individual event at the World Championships. That fact is a statement about repetition: the same race, the same pressure, the same result. The public lesson is that consistency can be a form of ambition, not a lack of it.",
+    "sections.pattern.3": "Her public footprint stays close to the work. World Athletics profiles and championship media sheets carry her competitive marks and a few biographical notes — her son Zion's birth in 2017, her book — while her own published statements, such as the 2019 World Athletics Awards interview, centre on competition and craft. The pattern is a public figure who shares the work and the stated lessons, and leaves the rest unperformed.",
+    "sections.communicates.text.0": "Fraser-Pryce communicates through performance and selective public projects rather than through constant commentary. Her public record is dense with results and thin on personal revelation. When she does speak publicly, as in her 2019 World Athletics Awards interview, the topics tend to be craft, longevity and lessons learned. This is a communication style that asks the audience to read the work first and the words second."
+   }
+  },
+  "simon-bolivar": {
+   "result": "career_reassigned",
+   "rationale": "At Trujillo in 1820, Bolívar appointed commissioners and ratified their agreement with Spain on exchanging prisoners and treating the wounded. In his 1826 draft for Bolivia, he proposed that a third legislative chamber decide when the other two disagreed. Both records show him committing to a specific way of settling a dispute.",
+   "scope": "Rules for resolving disputes in diplomacy and government",
+   "alternative": "The Bridge Builder",
+   "sources": [
+    {
+     "label": "Gazeta de Madrid · Trujillo treaty, commissioners and ratifications, pages 166–167",
+     "url": "https://www.boe.es/gazeta/dias/1821/02/05/pdfs/GGB-1821-36.pdf",
+     "evidence": "The treaty records Bolívar’s appointment of three Colombian commissioners and his own ratification on 27 November 1820. The commissioners negotiated reciprocal rules for exchanging prisoners and caring for the wounded."
+    },
+    {
+     "label": "Biblioteca Virtual Miguel de Cervantes · Bolívar presents his constitutional draft for Bolivia, 1826",
+     "url": "https://www.lluisvives.com/obra-visor/doctrina-del-libertador--0/html/ff6f5f94-82b1-11df-acc7-002185ce6064_32.html",
+     "evidence": "In explaining his three-chamber proposal, Bolívar said the third chamber could resolve a disagreement between the other two. In the same speech he defended a presidency for life."
+    },
+    {
+     "label": "Biblioteca Ayacucho · Bolívar’s invitation to the Panama congress, document 9",
+     "url": "https://www.sela.org/wp-content/uploads/2023/07/t023600004835-0-documentos_sobre_el_congreso_anfictionico_de_panama.pdf",
+     "evidence": "On 7 December 1824 Bolívar invited governments to send representatives to a common assembly. He also described the assembly’s proposed role in interpreting agreements and reconciling differences."
+    }
+   ],
+   "previous_number": 50,
+   "lead_number": 59,
+   "alternative_number": 50,
+   "before": "15b7ba6332ebb25920d879ddf9964acdf87a065e2472a3d3b6e58db9ff5ed768",
+   "version": "4276f12e612dbab792e342c05d660dfceafdbcb99460e3c4639c873655ddec08",
+   "patch": {
+    "sections.communicates.examples": [
+     "At Trujillo in November 1820, Bolívar appointed three Colombian commissioners to negotiate with Spanish representatives. He personally ratified their treaty, which set out how the two armies would exchange prisoners and care for wounded captives.",
+     "Presenting his draft constitution for Bolivia in 1826, Bolívar explained why he wanted three legislative chambers. If two chambers disagreed on a law, the third could decide the issue. The same draft also proposed a president for life.",
+     "As head of state of Peru, Simón Bolívar issued a convocation on 7 December 1824 in Lima, two days before the Battle of Ayacucho, inviting the governments of Gran Colombia, Mexico, Río de la Plata, Chile and Central America to install an assembly of plenipotentiaries in Panama.",
+     "On 15 June 1813 in Trujillo, Simón Bolívar issued the Decreto de Guerra a Muerte, a proclamation declaring war to the death against royalist forces in Venezuela following the fall of the First Republic."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "At Trujillo in November 1820, Bolívar appointed three Colombian commissioners to negotiate with Spanish representatives. He personally ratified their treaty, which set out how the two armies would exchange prisoners and care for wounded captives.",
+      "label": "Gazeta de Madrid · Trujillo treaty, commissioners and ratifications, pages 166–167",
+      "url": "https://www.boe.es/gazeta/dias/1821/02/05/pdfs/GGB-1821-36.pdf"
+     },
+     {
+      "example": "Presenting his draft constitution for Bolivia in 1826, Bolívar explained why he wanted three legislative chambers. If two chambers disagreed on a law, the third could decide the issue. The same draft also proposed a president for life.",
+      "label": "Biblioteca Virtual Miguel de Cervantes · Bolívar presents his constitutional draft for Bolivia, 1826",
+      "url": "https://www.lluisvives.com/obra-visor/doctrina-del-libertador--0/html/ff6f5f94-82b1-11df-acc7-002185ce6064_32.html"
+     },
+     {
+      "label": "INDEPENDENCIA HISPANOAMERICANA",
+      "url": "https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/16736/1/Independencia-hispanoamericana.pdf",
+      "example": "As head of state of Peru, Simón Bolívar issued a convocation on 7 December 1824 in Lima, two days before the Battle of Ayacucho, inviting the governments of Gran Colombia, Mexico, Río de la Plata, Chile and Central America to install an assembly of plenipotentiaries in Panama."
+     },
+     {
+      "label": "Decreto de Guerra a Muerte – Ministerio del Poder Popular para la Cultura",
+      "url": "https://www.mincultura.gob.ve/eventos/decreto-de-guerra-a-muerte/",
+      "example": "On 15 June 1813 in Trujillo, Simón Bolívar issued the Decreto de Guerra a Muerte, a proclamation declaring war to the death against royalist forces in Venezuela following the fall of the First Republic."
+     }
+    ],
+    "matches": [
+     {
+      "number": 59,
+      "why": "At Trujillo in 1820, Bolívar appointed commissioners and ratified their agreement with Spain on exchanging prisoners and treating the wounded. In his 1826 draft for Bolivia, he proposed that a third legislative chamber decide when the other two disagreed. Both records show him committing to a specific way of settling a dispute."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 59,
+      "why": "At Trujillo in 1820, Bolívar appointed commissioners and ratified their agreement with Spain on exchanging prisoners and treating the wounded. In his 1826 draft for Bolivia, he proposed that a third legislative chamber decide when the other two disagreed. Both records show him committing to a specific way of settling a dispute."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 59,
+     "rationale": "At Trujillo in 1820, Bolívar appointed commissioners and ratified their agreement with Spain on exchanging prisoners and treating the wounded. In his 1826 draft for Bolivia, he proposed that a third legislative chamber decide when the other two disagreed. Both records show him committing to a specific way of settling a dispute."
+    },
+    "sections.map.cousin": {
+     "number": 50,
+     "tell": "The Bridge Builder fits his invitation to bring several governments together at Panama. The Trujillo treaty and his proposed tie-breaker for Bolivia show what he wanted parties to do once they faced a disagreement. His proposal for a president for life also limits any broader inference about how he shared power."
+    },
+    "sections.map.basis": {
+     "style": "The Proceduralist",
+     "observation": "Presenting his draft constitution for Bolivia in 1826, Bolívar explained why he wanted three legislative chambers. If two chambers disagreed on a law, the third could decide the issue. The same draft also proposed a president for life.",
+     "sources": [
+      {
+       "label": "Biblioteca Virtual Miguel de Cervantes · Bolívar presents his constitutional draft for Bolivia, 1826",
+       "url": "https://www.lluisvives.com/obra-visor/doctrina-del-libertador--0/html/ff6f5f94-82b1-11df-acc7-002185ce6064_32.html"
+      }
+     ]
+    },
+    "identity": "Venezuelan independence leader who ratified prisoner protections at Trujillo, called governments together at Panama and proposed how a Bolivian legislature could settle disputes.",
+    "sections.identity": "Venezuelan independence leader who ratified prisoner protections at Trujillo, called governments together at Panama and proposed how a Bolivian legislature could settle disputes."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.lluisvives.com/obra-visor/doctrina-del-libertador--0/html/ff6f5f94-82b1-11df-acc7-002185ce6064_32.html",
+     "label": "Biblioteca Virtual Miguel de Cervantes · Bolívar presents his constitutional draft for Bolivia, 1826"
+    },
+    {
+     "url": "https://www.boe.es/gazeta/dias/1821/02/05/pdfs/GGB-1821-36.pdf",
+     "label": "Gazeta de Madrid · Trujillo treaty, commissioners and ratifications, pages 166–167"
+    }
+   ],
+   "previous_copy": {
+    "identity": "Venezuelan independence leader whose 1815 Jamaica Letter reframed the case for Spanish American independence around local conditions and British interests.",
+    "sections.identity": "Venezuelan independence leader whose 1815 Jamaica Letter reframed the case for Spanish American independence around local conditions and British interests."
+   }
+  },
+  "toussaint-louverture": {
+   "result": "career_supported",
+   "rationale": "In 1797 Louverture challenged a French legislator’s attack on abolition and warned the French Directory that restoring slavery would meet resistance. In 1800 he publicly accused French commissioner Roume of sowing discord and ordered him confined. These were distinct disputes with authorities on his own side. The second also shows the coercive power Louverture could exercise.",
+   "scope": "His public challenges to French authorities while serving as a French general, 1797–1800",
+   "alternative": "The Advocate",
+   "sources": [
+    {
+     "label": "Louverture’s public order concerning French commissioner Roume, 26 November 1800",
+     "url": "https://www.marxists.org/reference/archive/toussaint-louverture/1800/roume.htm",
+     "evidence": "In an order addressed to residents, he accuses France’s representative of fomenting discord and directs General Moyse to escort Roume to Dondon, where he must remain until recalled by France. The charges are Louverture’s stated justification."
+    },
+    {
+     "label": "Louverture’s cultivation regulation of 12 October 1800 · text reproduced by Beaubrun Ardouin",
+     "url": "https://rasanblaj.ht/ardouin/etudes-4/l5-ch01.html",
+     "evidence": "The signed regulation dated 20 Vendémiaire, Year IX, orders arrest and military-style punishment for failure to perform agricultural duties. It requires cultivators who had entered domestic service to return to their plantations."
+    },
+    {
+     "label": "Musée de Pontarlier · Louverture’s letter to General Laveaux, 18 May 1794, page 5",
+     "url": "https://www.ville-pontarlier.fr/uploads/elfinder/Culture/Mus%C3%A9e/250718_%20DP_%20Toussaint_DB.pdf#page=5",
+     "evidence": "In the letter he says Spain offered freedom to those fighting for the kings. He explains his break by saying he came to fear its policy would return survivors to slavery. This is his account of the change of allegiance."
+    },
+    {
+     "label": "French National Assembly · abolition debate, 4 February 1794",
+     "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/dufay-et-danton-4-fevrier-1794",
+     "evidence": "The Assembly reproduces the addresses of Dufay and Danton at the sitting on 4 February 1794. Danton describes the universal freedom proclaimed in the decree just adopted. That date precedes Louverture’s May letter to Laveaux."
+    },
+    {
+     "label": "Smithsonian National Museum of African American History and Culture · letter to Charles Vincent",
+     "url": "https://collections.si.edu/search/detail/edanmdm%3Anmaahc_2009.26.2ab?print=yes",
+     "evidence": "The museum identifies Louverture’s signed October 1797 letter as an objection to Viénot de Vaublanc’s parliamentary speech against abolition."
+    }
+   ],
+   "previous_number": 57,
+   "lead_number": 57,
+   "alternative_number": 54,
+   "before": "3798096e9b4f168b822125d92fbd52ec2f808dc8871fc5a8b5f8f63660d6fe8f",
+   "version": "7ce942d2590bc2efbc564d126b3e4ab746d241f8ab27ec2ef29ecdd8b72ffda4",
+   "patch": {
+    "sections.communicates.examples": [
+     "In 1801 Toussaint Louverture was named governor for life of Saint-Domingue under the colony's new constitution, which entrusted him with its direction for the remainder of his life in recognition of his services during the revolution.",
+     "In May 1794 Louverture explained to French general Étienne Laveaux why he had broken with Spain. He said Spain had offered freedom to those who fought for the Crown, but that he had come to fear a return to slavery.",
+     "On 12 October 1800, Louverture ordered managers, overseers and cultivators who failed in their assigned plantation duties to face arrest and military-style punishment. The same regulation required cultivators who had entered domestic service to return to their plantations.",
+     "In a signed letter to Charles Vincent in October 1797, Louverture challenged a French parliamentarian’s arguments against abolition in Saint-Domingue. The surviving letter records the objection of a general then serving under French authority."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "label": "Constitution of 1801 by Haiti 1801",
+      "url": "https://openstax.marxists.info/history/haiti/1801/constitution.htm",
+      "example": "In 1801 Toussaint Louverture was named governor for life of Saint-Domingue under the colony's new constitution, which entrusted him with its direction for the remainder of his life in recognition of his services during the revolution."
+     },
+     {
+      "example": "In May 1794 Louverture explained to French general Étienne Laveaux why he had broken with Spain. He said Spain had offered freedom to those who fought for the Crown, but that he had come to fear a return to slavery.",
+      "label": "Musée de Pontarlier · Louverture’s letter to General Laveaux, 18 May 1794, page 5",
+      "url": "https://www.ville-pontarlier.fr/uploads/elfinder/Culture/Mus%C3%A9e/250718_%20DP_%20Toussaint_DB.pdf#page=5"
+     },
+     {
+      "example": "On 12 October 1800, Louverture ordered managers, overseers and cultivators who failed in their assigned plantation duties to face arrest and military-style punishment. The same regulation required cultivators who had entered domestic service to return to their plantations.",
+      "label": "Louverture’s cultivation regulation of 12 October 1800 · text reproduced by Beaubrun Ardouin",
+      "url": "https://rasanblaj.ht/ardouin/etudes-4/l5-ch01.html"
+     },
+     {
+      "example": "In a signed letter to Charles Vincent in October 1797, Louverture challenged a French parliamentarian’s arguments against abolition in Saint-Domingue. The surviving letter records the objection of a general then serving under French authority.",
+      "label": "Smithsonian National Museum of African American History and Culture · letter to Charles Vincent",
+      "url": "https://collections.si.edu/search/detail/edanmdm%3Anmaahc_2009.26.2ab?print=yes"
+     }
+    ],
+    "matches": [
+     {
+      "number": 57,
+      "why": "In 1797 Louverture challenged a French legislator’s attack on abolition and warned the French Directory that restoring slavery would meet resistance. In 1800 he publicly accused French commissioner Roume of sowing discord and ordered him confined. These were distinct disputes with authorities on his own side. The second also shows the coercive power Louverture could exercise."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 57,
+      "why": "In 1797 Louverture challenged a French legislator’s attack on abolition and warned the French Directory that restoring slavery would meet resistance. In 1800 he publicly accused French commissioner Roume of sowing discord and ordered him confined. These were distinct disputes with authorities on his own side. The second also shows the coercive power Louverture could exercise."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 57,
+     "rationale": "In 1797 Louverture challenged a French legislator’s attack on abolition and warned the French Directory that restoring slavery would meet resistance. In 1800 he publicly accused French commissioner Roume of sowing discord and ordered him confined. These were distinct disputes with authorities on his own side. The second also shows the coercive power Louverture could exercise."
+    },
+    "sections.map.cousin": {
+     "number": 54,
+     "tell": "Advocate fits his appeals for formerly enslaved people’s freedom. His order confining Roume records a rupture inside the French administration. On the plantations Louverture himself ordered military-style punishment and compelled workers to return, a limit on the freedoms he defended."
+    },
+    "identity": "Saint-Domingue’s revolutionary general who challenged French officials over the future of abolition and later enforced compulsory plantation labor as a ruler.",
+    "sections.identity": "Saint-Domingue’s revolutionary general who challenged French officials over the future of abolition and later enforced compulsory plantation labor as a ruler.",
+    "sections.pattern.0": "France’s National Convention decreed abolition on 4 February 1794. In May, Louverture wrote to General Laveaux explaining why he had broken with Spain. He said he feared a return to slavery. The choice marked a public disagreement with allies he had fought beside. In everyday terms, it is the moment a person tells their own side where they differ and stands by the reason, even when the timing is awkward. That is a stance about a principle, not a template for how to treat a partner.",
+    "sections.pattern.2": "Louverture’s 12 October 1800 regulation imposed military-style discipline on plantation labor. It required cultivators who had entered domestic service to return to their plantations. The rules tied compliance to consequences and demotion. Close relationships can drift toward a similar scorekeeping, where mistakes trigger penalties and status loss. Naming that pattern early, before it hardens, gives both people a chance to choose cooperation over punishment."
+   },
+   "add_sources": [
+    {
+     "url": "https://rasanblaj.ht/ardouin/etudes-4/l5-ch01.html",
+     "label": "Louverture’s cultivation regulation of 12 October 1800 · text reproduced by Beaubrun Ardouin"
+    },
+    {
+     "url": "https://www.ville-pontarlier.fr/uploads/elfinder/Culture/Mus%C3%A9e/250718_%20DP_%20Toussaint_DB.pdf#page=5",
+     "label": "Musée de Pontarlier · Louverture’s letter to General Laveaux, 18 May 1794, page 5"
+    }
+   ],
+   "previous_copy": {
+    "identity": "The Saint-Domingue revolutionary general who in mid-1794 left Spain for France after abolition was proclaimed, unlike loyalist allies Biassou and Papillon.",
+    "sections.identity": "The Saint-Domingue revolutionary general who in mid-1794 left Spain for France after abolition was proclaimed, unlike loyalist allies Biassou and Papillon.",
+    "sections.pattern.0": "When the French revolutionary government proclaimed abolition in mid-1794, Louverture changed sides, joining the French while his Spanish comrades Biassou and Papillon stayed loyal to Spain. The choice marked a public disagreement with allies he had fought beside. In everyday terms, it is the moment a person tells their own side where they differ and stands by the reason, even when the timing is awkward. That is a stance about a principle, not a template for how to treat a partner.",
+    "sections.pattern.2": "His cultivation regulations at Port-Républicain required managers, drivers and cultivators to perform their duties under threat of arrest and punishment, with negligent drivers reduced to simple cultivators. The rules tied compliance to consequences and demotion. Close relationships can drift toward a similar scorekeeping, where mistakes trigger penalties and status loss. Naming that pattern early, before it hardens, gives both people a chance to choose cooperation over punishment."
+   }
+  }
+ }
+}

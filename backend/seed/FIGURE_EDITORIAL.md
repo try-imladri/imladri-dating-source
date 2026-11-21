@@ -1,0 +1,11 @@
+# Public figure matches
+
+Start with a documented exchange, decision or statement. Write down what the person did, who else was involved and where a reader can check it. Compare that action to the **definition** of the existing relationship archetypes. A long career, the tempo of a song, a championship, a job title or a fictional character cannot establish how a person treats a partner.
+
+Use an existing type when its defining behavior fits. When it does not, look for an interpersonal pattern that multiple careers illustrate. Add that type to the ordinary archetype library only if it has a distinct definition and a clear way to tell it apart from its closest cousin. There is no target distribution and no required runner-up. A comparison describes the observed public behavior, not someone's private relationship style.
+
+Every figure has four separately sourced career examples in `sections.communicates`. Seeds keep the examples and links in the same order; the importer binds each link to its example text so that a staff edit cannot silently put a citation under the wrong card. Other article references go in the top-level `sources` list. The primary match in `sections.matches` must also be first on the directory card and agree with `sections.map.closest`. Put the observation and its supporting career sources in `sections.map.basis`. A closest cousin is a comparison between **types**, not a second claim about the person.
+
+Before adding a person, check their English name, aliases and Wikidata person ID against `figure_person_ids.json`. Reuse the seven-section figure layout and attribute the licensed portrait. Admin → Public Figures shows the number of lead matches per archetype; use those counts to discover weak rationales, not to redistribute people to make the chart look even.
+
+The paired communication editions use the existing male and female numbering, article templates, media and publication controls. A new edition needs four fictional screen examples, four texting threads, interest and flag cards, suggested language, manipulation patterns, leverage and a distinct closest cousin. The real public figures are evidence for the narrow comparison; the fictional examples illustrate the relationship article.

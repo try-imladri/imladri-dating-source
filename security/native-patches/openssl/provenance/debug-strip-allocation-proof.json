@@ -1,0 +1,578 @@
+{
+  "completed_utc": "2026-11-13T00:41:52.610939+00:00",
+  "command": [
+    "strip",
+    "--strip-debug"
+  ],
+  "tool": "GNU strip (GNU Binutils) 2.47.20260726\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis program is free software; you may redistribute it under the terms of\nthe GNU General Public License version 3 or (at your option) any later version.\nThis program has absolutely no warranty.\n",
+  "only_debug_metadata_removed": true,
+  "runtime_libraries": [
+    "libcrypto.so.4",
+    "libssl.so.4"
+  ],
+  "CLI_is_test_only": true,
+  "artifacts": [
+    {
+      "name": "libcrypto.so.4",
+      "raw_sha256": "6c65abcb7b2c6d5d2ff1c36474ee6c2cae869d62ce807a3b9a3f019e2be3be2c",
+      "final_sha256": "87a9bfe420874ef4e67a4442d8a0813406b875b9e9dbf57d8e43b8bed87bb629",
+      "final_bytes": 6842064,
+      "allocated_sections_unchanged": true,
+      "allocated_sections": {
+        ".gnu.hash": {
+          "type": 1879048182,
+          "flags": 2,
+          "address": 624,
+          "size": 34576,
+          "sha256": "d81f1bb43ddd03906e690596d710ff1eead51460a33ae284ede115a04dc435cb"
+        },
+        ".dynsym": {
+          "type": 11,
+          "flags": 2,
+          "address": 35200,
+          "size": 138504,
+          "sha256": "cb5d3351cf205512215652b469faa01984e2b9f7977eea1fbfc10c8d3da1b18d"
+        },
+        ".dynstr": {
+          "type": 3,
+          "flags": 2,
+          "address": 173704,
+          "size": 120136,
+          "sha256": "f7c4c56232cd6595f8f52f05e97965d0988f418eea33f32f0b6e562274972c5c"
+        },
+        ".gnu.version": {
+          "type": 1879048191,
+          "flags": 2,
+          "address": 293840,
+          "size": 11542,
+          "sha256": "46b315f40ac94bb6446c4b0a606a127342e6aa1585c163db01b356f51a759b93"
+        },
+        ".gnu.version_d": {
+          "type": 1879048189,
+          "flags": 2,
+          "address": 305384,
+          "size": 56,
+          "sha256": "0f14443794dff8d535e1e0fdc677b06b428c4311a0c4a5ca9141c6e49a82ed5b"
+        },
+        ".gnu.version_r": {
+          "type": 1879048190,
+          "flags": 2,
+          "address": 305440,
+          "size": 240,
+          "sha256": "9cde31e0e8fbadd801c5869e094707dfd14c7928f9055949d44d6ab00288bbe1"
+        },
+        ".rela.dyn": {
+          "type": 4,
+          "flags": 2,
+          "address": 305680,
+          "size": 519792,
+          "sha256": "830bbe6653be8d4ac04bf5e09fca036e54e72c5325478de54f31b79778c78268"
+        },
+        ".rela.plt": {
+          "type": 4,
+          "flags": 66,
+          "address": 825472,
+          "size": 4032,
+          "sha256": "dc6e6bec4e4d83e50c6de5638c618aaac2d69ace579fe734a4920e37a76a20bb"
+        },
+        ".init": {
+          "type": 1,
+          "flags": 6,
+          "address": 831488,
+          "size": 32,
+          "sha256": "4dbc82a999bbace44c718dfcc645d3a8a618c324696bdbd298a17c654b40e1ab"
+        },
+        ".plt": {
+          "type": 1,
+          "flags": 6,
+          "address": 831520,
+          "size": 2704,
+          "sha256": "eb395df720ba10eb2234c9611853de601c9fe2bb5ce3a63be270fead9014fb3a"
+        },
+        ".plt.got": {
+          "type": 1,
+          "flags": 6,
+          "address": 834224,
+          "size": 48,
+          "sha256": "b6132632507777f49ada58f57c3ad743b36c5234d9db5043f2d041d92343a9b1"
+        },
+        ".plt.sec": {
+          "type": 1,
+          "flags": 6,
+          "address": 834272,
+          "size": 2688,
+          "sha256": "7bc05b897462d52f66702d9d36a0f94e050d2fa397441656a9b78e823f8e923d"
+        },
+        ".text": {
+          "type": 1,
+          "flags": 6,
+          "address": 836992,
+          "size": 3623408,
+          "sha256": "aace265ab86e47451aaf1732e8e88f43063b9ee6fd4351b3fd7af81a792de678"
+        },
+        ".fini": {
+          "type": 1,
+          "flags": 6,
+          "address": 4460400,
+          "size": 13,
+          "sha256": "6a4f3e5efc7c1f7ee7d6f21afd9ed040ba1d7f0b97bb12b016f5b176cc558bd8"
+        },
+        ".rodata": {
+          "type": 1,
+          "flags": 2,
+          "address": 4460544,
+          "size": 623283,
+          "sha256": "4651f6be85b3172837d8b30d97c9ebfdb3a63d20cead73d7cb8f544b9ad7fd63"
+        },
+        ".eh_frame_hdr": {
+          "type": 1,
+          "flags": 2,
+          "address": 5083828,
+          "size": 99588,
+          "sha256": "1794180d60164bef9aaa149560940de59d8b1ba781f22c929bd85bcf3966d5d4"
+        },
+        ".eh_frame": {
+          "type": 1,
+          "flags": 2,
+          "address": 5183416,
+          "size": 476040,
+          "sha256": "d78f41fb653281f31803673e47f30613d34b4218f6f2c42f5eab4db158edbe9d"
+        },
+        ".note.gnu.property": {
+          "type": 7,
+          "flags": 2,
+          "address": 5659456,
+          "size": 64,
+          "sha256": "2c4ef211ef977c410b55fd47b3afc06b776286c71deb40b494073f87c171ad14"
+        },
+        ".init_array": {
+          "type": 14,
+          "flags": 3,
+          "address": 5662664,
+          "size": 8,
+          "sha256": "9de5711c64e3a1ecc5037b7e021af3d325adf46e72c77950c2fb1ea55d9fba1d"
+        },
+        ".fini_array": {
+          "type": 15,
+          "flags": 3,
+          "address": 5662672,
+          "size": 16,
+          "sha256": "90bc805a6073088a3b6e1ae7ab4b2294de4a72b1e6894796c26d7385f24bbd9c"
+        },
+        ".data.rel.ro": {
+          "type": 1,
+          "flags": 3,
+          "address": 5662688,
+          "size": 401232,
+          "sha256": "1f1a92a44315151b320492f069d4e3f103edefd6f3c64037509eec1d5975a67a"
+        },
+        ".dynamic": {
+          "type": 6,
+          "flags": 3,
+          "address": 6063920,
+          "size": 576,
+          "sha256": "3129b3a5f37a79da8777c3e1175d8bab9f4f0314772cb1bd7cbd7eee9023ea8a"
+        },
+        ".got": {
+          "type": 1,
+          "flags": 3,
+          "address": 6064496,
+          "size": 1672,
+          "sha256": "bd88f03dbb77d2f8e3c2376dc63f372e940e935cfdb9406edeb040a6c0fbc159"
+        },
+        ".data": {
+          "type": 1,
+          "flags": 3,
+          "address": 6066176,
+          "size": 3952,
+          "sha256": "d1874804791dd481a8cee325351e7383510c81ebc5d5791438108505ffe493a1"
+        },
+        ".bss": {
+          "type": 8,
+          "flags": 3,
+          "address": 6070144,
+          "size": 10312,
+          "sha256": null
+        }
+      },
+      "independent_stripped_rebuild_identical": true
+    },
+    {
+      "name": "libssl.so.4",
+      "raw_sha256": "0e952e2ba756d6d37ab49b4193bd9f30603805961ad9599c478f829ef5f8dcaa",
+      "final_sha256": "0e910460047c81acc24c5a15a4e928c94d71e37a907ee7076fdd0f21230008af",
+      "final_bytes": 1383336,
+      "allocated_sections_unchanged": true,
+      "allocated_sections": {
+        ".gnu.hash": {
+          "type": 1879048182,
+          "flags": 2,
+          "address": 624,
+          "size": 6504,
+          "sha256": "37d76c5a0392aaed74b6c85a13058e96ddde9cc7e90e9a57a23b7e50646b93ac"
+        },
+        ".dynsym": {
+          "type": 11,
+          "flags": 2,
+          "address": 7128,
+          "size": 30216,
+          "sha256": "85cb8105dee050f64fba5cebfe2af556952897271490047f899d24971d52496f"
+        },
+        ".dynstr": {
+          "type": 3,
+          "flags": 2,
+          "address": 37344,
+          "size": 26249,
+          "sha256": "38ad4a3ae3c8aabe2e5e5e0b57f807ac9e4a5154903788ce73febf608c6a416a"
+        },
+        ".gnu.version": {
+          "type": 1879048191,
+          "flags": 2,
+          "address": 63594,
+          "size": 2518,
+          "sha256": "cdb7dfdf92b657aa09adf370602d2e827c68996fd69cbec85e53758f2aa8c4b6"
+        },
+        ".gnu.version_d": {
+          "type": 1879048189,
+          "flags": 2,
+          "address": 66112,
+          "size": 56,
+          "sha256": "cfde1ee76621b6705cc193440073adbfe2c72d06bceaacf0aeef19a3bb1558cf"
+        },
+        ".gnu.version_r": {
+          "type": 1879048190,
+          "flags": 2,
+          "address": 66168,
+          "size": 208,
+          "sha256": "5b76cd64be88e86ae599597bedd445e1cea5dd28068266eabe8e63f600b83f72"
+        },
+        ".rela.dyn": {
+          "type": 4,
+          "flags": 2,
+          "address": 66376,
+          "size": 58992,
+          "sha256": "8aa6db9853ff73736775f8bfb1809b0c495278278e90eb3a3a8fee51de7e0100"
+        },
+        ".rela.plt": {
+          "type": 4,
+          "flags": 66,
+          "address": 125368,
+          "size": 14592,
+          "sha256": "87c73e90717164fa015d46451325fccc63a6ca29177c4cb677b9b62d087dc9e5"
+        },
+        ".init": {
+          "type": 1,
+          "flags": 6,
+          "address": 143360,
+          "size": 27,
+          "sha256": "be9939907a8c178222eeede2bf14ca40c6c5518cc0409e6dba755c37dd1a670a"
+        },
+        ".plt": {
+          "type": 1,
+          "flags": 6,
+          "address": 143392,
+          "size": 9744,
+          "sha256": "beeefb5015635a50dea1d7d1029ac305ee02437fe4e50455a018e9478ec32480"
+        },
+        ".plt.got": {
+          "type": 1,
+          "flags": 6,
+          "address": 153136,
+          "size": 64,
+          "sha256": "551ad19f21597705530cb217ca50150716e905d7679ddbf695c01d758243e0f5"
+        },
+        ".plt.sec": {
+          "type": 1,
+          "flags": 6,
+          "address": 153200,
+          "size": 9728,
+          "sha256": "5faaf80d814ea92b4f5a60d010b216371ed3e35fc8ba4e5d7705de7c050daa2c"
+        },
+        ".text": {
+          "type": 1,
+          "flags": 6,
+          "address": 162944,
+          "size": 770013,
+          "sha256": "a90169c9a7103c22c2a83067cb426750951eb5f699dfc67ea7d04c50df255d3a"
+        },
+        ".fini": {
+          "type": 1,
+          "flags": 6,
+          "address": 932960,
+          "size": 13,
+          "sha256": "6a4f3e5efc7c1f7ee7d6f21afd9ed040ba1d7f0b97bb12b016f5b176cc558bd8"
+        },
+        ".rodata": {
+          "type": 1,
+          "flags": 2,
+          "address": 933888,
+          "size": 77667,
+          "sha256": "849d67c22b43abf2790f9c70fd56ab2a538fd4379c31091833c195e1d9f03f8e"
+        },
+        ".eh_frame_hdr": {
+          "type": 1,
+          "flags": 2,
+          "address": 1011556,
+          "size": 21036,
+          "sha256": "5c27b51659d9be698fcc026ff8d7787947a516069915fc3b3b9c18599d65151c"
+        },
+        ".eh_frame": {
+          "type": 1,
+          "flags": 2,
+          "address": 1032592,
+          "size": 109584,
+          "sha256": "1d194aec4aa16f2c1f0c24850be792c07d0c3f33ffcead0258dcf214215a5a84"
+        },
+        ".note.gnu.property": {
+          "type": 7,
+          "flags": 2,
+          "address": 1142176,
+          "size": 64,
+          "sha256": "be6678b267eaf99a5b787f64b0443abf0b8ba621c2f8a2a64a793b8f20569ede"
+        },
+        ".init_array": {
+          "type": 14,
+          "flags": 3,
+          "address": 1143856,
+          "size": 8,
+          "sha256": "f7eecf18f161f6a70f7895c652e4da52dae3f4ae6efeecf6099b89a72b9f9073"
+        },
+        ".fini_array": {
+          "type": 15,
+          "flags": 3,
+          "address": 1143864,
+          "size": 8,
+          "sha256": "f1dc4372a0d9f4257c0224dfaf91ddd5f569ed917e682c8e94c105b0c5e88770"
+        },
+        ".data.rel.ro": {
+          "type": 1,
+          "flags": 3,
+          "address": 1143872,
+          "size": 34288,
+          "sha256": "cee89e29d07492bc99ee509e54ccc51d3e21c39082696f2b8a41979a0f2a45f1"
+        },
+        ".dynamic": {
+          "type": 6,
+          "flags": 3,
+          "address": 1178160,
+          "size": 560,
+          "sha256": "6fe8d1469eea418af90bc8e0e1bf513b8ab3c6e10f9ee0461baa99ba10f67f6b"
+        },
+        ".got": {
+          "type": 1,
+          "flags": 3,
+          "address": 1178720,
+          "size": 5000,
+          "sha256": "8ff20aa658efaf333c302e9dc4b52a46980d51f6699e99a861269fde6973314c"
+        },
+        ".data": {
+          "type": 1,
+          "flags": 3,
+          "address": 1183744,
+          "size": 12272,
+          "sha256": "4a7d4a9044880a9f11a1410eb039d58091b52f4408d34d2ed84e7c591aa230e1"
+        },
+        ".bss": {
+          "type": 8,
+          "flags": 3,
+          "address": 1196016,
+          "size": 40,
+          "sha256": null
+        }
+      },
+      "independent_stripped_rebuild_identical": true
+    },
+    {
+      "name": "openssl",
+      "raw_sha256": "b9d8353c2e6a346500e91b31a9f476ee271b898bf97d34e13216e9e947003479",
+      "final_sha256": "e12eed1153c8af3328b21047fdd74fd33b77fae0b6d92155e2a646c4ce7f25c7",
+      "final_bytes": 1295056,
+      "allocated_sections_unchanged": true,
+      "allocated_sections": {
+        ".interp": {
+          "type": 1,
+          "flags": 2,
+          "address": 792,
+          "size": 28,
+          "sha256": "9097c98ea70f6f3b01d50145eb72bf55ad1f4e9713bccf27bd6405d6254eed00"
+        },
+        ".gnu.hash": {
+          "type": 1879048182,
+          "flags": 2,
+          "address": 824,
+          "size": 444,
+          "sha256": "a16ed538f8522d10684ade142caded029a715fbc237401f2d69ef917060750ea"
+        },
+        ".dynsym": {
+          "type": 11,
+          "flags": 2,
+          "address": 1272,
+          "size": 40776,
+          "sha256": "ddd4dd815eebcd35894caa0b7b406185effbcf7e7fc23957ce473939ec3157f4"
+        },
+        ".dynstr": {
+          "type": 3,
+          "flags": 2,
+          "address": 42048,
+          "size": 34842,
+          "sha256": "82ee6fd39e4ecc63235c2d84e827eecdfd4f240db09aef9c19deb3e35da0b3ae"
+        },
+        ".gnu.version": {
+          "type": 1879048191,
+          "flags": 2,
+          "address": 76890,
+          "size": 3398,
+          "sha256": "a744a6c8468928b76cfd26c254367a4c0ee2b62211acc9b902d6f2e75050d104"
+        },
+        ".gnu.version_r": {
+          "type": 1879048190,
+          "flags": 2,
+          "address": 80288,
+          "size": 224,
+          "sha256": "14ad542eadbb6a6dd977edc1d50495f3b7cb979bf40cf81fd8e26ca47f88ff7c"
+        },
+        ".rela.dyn": {
+          "type": 4,
+          "flags": 2,
+          "address": 80512,
+          "size": 138672,
+          "sha256": "339b9ec208e7e8d2cf0b2cddf8bfed058d80b387658e8a896134a55b785b5911"
+        },
+        ".rela.plt": {
+          "type": 4,
+          "flags": 66,
+          "address": 219184,
+          "size": 39360,
+          "sha256": "df72ba545a04d7cd4c0a5b71ccf39f5de2760093a076c58bade109178afb4f36"
+        },
+        ".init": {
+          "type": 1,
+          "flags": 6,
+          "address": 262144,
+          "size": 27,
+          "sha256": "b8adf9cfd9f64207337eaeb09743e20dbf30cb3208b71e807e594bd4ccf8a41a"
+        },
+        ".plt": {
+          "type": 1,
+          "flags": 6,
+          "address": 262176,
+          "size": 26256,
+          "sha256": "cfe130110cef1841911e18f1325228bf365017e277ec90b55457f2fe1d6dcae5"
+        },
+        ".plt.got": {
+          "type": 1,
+          "flags": 6,
+          "address": 288432,
+          "size": 512,
+          "sha256": "50262adaff418e0fa70d33aaf5e6027442738f85aa65aa260ca9cc555fc9dba1"
+        },
+        ".plt.sec": {
+          "type": 1,
+          "flags": 6,
+          "address": 288944,
+          "size": 26240,
+          "sha256": "277c19d9ad4c7127a90a6ad8b70a9797f237a37c422b113a67b9f17aab093ebf"
+        },
+        ".text": {
+          "type": 1,
+          "flags": 6,
+          "address": 315200,
+          "size": 504307,
+          "sha256": "84f6b09ce2117f9a3a70a7dc792e6db6f6d9e2d039894ec0a3713e635bea7eb2"
+        },
+        ".fini": {
+          "type": 1,
+          "flags": 6,
+          "address": 819508,
+          "size": 13,
+          "sha256": "6a4f3e5efc7c1f7ee7d6f21afd9ed040ba1d7f0b97bb12b016f5b176cc558bd8"
+        },
+        ".rodata": {
+          "type": 1,
+          "flags": 2,
+          "address": 823296,
+          "size": 175837,
+          "sha256": "6331e215e2e268275946158b8c90564576dbe1ad1952b2602e9692de0231575f"
+        },
+        ".eh_frame_hdr": {
+          "type": 1,
+          "flags": 2,
+          "address": 999136,
+          "size": 5444,
+          "sha256": "c1bb144f418ea84b31a95c4b944797dcef5798d940ebfa8aa6f12527ac9d1555"
+        },
+        ".eh_frame": {
+          "type": 1,
+          "flags": 2,
+          "address": 1004584,
+          "size": 30824,
+          "sha256": "879b8de44d85f4ddb265a9a3c3c78671a0ae3b5c7e5f44a76176f773f28b418d"
+        },
+        ".note.gnu.property": {
+          "type": 7,
+          "flags": 2,
+          "address": 1035408,
+          "size": 80,
+          "sha256": "5f45095ac02bcd44341cdbcb109438186443c8191fa626ab765aa820b67b6b3e"
+        },
+        ".note.ABI-tag": {
+          "type": 7,
+          "flags": 2,
+          "address": 1035488,
+          "size": 32,
+          "sha256": "c808d1ce0edc7efd5c5c833e7ed63ceed037c2f8f727a1601bc4b5b7fe0db9ad"
+        },
+        ".init_array": {
+          "type": 14,
+          "flags": 3,
+          "address": 1039536,
+          "size": 8,
+          "sha256": "b5ba69c34dc6211ea8ec0ad0ae10019a5185fb77eb49252d58ea99eed7a222a9"
+        },
+        ".fini_array": {
+          "type": 15,
+          "flags": 3,
+          "address": 1039544,
+          "size": 8,
+          "sha256": "b7d24f0d22e664ff7079bf4593aae1ce962ba2e924f9d721671fb38d178e46db"
+        },
+        ".data.rel.ro": {
+          "type": 1,
+          "flags": 3,
+          "address": 1039552,
+          "size": 64472,
+          "sha256": "afacdd033137754d66e0c4bc3091b0db112a55120af4e99069aecedd86b91749"
+        },
+        ".dynamic": {
+          "type": 6,
+          "flags": 3,
+          "address": 1104024,
+          "size": 528,
+          "sha256": "54818dc8318fad371dc020b01a7f4e17ffc1c37caa5bc18418f0c051be8c08ff"
+        },
+        ".got": {
+          "type": 1,
+          "flags": 3,
+          "address": 1104552,
+          "size": 13640,
+          "sha256": "83f9abb31ac09d34840127a4a6ea5ac336f53a7ead848da18685c4a6ebfe23fc"
+        },
+        ".data": {
+          "type": 1,
+          "flags": 3,
+          "address": 1118208,
+          "size": 30752,
+          "sha256": "55727eaaa4f9c5b767fb2b4ea34ba36ae4a023f221625ccd0892fd9f55fd8f10"
+        },
+        ".bss": {
+          "type": 8,
+          "flags": 3,
+          "address": 1148960,
+          "size": 18456,
+          "sha256": null
+        }
+      },
+      "independent_stripped_rebuild_identical": true
+    }
+  ]
+}

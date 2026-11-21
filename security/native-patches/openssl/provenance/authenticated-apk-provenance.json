@@ -1,0 +1,117 @@
+{
+  "checked_utc": "2026-11-13T00:08:10.325850+00:00",
+  "APKINDEX_url": "https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz",
+  "APKINDEX_sha256": "bfe419f03360d781e604f0aaa8c31aa99e03fa6ecd2d980a834fa4b7f95826a1",
+  "APKINDEX_signature_checked_by_this_script": false,
+  "standalone_apk_verify_result": "UNTRUSTED",
+  "packages": [
+    {
+      "package": "openssl-4.0-libcrypto",
+      "version": "4.0.3-r8",
+      "gzip_parts": 2,
+      "control_files": [
+        ".PKGINFO",
+        ".melange.yaml"
+      ],
+      "data_file_count": 12,
+      "whole_sha256": "d10eb0f17414cf586f7681baa3a15b942e09e3cf570f5de2a6799650671e067c",
+      "computed_control_checksum": "Q1W9piTcgyubhrducJCMM7+qErDxo=",
+      "matching_index_records": 1,
+      "index_fields": [
+        {
+          "C": "Q1W9piTcgyubhrducJCMM7+qErDxo=",
+          "P": "openssl-4.0-libcrypto",
+          "V": "4.0.3-r8",
+          "A": "x86_64",
+          "S": "2403081",
+          "I": "6124765",
+          "T": "OpenSSL libcrypto library",
+          "L": "Apache-2.0",
+          "o": "openssl-4.0",
+          "m": "wolfi",
+          "t": "1792447220",
+          "c": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f",
+          "D": "openssl-provider-legacy-allowed so:libbrotlidec.so.1 so:libbrotlienc.so.1 so:libc.so.6",
+          "p": "so-ver:libcrypto.so.4=4.0.3-r8 so:libcrypto.so.4=4"
+        }
+      ],
+      "metadata_commit": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f"
+    },
+    {
+      "package": "openssl-4.0-libssl",
+      "version": "4.0.3-r8",
+      "gzip_parts": 2,
+      "control_files": [
+        ".PKGINFO",
+        ".melange.yaml"
+      ],
+      "data_file_count": 8,
+      "whole_sha256": "47d1e6276be28279a15e45882ce4262330ef7a80d8f0294b89ba47330fc01c7b",
+      "computed_control_checksum": "Q1arwi4n4L3VZ3S8YJ6P4WwY/7JjY=",
+      "matching_index_records": 1,
+      "index_fields": [
+        {
+          "C": "Q1arwi4n4L3VZ3S8YJ6P4WwY/7JjY=",
+          "P": "openssl-4.0-libssl",
+          "V": "4.0.3-r8",
+          "A": "x86_64",
+          "S": "575950",
+          "I": "1232616",
+          "T": "OpenSSL libssl library",
+          "L": "Apache-2.0",
+          "o": "openssl-4.0",
+          "m": "wolfi",
+          "t": "1792447220",
+          "c": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f",
+          "D": "so:libc.so.6 so:libcrypto.so.4",
+          "p": "so-ver:libssl.so.4=4.0.3-r8 so:libssl.so.4=4"
+        }
+      ],
+      "metadata_commit": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f"
+    }
+  ],
+  "authenticated_index_download": {
+    "command": [
+      "apk",
+      "--cache-dir",
+      "/work/verified-index-cache",
+      "update"
+    ],
+    "exit_code": 0,
+    "allow_untrusted": false,
+    "cached_index_path": "E:\\Codex\\imladri-native-patches-20261112\\wolfi-openssl\\verified-index-cache\\APKINDEX.7bec2991.tar.gz",
+    "cached_index_sha256": "bfe419f03360d781e604f0aaa8c31aa99e03fa6ecd2d980a834fa4b7f95826a1",
+    "host_index_exactly_matches_authenticated_cache": true,
+    "public_key_fingerprints": [
+      {
+        "name": "chainguard-717fef45988854d7bfe4378796221d1a777fd1cc2f2ff515a84f4668c987c65c.rsa.pub",
+        "sha256": "fc774d8f9ffd8f2986eeda888c5358d08bab80fdb251a2e4e8236f82cbf241c8"
+      },
+      {
+        "name": "chainguard-7fb528a64a862d44bbea6069093f1fec29fa864ba7e9754828eeceed3f487239.rsa.pub",
+        "sha256": "d91e3de0257c8762512695edbe35c7fb910ea5e11ff1cd54051e1ee50c10a0ec"
+      },
+      {
+        "name": "chainguard-a758e63f677c21398431017ba63a5f1676378db460c8ee05bacf92d9227b1ba4.rsa.pub",
+        "sha256": "d53f265d056f818ca6fc2284798f46c4f046c7ffbaef152acb36362fbc9d12d9"
+      },
+      {
+        "name": "wolfi-signing.rsa.pub",
+        "sha256": "f0031424cf46f7db780ce63a45f0fd6aa6f85f601e6bb3b7a91fe3d4d5b7d2cc"
+      }
+    ]
+  },
+  "payload_integrity": [
+    {
+      "package": "openssl-4.0-libcrypto",
+      "datahash_matches": true,
+      "datahash": "f54f083dc29d76eedb96d6cac5c02e7ec42228133b2f74849540e98f5f8d8b90"
+    },
+    {
+      "package": "openssl-4.0-libssl",
+      "datahash_matches": true,
+      "datahash": "c49fee471d393934a1b48232649fd4f1bfbcea79f822a372b9c28eab32230045"
+    }
+  ],
+  "trust_method": "Direct APK is unsigned. Authenticated repository index binds the exact compressed control checksum, whose PKGINFO datahash binds compressed payload. No standalone APK signature claim."
+}

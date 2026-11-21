@@ -1,0 +1,43 @@
+.home-walking-hero { height: 100%; min-height: 0; }
+.walking-hero { position: relative; width: 100%; height: 100%; min-height: 0; max-width: 1200px; margin: auto; }
+.walking-hero-content { height: 100%; min-height: 0; padding: clamp(12px,2vh,22px) 24px; }
+.walking-hero-panel { display: grid; grid-template-columns: minmax(0,.95fr) minmax(0,1.05fr); align-items: center; width: 100%; height: 100%; min-height: 0; }
+.walking-hero-people { position: relative; display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0,1fr); align-self: stretch; min-width: 0; min-height: 0; padding: 24px; }
+.walking-hero-couple { position: relative; display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; object-position: center; z-index: 1; }
+.walking-hero-ground { position: absolute; bottom: 24px; left: 23%; width: 54%; height: 12px; border-radius: 50%; background: var(--ink); opacity: .035; filter: blur(5px); }
+.walking-hero-message { min-width: 0; padding: clamp(22px,3vw,44px) clamp(24px,3vw,44px) clamp(22px,3vw,44px) 12px; }
+.walking-hero-title { margin: 0; max-width: 16ch; font-size: clamp(2.5rem,4.8vw,4.5rem); line-height: 1.02; letter-spacing: -.025em; text-wrap: balance; overflow-wrap: normal; }
+.walking-hero-summary { max-width: 40ch; margin: 20px 0 0; font-size: 1rem; line-height: 1.6; color: var(--muted); text-wrap: pretty; }
+.walking-hero-eyebrow { margin: 0 0 16px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+.walking-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 20px; margin-top: 24px; font-size: 16px; }
+.walking-hero-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; text-align: center; }
+.walking-hero-secondary { text-decoration: underline; text-underline-offset: 4px; }
+.walking-hero-availability { max-width: 44ch; margin: 14px 0 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
+@media (max-width: 767px) {
+  .walking-hero-content { padding: 10px 12px; }
+  .walking-hero-panel { grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(180px,1fr) auto; }
+  .walking-hero-people { padding: 14px 28px 0; min-height: 180px; max-height: 300px; }
+  .walking-hero-ground { bottom: 3px; left: 30%; width: 40%; }
+  .walking-hero-message { padding: 16px 24px 24px; text-align: center; }
+  .walking-hero-title { max-width: 20ch; margin-inline: auto; font-size: clamp(2rem,7.5vw,3rem); }
+  .walking-hero-summary { max-width: 36ch; margin: 12px auto 0; font-size: 16px; line-height: 1.5; }
+  .walking-hero-eyebrow { margin-bottom: 12px; }
+  .walking-hero-actions { justify-content: center; margin-top: 20px; }
+  .walking-hero-availability { margin-inline: auto; }
+}
+@media (min-width: 768px) and (max-height: 699px) {
+  .walking-hero-title { font-size: clamp(2.25rem,4vw,3.5rem); }
+  .walking-hero-content { padding-block: 10px; }
+  .walking-hero-summary { margin-top: 14px; }
+}
+@media (max-width: 767px) and (max-height: 699px) {
+  .walking-hero-message { padding: 10px 18px 16px; }
+  .walking-hero-title { font-size: clamp(1.75rem,7vw,2.5rem); }
+  .walking-hero-summary { margin-top: 12px; }
+}
+@media (max-height: 499px) {
+  .home-walking-hero, .walking-hero { height: auto; min-height: 340px; }
+  .walking-hero-content { min-height: 340px; }
+  .walking-hero-panel { min-height: 320px; }
+  .walking-hero-people { min-height: 180px; }
+}

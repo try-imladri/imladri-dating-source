@@ -1,0 +1,42 @@
+.feature-illustration { position: relative; display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0,1fr); place-items: center; min-width: 0; min-height: 0; color: var(--ink); overflow: hidden; pointer-events: none; }
+.feature-original-walk { display: block; min-width: 0; min-height: 0; width: 100%; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; object-position: center bottom; }
+.feature-scene { position: relative; min-width: 0; min-height: 0; width: 100%; height: 100%; isolation: isolate; }
+.feature-person { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: brightness(0); user-select: none; }
+.dark .feature-person { filter: brightness(0) invert(1); }
+.feature-person--left { clip-path: inset(0 50% 0 0); transform-origin: 31% 94%; }
+.feature-person--right { clip-path: inset(0 0 0 50%); transform-origin: 72% 94%; }
+.feature-scene--couples .feature-person--left { animation: feature-couple-left 5.8s ease-in-out infinite; }
+.feature-scene--couples .feature-person--right { animation: feature-couple-right 5.8s ease-in-out infinite; }
+.feature-scene--individual .feature-person--left { animation: feature-reflect-person 6.4s ease-in-out infinite; }
+.feature-scene--individual .feature-person--right { animation: feature-reflect-answer 6.4s ease-in-out infinite; }
+.feature-reflection-glint { position: absolute; inset: 0; clip-path: inset(0 0 0 50%); mask-size: contain; mask-position: center; mask-repeat: no-repeat; -webkit-mask-size: contain; -webkit-mask-position: center; -webkit-mask-repeat: no-repeat; background: linear-gradient(110deg,transparent 40%,var(--surface) 49%,transparent 58%); background-size: 280% 100%; opacity: .5; animation: feature-reflection-glint 6.4s ease-in-out infinite; }
+.feature-scene--intimacy .feature-person--left { animation: feature-reach-left 6.2s ease-in-out infinite; }
+.feature-scene--intimacy .feature-person--right { animation: feature-reach-right 6.2s ease-in-out infinite; }
+.feature-scene--communication .feature-person { top: 16%; height: 84%; }
+.feature-scene--communication .feature-person--left { animation: feature-listen-left 5.4s ease-in-out infinite; }
+.feature-scene--communication .feature-person--right { animation: feature-listen-right 5.4s ease-in-out infinite; }
+.feature-speech { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.feature-speech path { fill: var(--surface); stroke: currentColor; stroke-width: .65; stroke-linejoin: round; }
+.feature-speech circle { fill: currentColor; }
+.feature-speech--left { transform-origin: 29% 14%; animation: feature-speech-left 5.4s ease-in-out infinite; }
+.feature-speech--right { transform-origin: 72% 17%; animation: feature-speech-right 5.4s ease-in-out infinite; }
+.feature-illustration[data-playing="false"] .feature-person,
+.feature-illustration[data-playing="false"] .feature-reflection-glint,
+.feature-illustration[data-playing="false"] .feature-speech > g { animation-play-state: paused; }
+@keyframes feature-couple-left { 0%,100% { transform: none; } 45%,60% { transform: translateX(1%) rotate(1.2deg); } }
+@keyframes feature-couple-right { 0%,100% { transform: none; } 45%,60% { transform: translateX(-1%) rotate(-1.2deg); } }
+@keyframes feature-reflect-person { 0%,100% { transform: none; } 45%,60% { transform: rotate(.7deg); } }
+@keyframes feature-reflect-answer { 0%,100% { opacity: .86; } 45%,60% { opacity: 1; } }
+@keyframes feature-reflection-glint { 0%,15% { background-position: 100% 0; } 65%,100% { background-position: 0 0; } }
+@keyframes feature-reach-left { 0%,100% { transform: none; } 45%,62% { transform: translateX(.8%) rotate(.7deg); } }
+@keyframes feature-reach-right { 0%,100% { transform: none; } 45%,62% { transform: translateX(-.8%) rotate(-.7deg); } }
+@keyframes feature-listen-left { 0%,100% { transform: none; } 25%,40% { transform: rotate(.8deg); } }
+@keyframes feature-listen-right { 0%,100% { transform: none; } 60%,75% { transform: rotate(-.8deg); } }
+@keyframes feature-speech-left { 0%,100% { opacity: .3; transform: translateY(1px); } 12%,40% { opacity: 1; transform: none; } 58%,82% { opacity: .3; } }
+@keyframes feature-speech-right { 0%,100% { opacity: .3; transform: translateY(1px); } 12%,40% { opacity: .3; } 58%,82% { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .feature-illustration .feature-person,
+  .feature-illustration .feature-reflection-glint,
+  .feature-illustration .feature-speech > g { animation: none; transform: none; opacity: 1; }
+  .feature-illustration .feature-reflection-glint { display: none; }
+}

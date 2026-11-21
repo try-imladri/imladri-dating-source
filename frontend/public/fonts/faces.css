@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./plusjakartasans/PlusJakartaSans-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("./jetbrainsmono/JetBrainsMono-Variable.ttf") format("truetype");
+  font-weight: 100 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("./barlowcondensed/BarlowCondensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("./barlowcondensed/BarlowCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("./barlowcondensed/BarlowCondensed-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("./barlowcondensed/BarlowCondensed-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}

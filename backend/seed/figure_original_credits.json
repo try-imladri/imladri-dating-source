@@ -1,0 +1,38 @@
+{
+  "/api/media/a4b619fd-4f49-4229-84dd-7648d2526a03": {
+    "artist": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg"
+  },
+  "/api/media/c8570fa7-8937-45e4-b26b-a3ece2cdb419": {
+    "artist": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_(36818935200)_(cropped).jpg"
+  },
+  "/api/media/ef515c5c-4dac-4dbb-b109-8864b87fb4b7": {
+    "artist": "Thatcommonkid",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnMayerin2019.jpg"
+  },
+  "/api/media/da663e02-8e50-4ddf-a76d-1a8073730d29": {
+    "artist": "Raph_PH",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+  },
+  "/api/media/7ab38318-2ced-4ec2-91a5-01eec356ed5f": {
+    "artist": "LaVar James",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Davidson_portrait_(cropped).png"
+  },
+  "/api/media/eeb44086-0ec8-4414-9934-92d1ee88d417": {
+    "artist": "Adam Schultz",
+    "license": "Public domain",
+    "license_url": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5,_2023_-_P20230605AS-0902_(cropped).jpg"
+  }
+}

@@ -1,0 +1,33 @@
+.start-prompt {
+  --start-glow: 0, 0, 0;
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(var(--start-glow), .32),
+    0 0 22px 5px rgba(var(--start-glow), .42);
+  animation: none;
+  transform: none;
+}
+
+.dark .start-prompt {
+  --start-glow: 255, 255, 255;
+}
+
+.start-prompt:hover,
+.start-prompt:focus {
+  opacity: 1;
+  transform: none;
+}
+
+.start-prompt:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .start-prompt,
+  .start-prompt:hover,
+  .start-prompt:focus {
+    animation: none;
+    transform: none;
+    transition: none;
+  }
+}

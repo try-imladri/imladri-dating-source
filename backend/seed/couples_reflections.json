@@ -1,0 +1,12 @@
+{
+  "moment": {
+    "title": "A recent moment",
+    "questions": ["What happened from your perspective?", "What did you need?", "What would you try next time?"],
+    "discussion": "What did each of you need, and what would you try next time?"
+  },
+  "positive": {
+    "title": "Something that went well",
+    "questions": ["What went well from your perspective?", "What made a difference for you?", "What would you like to repeat?"],
+    "discussion": "What made this moment work for each of you, and what would you repeat?"
+  }
+}

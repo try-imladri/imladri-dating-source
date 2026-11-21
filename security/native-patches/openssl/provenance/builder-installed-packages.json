@@ -1,0 +1,470 @@
+[
+  {
+    "name": "apk-tools",
+    "version": "2.14.13-r1",
+    "origin": "apk-tools",
+    "source_commit": "d8c1739b8ac0376433f810660cfe5c19987e66d2"
+  },
+  {
+    "name": "binutils",
+    "version": "2.47-r4",
+    "origin": "binutils",
+    "source_commit": "c62708e89bc31f9ef4bf2001d7cca2e1bbd673b9"
+  },
+  {
+    "name": "brotli",
+    "version": "1.2.1-r3",
+    "origin": "brotli",
+    "source_commit": "f5ef816d1cb2bd0e165a402c4e8a4c4622464bf3"
+  },
+  {
+    "name": "brotli-dev",
+    "version": "1.2.1-r3",
+    "origin": "brotli",
+    "source_commit": "f5ef816d1cb2bd0e165a402c4e8a4c4622464bf3"
+  },
+  {
+    "name": "build-base",
+    "version": "1-r10",
+    "origin": "build-base",
+    "source_commit": "fc2e1e90888cd6bc7249d14081f49118edd5dab7"
+  },
+  {
+    "name": "busybox",
+    "version": "1.38.0-r3",
+    "origin": "busybox",
+    "source_commit": "59d45eb49286129d8d21b2469befa3b55be4719b"
+  },
+  {
+    "name": "ca-certificates-bundle",
+    "version": "20261020-r0",
+    "origin": "ca-certificates",
+    "source_commit": "8061afafa65af5a9026707a8880e14120dd6f4a0"
+  },
+  {
+    "name": "cyrus-sasl-heimdal-libs",
+    "version": "2.1.28-r58",
+    "origin": "cyrus-sasl-heimdal",
+    "source_commit": "6a2a53d0046e82dc1f45ac4a9c9593d8d91aaa78"
+  },
+  {
+    "name": "gcc",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "gdbm",
+    "version": "1.26-r9",
+    "origin": "gdbm",
+    "source_commit": "bdc197227f39597f43727c03854efbb4e834c5ef"
+  },
+  {
+    "name": "git",
+    "version": "2.56.1-r0",
+    "origin": "git",
+    "source_commit": "32afb7f2001b0dba1a0542aa1d0d8fca9f51b3c7"
+  },
+  {
+    "name": "glibc-2.44",
+    "version": "2.44-r14",
+    "origin": "glibc-2.44",
+    "source_commit": "86ee3612cb47379928ac34ad99dfbfd45d138ff9"
+  },
+  {
+    "name": "glibc-2.44-dev",
+    "version": "2.44-r14",
+    "origin": "glibc-2.44",
+    "source_commit": "86ee3612cb47379928ac34ad99dfbfd45d138ff9"
+  },
+  {
+    "name": "glibc-2.44-locale-posix",
+    "version": "2.44-r14",
+    "origin": "glibc-2.44",
+    "source_commit": "86ee3612cb47379928ac34ad99dfbfd45d138ff9"
+  },
+  {
+    "name": "gmp",
+    "version": "6.3.0-r12",
+    "origin": "gmp",
+    "source_commit": "443eb31899638f2f252b0e587db298058036ba64"
+  },
+  {
+    "name": "heimdal-libs",
+    "version": "7.8.0-r55",
+    "origin": "heimdal",
+    "source_commit": "98d0e0fa47c531020de219448a43d120a8c0360a"
+  },
+  {
+    "name": "isl",
+    "version": "0.28-r6",
+    "origin": "isl",
+    "source_commit": "443eb31899638f2f252b0e587db298058036ba64"
+  },
+  {
+    "name": "keyutils-libs",
+    "version": "1.6.3-r41",
+    "origin": "keyutils",
+    "source_commit": "014624f79627768df6f5ff49f4265a7057c2e206"
+  },
+  {
+    "name": "krb5-conf",
+    "version": "1.0-r10",
+    "origin": "krb5-conf",
+    "source_commit": "f0f4cc5b0d900deaf94dfdcd841e289db97111e1"
+  },
+  {
+    "name": "krb5-libs",
+    "version": "1.22.2-r6",
+    "origin": "krb5",
+    "source_commit": "d8c1739b8ac0376433f810660cfe5c19987e66d2"
+  },
+  {
+    "name": "ld-linux-2.44",
+    "version": "2.44-r14",
+    "origin": "glibc-2.44",
+    "source_commit": "86ee3612cb47379928ac34ad99dfbfd45d138ff9"
+  },
+  {
+    "name": "libatomic",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libbrotlicommon1",
+    "version": "1.2.1-r3",
+    "origin": "brotli",
+    "source_commit": "f5ef816d1cb2bd0e165a402c4e8a4c4622464bf3"
+  },
+  {
+    "name": "libbrotlidec1",
+    "version": "1.2.1-r3",
+    "origin": "brotli",
+    "source_commit": "f5ef816d1cb2bd0e165a402c4e8a4c4622464bf3"
+  },
+  {
+    "name": "libbrotlienc1",
+    "version": "1.2.1-r3",
+    "origin": "brotli",
+    "source_commit": "f5ef816d1cb2bd0e165a402c4e8a4c4622464bf3"
+  },
+  {
+    "name": "libbz2-1",
+    "version": "1.0.8-r31",
+    "origin": "bzip2",
+    "source_commit": "6ea997c2746016cbc0225ce27cb992c09feefd2a"
+  },
+  {
+    "name": "libcom_err",
+    "version": "1.47.4-r5",
+    "origin": "e2fsprogs",
+    "source_commit": "b89fefe984e6541788116bd15d4f8dce3dc021a9"
+  },
+  {
+    "name": "libcrypt1-2.44",
+    "version": "2.44-r14",
+    "origin": "glibc-2.44",
+    "source_commit": "86ee3612cb47379928ac34ad99dfbfd45d138ff9"
+  },
+  {
+    "name": "libcurl-openssl4",
+    "version": "8.23.0-r3",
+    "origin": "curl",
+    "source_commit": "010cb3d3ce5812142c1ff59d0b260650190c6241"
+  },
+  {
+    "name": "libexpat1",
+    "version": "2.10.0-r1",
+    "origin": "expat",
+    "source_commit": "5aeb575ed7ca64fb21dfda042e170d08f1654bbc"
+  },
+  {
+    "name": "libffi",
+    "version": "3.8.0-r2",
+    "origin": "libffi",
+    "source_commit": "aaa2344b75ef8b19889f087c91e10b11f191e15c"
+  },
+  {
+    "name": "libgcc",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libgomp",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libidn2",
+    "version": "2.3.8-r12",
+    "origin": "libidn2",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "libldap-2.6",
+    "version": "2.6.14-r0",
+    "origin": "openldap-2.6",
+    "source_commit": "90bc5eeb4e3dd4e21c12479853d33abd5497061f"
+  },
+  {
+    "name": "libnghttp2-14",
+    "version": "1.71.0-r0",
+    "origin": "nghttp2",
+    "source_commit": "153ee2bd742f744ddedf5c4a97110fa46307574b"
+  },
+  {
+    "name": "libpcre2-8-0",
+    "version": "10.49-r3",
+    "origin": "pcre2",
+    "source_commit": "5aeb575ed7ca64fb21dfda042e170d08f1654bbc"
+  },
+  {
+    "name": "libpkgconf8",
+    "version": "3.0.10-r3",
+    "origin": "pkgconf",
+    "source_commit": "8e7e7f446d0f76c0d4be4d842f51ff7991d1872d"
+  },
+  {
+    "name": "libpsl",
+    "version": "0.23.3-r4",
+    "origin": "libpsl",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "libquadmath",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libstdc++",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libstdc++-dev",
+    "version": "16.2.0-r3",
+    "origin": "gcc",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "libunistring",
+    "version": "1.5-r1",
+    "origin": "libunistring",
+    "source_commit": "d8c1739b8ac0376433f810660cfe5c19987e66d2"
+  },
+  {
+    "name": "libuuid",
+    "version": "2.42.4-r2",
+    "origin": "util-linux",
+    "source_commit": "8298ba7be686605b03c1943f22ccf5a0640e0042"
+  },
+  {
+    "name": "libverto",
+    "version": "0.3.2-r11",
+    "origin": "libverto",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "libxcrypt",
+    "version": "4.5.2-r8",
+    "origin": "libxcrypt",
+    "source_commit": "b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518"
+  },
+  {
+    "name": "libxcrypt-dev",
+    "version": "4.5.2-r8",
+    "origin": "libxcrypt",
+    "source_commit": "b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518"
+  },
+  {
+    "name": "libzstd1",
+    "version": "1.5.7-r13",
+    "origin": "zstd",
+    "source_commit": "0d1cb8462683e2c06d7591b8b4ad4d1f2797a0f7"
+  },
+  {
+    "name": "linux-headers",
+    "version": "7.3.4-r0",
+    "origin": "linux-headers",
+    "source_commit": "a6396c769499fa1e103b678f10ee6dbfcc6f3fbe"
+  },
+  {
+    "name": "lmdb",
+    "version": "0.9.35-r3",
+    "origin": "lmdb",
+    "source_commit": "a4a523651db588c0ec27f7880438828e0eefec5a"
+  },
+  {
+    "name": "make",
+    "version": "4.4.1-r15",
+    "origin": "make",
+    "source_commit": "a54c6ffd90cbe4bb3ea62488789234b189e71bd5"
+  },
+  {
+    "name": "mpc",
+    "version": "1.4.1-r3",
+    "origin": "mpc",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "mpdecimal",
+    "version": "4.0.1-r6",
+    "origin": "mpdecimal",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "mpfr",
+    "version": "4.2.2-r5",
+    "origin": "mpfr",
+    "source_commit": "491b184c82ef2868d73a46a98997db789342ff15"
+  },
+  {
+    "name": "ncurses",
+    "version": "6.6.20261107-r0",
+    "origin": "ncurses",
+    "source_commit": "57b90c0084b0bc101663cdfcaa44f4ce83312443"
+  },
+  {
+    "name": "ncurses-terminfo-base",
+    "version": "6.6.20261107-r0",
+    "origin": "ncurses",
+    "source_commit": "57b90c0084b0bc101663cdfcaa44f4ce83312443"
+  },
+  {
+    "name": "nghttp3",
+    "version": "1.19.0-r0",
+    "origin": "nghttp3",
+    "source_commit": "10e9291816e1a18eee8044d5c02177de477e1f29"
+  },
+  {
+    "name": "ngtcp2",
+    "version": "1.26.0-r0",
+    "origin": "ngtcp2",
+    "source_commit": "a3a25ebdd1c3e71a190ca09e4f5a7beb6732dc78"
+  },
+  {
+    "name": "openssf-compiler-options",
+    "version": "20250904-r12",
+    "origin": "openssf-compiler-options",
+    "source_commit": "4d188060cbd00821a95f1ef60605da4817e781bb"
+  },
+  {
+    "name": "openssl-3.6-libcrypto",
+    "version": "3.6.5-r6",
+    "origin": "openssl",
+    "source_commit": "106006908276f73e5d13ceca9bc7038ea2d46446"
+  },
+  {
+    "name": "openssl-3.6-libssl",
+    "version": "3.6.5-r6",
+    "origin": "openssl",
+    "source_commit": "106006908276f73e5d13ceca9bc7038ea2d46446"
+  },
+  {
+    "name": "openssl-4.0-libcrypto",
+    "version": "4.0.3-r8",
+    "origin": "openssl-4.0",
+    "source_commit": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f"
+  },
+  {
+    "name": "openssl-4.0-libssl",
+    "version": "4.0.3-r8",
+    "origin": "openssl-4.0",
+    "source_commit": "53fb2f6751f832fa61ddba06cb8a40dbba5f409f"
+  },
+  {
+    "name": "openssl-provider-legacy-allowed",
+    "version": "4.1.0-r0",
+    "origin": "openssl-provider-legacy-allowed",
+    "source_commit": "aeae4801330be6fd269d5ed5640dc37b58ccab09"
+  },
+  {
+    "name": "patch",
+    "version": "2.8.1-r1",
+    "origin": "patch",
+    "source_commit": "40e94215f5dcd578d6e737bd1b126cdbb5acf9cb"
+  },
+  {
+    "name": "perl",
+    "version": "5.44.0-r5",
+    "origin": "perl",
+    "source_commit": "8d11109f58473390f340b1f9ecc177b00a9e4e78"
+  },
+  {
+    "name": "pkgconf",
+    "version": "3.0.10-r3",
+    "origin": "pkgconf",
+    "source_commit": "8e7e7f446d0f76c0d4be4d842f51ff7991d1872d"
+  },
+  {
+    "name": "posix-cc-wrappers",
+    "version": "2-r10",
+    "origin": "posix-cc-wrappers",
+    "source_commit": "2337ebe7af4495f2fe254da240c747c753c2f87c"
+  },
+  {
+    "name": "py3-pip-wheel",
+    "version": "26.2.2-r2",
+    "origin": "py3-pip",
+    "source_commit": "58b78718f8e8947523a1ad3eb0deb82aee6911d7"
+  },
+  {
+    "name": "python-3.12",
+    "version": "3.12.16_git20261030-r0",
+    "origin": "python-3.12",
+    "source_commit": "2b8824347567005291653bf3f58e4fa7586a0192"
+  },
+  {
+    "name": "python-3.12-base",
+    "version": "3.12.16_git20261030-r0",
+    "origin": "python-3.12",
+    "source_commit": "2b8824347567005291653bf3f58e4fa7586a0192"
+  },
+  {
+    "name": "readline",
+    "version": "8.3-r3",
+    "origin": "readline",
+    "source_commit": "20a5359ac0a7a6aca23efa343f0f29c8d3ea1453"
+  },
+  {
+    "name": "sqlite-libs",
+    "version": "3.54.1-r0",
+    "origin": "sqlite",
+    "source_commit": "b0ca8c95606371be2557980059c10b34df30fa9f"
+  },
+  {
+    "name": "wolfi-base",
+    "version": "1-r7",
+    "origin": "wolfi-base",
+    "source_commit": "c80c31b811557bc8724fcb901bdcc09615fcf4fc"
+  },
+  {
+    "name": "wolfi-baselayout",
+    "version": "20230201-r31",
+    "origin": "wolfi-baselayout",
+    "source_commit": "ed415005c84750f03c4a9252137813734a224ae7"
+  },
+  {
+    "name": "wolfi-keys",
+    "version": "1-r14",
+    "origin": "wolfi-keys",
+    "source_commit": "e723835f288b5f24b0697499d0e8e83dddbcff45"
+  },
+  {
+    "name": "xz",
+    "version": "5.8.4-r1",
+    "origin": "xz",
+    "source_commit": "5aeb575ed7ca64fb21dfda042e170d08f1654bbc"
+  },
+  {
+    "name": "zlib",
+    "version": "1.3.2.1_rc20260921-r2",
+    "origin": "zlib",
+    "source_commit": "5aeb575ed7ca64fb21dfda042e170d08f1654bbc"
+  }
+]

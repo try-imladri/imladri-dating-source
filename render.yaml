@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://render.com/schema/render.yaml.json
+services:
+  - type: web
+    name: imladri-personal-pilot
+    runtime: docker
+    plan: starter
+    region: virginia
+    branch: staging/plus-pilot
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    dockerCommand: python -m backend.render_entrypoint preview
+    healthCheckPath: /api/
+    envVars:
+      - key: IMLADRI_IMAGE
+        value: render
+      - key: DB_NAME
+        value: imladri_personal_pilot
+      - key: PUBLIC_APP_URL
+        value: https://imladri-personal-preview.imladri.workers.dev
+      - key: CLERK_AUTHORIZED_PARTIES
+        value: https://imladri-personal-pilot.onrender.com
+      - key: MONGO_URL
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false

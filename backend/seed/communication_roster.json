@@ -1,0 +1,266 @@
+[
+  {
+    "gender": "male",
+    "row": [
+      48,
+      "translator",
+      "The Translator",
+      "finds a second way to explain it, then checks what you heard",
+      "explains clearly",
+      "overexplaining"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      49,
+      "co-builder",
+      "The Co-Builder",
+      "shares the decisions, not just the work",
+      "plans together",
+      "unequal effort"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      50,
+      "bridge-builder",
+      "The Bridge Builder",
+      "gets people who talk past each other into the same conversation",
+      "connects people",
+      "speaking for you"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      51,
+      "mentor",
+      "The Mentor",
+      "gives you a useful pointer and leaves the next move to you",
+      "asks before advising",
+      "unsolicited advice"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      52,
+      "witness",
+      "The Witness",
+      "remembers what someone said and makes sure their version is heard",
+      "remembers details",
+      "oversharing"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      53,
+      "reframer",
+      "The Reframer",
+      "asks the question a different way when the conversation gets stuck",
+      "asks another way",
+      "deflection"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      54,
+      "advocate",
+      "The Advocate",
+      "asks the person who can change things for something specific on someone else’s behalf",
+      "speaks up",
+      "speaking for you"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      55,
+      "experimenter",
+      "The Experimenter",
+      "offers a small trial and uses what happens to decide together",
+      "suggests a trial",
+      "moving goalposts"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      56,
+      "storyteller",
+      "The Storyteller",
+      "gets a difficult point across through a scene you can picture",
+      "shares a story",
+      "changing the subject"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      151,
+      "translator-her",
+      "The Translator",
+      "finds a second way to explain it, then checks what you heard",
+      "explains clearly",
+      "overexplaining"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      152,
+      "co-builder-her",
+      "The Co-Builder",
+      "shares the decisions, not just the work",
+      "plans together",
+      "unequal effort"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      153,
+      "bridge-builder-her",
+      "The Bridge Builder",
+      "gets people who talk past each other into the same conversation",
+      "connects people",
+      "speaking for you"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      154,
+      "mentor-her",
+      "The Mentor",
+      "gives you a useful pointer and leaves the next move to you",
+      "asks before advising",
+      "unsolicited advice"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      155,
+      "witness-her",
+      "The Witness",
+      "remembers what someone said and makes sure their version is heard",
+      "remembers details",
+      "oversharing"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      156,
+      "reframer-her",
+      "The Reframer",
+      "asks the question a different way when the conversation gets stuck",
+      "asks another way",
+      "deflection"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      157,
+      "advocate-her",
+      "The Advocate",
+      "asks the person who can change things for something specific on someone else’s behalf",
+      "speaks up",
+      "speaking for you"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      158,
+      "experimenter-her",
+      "The Experimenter",
+      "offers a small trial and uses what happens to decide together",
+      "suggests a trial",
+      "moving goalposts"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      159,
+      "storyteller-her",
+      "The Storyteller",
+      "gets a difficult point across through a scene you can picture",
+      "shares a story",
+      "changing the subject"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      57,
+      "dissenter",
+      "The Dissenter",
+      "tells their own side where they disagree and stands by the reason",
+      "voices disagreement",
+      "constant opposition"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      58,
+      "deal-broker",
+      "The Deal Broker",
+      "puts reciprocal terms on the table and checks whether both people can accept them",
+      "offers terms",
+      "pressuring agreement"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      160,
+      "dissenter-her",
+      "The Dissenter",
+      "tells their own side where they disagree and stands by the reason",
+      "voices disagreement",
+      "constant opposition"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      161,
+      "deal-broker-her",
+      "The Deal Broker",
+      "puts reciprocal terms on the table and checks whether both people can accept them",
+      "offers terms",
+      "pressuring agreement"
+    ]
+  },
+  {
+    "gender": "male",
+    "row": [
+      59,
+      "proceduralist",
+      "The Proceduralist",
+      "agrees how a disputed decision will be made and makes the outcome checkable",
+      "agrees on a process",
+      "hiding behind the rules"
+    ]
+  },
+  {
+    "gender": "female",
+    "row": [
+      162,
+      "proceduralist-her",
+      "The Proceduralist",
+      "agrees how a disputed decision will be made and makes the outcome checkable",
+      "agrees on a process",
+      "hiding behind the rules"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+# These byte hashes identify an immutable portrait edition across platforms.
+backend/seed/your_type_catalog.json text eol=lf
+backend/seed/your_type_catalog.v1.json text eol=lf
+backend/seed/your_type_catalog.v2.json text eol=lf
+backend/seed/your_type_review.v2.json text eol=lf
+backend/seed/your_type_review.v3.json text eol=lf
+frontend/public/your-type/catalog.v1.json text eol=lf
+frontend/public/your-type/plates/*.jpg binary
+frontend/public/your-type/plates/*.webp binary
+
+# Native payload provenance hashes must retain their exact reviewed bytes.
+security/native-patches/** -text

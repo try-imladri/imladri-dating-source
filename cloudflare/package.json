@@ -1,0 +1,13 @@
+{
+  "name": "imladri-cloudflare",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "preview": "wrangler dev",
+    "build:assets": "node build-assets.js"
+  },
+  "devDependencies": {
+    "wrangler": "4.158.0"
+  }
+}

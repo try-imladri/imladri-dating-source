@@ -1,0 +1,20 @@
+[
+  {
+    "id": "plus_100",
+    "name": "Plus 100",
+    "messages": 100,
+    "price_cents": 1200
+  },
+  {
+    "id": "plus_250",
+    "name": "Plus 250",
+    "messages": 250,
+    "price_cents": 2000
+  },
+  {
+    "id": "plus_500",
+    "name": "Plus 500",
+    "messages": 500,
+    "price_cents": 4000
+  }
+]

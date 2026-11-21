@@ -1,0 +1,12 @@
+.bubble-him { background: var(--surface-2); color: var(--ink); border-radius: 1.25rem 1.25rem 1.25rem .35rem; }
+.bubble-you { background: var(--ink); color: var(--bg); border-radius: 1.25rem 1.25rem .35rem 1.25rem; }
+.num-watermark { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; line-height: .8; color: transparent; -webkit-text-stroke: 1px var(--line); }
+
+.marquee-up { animation: mq-up 70s linear infinite; }
+.marquee-down { animation: mq-up 80s linear infinite reverse; }
+.marquee-left { animation: mq-left 60s linear infinite; }
+.marquee-right { animation: mq-left 70s linear infinite reverse; }
+.marquee-up:hover, .marquee-down:hover { animation-play-state: paused; }
+@keyframes mq-up { from { transform: translateY(0); } to { transform: translateY(-50%); } }
+@keyframes mq-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-up, .marquee-down, .marquee-left, .marquee-right { animation: none; } }

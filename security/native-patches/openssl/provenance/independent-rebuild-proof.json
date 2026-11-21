@@ -1,0 +1,67 @@
+{
+  "completed_utc": "2026-11-13T00:38:58.278412+00:00",
+  "SOURCE_DATE_EPOCH": 1794528477,
+  "source_path": "/build/openssl",
+  "prefix_map": "/build/openssl=/usr/src/imladri-openssl-4.0.3",
+  "CFLAGS": "-O2 -g -ffile-prefix-map=/build/openssl=/usr/src/imladri-openssl-4.0.3",
+  "configure_flags": [
+    "--prefix=/usr",
+    "--libdir=lib",
+    "--openssldir=/etc/ssl",
+    "enable-brotli",
+    "enable-ec_nistp_64_gcc_128",
+    "enable-ktls",
+    "enable-pie",
+    "no-aria",
+    "enable-bf",
+    "enable-camellia",
+    "enable-cast",
+    "no-dtls1",
+    "no-ec_explicit_curves",
+    "no-ec2m",
+    "no-gost",
+    "no-idea",
+    "no-integrity-only-ciphers",
+    "no-mdc2",
+    "enable-ocb",
+    "enable-psk",
+    "no-pvkkdf",
+    "enable-rc2",
+    "enable-rc4",
+    "enable-rc5",
+    "enable-rmd160",
+    "no-seed",
+    "no-sm2",
+    "no-sm2-precomp",
+    "enable-sm3",
+    "no-sm4",
+    "enable-srp",
+    "no-tls1",
+    "no-tls1_1",
+    "no-weak-ssl-ciphers",
+    "no-whirlpool",
+    "-Wa,--noexecstack"
+  ],
+  "artifacts": [
+    {
+      "name": "libcrypto.so.4",
+      "initial_sha256": "6c65abcb7b2c6d5d2ff1c36474ee6c2cae869d62ce807a3b9a3f019e2be3be2c",
+      "rebuild_sha256": "6c65abcb7b2c6d5d2ff1c36474ee6c2cae869d62ce807a3b9a3f019e2be3be2c",
+      "bytes_identical": true
+    },
+    {
+      "name": "libssl.so.4",
+      "initial_sha256": "0e952e2ba756d6d37ab49b4193bd9f30603805961ad9599c478f829ef5f8dcaa",
+      "rebuild_sha256": "0e952e2ba756d6d37ab49b4193bd9f30603805961ad9599c478f829ef5f8dcaa",
+      "bytes_identical": true
+    },
+    {
+      "name": "openssl",
+      "initial_sha256": "b9d8353c2e6a346500e91b31a9f476ee271b898bf97d34e13216e9e947003479",
+      "rebuild_sha256": "b9d8353c2e6a346500e91b31a9f476ee271b898bf97d34e13216e9e947003479",
+      "bytes_identical": true
+    }
+  ],
+  "all_byte_identical": true,
+  "provider_actions": 0
+}

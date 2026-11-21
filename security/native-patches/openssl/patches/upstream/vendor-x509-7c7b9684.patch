@@ -1,0 +1,76 @@
+From 7c7b9684f868c5c0de74bdd34ce07b0fe739631d Mon Sep 17 00:00:00 2001
+From: Eugene Syromiatnikov <esyr@openssl.org>
+Date: Fri, 2 Oct 2026 18:54:23 +0200
+Subject: [PATCH] apps/x509.c: don't load extensions if no
+ -extfile/-extensions/"extensions" opt
+
+The documentation says "If neither of the options are given, an attempt
+is made to open the default configuration file [..] If the unnamed
+section [..] of the file does not list an B<extensions> variable,
+no extensions are added";  however, an attempt was made to load
+extensions in that case.  Avoid that by using non-NULL extsect
+as a guard for do_EXT_REQ_add_nconf() and do_EXT_REQ_add_nconf() calls
+(which also avoids passing NULL as an "%s" format qualifier argument
+to BIO_printf() calls in case of load failure).
+
+Fixes: 84419e373ac1 "Improved handling of AKID/SKID extensions in CSRs and certs"
+Signed-off-by: Eugene Syromiatnikov <esyr@openssl.org>
+Reviewed-by: Neil Horman <nhorman@openssl.org>
+Reviewed-by: Jakub Zelenka <jakub.zelenka@openssl.foundation>
+Reviewed-by: Bob Beck <beck@openssl.org>
+Reviewed-by: Viktor Dukhovni <viktor@openssl.org>
+Merge-date: Mon Oct  5 10:09:56 2026
+Merged-from: https://github.com/openssl/openssl/pull/33083
+(cherry picked from commit 82eef37eb9c1111e24dec960a5c7d10ffb122fb0)
+---
+ apps/x509.c | 20 ++++++++++++++------
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+
+diff --git a/apps/x509.c b/apps/x509.c
+index 4078b2efe60b3..58f7b56378a86 100644
+--- a/apps/x509.c
++++ b/apps/x509.c
+@@ -837,13 +837,21 @@ int x509_main(int argc, char **argv)
+ 
+         if (extsect == NULL) {
+             extsect = app_conf_try_string(extconf, "default", "extensions");
++            /*
++             * If neither -extfile nor -extensions is provided, and the default
++             * config file's default section doesn't contain the "extensions"
++             * config option, extsect is left as NULL, which is then used
++             * as an indicator to avoid trying to load extensions.
++             */
+             if (extfile != NULL && extsect == NULL)
+                 extsect = "default";
+         }
+-        X509V3_set_ctx_test(&ctx2);
+-        if (!do_EXT_add_nconf(extconf, extconf, &ctx2, NULL,
+-                "Error checking extension section %s\n", extsect))
+-            goto err;
++        if (extsect != NULL) {
++            X509V3_set_ctx_test(&ctx2);
++            if (!do_EXT_add_nconf(extconf, extconf, &ctx2, NULL,
++                    "Error checking extension section %s\n", extsect))
++                goto err;
++        }
+     } else if (newout && !confquiet) {
+         goto err;
+     }
+@@ -1009,7 +1017,7 @@ int x509_main(int argc, char **argv)
+         if (!X509V3_set_issuer_pkey(&ext_ctx, privkey))
+             goto err;
+     }
+-    if (extconf != NULL && !x509toreq) {
++    if (extconf != NULL && !x509toreq && extsect != NULL) {
+         if (!do_EXT_add_nconf(extconf, extconf, &ext_ctx, x,
+                 "Error adding extensions from section %s\n", extsect))
+             goto err;
+@@ -1034,7 +1042,7 @@ int x509_main(int argc, char **argv)
+         }
+         if ((rq = x509_to_req(x, ext_copy, ext_names)) == NULL)
+             goto err;
+-        if (extconf != NULL) {
++        if (extconf != NULL && extsect != NULL) {
+             if (!do_EXT_REQ_add_nconf(extconf, extconf, &ext_ctx, rq,
+                     "Error adding request extensions from section %s\n", extsect))
+                 goto err;

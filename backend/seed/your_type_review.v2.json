@@ -1,0 +1,1870 @@
+{
+  "version": "your-type-visible-review-v2",
+  "legacy_manifest_sha256": "333684b6905a182b6707770b1924609f901c31b7f8cb55dd9386d6b67243c616",
+  "basis": "Direct machine visual review of six retained original PNGs; separate machine annotation for head plates. No human validation or clinical/biometric measurement. Unknowns omitted.",
+  "limits": [
+    "No ethnicity, sexuality, personality, actual height, weight, health or real-world compatibility inferred.",
+    "Age bins describe fictional prompt ages, not apparent ages.",
+    "Body outline depends on clothing and pose; unmeasured confounding remains.",
+    "Original PNGs retained; JPEG delivery is format conversion only."
+  ],
+  "review_sources": {
+    "head_annotations_sha256": "a7c2e143494a790bbc5e6277e23b025684c83dd8d1c4320cb1d8d0ec090fa493",
+    "age_head_annotations_sha256": "9944213f16286d172f2729160bd536b75b89045b17dfc4ebb909ef541b0c9ac6"
+  },
+  "plates": {
+    "yt-v2-m-head.png": {
+      "audience": "men",
+      "image_kind": "portrait",
+      "original_png_sha256": "fcd735c8654284e029082ff9e042fd4fa257e4ea41fda2490ef38ac44650bf40",
+      "authored_age_bands": [
+        "25_34",
+        "25_34",
+        "25_34",
+        "25_34",
+        "35_44",
+        "35_44",
+        "35_44",
+        "35_44",
+        "45_54",
+        "45_54",
+        "45_54",
+        "45_54",
+        "55_64",
+        "55_64",
+        "55_64",
+        "55_64"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "stubble",
+            "hair_color": "black",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "prominent",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "moustache",
+            "hair_color": "red",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "jawline": "angular",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "braided",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "hair_color": "black",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "prominent",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "stubble",
+            "hair_color": "brown",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "moustache",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "soft",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_width": "broad",
+            "facial_hair": "beard",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "stubble",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "cheek_definition": "soft",
+            "eyewear": "glasses",
+            "face_width": "broad",
+            "facial_hair": "beard",
+            "hair_length": "short",
+            "hair_texture": "coily",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "moustache",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "jawline": "angular",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_width": "broad",
+            "facial_hair": "beard",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "coily",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "eyewear": "glasses",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "gray",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "stubble",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        }
+      ]
+    },
+    "yt-v2-w-head.png": {
+      "audience": "women",
+      "image_kind": "portrait",
+      "original_png_sha256": "7a6dfea4da0eac30cd44853d0573b82ea6fcfd3e205cfcc9115e97d1ce2c8ff6",
+      "authored_age_bands": [
+        "25_34",
+        "25_34",
+        "25_34",
+        "25_34",
+        "35_44",
+        "35_44",
+        "35_44",
+        "35_44",
+        "45_54",
+        "45_54",
+        "45_54",
+        "45_54",
+        "55_64",
+        "55_64",
+        "55_64",
+        "55_64"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "prominent",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "shaved",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_texture": "curly",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "blonde",
+            "hair_length": "long",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "braided",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "medium",
+            "hair_texture": "curly",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "braided",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "deep",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "shaved",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "cheek_definition": "prominent",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "long",
+            "hair_texture": "wavy",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "curly",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        }
+      ]
+    },
+    "yt-v2-w-body.png": {
+      "audience": "women",
+      "image_kind": "full_body",
+      "original_png_sha256": "89c72eebaf5fd45ced43e4ea5976176ca9069645a13a20818ad603ef75cbf61f",
+      "authored_age_bands": [
+        "25_34",
+        "25_34",
+        "25_34",
+        "25_34",
+        "35_44",
+        "35_44",
+        "35_44",
+        "35_44",
+        "45_54",
+        "45_54",
+        "45_54",
+        "45_54",
+        "55_64",
+        "55_64",
+        "55_64",
+        "55_64"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "light",
+            "visible_build": "slender",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "black",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "medium",
+            "visible_build": "medium",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "hair_color": "brown",
+            "eyewear": "none",
+            "smile": "open_smile",
+            "skin_tone": "light",
+            "visible_build": "athletic",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "brown",
+            "hair_texture": "straight",
+            "eyewear": "glasses",
+            "smile": "open_smile",
+            "skin_tone": "light",
+            "visible_build": "fuller",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "black",
+            "hair_texture": "coily",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "deep",
+            "visible_build": "slender",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "eyewear": "glasses",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "visible_build": "medium",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "hair_length": "shaved",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "medium",
+            "visible_build": "athletic",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "black",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "medium",
+            "visible_build": "fuller",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "black",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "medium",
+            "visible_build": "slender",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "blonde",
+            "hair_texture": "braided",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "light",
+            "visible_build": "medium",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "gray",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "light",
+            "visible_build": "athletic",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "glasses",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "visible_build": "fuller",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "hair_length": "shaved",
+            "eyewear": "glasses",
+            "smile": "open_smile",
+            "skin_tone": "deep",
+            "visible_build": "slender",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "hair_length": "medium",
+            "hair_color": "gray",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "visible_build": "medium",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "hair_length": "shaved",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "visible_build": "athletic",
+            "facial_hair": "none"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "gray",
+            "hair_texture": "braided",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "medium",
+            "visible_build": "fuller",
+            "facial_hair": "none"
+          }
+        }
+      ]
+    },
+    "yt-v2-m-body.png": {
+      "audience": "men",
+      "image_kind": "full_body",
+      "original_png_sha256": "e2445b1a76d5952075d81419f81a44f26771d5ed4524726afc07b515e38e4af1",
+      "authored_age_bands": [
+        "25_34",
+        "25_34",
+        "25_34",
+        "25_34",
+        "35_44",
+        "35_44",
+        "35_44",
+        "35_44",
+        "45_54",
+        "45_54",
+        "45_54",
+        "45_54",
+        "55_64",
+        "55_64",
+        "55_64",
+        "55_64"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "none",
+            "visible_build": "slender"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "black",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "medium",
+            "facial_hair": "none",
+            "visible_build": "medium"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "black",
+            "hair_texture": "coily",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "deep",
+            "facial_hair": "stubble",
+            "visible_build": "athletic"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "brown",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "none",
+            "visible_build": "fuller"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "brown",
+            "hair_texture": "wavy",
+            "eyewear": "glasses",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "stubble",
+            "visible_build": "slender"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "black",
+            "hair_texture": "wavy",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "medium",
+            "facial_hair": "moustache",
+            "visible_build": "medium"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "brown",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "beard",
+            "visible_build": "athletic"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "black",
+            "hair_texture": "wavy",
+            "eyewear": "glasses",
+            "smile": "closed_smile",
+            "skin_tone": "medium",
+            "facial_hair": "beard",
+            "visible_build": "fuller"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "stubble",
+            "visible_build": "slender"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "hair_length": "shaved",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "deep",
+            "facial_hair": "beard",
+            "visible_build": "medium"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "beard",
+            "visible_build": "athletic"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "glasses",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "beard",
+            "visible_build": "fuller"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "curly",
+            "eyewear": "none",
+            "smile": "closed_smile",
+            "skin_tone": "deep",
+            "facial_hair": "stubble",
+            "visible_build": "slender"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "glasses",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "none",
+            "visible_build": "medium"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "hair_length": "long",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "medium",
+            "facial_hair": "beard",
+            "visible_build": "athletic"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "hair_length": "short",
+            "hair_color": "gray",
+            "hair_texture": "straight",
+            "eyewear": "none",
+            "smile": "neutral",
+            "skin_tone": "light",
+            "facial_hair": "beard",
+            "visible_build": "fuller"
+          }
+        }
+      ]
+    },
+    "yt-v2-m-ages.png": {
+      "audience": "men",
+      "image_kind": "portrait",
+      "original_png_sha256": "af0eef21b575b7c166901a8d9a5aac2306d56c9f3caf221da8c6fb2836598c62",
+      "authored_age_bands": [
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "black",
+            "hair_length": "short",
+            "hair_texture": "coily",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "brown",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "stubble",
+            "hair_color": "black",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "prominent",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "stubble",
+            "hair_color": "red",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "black",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "blonde",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "soft",
+            "eyewear": "glasses",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_length": "shaved",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "eyewear": "glasses",
+            "face_width": "balanced",
+            "facial_hair": "beard",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "curly",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "moustache",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "coily",
+            "jawline": "angular",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "stubble",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "straight",
+            "jawline": "angular",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "cheek_definition": "soft",
+            "eyewear": "glasses",
+            "face_width": "broad",
+            "facial_hair": "beard",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "stubble",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        }
+      ]
+    },
+    "yt-v2-w-ages.png": {
+      "audience": "women",
+      "image_kind": "portrait",
+      "original_png_sha256": "ac26b5d752a190ed31f28f0fd2a2466432445aad42753fd457b89d659c37b083",
+      "authored_age_bands": [
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "18_24",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus",
+        "65_plus"
+      ],
+      "cells": [
+        {
+          "cell": 0,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "medium",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 1,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "shaved",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 2,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "blonde",
+            "hair_length": "long",
+            "hair_texture": "wavy",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 3,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "large",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "braided",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 4,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 5,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_color": "light",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "red",
+            "hair_length": "short",
+            "hair_texture": "wavy",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 6,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "black",
+            "hair_length": "long",
+            "hair_texture": "braided",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 7,
+          "feature_values": {
+            "brow_density": "dense",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "brown",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "medium",
+            "nose_tip": "defined",
+            "nose_width": "narrow",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 8,
+          "feature_values": {
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "curly",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 9,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "short",
+            "hair_texture": "coily",
+            "jawline": "soft",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 10,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "prominent",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "long",
+            "face_width": "narrow",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "long",
+            "hair_texture": "straight",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 11,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "moderate",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_length": "medium",
+            "hair_texture": "curly",
+            "jawline": "soft",
+            "lip_fullness": "medium",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "medium",
+            "smile": "open_smile"
+          }
+        },
+        {
+          "cell": 12,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "soft",
+            "eye_color": "dark",
+            "eye_size": "small",
+            "eyewear": "none",
+            "face_length": "short",
+            "face_width": "broad",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "hair_texture": "straight",
+            "jawline": "soft",
+            "lip_fullness": "thin",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 13,
+          "feature_values": {
+            "cheek_definition": "prominent",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "shaved",
+            "jawline": "angular",
+            "lip_fullness": "thin",
+            "nose_tip": "defined",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "closed_smile"
+          }
+        },
+        {
+          "cell": 14,
+          "feature_values": {
+            "brow_density": "medium",
+            "cheek_definition": "prominent",
+            "eye_color": "dark",
+            "eye_size": "medium",
+            "eyewear": "none",
+            "face_length": "balanced",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "gray",
+            "hair_length": "medium",
+            "lip_fullness": "full",
+            "nose_tip": "rounded",
+            "nose_width": "broad",
+            "skin_tone": "deep",
+            "smile": "neutral"
+          }
+        },
+        {
+          "cell": 15,
+          "feature_values": {
+            "brow_density": "light",
+            "cheek_definition": "moderate",
+            "eyewear": "glasses",
+            "face_length": "long",
+            "face_width": "balanced",
+            "facial_hair": "none",
+            "hair_color": "red",
+            "hair_length": "short",
+            "hair_texture": "curly",
+            "jawline": "soft",
+            "lip_fullness": "thin",
+            "nose_tip": "rounded",
+            "nose_width": "balanced",
+            "skin_tone": "light",
+            "smile": "open_smile"
+          }
+        }
+      ]
+    }
+  },
+  "adjudication_notes": [
+    "Two machine reviews disagree on several fine categories. Clearly ambiguous styling is masked in the final record. All labels remain coarse unvalidated appearance descriptions.",
+    "Head plate women cell2 hair length remains unknown because of the updo; glasses and fuller beards retain occlusion masks."
+  ]
+}

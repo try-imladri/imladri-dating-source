@@ -1,0 +1,5 @@
+# Optional offline silhouette generation; not used by the API image.
+numpy==2.5.4
+Pillow
+scipy
+imageio-ffmpeg

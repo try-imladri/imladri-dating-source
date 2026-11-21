@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-11-13T00:16:47.460197+00:00",
+  "trust_anchor_source": "https://openssl-library.org/source/index.html",
+  "public_keys_url": "https://openssl-library.org/source/pubkeys.asc",
+  "public_keys_sha256": "56e106cd1c44bdb117aec24795f6dfbecaa9bfa0a2901b85331f0059aad16d53",
+  "tag": "openssl-4.0.3",
+  "tag_object": "ae89995a4fdd66c460a916dce3950948a0b5a8e6",
+  "source_commit": "af1775b60dfa141a4ad762585052cabeb9f37e9e",
+  "valid_signature": true,
+  "primary_fingerprint": "B146647E45A7B33947AB226B2A2C87D161692D40",
+  "signing_subkey": "C46ED3F2CBEFDA1FDAADA44264ED7B1DCCE71CB2",
+  "command": [
+    "C:/Program Files/Git/usr/bin/gpgv.exe",
+    "--homedir",
+    "upstream-tag-verification-r2/keyring",
+    "--keyring",
+    "pubring.kbx",
+    "--status-fd",
+    "1",
+    "upstream-tag-verification-r2/tag-signature.asc",
+    "upstream-tag-verification-r2/tag-payload.txt"
+  ],
+  "exit_code": 0,
+  "stdout_sha256": "de2b2f328f2c246e06e70d3d3223d0362dac179e11c2ae0a498a2fb25e0d5ccd",
+  "stderr_sha256": "a792ba7cf5a005d97e469f0e77d573c0793fa7ddbef4ec6cf889a4d74dd98376",
+  "fix_commit_signatures_claimed": false,
+  "earlier_failed_attempts_preserved": [
+    "Windows path interpretation on Git Msys GPG",
+    "Public keys imported but GPG import exits nonzero because gpg-agent unavailable; no private key operation requested. gpgv needs no agent and independently validates existing isolated public keyring."
+  ]
+}

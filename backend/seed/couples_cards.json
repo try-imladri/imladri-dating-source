@@ -1,0 +1,46 @@
+[
+  {
+    "id": "communication",
+    "name": "Everyday communication",
+    "question": "When plans change, what would you like to hear from each other?",
+    "perspectives": [
+      "A quick heads-up helps me rearrange my evening.",
+      "I like to have a new plan ready before I reach out."
+    ],
+    "agreement": "Send a short heads-up first. Work out the new plan together when you have the details.",
+    "checkIn": "Did the early heads-up help? Did you both have enough information to plan your evening?"
+  },
+  {
+    "id": "repair",
+    "name": "Conflict and repair",
+    "question": "If either of you needs a break during an argument, how will you know when to come back?",
+    "perspectives": [
+      "I can take a break if I know we'll finish the conversation.",
+      "I need a little quiet before I can listen again."
+    ],
+    "agreement": "Either person can ask for a pause. Pick a time to come back before you step away.",
+    "checkIn": "Was the break long enough? Was it easy to start the conversation again?"
+  },
+  {
+    "id": "support",
+    "name": "Support and closeness",
+    "question": "What feels supportive at the end of a hard day?",
+    "perspectives": [
+      "I feel close when someone listens before offering ideas.",
+      "Taking a task off someone's plate is how I show I care."
+    ],
+    "agreement": "Ask whether listening, a little space, or practical help would feel good today.",
+    "checkIn": "Which kind of support did you welcome? What would you ask for next time?"
+  },
+  {
+    "id": "priorities",
+    "name": "Shared priorities",
+    "question": "What would each of you like to protect time for this week?",
+    "perspectives": [
+      "I would love an evening together without other plans.",
+      "I need some time to myself to recharge after work."
+    ],
+    "agreement": "Choose one evening to spend together and set aside personal time that each person can count on.",
+    "checkIn": "Did both of you get the time you needed? What would you change for next week?"
+  }
+]

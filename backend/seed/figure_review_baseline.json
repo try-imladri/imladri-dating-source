@@ -1,0 +1,443 @@
+{
+  "elon-musk": {
+    "matches": "08d5990fa113608f556ea89877cc9d6c2d36326816346be3e9998084b45a5a21",
+    "identity": "7ad4f9ba3a70a62387cea5492d36fd59b215dbaddccd3224c9b11026149b3e9d",
+    "sections.identity": "7ad4f9ba3a70a62387cea5492d36fd59b215dbaddccd3224c9b11026149b3e9d",
+    "sections.matches": "08d5990fa113608f556ea89877cc9d6c2d36326816346be3e9998084b45a5a21",
+    "sections.map": "f846998f64605aa58946dff1d96730b4efc7b2070cb0098325c9d05f17b35c5c",
+    "sections.pattern": "25b19c7995bb567913bed689a319b5b5e043f070e6aa765306e3eff955990d6c",
+    "sections.communicates.text": "024203bcb6c19fc085c81b064de4fba675c711466003c2e17e115076b914eb0f",
+    "sections.spectrum": "e66df9d061be782006a5713428af45ad427b6fed968104c643bc0db9b2c4be81",
+    "sections.handling": "a359e9b6b30210bf3ebf7e15e72829089127c5aab420b725e521b3be46a1dd8b",
+    "sections.power_moves": "d3f0e9171082efccedf577e6f0e9a8c17e20b426ddbefa87c4f4073c125ac464",
+    "sections.leverage": "84d1196a6857b4e1e6d07aef5716bfa0e4bd1a4e0acb7d382db73d2b9eb22d29"
+  },
+  "drake": {
+    "matches": "f1b87cc4ac3d71be247ef1ab60c88d5242342a18074cb10ca690f881e8b1eb04",
+    "identity": "0404b9a0340ccdd87c25550a09781ce4dc35c728fc2f9fd431e326a3475eb595",
+    "sections.identity": "0404b9a0340ccdd87c25550a09781ce4dc35c728fc2f9fd431e326a3475eb595",
+    "sections.matches": "f1b87cc4ac3d71be247ef1ab60c88d5242342a18074cb10ca690f881e8b1eb04",
+    "sections.map": "2128c011c11be8a43d1635692938d9317b3e79b0a9fa0164404f5c3c54d54597",
+    "sections.pattern": "5210c723fb468d7933f5fbcca4b89a4a272109ecc26a618c4cd26a520ebcbe28",
+    "sections.communicates.text": "dcce6952ceeeb2159b475170f1fb02db9aceae00f44f0eba2757bd538ec75227",
+    "sections.spectrum": "52da9a29011826460b85040f7599fc9fa42da16313523d365af0ea8d8a558e08",
+    "sections.handling": "044ccc8f1447199d431fe2938cecf33569626e9d710b934d89d532271fad7281",
+    "sections.power_moves": "110f5b571187e40b14134f8302f7bb69f19a22a64ab320ad203733537ce2e050",
+    "sections.leverage": "dd98ec385ee386634a4f0c499f9d870d185cc64bf971bd3512c36c4980d58022"
+  },
+  "john-mayer": {
+    "matches": "8f3e1729f34ba6dde1bd24bd6e9d464dccff233d64bc9b39d57de2da36f2be5a",
+    "identity": "b0df3caaaa4bddbebd91b8c4e016b6ee37c55f5bf35d50aedb36d6f2f3183ea6",
+    "sections.identity": "b0df3caaaa4bddbebd91b8c4e016b6ee37c55f5bf35d50aedb36d6f2f3183ea6",
+    "sections.matches": "8f3e1729f34ba6dde1bd24bd6e9d464dccff233d64bc9b39d57de2da36f2be5a",
+    "sections.map": "8dc11576cd4346d19b9b6860f101bb6d914137cf2f4189e96aba820700c6f905",
+    "sections.pattern": "e60426a35689f809ac7951b979543c3e73090ddcd1de395f76ae96946544bd52",
+    "sections.communicates.text": "f6e1246a5a3303418272f160a91f5e1145fa0ec6e667f50b17e3b009f8093e02",
+    "sections.spectrum": "f3dcbd2bc2a8dfc433eee29a63eb1961de33124ca8ba257d0015aa44774e879f",
+    "sections.handling": "1d8d2547a0872080b453a7e4fa02d0bc764f4b2d245224e2b7e7f9523474121b",
+    "sections.power_moves": "ac149805b839bcadfb8b4cbae60ab90606a21c84ef358d2ce072fadabd678110",
+    "sections.leverage": "3e3610faa15113f0d350ddcae9e2158003453f97799523b43629d4acdc1c3e7c"
+  },
+  "leonardo-dicaprio": {
+    "matches": "7200153424358ec9bc48720702901b6d352b5bf97009cc7f27ccb53ed56a2e93",
+    "identity": "f1f34391b86375c4c87368059bc132aa5a9a0ca868b66312b914a635157623f5",
+    "sections.identity": "f1f34391b86375c4c87368059bc132aa5a9a0ca868b66312b914a635157623f5",
+    "sections.matches": "7200153424358ec9bc48720702901b6d352b5bf97009cc7f27ccb53ed56a2e93",
+    "sections.map": "1452a2d4d9ced5d35aaeff572bd6d8ba9bd13df23ae52c4490be77aaf43eaa44",
+    "sections.pattern": "8ace4f7712cf26bd06208bc2ff3dff49690b9be38613345287a736d8c7b7d4db",
+    "sections.communicates.text": "b4cda0952393b2b89a8a8bd7463284090d27f5832c97aed9857411be462cf0dc",
+    "sections.spectrum": "cf1d7a81dee0777bca7f378e345575edbaccfca4280b6c52eb49f1eae770dc97",
+    "sections.handling": "a08a34a5ec3fc0c0ca59cf065a00cc53f6471022b30c115cc88946a1746a9058",
+    "sections.power_moves": "c2805047c8f0cf33359615572131e6c50a82dd95e5d67322f77d70ca75ecbd8f",
+    "sections.leverage": "4ffd3d5ec681e491bce38c1f5c308aad75774d33ce9c73593a292c3e678956be"
+  },
+  "pete-davidson": {
+    "matches": "9a5f2d45bd2af98def39ca440d47bb9105ffbf8827be5181ae74c2dabf5a7522",
+    "identity": "c0e9658163d2fb6d0cf00f37123c8357414a310ba6bc671f6939dd04102ab94f",
+    "sections.identity": "c0e9658163d2fb6d0cf00f37123c8357414a310ba6bc671f6939dd04102ab94f",
+    "sections.matches": "9a5f2d45bd2af98def39ca440d47bb9105ffbf8827be5181ae74c2dabf5a7522",
+    "sections.map": "3e1c945d925cf7c90d1177b9f245577bac3044f2acb9db3fd9bf9cf8da9aeafe",
+    "sections.pattern": "da2cc5e38f8d8fea67097de70c76402bc9f78f264e885e32a35cea83ae88a3ec",
+    "sections.communicates.text": "041b3ec732077f1bef119b58c8f511d047d6ec053dfa15686ca4b343ba2a5c2a",
+    "sections.spectrum": "f8e03fd88d1c026334e35dfe42bbff3196c3af2a692472b8ad704184184facfd",
+    "sections.handling": "ba91c2122ced306c742ec49cdfa1443f7fdb87a960331fca41e2a8ed6f55c7ed",
+    "sections.power_moves": "a0d0ff71857940db54f9921b9bf5cea7e95ed3d0f165d3eae34640f7866ca2b3",
+    "sections.leverage": "9e4def7dcb71e5656a160257f6a7a4d4f9d9f8ee2aa38d9d17023cb175f0b852"
+  },
+  "travis-kelce": {
+    "matches": "403581ac03c7bd237cdafb7f83932d7800c18909a7df42af5bde43dc25098a67",
+    "identity": "ff0421c214be34175ac4978c349bc66f5ea017e8b8215bb125abb97426e3c07f",
+    "sections.identity": "ff0421c214be34175ac4978c349bc66f5ea017e8b8215bb125abb97426e3c07f",
+    "sections.matches": "403581ac03c7bd237cdafb7f83932d7800c18909a7df42af5bde43dc25098a67",
+    "sections.map": "bebb4729df5ebbbc7e3332ddca3d37c4a57f91c1c58cc430dd3f5bba69b9f493",
+    "sections.pattern": "704884698e42b1e0900a43bf97a8ed135aaa7995f0ca7b832f5a6384dcc464eb",
+    "sections.communicates.text": "25342357fe7820494f5276aa685269016962a38c386938ae7491e3a436bc7a32",
+    "sections.spectrum": "27bd7cba9a01bd79d7fba06b8a998558045742139599a65f02bda0667dabeafb",
+    "sections.handling": "095c84b47148efb27fd25cf32fe60848b07baeb1ac4b26d3dc295632b3914410",
+    "sections.power_moves": "5a96f756910fa5fc90ded186c348fca1d1661131d28ea34f87808e414f2e1aaa",
+    "sections.leverage": "c0571f64967ba4b78869f5616f0d0e26f2f916455f5b3e231d76bcbeadd1517f"
+  },
+  "aretha-franklin": {
+    "matches": "68c0c8cd88e4b42f4d6813019e38c392ca80385cd5cc76dd8e59be76fd672472",
+    "sections.matches": "68c0c8cd88e4b42f4d6813019e38c392ca80385cd5cc76dd8e59be76fd672472",
+    "sections.map": "92ffdc46c2f645cd2e4062dbd2c7745e8cfdffc003919a58557d4f1ce10f5411"
+  },
+  "nina-simone": {
+    "matches": "3258a13c1ac6c9b303ccd6d87ed93480cea53c5e750e040416712c1dd9401809",
+    "sections.matches": "3258a13c1ac6c9b303ccd6d87ed93480cea53c5e750e040416712c1dd9401809",
+    "sections.map": "2cbb3138d96f7abdd4355a99bbae9521cb575ca8c67eb67eb67b24073228750f"
+  },
+  "dolly-parton": {
+    "matches": "75daa4276c8612bb5d7048c9d8780e32247090496bbe27ebe6ce1366b729bcd0",
+    "sections.matches": "75daa4276c8612bb5d7048c9d8780e32247090496bbe27ebe6ce1366b729bcd0",
+    "sections.map": "5b46ed2c14eb93b7d6e28774e723fc484ece520a38b6373788f88a817263cb9e"
+  },
+  "joni-mitchell": {
+    "matches": "55cb38cbafd9915c9f7f9e341ba733c6330f9959cdeeb061b48b65fe373d6b32",
+    "sections.matches": "55cb38cbafd9915c9f7f9e341ba733c6330f9959cdeeb061b48b65fe373d6b32",
+    "sections.map": "5455425c9efd7ca29eb0abe09b96386e2dc9c1e1c94494ae8dbe167d1d1b4935"
+  },
+  "missy-elliott": {
+    "matches": "00780aa8d3614bd85dee63a38a3aaac4d76f61d0b16abdff497ab152d620ccf6",
+    "sections.matches": "00780aa8d3614bd85dee63a38a3aaac4d76f61d0b16abdff497ab152d620ccf6",
+    "sections.map": "f4d23adec12201b91ebaabaf4cea68a10304c4e10a95734d5c767f3fa81763cf"
+  },
+  "celia-cruz": {
+    "matches": "e4834c7bd9c29b1bba3bcb33f8c2bba288df1c3ceb84e8248dbfa39cc56fa54c",
+    "sections.matches": "e4834c7bd9c29b1bba3bcb33f8c2bba288df1c3ceb84e8248dbfa39cc56fa54c",
+    "sections.map": "faed84efe3e8cd80b055e1c0e7b5c4ca32ef472b96db3f0f7a3f9889bb6cc212"
+  },
+  "frida-kahlo": {
+    "matches": "c90e944ae4530505b497cd010b9b634185aca1ba37cbcaa0d9cb3523f498b1ff",
+    "sections.matches": "c90e944ae4530505b497cd010b9b634185aca1ba37cbcaa0d9cb3523f498b1ff",
+    "sections.map": "b33fb1087bc0f4960dd6bca840e05bf5174364ed0cfa2ec2ba18f4412c3493a6"
+  },
+  "georgia-okeeffe": {
+    "matches": "f8b883af6f1ca36b879a6ddcf856844c8774a35189ea734bdc503b2f2224bc86",
+    "sections.matches": "f8b883af6f1ca36b879a6ddcf856844c8774a35189ea734bdc503b2f2224bc86",
+    "sections.map": "70709613b54e6d6f8e9cf231fc5f155e2ce33d2e283144ae4bdfe693afa8eb84"
+  },
+  "yayoi-kusama": {
+    "matches": "5c076a4c470fe17456b521f8ad3adf21566f66019778dd8dfb1e0fb8bb5d8a83",
+    "sections.matches": "5c076a4c470fe17456b521f8ad3adf21566f66019778dd8dfb1e0fb8bb5d8a83",
+    "sections.map": "9a7fec5e7dcc540b11802653036a4dded8bdb5ba3fc70cb9089e119bbdd3a069"
+  },
+  "agnes-varda": {
+    "matches": "9ef7eeb3c7be0fb96a3085e70a69c14ca8d1bfb2fddf78d38f3da92482d51178",
+    "sections.matches": "9ef7eeb3c7be0fb96a3085e70a69c14ca8d1bfb2fddf78d38f3da92482d51178",
+    "sections.map": "c07e4016fb61a0b30566e89ee8a565f4f438f5c41f4afed0e57a74dae3a76f6d"
+  },
+  "jane-campion": {
+    "matches": "97f3a1a1e53f297f129d265a2df9a68237da9cf67a56910ab2929748e0c52d24",
+    "sections.matches": "97f3a1a1e53f297f129d265a2df9a68237da9cf67a56910ab2929748e0c52d24",
+    "sections.map": "40ab3fc6d6230b7b771bf76011a18f54dfef9825023592999e0dfe06d401572d"
+  },
+  "mira-nair": {
+    "matches": "fa63c15a67635c7654315f73ad9886e2209c1cefa549799d01f73167fe1b9c23",
+    "sections.matches": "fa63c15a67635c7654315f73ad9886e2209c1cefa549799d01f73167fe1b9c23",
+    "sections.map": "e34c25535efb259f1bbae40bd58f3e56fd72349e1a826461ebc7670b9971e2f7"
+  },
+  "david-bowie": {
+    "matches": "58fd40f6076de7903b631b462c23c04b5e076b8902fc600e8fd7e0217bf772a4",
+    "sections.matches": "58fd40f6076de7903b631b462c23c04b5e076b8902fc600e8fd7e0217bf772a4",
+    "sections.map": "6d7d29f4f94e3d7ca2c719650914f20202afb45f51d632a2ffe0256a0976dc2a"
+  },
+  "stevie-wonder": {
+    "matches": "f2499e187526ac12571e6de65709480d09f09d8ee508a6b79221f406647f0dbf",
+    "sections.matches": "f2499e187526ac12571e6de65709480d09f09d8ee508a6b79221f406647f0dbf",
+    "sections.map": "229fd62dcfbcc570d3b2c1a70143c0bb1e63a8fec1889065e20a962c091207b2"
+  },
+  "prince": {
+    "matches": "76a76aac79378049985fc542f5fcdd40aed9333e4609b8b1cee1008b13109856",
+    "sections.matches": "76a76aac79378049985fc542f5fcdd40aed9333e4609b8b1cee1008b13109856",
+    "sections.map": "553c4953dac647f0666eaa80bb3ba5966004511a0bd5f1b16e0a857be4d767f8"
+  },
+  "bob-marley": {
+    "matches": "66eb820bc04b5964b1696021492df6fe43668094a724314d578e305563d4ac7d",
+    "sections.matches": "66eb820bc04b5964b1696021492df6fe43668094a724314d578e305563d4ac7d",
+    "sections.map": "fb6e4c0fdf400ea52a44bd6095108a56b744d9bee456df9f1f90b0f5bc8aaaab"
+  },
+  "fela-kuti": {
+    "matches": "62c0b1e9e17cff992962445a9647548c1fb4aa83fb39849368289725e39c114d",
+    "sections.matches": "62c0b1e9e17cff992962445a9647548c1fb4aa83fb39849368289725e39c114d",
+    "sections.map": "fad10f932e78983b576dfdd85f6b475fb633121b270be8d574413ebc783b501f"
+  },
+  "louis-armstrong": {
+    "matches": "b6b1df5dd65372ecb19a14fa375841aca226c60347c23b9a7aef16f12e475d96",
+    "sections.matches": "b6b1df5dd65372ecb19a14fa375841aca226c60347c23b9a7aef16f12e475d96",
+    "sections.map": "1054ddb17fa2df5b153e40526d932403c5725cb3ddec0e0c1b65505c38c3d04d"
+  },
+  "akira-kurosawa": {
+    "matches": "663ee6293fd8f492f3f20176c5b17a6722bbff88d34424a45ec3e4760039766e",
+    "sections.matches": "663ee6293fd8f492f3f20176c5b17a6722bbff88d34424a45ec3e4760039766e",
+    "sections.map": "33e5bab00d87cc5c01bca68fb2af243d37628a068bda05854aa7b9c3b58b1997"
+  },
+  "hayao-miyazaki": {
+    "matches": "e4da678701537aea3c6c3ab84e4d622b3c7b613947b93761a4d8a3026e71a96f",
+    "sections.matches": "e4da678701537aea3c6c3ab84e4d622b3c7b613947b93761a4d8a3026e71a96f",
+    "sections.map": "7883d69efe46d43c28e89886b53c43a4977781e511fb336e8ce33082666e34b2"
+  },
+  "guillermo-del-toro": {
+    "matches": "23fba73f116b7ef680071a784935d9b98c238b8a5ad7c91af069d55b1faada70",
+    "sections.matches": "23fba73f116b7ef680071a784935d9b98c238b8a5ad7c91af069d55b1faada70",
+    "sections.map": "627598ac1c28df9c604af515279d2630bd2718fd07ca470c4eb302b9d36645a9"
+  },
+  "satyajit-ray": {
+    "matches": "4888b3a4549691399ef5f0dace304d96a51bd8f25301ee60816bfdafed519129",
+    "sections.matches": "4888b3a4549691399ef5f0dace304d96a51bd8f25301ee60816bfdafed519129",
+    "sections.map": "395f54c3369f130bd144fe8bbf4d1f3f1ee9936c5a5cfcfd973701cecbdcf58b"
+  },
+  "jacob-lawrence": {
+    "matches": "737eceec05ff36337b6ff72a99bde6fced615681412c65b99027712eac92815c",
+    "sections.matches": "737eceec05ff36337b6ff72a99bde6fced615681412c65b99027712eac92815c",
+    "sections.map": "00813e2c1784a9a31f4d4be148d7eb465dc50ca4d8d51e8aa6da2dd5575047c6"
+  },
+  "katsushika-hokusai": {
+    "matches": "c27e3170039212ad35ef8279309be029aec15b47a59baf55541d4eda3b75a15e",
+    "sections.matches": "c27e3170039212ad35ef8279309be029aec15b47a59baf55541d4eda3b75a15e",
+    "sections.map": "79585f55565e1f366362e2ccbe56d24df6a9d9b86830ea757a1a5f0d5d7b6362"
+  },
+  "serena-williams": {
+    "matches": "1059799009d86e2409d87c0e514e17f3e272030eeba09df5b108892ac15dfbc9",
+    "sections.matches": "1059799009d86e2409d87c0e514e17f3e272030eeba09df5b108892ac15dfbc9",
+    "sections.map": "cb3de2c32e3a9bc4f296c7bab7120cbd2aa034894e4cb352ac2b1a0956b306df"
+  },
+  "billie-jean-king": {
+    "matches": "f4114994947841e2fb7c38b0137b929fbe2a44221a990e60f42a0460cc1052a0",
+    "sections.matches": "f4114994947841e2fb7c38b0137b929fbe2a44221a990e60f42a0460cc1052a0",
+    "sections.map": "d5c7686fb661b1fa542427f9f68290354a757bc61fa7d06acada46496f4721bf"
+  },
+  "naomi-osaka": {
+    "matches": "ac1f92489b7b1a7e976b23d7b57923facb95e522eb4bd87c14dfc90d667485bb",
+    "sections.matches": "ac1f92489b7b1a7e976b23d7b57923facb95e522eb4bd87c14dfc90d667485bb",
+    "sections.map": "8f8f6973e0c5643f778ce5cc117cceab43f1180c51eacc3f22e86c2c12feeaeb"
+  },
+  "simone-biles": {
+    "matches": "b281a4d51fe967284d8119a18a6ce401d7912f296a0364b65dfc6793e5a8c84c",
+    "sections.matches": "b281a4d51fe967284d8119a18a6ce401d7912f296a0364b65dfc6793e5a8c84c",
+    "sections.map": "8c1a5fcff6e195b9a8c86aa09678d9364f3f4889cc23824b487f2f85383269d2"
+  },
+  "nadia-comaneci": {
+    "matches": "37e90097c6d8a0ae4482e74924f753dc39189b16f2dd35edd557c41433957816",
+    "sections.matches": "37e90097c6d8a0ae4482e74924f753dc39189b16f2dd35edd557c41433957816",
+    "sections.map": "0a04e1b5af0b42a38da649928804aff4c67b88d20f750bdf439960b100d9bd60"
+  },
+  "katie-ledecky": {
+    "matches": "24b9c4b29e771584965bb065b46d817b7fc3733ca9e32f0946cb53b6e4429fb9",
+    "sections.matches": "24b9c4b29e771584965bb065b46d817b7fc3733ca9e32f0946cb53b6e4429fb9",
+    "sections.map": "c7e1e80cc0bd440791c6582f94f51f1291e887530eeff4054ba0aa358f0efb3e"
+  },
+  "jackie-joyner-kersee": {
+    "matches": "01aeaa966e279ced0e37e1fa0190035791b309a27193db5eb9448a0e4108c97b",
+    "sections.matches": "01aeaa966e279ced0e37e1fa0190035791b309a27193db5eb9448a0e4108c97b",
+    "sections.map": "ddb2f4ff2dd1b42c4b7e6ec6307398987d37cd6c4d0209900e8ab5bc8123a093"
+  },
+  "allyson-felix": {
+    "matches": "8dea216ea5594c62a16d404d6989b7bc603208b6ce17a1079914675cee14110e",
+    "sections.matches": "8dea216ea5594c62a16d404d6989b7bc603208b6ce17a1079914675cee14110e",
+    "sections.map": "41a8662f238b49076d0a63fd9d9997f5957340bff1a3095dfc71f67becf0fd49"
+  },
+  "marta": {
+    "matches": "43cd77e92932e561e4e9fb0d922f235aeaf9eede1b11000dcb0e1b056101ff78",
+    "sections.matches": "43cd77e92932e561e4e9fb0d922f235aeaf9eede1b11000dcb0e1b056101ff78",
+    "sections.map": "298aa2b49a60b09fb527145d78fcd77c68784577b769d1d9738b2f9b0c4d58ac"
+  },
+  "yuna-kim": {
+    "matches": "0db9620d1644a380975d6f30909a7455516f62c693bd3864e77c246b538e2daa",
+    "sections.matches": "0db9620d1644a380975d6f30909a7455516f62c693bd3864e77c246b538e2daa",
+    "sections.map": "961446405659e50dba9661145250d489435e72fc428aa653fa599fa2779ebba4"
+  },
+  "tatyana-mcfadden": {
+    "matches": "289f582e938a58019e18ee1e798eebd943bd82937662149080a6774402f02c64",
+    "sections.matches": "289f582e938a58019e18ee1e798eebd943bd82937662149080a6774402f02c64",
+    "sections.map": "9b9e3f26aa15239ca7d74e444c7e0baf20196545671cb8ebde8b3b3f358542fe"
+  },
+  "pv-sindhu": {
+    "matches": "544fb05ce75d30f4ccef3c4d839278b1390c6c2babd8ebe1f99e47d6a8e94334",
+    "sections.matches": "544fb05ce75d30f4ccef3c4d839278b1390c6c2babd8ebe1f99e47d6a8e94334",
+    "sections.map": "31fe17b8c644e3bb0da12d8f3ebb5908dc9d03174a45e833c0bb9aedf21692ef"
+  },
+  "pele": {
+    "matches": "413a4f0658ae8febfcd16be3c52ce7eec32aa5bd6088eabc4b0bf5d227d7fc2a",
+    "sections.matches": "413a4f0658ae8febfcd16be3c52ce7eec32aa5bd6088eabc4b0bf5d227d7fc2a",
+    "sections.map": "efc0ad2008c29ffeb45dcad9c35103a5506417e7f5631b06077b1899a3660e30"
+  },
+  "lionel-messi": {
+    "matches": "757d691614a9ed69013263060270f7b17e27d858128d34d2e7fbd2792886304b",
+    "sections.matches": "757d691614a9ed69013263060270f7b17e27d858128d34d2e7fbd2792886304b",
+    "sections.map": "4d43eb85be63f1478a790560cb49b155c200db4c5fe7e238c695e46782a0a3c5"
+  },
+  "muhammad-ali": {
+    "matches": "52acd4fdb400d70e0aceeae2d80eb7cc0c34511a66fb3a7d4bddef5fa01ff6e6",
+    "sections.matches": "52acd4fdb400d70e0aceeae2d80eb7cc0c34511a66fb3a7d4bddef5fa01ff6e6",
+    "sections.map": "55345db8ed225886a0173a2010256139b9bdabe32e08eefce132d8c0a92ae42a"
+  },
+  "michael-jordan": {
+    "matches": "32354edee9f1a858f1a8d37896773804a9372aa70b22393806555d19917b9cf0",
+    "sections.matches": "32354edee9f1a858f1a8d37896773804a9372aa70b22393806555d19917b9cf0",
+    "sections.map": "d91dc74b3324655866777065a97117979eb90b9dd325772a79b2074e8794078d"
+  },
+  "usain-bolt": {
+    "matches": "b908e840e151afc5c54d7c0a059293f0e3b15f31cab77999ed7680ea03797326",
+    "sections.matches": "b908e840e151afc5c54d7c0a059293f0e3b15f31cab77999ed7680ea03797326",
+    "sections.map": "39f2e78643485c5bf8081c01ba5529cb184a687eab0773a39b8251abab8615ee"
+  },
+  "eliud-kipchoge": {
+    "matches": "33e6f93e49192192ffbda01260a10d760ef3f1d60f7f2d297ba7fb50b3a153e2",
+    "sections.matches": "33e6f93e49192192ffbda01260a10d760ef3f1d60f7f2d297ba7fb50b3a153e2",
+    "sections.map": "129cc850c25e41271cf483bcbb861b4a6ffafe406bc95477e3322003382205e1"
+  },
+  "michael-phelps": {
+    "matches": "70ce5f1ebd3864592d6ba3df608893197b4651429554722b52640ce0dd72322d",
+    "sections.matches": "70ce5f1ebd3864592d6ba3df608893197b4651429554722b52640ce0dd72322d",
+    "sections.map": "402c304d88a28f5306fb1afd48ba4e8de88ba2c25b025a70ae5e299a3f24ac04"
+  },
+  "roger-federer": {
+    "matches": "b4cb04a948d55246d5efb86a8627cfebdf596f6beffc634da538e16de8342425",
+    "sections.matches": "b4cb04a948d55246d5efb86a8627cfebdf596f6beffc634da538e16de8342425",
+    "sections.map": "7dca7ab6615d32b5680727d3873f048d001602fea43271d088e977cca511014f"
+  },
+  "sachin-tendulkar": {
+    "matches": "f81e2fbe42a440fba6a555189890ec00f9a248216853a963eaa13124ddd2dbe1",
+    "sections.matches": "f81e2fbe42a440fba6a555189890ec00f9a248216853a963eaa13124ddd2dbe1",
+    "sections.map": "ce95e5b9f288ba1cc5c2ed65983750cac40b3c29c19896dd90e911d55df92ebe"
+  },
+  "tony-hawk": {
+    "matches": "5ba086e83d5434724d1580a7e5533af5c2f6bb9079fc7adc9e91522e756a6723",
+    "sections.matches": "5ba086e83d5434724d1580a7e5533af5c2f6bb9079fc7adc9e91522e756a6723",
+    "sections.map": "5b708fbf32a3d54f3755a3487941017d92ed111387c3a274d3492a5b05f1672e"
+  },
+  "shohei-ohtani": {
+    "matches": "0d10a98db0bfa218624114f2d4d96df085e86c76ae24fb5d21d5a3663a64ee1a",
+    "sections.matches": "0d10a98db0bfa218624114f2d4d96df085e86c76ae24fb5d21d5a3663a64ee1a",
+    "sections.map": "6cccadab467cf178ca0dbbb6a4b07cbd1da9b63a0d2faf1d21838fcec1d8aa90"
+  },
+  "shingo-kunieda": {
+    "matches": "d37b7dbd63290c187c53fca373261527461730dec679af12ec60663bf1c75d82",
+    "sections.matches": "d37b7dbd63290c187c53fca373261527461730dec679af12ec60663bf1c75d82",
+    "sections.map": "66fcb278c05af581b0c97262fe04045ec02ce8ce9f0c10d229005d421bb90789"
+  },
+  "marie-curie": {
+    "matches": "881634040fa76b2c655edc2625801e2bc9323bcb38f93d119c3ff10a54e931e5",
+    "sections.matches": "881634040fa76b2c655edc2625801e2bc9323bcb38f93d119c3ff10a54e931e5",
+    "sections.map": "7e6490295043f25c967c144108b278085f17feeb3b1a09c492cdc28b3b69e870",
+    "sections.communicates.text": "0fa3bc1b04cb3f842f237feb4733be6a6c167b06809709cb1d957b599853ea5b"
+  },
+  "malala-yousafzai": {
+    "matches": "7e9f1be2a6907f6f429a8858512beca9a837242d10723cf99a3a4695cd5c7ae9",
+    "sections.matches": "7e9f1be2a6907f6f429a8858512beca9a837242d10723cf99a3a4695cd5c7ae9",
+    "sections.map": "92b873d30b0c02a036bd8df646505ed300fd1261cc4ef7b410134a5c79f00cb8"
+  },
+  "wangari-maathai": {
+    "matches": "63baf1396c00a592b8e365536816b5a13802a261b4b17155e6d0cccec5e8c2a2",
+    "sections.matches": "63baf1396c00a592b8e365536816b5a13802a261b4b17155e6d0cccec5e8c2a2",
+    "sections.map": "d9f0cca82e0450426019d4b441ea77e11c36a6743a4897291e4caa555f604715"
+  },
+  "toni-morrison": {
+    "matches": "77aead7b46f0622a4a006b36ef811ddefc789d3cc7a5d0b060e47b52eb4ce3ad",
+    "sections.matches": "77aead7b46f0622a4a006b36ef811ddefc789d3cc7a5d0b060e47b52eb4ce3ad",
+    "sections.map": "2e89ca328e36687b209cf4acba9344b2241921e193609c0386659787aebe2608"
+  },
+  "tu-youyou": {
+    "matches": "5b5986f9a430d8282224238571b0470315bded78d5256d889e954ea2024e1432",
+    "sections.matches": "5b5986f9a430d8282224238571b0470315bded78d5256d889e954ea2024e1432",
+    "sections.map": "886c8396f61fdae8fe89aa2719f41cd3252840ac4a36c5a261143d98877ba76b"
+  },
+  "jane-addams": {
+    "matches": "cc2ec7c8c91ea3445301b8021dea207fdc9ad924919195c9f11e9df22f5f48c7",
+    "sections.matches": "cc2ec7c8c91ea3445301b8021dea207fdc9ad924919195c9f11e9df22f5f48c7",
+    "sections.map": "e222120fa0d3d7ae5486b07a62a056aa7e0c8ffdb6f05d0d0c6ff339cd0129aa"
+  },
+  "ellen-johnson-sirleaf": {
+    "matches": "7c6ad7ac5cf9dd07e50bd620112a7816a19e422f91a911d5ef46fa0179dcf785",
+    "sections.matches": "7c6ad7ac5cf9dd07e50bd620112a7816a19e422f91a911d5ef46fa0179dcf785",
+    "sections.map": "3e8c2c8a2fa05b23bfeedde3c458fec0f6da0d5ff9f899fe7f47b6812c135184"
+  },
+  "selma-lagerlof": {
+    "matches": "0ebfcf8356c470d88224c416a834af1f59e59d0febb174fdbb33bcf74a8b42f9",
+    "sections.matches": "0ebfcf8356c470d88224c416a834af1f59e59d0febb174fdbb33bcf74a8b42f9",
+    "sections.map": "5a613cd4b4536ab8ca1d416b768fccf1934dc4c43c273a6d443c2de0bebf1fe9",
+    "sections.spectrum": "b27438912d9b48188ed217542136fe73009b92e164f63331473d63314bc86c61"
+  },
+  "jennifer-doudna": {
+    "matches": "9f3aa26af44e3266014342b34c448a15d41a8301bce1fe1ff040a3f77d54f41c",
+    "sections.matches": "9f3aa26af44e3266014342b34c448a15d41a8301bce1fe1ff040a3f77d54f41c",
+    "sections.map": "5848067b0d9833f29b0896be284f62b312e5b42131766351b19e6e2b9a73e5dd"
+  },
+  "ada-yonath": {
+    "matches": "876961f8745c3f08c1653d090255e3a89a5c6a06a085b2d518fdc27069dfa6e0",
+    "sections.matches": "876961f8745c3f08c1653d090255e3a89a5c6a06a085b2d518fdc27069dfa6e0",
+    "sections.map": "80f545928845fe67a06bb3b375e109ac60ab5c4255106c12e9f0ac3c130abc9a"
+  },
+  "maria-ressa": {
+    "matches": "760b0a5f5048f53c6bd53bed924db42adf308099d1842c63f8171412fda4d22b",
+    "sections.matches": "760b0a5f5048f53c6bd53bed924db42adf308099d1842c63f8171412fda4d22b",
+    "sections.map": "d9d80bc5c43c07bf10773fa5429438afca49261ff67524fd756ee46aaca0941f",
+    "sections.handling": "e6f9c25bd56245d153baeb0f7eaaa1116be48199bdeaa2697b4913ee7b13a12f"
+  },
+  "elinor-ostrom": {
+    "matches": "a80603a4d07f37f29df03b6b54fea19c2ff692302608585de7b47ace6274009c",
+    "sections.matches": "a80603a4d07f37f29df03b6b54fea19c2ff692302608585de7b47ace6274009c",
+    "sections.map": "83982b39f744d588b1f913eb3c27c9f78aeccf21c351800e092d3058592fe660"
+  },
+  "albert-einstein": {
+    "matches": "c584cb3b7aab1b07f508cfa22c630e0b8c7405078bebaf407e03641416aee01a",
+    "sections.matches": "c584cb3b7aab1b07f508cfa22c630e0b8c7405078bebaf407e03641416aee01a",
+    "sections.map": "dd789934dae2f954ca8725ba9e4a521ecbf2b7a04a37d482518cebe0bfd553a4"
+  },
+  "nelson-mandela": {
+    "matches": "f80058227f0e2cf3a9c0cfa39d365d2c4b366f25296d6010d3e1d79819718334",
+    "sections.matches": "f80058227f0e2cf3a9c0cfa39d365d2c4b366f25296d6010d3e1d79819718334",
+    "sections.map": "ef7884c308bbc3fb4d30381f22f8df469b5404ee69ef8f9bb0cf3dd641872b8a"
+  },
+  "martin-luther-king-jr": {
+    "matches": "6846a1152f6f03996c436ebdbf85fb82dabe49b4985f3bc7b9778c13078fc03f",
+    "sections.matches": "6846a1152f6f03996c436ebdbf85fb82dabe49b4985f3bc7b9778c13078fc03f",
+    "sections.map": "d8c70edcc118e4346f7a33b9295213c3611c10a43766a198070cd8bf6036c36a"
+  },
+  "gabriel-garcia-marquez": {
+    "matches": "e706b844a452e17b79a6cd8fa923a9d164ab50712854c895efa48ce573fe9600",
+    "sections.matches": "e706b844a452e17b79a6cd8fa923a9d164ab50712854c895efa48ce573fe9600",
+    "sections.map": "3fe98fc89cddffe7f84dee9ca80112dbc59bf6e25d61fed66f600477aba89540"
+  },
+  "kazuo-ishiguro": {
+    "matches": "202ebe6cab073882c69f9957d822c113e3bbc5e88a88d1c7c16a194874666c70",
+    "sections.matches": "202ebe6cab073882c69f9957d822c113e3bbc5e88a88d1c7c16a194874666c70",
+    "sections.map": "81dcc835e2b929582c02be0c2ca9d135623d569c7513773d5f6243c726de745b"
+  },
+  "amartya-sen": {
+    "matches": "c882e763ea020d2ad0cf35add9a3a625cf066fb05106ff9424adeb246fff0700",
+    "sections.matches": "c882e763ea020d2ad0cf35add9a3a625cf066fb05106ff9424adeb246fff0700",
+    "sections.map": "19bce05ebb250f2925842a84ee49f06d034085a3a6c8e0b7a440b58948034583"
+  },
+  "muhammad-yunus": {
+    "matches": "781516942f018af35854ddbd847c258e1537f9031118889635c47e83409f5bc9",
+    "sections.matches": "781516942f018af35854ddbd847c258e1537f9031118889635c47e83409f5bc9",
+    "sections.map": "1732709d732e6b7f1f2586ad7945c273e51e476ce9d95e8d984b2426b9858b72"
+  },
+  "john-steinbeck": {
+    "matches": "6fdf11a3b877e7f66d7d48275ab9a95f8889ccd4c8a9601ca9295961ed0d7c3f",
+    "sections.matches": "6fdf11a3b877e7f66d7d48275ab9a95f8889ccd4c8a9601ca9295961ed0d7c3f",
+    "sections.map": "82e1be14db03a95bc0d9987e1ca33f90842e870f8b39d54c7102d03a6c654676"
+  },
+  "rabindranath-tagore": {
+    "matches": "fb302883c2d7b9df4aac3f635d9384d6bbc453a5ece1977d33f1e71f5230df69",
+    "sections.matches": "fb302883c2d7b9df4aac3f635d9384d6bbc453a5ece1977d33f1e71f5230df69",
+    "sections.map": "46949227f67d36e899227f6b659a48ab9a98c9bdfe9d6daaa7bae4b52a44f87f"
+  },
+  "wole-soyinka": {
+    "matches": "48e4f07682b2bd9dcecac6268666d1fe88b0a433130758a0fc8c53b23b15630d",
+    "sections.matches": "48e4f07682b2bd9dcecac6268666d1fe88b0a433130758a0fc8c53b23b15630d",
+    "sections.map": "602c075c5161cd7e3da4e955906a7b273aa80eb573e01eaf1cedcc217d64f09c"
+  },
+  "niels-bohr": {
+    "matches": "e4599f66242cd034d027a5b6f6cb109cee1fa4e85f005b7705e7073181d7faa9",
+    "sections.matches": "e4599f66242cd034d027a5b6f6cb109cee1fa4e85f005b7705e7073181d7faa9",
+    "sections.map": "6f3adfb13db1259f04c62bddc9bc25e4744987f393989a1e4ee770c0384be12e"
+  },
+  "abdulrazak-gurnah": {
+    "matches": "4b1e4ba2154735425565d306c92f4b17bbd318b8a0cd13a034e5304dd9b7317f",
+    "sections.matches": "4b1e4ba2154735425565d306c92f4b17bbd318b8a0cd13a034e5304dd9b7317f",
+    "sections.map": "e1b20882909d8a805b57c10ea9446c7c56b04f2631eda9415da5ac9504c904bf"
+  }
+}

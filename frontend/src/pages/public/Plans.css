@@ -1,0 +1,23 @@
+@media (min-width: 768px) and (min-height: 600px) {
+  .public-plans { width: 100%; padding-top: clamp(12px,2vh,24px); padding-bottom: 16px; }
+  .public-plans .public-plans__title { font-size: clamp(48px,7.5vh,72px); line-height: 1; }
+  .public-plans .public-plans__intro { max-width: none; margin-top: 8px; font-size: 14px; line-height: 20px; }
+  .public-plans .public-plans__grid { margin-top: 16px; }
+  .public-plans .public-plans__card { padding: clamp(14px,2vh,20px); }
+  .public-plans__card h2 { font-size: 22px; line-height: 26px; }
+  .public-plans .public-plans__price { margin-top: 8px; }
+  .public-plans__price strong { font-size: clamp(40px,6vh,56px); line-height: 1; }
+  .public-plans .public-plans__allowance { margin-top: 12px; padding-top: 10px; }
+  .public-plans .public-plans__includes { margin-top: 10px; font-size: 11px; line-height: 14px; }
+  .public-plans .public-plans__benefits { margin-top: 8px; gap: 8px; }
+  .public-plans .public-plans__notes { margin-top: 12px; gap: 4px; line-height: 16px; }
+  .public-layout:has(.public-plans) .public-footer__inner { padding-top: 8px; padding-bottom: 8px; }
+}
+
+@media (min-width: 768px) and (min-height: 600px) and (max-height: 719px) {
+  .public-plans { padding-top: 10px; padding-bottom: 10px; }
+  .public-plans .public-plans__title { font-size: 44px; }
+  .public-plans .public-plans__grid { margin-top: 12px; }
+  .public-plans .public-plans__card { padding: 14px; }
+  .public-plans .public-plans__benefits { gap: 6px; font-size: 13px; line-height: 18px; }
+}

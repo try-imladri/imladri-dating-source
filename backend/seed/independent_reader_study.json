@@ -1,0 +1,3031 @@
+{
+  "edition": "2026-11-09",
+  "definitions": [
+    {
+      "name": "The Adrenaline Guy",
+      "description": "bored the moment it's calm"
+    },
+    {
+      "name": "The Advocate",
+      "description": "asks the person who can change things for something specific on someone else’s behalf"
+    },
+    {
+      "name": "The Advocate",
+      "description": "asks the person who can change things for something specific on someone else’s behalf"
+    },
+    {
+      "name": "The Almost Boyfriend",
+      "description": "everything but the label"
+    },
+    {
+      "name": "The Alpha Cosplayer",
+      "description": "dominance as a costume"
+    },
+    {
+      "name": "The Avoidant Poet",
+      "description": "deep feelings, zero follow-through"
+    },
+    {
+      "name": "The Backup Planner",
+      "description": "keeps you warm as plan B"
+    },
+    {
+      "name": "The Bench Coach",
+      "description": "keeps you on the bench, just in case"
+    },
+    {
+      "name": "The Blend",
+      "description": "every real guy is a mix"
+    },
+    {
+      "name": "The Blend",
+      "description": "every real woman is a mix"
+    },
+    {
+      "name": "The Boomerang",
+      "description": "always leaves, always returns"
+    },
+    {
+      "name": "The Boomerang Girl",
+      "description": "always leaves, always comes back"
+    },
+    {
+      "name": "The Boss",
+      "description": "runs the relationship like her company"
+    },
+    {
+      "name": "The Breadcrumber",
+      "description": "just enough to keep you hungry"
+    },
+    {
+      "name": "The Bridge Builder",
+      "description": "gets people who talk past each other into the same conversation"
+    },
+    {
+      "name": "The Bridge Builder",
+      "description": "gets people who talk past each other into the same conversation"
+    },
+    {
+      "name": "The Calendar Guy",
+      "description": "you're penciled in, never inked"
+    },
+    {
+      "name": "The Career-First Woman",
+      "description": "her calendar always wins"
+    },
+    {
+      "name": "The Charmer",
+      "description": "makes everyone feel chosen"
+    },
+    {
+      "name": "The Closed Book",
+      "description": "you get the trailer, never the movie"
+    },
+    {
+      "name": "The Co-Builder",
+      "description": "shares the decisions, not just the work"
+    },
+    {
+      "name": "The Co-Builder",
+      "description": "shares the decisions, not just the work"
+    },
+    {
+      "name": "The Comeback Girl",
+      "description": "returns every time she gets bored"
+    },
+    {
+      "name": "The Commitment Tourist",
+      "description": "visits seriousness, never moves in"
+    },
+    {
+      "name": "The Content Creator",
+      "description": "the relationship is the content"
+    },
+    {
+      "name": "The Cool Girl",
+      "description": "never asks for anything, then quietly leaves"
+    },
+    {
+      "name": "The Cosmic Girl",
+      "description": "reads your chart before your character"
+    },
+    {
+      "name": "The Daddy's Girl",
+      "description": "already has a man in charge"
+    },
+    {
+      "name": "The Damsel",
+      "description": "plays helpless to keep you close"
+    },
+    {
+      "name": "The Deal Broker",
+      "description": "puts reciprocal terms on the table and checks whether both people can accept them"
+    },
+    {
+      "name": "The Deal Broker",
+      "description": "puts reciprocal terms on the table and checks whether both people can accept them"
+    },
+    {
+      "name": "The Debate Club Intellectual",
+      "description": "argues with your feelings"
+    },
+    {
+      "name": "The Devil's Advocate",
+      "description": "argues to win, not to understand"
+    },
+    {
+      "name": "The Dissenter",
+      "description": "tells their own side where they disagree and stands by the reason"
+    },
+    {
+      "name": "The Dissenter",
+      "description": "tells their own side where they disagree and stands by the reason"
+    },
+    {
+      "name": "The Drama Queen",
+      "description": "a new crisis every week"
+    },
+    {
+      "name": "The Ex Archaeologist",
+      "description": "still digging through his last relationship"
+    },
+    {
+      "name": "The Ex Collector",
+      "description": "still close with every ex"
+    },
+    {
+      "name": "The Experimenter",
+      "description": "offers a small trial and uses what happens to decide together"
+    },
+    {
+      "name": "The Experimenter",
+      "description": "offers a small trial and uses what happens to decide together"
+    },
+    {
+      "name": "The First Love Echo",
+      "description": "sells you the past to buy your future"
+    },
+    {
+      "name": "The First-Love Loyalist",
+      "description": "still measures you against him"
+    },
+    {
+      "name": "The Fixer",
+      "description": "solves you instead of hearing you"
+    },
+    {
+      "name": "The Fog Machine",
+      "description": "makes you doubt what you saw"
+    },
+    {
+      "name": "The Free Spirit",
+      "description": "allergic to labels and Tuesdays"
+    },
+    {
+      "name": "The Future Faker",
+      "description": "plans a life he'll never show up for"
+    },
+    {
+      "name": "The Ghost",
+      "description": "here, then nowhere"
+    },
+    {
+      "name": "The Golden Retriever",
+      "description": "loyal, loud, and a little lost"
+    },
+    {
+      "name": "The Group-Chat Analyst",
+      "description": "screenshots every text for a committee vote"
+    },
+    {
+      "name": "The Grown Man",
+      "description": "clear, consistent, and calm"
+    },
+    {
+      "name": "The Grown Woman",
+      "description": "clear, consistent, and calm"
+    },
+    {
+      "name": "The Healing Era",
+      "description": "on a break from love, mid-relationship"
+    },
+    {
+      "name": "The Heartbreaker",
+      "description": "the chase is the whole point"
+    },
+    {
+      "name": "The Hopeless Romantic",
+      "description": "falls for the idea before the person"
+    },
+    {
+      "name": "The Hustler",
+      "description": "you're a meeting she keeps moving"
+    },
+    {
+      "name": "The Ice Queen",
+      "description": "warmth is earned and rarely paid out"
+    },
+    {
+      "name": "The Jealous Guardian",
+      "description": "calls control protection"
+    },
+    {
+      "name": "The Knight",
+      "description": "needs you to need saving"
+    },
+    {
+      "name": "The Ledger",
+      "description": "remembers every favour you owe"
+    },
+    {
+      "name": "The Locked Vault",
+      "description": "you get the brochure, never the tour"
+    },
+    {
+      "name": "The Love Bomber",
+      "description": "too much, too fast, then gone"
+    },
+    {
+      "name": "The Machine",
+      "description": "treats every conversation like a bid for control"
+    },
+    {
+      "name": "The Mama's Boy",
+      "description": "already has a woman in charge"
+    },
+    {
+      "name": "The Man-Child",
+      "description": "you're dating his mom's replacement"
+    },
+    {
+      "name": "The Martyr",
+      "description": "gives everything, then sends the bill"
+    },
+    {
+      "name": "The Mean Girl",
+      "description": "affection with a side of judgment"
+    },
+    {
+      "name": "The Mentor",
+      "description": "gives you a useful pointer and leaves the next move to you"
+    },
+    {
+      "name": "The Mentor",
+      "description": "gives you a useful pointer and leaves the next move to you"
+    },
+    {
+      "name": "The Mother Hen",
+      "description": "mothers you instead of meeting you"
+    },
+    {
+      "name": "The Negotiator",
+      "description": "turns every boundary into a debate"
+    },
+    {
+      "name": "The Nice Guy",
+      "description": "kindness with an invoice attached"
+    },
+    {
+      "name": "The Open Book",
+      "description": "says it, means it, does it"
+    },
+    {
+      "name": "The Open Heart",
+      "description": "says it, means it, does it"
+    },
+    {
+      "name": "The Orbit Keeper",
+      "description": "just enough attention to keep you circling"
+    },
+    {
+      "name": "The Overthinker",
+      "description": "analysis paralysis in a hoodie"
+    },
+    {
+      "name": "The Peacock",
+      "description": "dates the audience, not you"
+    },
+    {
+      "name": "The Phone Checker",
+      "description": "calls it love, checks your phone"
+    },
+    {
+      "name": "The Phone-Down Guy",
+      "description": "screen always facing the table"
+    },
+    {
+      "name": "The Pick-Me",
+      "description": "competes for attention she already has"
+    },
+    {
+      "name": "The Player",
+      "description": "the rotation is the relationship"
+    },
+    {
+      "name": "The Princess",
+      "description": "expects to be chosen, never chooses"
+    },
+    {
+      "name": "The Proceduralist",
+      "description": "agrees how a disputed decision will be made and makes the outcome checkable"
+    },
+    {
+      "name": "The Proceduralist",
+      "description": "agrees how a disputed decision will be made and makes the outcome checkable"
+    },
+    {
+      "name": "The Provider",
+      "description": "pays for everything, owns the narrative"
+    },
+    {
+      "name": "The Reframer",
+      "description": "asks the question a different way when the conversation gets stuck"
+    },
+    {
+      "name": "The Reframer",
+      "description": "asks the question a different way when the conversation gets stuck"
+    },
+    {
+      "name": "The Renovator",
+      "description": "dates your potential, not you"
+    },
+    {
+      "name": "The Rescuer",
+      "description": "falls for whoever needs saving"
+    },
+    {
+      "name": "The Rewriter",
+      "description": "remembers it differently every time"
+    },
+    {
+      "name": "The Sad Boy",
+      "description": "melancholy as a personality"
+    },
+    {
+      "name": "The Sad Girl",
+      "description": "melancholy as an aesthetic"
+    },
+    {
+      "name": "The Scorekeeper",
+      "description": "keeps a ledger of every favor"
+    },
+    {
+      "name": "The Second Chat",
+      "description": "always has another conversation open"
+    },
+    {
+      "name": "The Situationship CEO",
+      "description": "manages you like a side project"
+    },
+    {
+      "name": "The Slow Burn",
+      "description": "takes his time, means every word"
+    },
+    {
+      "name": "The Social Butterfly",
+      "description": "everyone's favourite, nobody's person"
+    },
+    {
+      "name": "The Someday Girl",
+      "description": "waiting for you to become who she imagined"
+    },
+    {
+      "name": "The Someday Guy",
+      "description": "it'll be different when..."
+    },
+    {
+      "name": "The Steady Flame",
+      "description": "slow to open, sure once she does"
+    },
+    {
+      "name": "The Story Viewer",
+      "description": "watches everything, replies to nothing"
+    },
+    {
+      "name": "The Storyteller",
+      "description": "gets a difficult point across through a scene you can picture"
+    },
+    {
+      "name": "The Storyteller",
+      "description": "gets a difficult point across through a scene you can picture"
+    },
+    {
+      "name": "The Sweet Talker",
+      "description": "all words, no receipts"
+    },
+    {
+      "name": "The Sweetheart",
+      "description": "kind, warm, and actually means it"
+    },
+    {
+      "name": "The Tester",
+      "description": "keeps checking if you'll stay"
+    },
+    {
+      "name": "The Therapy-Speak Guy",
+      "description": "weaponizes words he learned online"
+    },
+    {
+      "name": "The Thermostat",
+      "description": "warm on Tuesday, ice by Thursday"
+    },
+    {
+      "name": "The Thrill Seeker",
+      "description": "bored the second it's stable"
+    },
+    {
+      "name": "The Translator",
+      "description": "finds a second way to explain it, then checks what you heard"
+    },
+    {
+      "name": "The Translator",
+      "description": "finds a second way to explain it, then checks what you heard"
+    },
+    {
+      "name": "The Upgrade Seeker",
+      "description": "always eyeing the next level up"
+    },
+    {
+      "name": "The Vanishing Act",
+      "description": "gone mid-conversation, no explanation"
+    },
+    {
+      "name": "The Watcher",
+      "description": "views every story, answers no texts"
+    },
+    {
+      "name": "The Wedding Planner",
+      "description": "has the board pinned before the second date"
+    },
+    {
+      "name": "The Whirlwind",
+      "description": "a storm of attention that blows itself out"
+    },
+    {
+      "name": "The Witness",
+      "description": "remembers what someone said and makes sure their version is heard"
+    },
+    {
+      "name": "The Witness",
+      "description": "remembers what someone said and makes sure their version is heard"
+    },
+    {
+      "name": "The Workaholic",
+      "description": "married to the grind"
+    },
+    {
+      "name": "The Wounded Bird",
+      "description": "his past is your full-time job"
+    },
+    {
+      "name": "The Wounded Darling",
+      "description": "her past becomes your full-time job"
+    },
+    {
+      "name": "The Zombie",
+      "description": "back from the dead with 'hey stranger'"
+    }
+  ],
+  "items": [
+    {
+      "id": "007fc4983102",
+      "kind": "figure",
+      "name": "Abdulrazak Gurnah",
+      "lines": [
+        "In Paradise, Gurnah recast the story of Joseph around Yusuf’s journey in colonial East Africa. Readers familiar with the earlier story encounter a young man facing a very different choice at the end.",
+        "By the Sea brings Saleh Omar and Latif Mahmud together in England after their families’ histories have crossed in Zanzibar. Gurnah lets each man’s account alter what the reader understands about the other.",
+        "In Admiring Silence, Gurnah’s narrator invents a past for the English family he lives among. Readers have to follow both what he chooses to tell them and what maintaining that story costs him.",
+        "In Afterlives, Gurnah follows people caught up in German colonial rule in East Africa. The aftereffects of military service unfold through the lives of families as well as soldiers."
+      ],
+      "sources": [
+        {
+          "label": "Swedish Academy biography and bibliography",
+          "url": "https://www.nobelprize.org/prizes/literature/2021/bio-bibliography/"
+        },
+        {
+          "label": "The Booker Prizes on By the Sea",
+          "url": "https://thebookerprizes.com/the-booker-library/books/by-the-sea"
+        },
+        {
+          "label": "Swedish Academy biography and bibliography",
+          "url": "https://www.nobelprize.org/prizes/literature/2021/bio-bibliography/"
+        },
+        {
+          "label": "Penguin Random House on Gurnah’s Afterlives",
+          "url": "https://global.penguinrandomhouse.com/announcements/riverhead-to-publish-3-novels-by-nobel-literature-laureate-abdulrazak-gurnah/"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Storyteller",
+      "slug": "abdulrazak-gurnah"
+    },
+    {
+      "id": "01763ba4ceef",
+      "kind": "figure",
+      "name": "Tarja Halonen",
+      "lines": [
+        "In February 2002 Tarja Halonen accepted the ILO Director-General's invitation to co-chair the World Commission on the Social Dimension of Globalization alongside Tanzania's President Benjamin Mkapa, taking on a body created to produce an authoritative report on how the global economy affects work.",
+        "As co-chair with Namibia's Sam Nujoma, Finland's President Tarja Halonen called the United Nations Millennium Summit to order on 6 September 2000 in New York, opening the heads-of-state gathering with a declaration and a minute of silent prayer or meditation.",
+        "While a Finnish parliamentarian at the Council of Europe's Parliamentary Assembly, Tarja Halonen proposed creating a monitoring committee for member states' commitments; the assembly adopted it as Order 488 (1993), which became known as the Halonen Order.",
+        "In her speech opening Parliament's 2009 session, President Tarja Halonen told legislators that the Mine Ban Treaty and the Convention on Cluster Munitions had forced development of new weapons systems, often clearly more expensive even if more effective than existing ones."
+      ],
+      "sources": [
+        {
+          "label": "WCSDG report final811b · presidentti.fi",
+          "url": "https://www.presidentti.fi/halonen/public/WCSDG%20report%20final811b.pdf?GUID=%7B5fd59f81-5bfb-4aae-96f7-b11fcf9ec0d8%7D&ID=47686"
+        },
+        {
+          "label": "United Nations",
+          "url": "https://digitallibrary.un.org/record/421789/files/A_55_PV.3-EN.pdf"
+        },
+        {
+          "label": "Welcome to tarja halonen",
+          "url": "https://assembly.coe.int/President/dePuig/Discours/2009/20090428_Welcome-Halonen.htm"
+        },
+        {
+          "label": "The President of the Republic of Finland: Press Releases and News",
+          "url": "https://www.presidentti.fi/halonen/public/defaulta9eb.html?contentid=177997&contentlan=2&culture=en-US&nodeid=41416"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Proceduralist",
+      "slug": "tarja-halonen"
+    },
+    {
+      "id": "018731ef5f08",
+      "kind": "figure",
+      "name": "Gordon Parks",
+      "lines": [
+        "For American Gothic, Washington, D.C., Parks photographed government cleaner Ella Watson with a mop and broom in front of an American flag. The tools of her job and the national emblem occupy the same frame.",
+        "For Harlem Gang Leader, Parks followed teenager Red Jackson and his circle. Moving between street encounters and quieter moments gave the picture story more than one way to see its subject.",
+        "In Segregation Story, Parks photographed Black families going about daily life in Alabama. Color, clothing and a sign above a doorway can show how segregation shaped an ordinary outing.",
+        "Parks worked with Ralph Ellison to make photographs in conversation with Invisible Man. A man emerging from a street opening translates a literary image of invisibility into something the camera can show."
+      ],
+      "sources": [
+        {
+          "label": "Gordon Parks Foundation · American Gothic and Ella Watson",
+          "url": "https://www.gordonparksfoundation.org/index.php/publications/gordon-parks/american-gothic-gordon-parks-and-ella-watson"
+        },
+        {
+          "label": "Gordon Parks Foundation · Harlem Gang Leader",
+          "url": "https://www.gordonparksfoundation.org/gordon-parks/photography-archive/harlem-gang-leader-1948/gordon-parks"
+        },
+        {
+          "label": "Gordon Parks Foundation · Segregation Story",
+          "url": "https://www.gordonparksfoundation.org/gordon-parks/photography-archive/segregation-story-1956/gordon-parks"
+        },
+        {
+          "label": "Gordon Parks Foundation · Parks and Ellison’s Invisible Man",
+          "url": "https://www.gordonparksfoundation.org/publications/gordon-parks/invisible-man-gordon-parks-and-ralph-ellison-in-harlem"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Witness",
+      "slug": "gordon-parks"
+    },
+    {
+      "id": "0248c7233d4f",
+      "kind": "figure",
+      "name": "Novak Djokovic",
+      "lines": [
+        "In July 2006, a 19-year-old Djokovic beat Nicolas Massu on the clay in Amersfoort to win his first tour-level title, the match the ATP Tour later described as the opening chapter of his career.",
+        "In 2007, Novak and Jelena Djokovic founded an organization focused on early childhood education. Its work in Serbia includes developing preschools and supporting the people who teach in them.",
+        "In the 2023 Cincinnati final he saved a championship point to beat Carlos Alcaraz in what the ATP Tour calls one of the greatest three-set finals and the longest best-of-three final in ATP Tour history since 1990.",
+        "At the 2024 Paris Olympics he won his first Olympic gold medal without dropping a set, after beating Rafael Nadal in the second round."
+      ],
+      "sources": [
+        {
+          "label": "The first of 101: Novak Djokovic’s Amersfoort breakthrough began a historic journey | ATP Tour | Tennis",
+          "url": "https://www.atptour.com/en/news/djokovic-amersfoort-2006-first-title"
+        },
+        {
+          "label": "Novak Djokovic Foundation · Founders and work in Serbia",
+          "url": "https://novakdjokovicfoundation.org/about-us/"
+        },
+        {
+          "label": "Novak Djokovic: The Complete Player | ATP Tour | Tennis",
+          "url": "https://www.atptour.com/en/news/djokovic-number-one-profile"
+        },
+        {
+          "label": "Novak Djokovic: The Complete Player | ATP Tour | Tennis",
+          "url": "https://www.atptour.com/en/news/djokovic-number-one-profile"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Co-Builder",
+      "slug": "novak-djokovic"
+    },
+    {
+      "id": "02a50aabc8fa",
+      "kind": "figure",
+      "name": "Altiero Spinelli",
+      "lines": [
+        "While held by the Fascist regime on the island of Ventotene, Spinelli worked with Ernesto Rossi and Eugenio Colorni to draft a federalist manifesto, completed in June 1941, calling for a free and united Europe; the text later circulated within the Italian Resistance.",
+        "Spinelli circulated a letter to fellow MEPs asking colleagues who agreed that institutional reform was too important to leave to statesmen and diplomats to reply and meet to plan how Parliament could take part; eight answered, gathering in July 1980.",
+        "Altiero Spinelli, as European Commission member with responsibility for industrial, technological and scientific affairs, delivered a speech on the current state of industrial policy to the Council of Ministers of Foreign Affairs in Luxembourg on 25 June 1974.",
+        "As rapporteur-coordinator of Parliament's institutional committee, Spinelli steered the drafting of a treaty text; on 14 February 1984 the European Parliament adopted the Draft Treaty Establishing the European Union by an overwhelming majority."
+      ],
+      "sources": [
+        {
+          "label": "Federalism in the European Parliament",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/760354/EPRS_BRI%282024%29760354_EN.pdf"
+        },
+        {
+          "label": "Briefing European Parliamentary Research Service",
+          "url": "https://historicalarchives.europarl.europa.eu/files/live/sites/historicalarchive/files/03_PUBLICATIONS/02_In-the-past/01_Documents/role_of_altiero_spinelli_en.pdf"
+        },
+        {
+          "label": "Browse by EU Subject - Archive of European Integration",
+          "url": "https://aei.pitt.edu/view/eusubjects/H021001.creators_name.html"
+        },
+        {
+          "label": "European Parliament - Historical Archives",
+          "url": "https://historicalarchives.europarl.europa.eu/home/publications/past.html"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Co-Builder",
+      "slug": "altiero-spinelli"
+    },
+    {
+      "id": "0354c8e3d306",
+      "kind": "figure",
+      "name": "Mary Kom",
+      "lines": [
+        "In an International Women’s Day interview, Kom recalled that her father initially opposed her decision to box. She described spending days talking with him before he accepted her choice.",
+        "At the 2012 London Olympics, Kom boxed in the flyweight tournament and won bronze. It was the first Olympics at which women could compete in boxing.",
+        "At the 2018 Women’s World Championships in New Delhi, Kom won a sixth world title. In front of a home crowd she defeated Ukraine’s Hanna Okhota in the light flyweight final.",
+        "The Indian Olympic Association’s executive council, elected on December 10, 2022, lists M.C. Mary Kom as chairperson of its Athletes Commission."
+      ],
+      "sources": [
+        {
+          "label": "Let’s hear it for the ladies on International Women’s Day! - Olympic News",
+          "url": "https://www.olympics.com/ioc/news/let-s-hear-it-for-the-ladies-on-international-women-s-day"
+        },
+        {
+          "label": "Boxing Federation of India · Mary Kom’s medal record",
+          "url": "https://boxingfederation.in/mc-mary-kom-51-kg/"
+        },
+        {
+          "label": "International Boxing Association · The New Delhi world title",
+          "url": "https://www.iba.sport/news/ten-new-aiba-womens-world-champions-crowned-memorable-delhi-2018-draws-close-saturday/"
+        },
+        {
+          "label": "Executive council – Indian Olympic Association",
+          "url": "https://olympic.ind.in/executive-council/"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Storyteller",
+      "slug": "mary-kom"
+    },
+    {
+      "id": "03bd30611133",
+      "kind": "figure",
+      "name": "Ileana Ros-Lehtinen",
+      "lines": [
+        "While both served in the Florida State Senate, Representative Ileana Ros-Lehtinen was credited by a Florida colleague with working alongside him on prepaid college tuition programs meant to ease the cost of future college for Florida families.",
+        "In January 1997, after Democrat Xavier Becerra became chair of the Congressional Hispanic Caucus following a trip to Cuba, Ros-Lehtinen and Lincoln Diaz-Balart resigned from the caucus, protesting that Havana meeting.",
+        "In 2011 she became the first Republican cosponsor of the Respect for Marriage Act, Jerrold Nadler's bill to repeal the Defense of Marriage Act.",
+        "During the global HIV/AIDS crisis, Representative Ileana Ros-Lehtinen worked on the federal government's PEPFAR program, the President's Emergency Plan for AIDS Relief, and later called PEPFAR one of her proudest achievements as a Member of Congress."
+      ],
+      "sources": [
+        {
+          "label": "CONGRESSIONAL RECORD — HOUSE",
+          "url": "https://www.govinfo.gov/link/crec/142/H/9856"
+        },
+        {
+          "label": "Rep. Becerra's Trip to Cuba Hits a Nerve - Los Angeles Times",
+          "url": "https://www.latimes.com/archives/la-xpm-1997-01-09-mn-16749-story.html"
+        },
+        {
+          "label": "Nadler Announces First Republican Cosponsor of Respect for Marriage Act to Repeal DOMA | Congressman Jerry Nadler",
+          "url": "https://nadler.house.gov/news/documentsingle.aspx?DocumentID=392420"
+        },
+        {
+          "label": "ROS-LEHTINEN, Ileana | US House of Representatives: History, Art & Archives",
+          "url": "https://history.house.gov/People/Detail/20624"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Dissenter",
+      "slug": "ileana-ros-lehtinen"
+    },
+    {
+      "id": "04189fd0e401",
+      "kind": "figure",
+      "name": "Kim Campbell",
+      "lines": [
+        "As justice minister, Campbell introduced Bill C-49 in the House of Commons on April 8, 1992, to replace the struck-down rape shield provision, and submitted it for second reading after the Supreme Court invalidated section 276.",
+        "As justice minister, Campbell reintroduced firearms legislation as Bill C-17, which received royal assent on December 5, 1991, after the Montreal massacre; it followed Bill C-80, which had stalled at second reading amid opposition from rural and western backbenchers.",
+        "As defence minister, Campbell told the Commons on May 11, 1993, that she had instituted a board of inquiry into the conduct of Canadian forces in Somalia.",
+        "Campbell chaired the independent advisory board that was asked to recommend qualified, functionally bilingual Supreme Court candidates in 2016 and 2017, under a process the government set and whose shortlists the minister of justice reviewed."
+      ],
+      "sources": [
+        {
+          "label": "Lipad - 3904486 - Permalink Speech from the Canadian House of Commons",
+          "url": "https://lipad.ca/full/permalink/3904486/"
+        },
+        {
+          "label": "WNDER THE GUN: PRESSURE GROUP POLITICS",
+          "url": "https://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp03/MQ51989.pdf"
+        },
+        {
+          "label": "Lipad - A. Kim CAMPBELL - Members of the Canadian House of Commons",
+          "url": "https://www.lipad.ca/members/record/10048127-35a6-4f46-8dda-e7afb7584c09/2/"
+        },
+        {
+          "label": "Independent Advisory Board for Supreme Court of Canada judicial appointments | Prime Minister of Canada",
+          "url": "https://www.pm.gc.ca/en/news/backgrounders/2017/07/17/independent-advisory-board-supreme-court-canada-judicial-appointments"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Proceduralist",
+      "slug": "kim-campbell"
+    },
+    {
+      "id": "04e1e56bc1a7",
+      "kind": "figure",
+      "name": "Megawati Sukarnoputri",
+      "lines": [
+        "At a Bali press conference in October 2003, Megawati listed counterterrorism, democratization support, military cooperation and post-IMF economic aid as topics she and George Bush discussed, noting agreement with him on religion tolerance.",
+        "Megawati ratified the treaty in Jakarta on 13 October 2003, with State Secretary Bambang Kesowo, and the ratification was recorded in the State Gazette of the Republic of Indonesia.",
+        "In May 2003 Megawati issued a presidential decree making Law No. 23/1959 the legal basis for martial law in Aceh. In November 2003 the Indonesian government extended the imposition of martial law, arguing it was needed to secure the 2004 elections.",
+        "Megawati was sworn in on 23 July 2001 to the presidency, stepping up from the vice presidency she had assumed after Abdurrahman Wahid's impeachment proceedings in the People's Consultative Assembly."
+      ],
+      "sources": [
+        {
+          "label": "White House news conference transcript, American Presidency Project",
+          "url": "https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-with-president-megawati-sukarnoputri-indonesia-bali"
+        },
+        {
+          "label": "UN treaty notification E/NL.2005/06-10",
+          "url": "https://digitallibrary.un.org/record/566498/files/E_NL.2005_06-10-EN.pdf?ln=en"
+        },
+        {
+          "label": "NGO submission E/CN.4/2004/NGO/240, UN Commission on Human Rights",
+          "url": "https://digitallibrary.un.org/record/517716/files/E_CN.4_2004_NGO_240-EN.pdf"
+        },
+        {
+          "label": "Indonesian state party report CCPR/C/IDN/1 to the UN Human Rights Committee",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=CCPR%2FC%2FIDN%2F1&t=pdf"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Proceduralist",
+      "slug": "megawati-sukarnoputri"
+    },
+    {
+      "id": "0516142f4c0b",
+      "kind": "figure",
+      "name": "Berthe Morisot",
+      "lines": [
+        "In The Cradle, a woman watches a sleeping infant through a veil of white fabric. The bend of her arm echoes the baby’s arm, connecting them across the space between their faces.",
+        "Summer’s Day seats two women in an open boat. Morisot lets brisk marks for light and water remain visible around them, so the still figures share the movement of the lake.",
+        "In The Harbor at Lorient, Morisot puts her sister on a low wall and the working harbor across the water. It is possible to follow the sitter’s downward gaze and still take in the far shore.",
+        "Hanging the Laundry out to Dry sets people doing the wash within a broad, open landscape. The line of pale fabric gives the eye a way across the canvas and gives everyday work a place in the view."
+      ],
+      "sources": [
+        {
+          "label": "Musée d’Orsay · The Cradle",
+          "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1132"
+        },
+        {
+          "label": "National Gallery, London · Summer’s Day",
+          "url": "https://www.nationalgallery.org.uk/paintings/berthe-morisot-summer-s-day"
+        },
+        {
+          "label": "National Gallery of Art · The Harbor at Lorient",
+          "url": "https://www.nga.gov/artworks/52192-harbor-lorient"
+        },
+        {
+          "label": "National Gallery of Art · Hanging the Laundry out to Dry",
+          "url": "https://www.nga.gov/artworks/66426-hanging-laundry-out-dry"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "berthe-morisot"
+    },
+    {
+      "id": "05c2b0d3a2d6",
+      "kind": "figure",
+      "name": "Guillermo del Toro",
+      "lines": [
+        "In The Devil’s Backbone, a boy enters an orphanage during the Spanish Civil War and encounters a ghost. Del Toro lets the boy’s attempts to understand a haunting lead him into the history of the place.",
+        "In Pan’s Labyrinth, Ofelia’s stepfather issues military orders while a faun sets her a series of tasks. Hearing instructions from both figures turns the question of whom to obey into a choice the child must make.",
+        "In The Shape of Water, a cleaner who cannot speak meets an amphibious captive in the laboratory where she works. Their exchanges through gesture and touch give viewers a courtship they can follow without spoken conversation.",
+        "For Pinocchio, del Toro and his collaborators used physical puppets and sets. MoMA exhibited motion tests and working sets that let visitors see how tiny changes of pose became a performance on screen."
+      ],
+      "sources": [
+        {
+          "label": "Criterion Collection · The Devil’s Backbone",
+          "url": "https://www.criterion.com/films/27914-the-devil-s-backbone"
+        },
+        {
+          "label": "Criterion Collection · Pan’s Labyrinth",
+          "url": "https://www.criterion.com/films/28948-pan-s-labyrinth"
+        },
+        {
+          "label": "Searchlight Pictures · The Shape of Water",
+          "url": "https://www.searchlightpictures.com/theshapeofwater"
+        },
+        {
+          "label": "Museum of Modern Art · Crafting Pinocchio",
+          "url": "https://www.moma.org/calendar/exhibitions/5504"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Translator",
+      "slug": "guillermo-del-toro"
+    },
+    {
+      "id": "0658d4eac980",
+      "kind": "figure",
+      "name": "Dolly Parton",
+      "lines": [
+        "In “Coat of Many Colors,” Parton remembers her mother sewing a coat from scraps and her classmates laughing at it. The garment stays the same while its meaning changes from home to school.",
+        "In “Jolene,” Parton gives the other woman a name and addresses her throughout the song. Jolene never answers, leaving the listener to hear the entire encounter from the speaker’s side.",
+        "When Parton was leaving The Porter Wagoner Show, she sang Wagoner “I Will Always Love You.” A professional goodbye took the form of a song addressed to the person she was leaving.",
+        "Parton started the Imagination Library in the Tennessee county where she grew up. Its invitation to read arrives as a book mailed to an enrolled child each month."
+      ],
+      "sources": [
+        {
+          "label": "Country Music Hall of Fame and Museum · Dolly Parton",
+          "url": "https://www.countrymusichalloffame.org/hall-of-fame/dolly-parton"
+        },
+        {
+          "label": "Country Music Hall of Fame and Museum · Dolly Parton",
+          "url": "https://www.countrymusichalloffame.org/hall-of-fame/dolly-parton"
+        },
+        {
+          "label": "Dolly Parton · Leaving The Porter Wagoner Show",
+          "url": "https://www.dollyparton.com/news/dolly-leaves-porter-wagoner-show"
+        },
+        {
+          "label": "Dolly Parton’s Imagination Library · How the program works",
+          "url": "https://imaginationlibrary.com/about-us/"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Open Heart",
+      "slug": "dolly-parton"
+    },
+    {
+      "id": "067b43ac8ba1",
+      "kind": "figure",
+      "name": "Martin Luther King Jr.",
+      "lines": [
+        "During the Montgomery bus boycott, King led the Montgomery Improvement Association as residents sustained the protest for more than a year. He helped turn individual refusals to ride into a shared demand for change.",
+        "Writing from a Birmingham jail in 1963, King answered clergy who had criticized the demonstrations. He explained why a request to wait for a better time carried a different cost for the people denied their rights.",
+        "At the March on Washington in August 1963, King moved between an account of unfulfilled American promises and a vision of what equality could mean for children. The crowd could picture the future the marchers were asking for.",
+        "In Beyond Vietnam, delivered at Riverside Church in 1967, King publicly explained why he opposed the war. He connected the resources devoted to fighting abroad with the needs of poor communities at home."
+      ],
+      "sources": [
+        {
+          "label": "Nobel Foundation biography of Martin Luther King Jr.",
+          "url": "https://www.nobelprize.org/prizes/peace/1964/king/biographical/"
+        },
+        {
+          "label": "Stanford King Institute on Letter from Birmingham Jail",
+          "url": "https://kinginstitute.stanford.edu/letter-birmingham-jail"
+        },
+        {
+          "label": "Nobel Prize profile of Martin Luther King Jr.",
+          "url": "https://www.nobelprize.org/prizes/peace/1964/king/facts/"
+        },
+        {
+          "label": "Stanford King Institute on Beyond Vietnam",
+          "url": "https://kinginstitute.stanford.edu/encyclopedia/beyond-vietnam"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "martin-luther-king-jr"
+    },
+    {
+      "id": "072e168c3d36",
+      "kind": "figure",
+      "name": "Xanana Gusmão",
+      "lines": [
+        "On 13 April 2016 Gusmão, as Timor-Leste's chief maritime negotiator and Minister of Planning and Strategic Investment, met UN Secretary-General Ban Ki-moon in New York, days after Dili notified Australia that it had launched compulsory conciliation under the law of the sea convention.",
+        "On 30 August 2018 Gusmão launched a book on the Timor-Leste–Australia conciliation at the Timorese Resistance Archive and Museum in Dili, in his role as head of the Negotiating Team of the Council for the Definitive Delimitation of Maritime Borders.",
+        "In March 1983 Gusmão initiated formal negotiations with the Indonesian armed forces that led to a cease-fire lasting until August of that year, according to the government biography.",
+        "Taking office as prime minister on 1 July 2023, Gusmão headed a government whose listed duties include leading land and maritime border talks with Indonesia."
+      ],
+      "sources": [
+        {
+          "label": "Government of Timor-Leste press release on the UNCLOS conciliation notice",
+          "url": "https://timor-leste.gov.tl/?lang=en&p=15009"
+        },
+        {
+          "label": "Government of Timor-Leste news item on the maritime conciliation book launch",
+          "url": "https://timor-leste.gov.tl/?lang=en&p=20351"
+        },
+        {
+          "label": "Government of Timor-Leste official biography of Xanana Gusmão",
+          "url": "https://timor-leste.gov.tl/?lang=en&p=32776"
+        },
+        {
+          "label": "Government of Timor-Leste page on the IX Constitutional Government structure",
+          "url": "https://timor-leste.gov.tl/?lang=en&p=13"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Bridge Builder",
+      "slug": "xanana-gusmao"
+    },
+    {
+      "id": "0938da98b8fb",
+      "kind": "figure",
+      "name": "Allyson Felix",
+      "lines": [
+        "At the London Olympics in 2012, Felix ran on both winning U.S. relay teams as well as winning the individual 200 metres. Her teammates counted on her across two different relay distances at the same meet.",
+        "In Beijing in 2015, Felix won the world 400-metre title. Her earlier global titles had come over 200 metres, and this time she had to sustain her race for a full lap.",
+        "In 2019, Felix testified before the U.S. House Ways and Means Committee about her experience of childbirth. She brought her own story before lawmakers considering racial disparities in maternal mortality.",
+        "In Tokyo, Felix followed her individual 400-metre bronze with a final Olympic relay. She earned gold alongside her U.S. teammates in the 4 × 400 metres, sharing the last podium of her Olympic career."
+      ],
+      "sources": [
+        {
+          "label": "World Athletics · Allyson Felix’s career on the track",
+          "url": "https://worldathletics.org/news/feature/allyson-felix-leaving-a-legacy"
+        },
+        {
+          "label": "World Athletics · Allyson Felix’s career on the track",
+          "url": "https://worldathletics.org/news/feature/allyson-felix-leaving-a-legacy"
+        },
+        {
+          "label": "U.S. House Ways and Means Committee · Felix’s maternal health testimony",
+          "url": "https://waysandmeans.house.gov/event/hearing-on-overcoming-racial-disparities-and-social-determinants-in-the-maternal-mortality-crisis/"
+        },
+        {
+          "label": "World Athletics · Allyson Felix’s career on the track",
+          "url": "https://worldathletics.org/news/feature/allyson-felix-leaving-a-legacy"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Storyteller",
+      "slug": "allyson-felix"
+    },
+    {
+      "id": "09831dfdd463",
+      "kind": "figure",
+      "name": "Kim Young-sam",
+      "lines": [
+        "In 1993 the Kim Young-sam administration instituted the Real Name Financial Transactions System through the Presidential Emergency Order for National Finance and Economy, banning anonymous financial accounts and requiring accounts to be held under real names.",
+        "Korea acceded to the OECD in December 1996, which the OECD report describes as the culmination of two decades of nation building by the Korean people and government, in a document whose presidential chronology lists Kim Young-sam as holding office from 1993 to 1998.",
+        "During the presidential election the Real Name Deposit system became a salient political issue, and President Kim Young-sam later implemented it in 1993 through the Presidential Financial and Economic Emergency Decree on Real Name Financial Transaction and Guarantee of Secrecy, aimed at the underground economy, with preparations kept confidential until his announcement.",
+        "Kim Young-sam became South Korea's first civilian president, elected in 1993, following the restoration of direct presidential elections in 1987."
+      ],
+      "sources": [
+        {
+          "label": "UN University Press chapter on Korean anti-corruption reform",
+          "url": "https://digitallibrary.un.org/record/688912/files/ebrary9789280811896.pdf"
+        },
+        {
+          "label": "OECD 2007 anti-bribery implementation report on Korea",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2007/07/implementing-the-oecd-anti-bribery-convention-report-on-korea-2007_g1gh7c45/9789264031647-en.pdf"
+        },
+        {
+          "label": "UN DESA study of the Korean real-name financial system",
+          "url": "https://digitallibrary.un.org/record/3868819/files/1997%2520Administrative%2520Reforms_Country%2520Profiles%2520of%2520Five%2520Asian%2520Countries.pdf"
+        },
+        {
+          "label": "OECD investment policy reform report on Korea",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/07/lessons-from-investment-policy-reform-in-korea_g17a233d/5k4376zqcpf1-en.pdf"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Proceduralist",
+      "slug": "kim-young-sam"
+    },
+    {
+      "id": "09dab9559507",
+      "kind": "figure",
+      "name": "Léopold Sédar Senghor",
+      "lines": [
+        "In a 1957 address to the French National Assembly, Senghor argued for a new relationship between France and its overseas territories, invoking the image of France as a living tree whose branches reached across continents.",
+        "Ten years after Senegal's independence, Senghor joined Habib Bourguiba, Hamani Diori and Norodom Sihanouk in backing the Niamey convention of 20 March 1970 that founded the Agence de coopération culturelle et technique.",
+        "In 1966 Senghor presided over the opening in Dakar of the first World Festival of Negro Arts, an event his biography lists among his sustained cultural activities as Senegal's head of state.",
+        "Elected to the Académie française in 1983, Senghor took seat 16, entering the institution that guards the French language he championed across Africa."
+      ],
+      "sources": [
+        {
+          "label": "CiNii Books catalog record of a published 1957 parliamentary speech by Senghor",
+          "url": "https://ci.nii.ac.jp/author/DA03034596?l=en"
+        },
+        {
+          "label": "Organisation internationale de la Francophonie history page on the founding of the ACCT",
+          "url": "https://www.francophonie.org/une-histoire-de-la-francophonie-23"
+        },
+        {
+          "label": "Académie française biographical notice on Léopold Sédar Senghor",
+          "url": "https://www.academie-francaise.fr/les-immortels/leopold-sedar-senghor"
+        },
+        {
+          "label": "Académie française biographical notice on Léopold Sédar Senghor",
+          "url": "https://www.academie-francaise.fr/les-immortels/leopold-sedar-senghor"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Bridge Builder",
+      "slug": "leopold-sedar-senghor"
+    },
+    {
+      "id": "0d9380ecbc77",
+      "kind": "figure",
+      "name": "Mikaela Shiffrin",
+      "lines": [
+        "At seventeen, Shiffrin won the women’s slalom at the 2013 World Championships in Schladming. She was third after the first run and made up the difference on the second.",
+        "Shiffrin won the Aspen slalom in November 2015 by 3.07 seconds. She was the first American woman to win a World Cup race there since Tamara McKinney in 1981.",
+        "On January 11, 2022, in the Schladming night slalom, she recorded her 47th career World Cup slalom victory, surpassing Ingemar Stenmark's record for wins in a single discipline.",
+        "As Shiffrin approached her hundredth World Cup win, she and Share Winter launched a campaign to raise $100,000 for youth access to skiing and snowboarding. She asked fans to mark a personal milestone by helping pay for someone else’s day on snow."
+      ],
+      "sources": [
+        {
+          "label": "U.S. Ski & Snowboard · World champion at Schladming in 2013",
+          "url": "https://www.usskiandsnowboard.org/news/world-champion-mikaela-shiffrin"
+        },
+        {
+          "label": "U.S. Ski & Snowboard · The November 2015 Aspen slalom",
+          "url": "https://www.usskiandsnowboard.org/news/shiffrin-dominates-aspen-winternational"
+        },
+        {
+          "label": "U.S. Ski & Snowboard · The 2022 Schladming night slalom",
+          "url": "https://www.usskiandsnowboard.org/news/shiffrin-makes-history-schladming-night-slalom"
+        },
+        {
+          "label": "Share Winter Foundation · Shiffrin’s campaign for youth snow sports",
+          "url": "https://sharewinterfoundation.org/mik100/"
+        }
+      ],
+      "group": "holdout",
+      "reference": "The Co-Builder",
+      "slug": "mikaela-shiffrin"
+    },
+    {
+      "id": "102d003bbb7b",
+      "kind": "figure",
+      "name": "Mary Anning",
+      "lines": [
+        "After her brother Joseph found an ichthyosaur skull near Lyme Regis, Anning excavated the rest of the skeleton. The assembled animal gave researchers more to compare than an isolated fossil bone.",
+        "In 1823 Anning unearthed a nearly complete plesiosaur. Its unusually long neck could be studied from an articulated skeleton instead of reconstructed from scattered fragments.",
+        "Anning also recovered a pterosaur from the cliffs at Lyme Regis. It supplied evidence of a winged reptile in Britain, far from the German localities then known for such finds.",
+        "Anning drew attention to the fish remains inside objects found among marine reptile fossils. Her observations helped William Buckland identify some of the objects as fossilized droppings."
+      ],
+      "sources": [
+        {
+          "label": "Mary Anning fossils: Seven highlights from the Jurassic Coast | Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/mary-anning-fossils.html"
+        },
+        {
+          "label": "Mary Anning fossils: Seven highlights from the Jurassic Coast | Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/mary-anning-fossils.html"
+        },
+        {
+          "label": "Mary Anning fossils: Seven highlights from the Jurassic Coast | Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/mary-anning-fossils.html"
+        },
+        {
+          "label": "What is a coprolite? | Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/what-is-a-coprolite.html"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "mary-anning"
+    },
+    {
+      "id": "128c0a737425",
+      "kind": "figure",
+      "name": "Sri Mulyani Indrawati",
+      "lines": [
+        "In a World Bank Live discussion on finance for an equitable recovery, Finance Minister Sri Mulyani Indrawati described Indonesia's pandemic budget approach, saying the government focused fiscal spending on health, social safety nets and small and medium enterprises while deepening tax reform.",
+        "At the April 2024 Development Committee meeting, Sri Mulyani Indrawati, speaking for a constituency of eleven countries, welcomed the World Bank Group Evolution Roadmap and argued that a capital increase tied to a shareholding review would strengthen the bank's legitimacy and governance.",
+        "Welcoming a World Bank development policy loan, Finance Minister Sri Mulyani Indrawati said that since 2019 the Indonesian government had focused on tax and expenditure reforms, and that the support would strengthen fiscal sustainability and spur broad-based growth after the pandemic.",
+        "As World Bank Managing Director and Chief Operating Officer from 2010, Sri Mulyani Indrawati oversaw operations worldwide, shaped strategy for the Fund for the Poorest, IDA, and chaired the Bank's Advisory Council on Gender and Development."
+      ],
+      "sources": [
+        {
+          "label": "World Bank Live event transcript, WDR 2022 discussion with the Indonesian finance minister",
+          "url": "https://live.worldbank.org/en/event/2022/finance-equitable-recovery-world-development-report-2022"
+        },
+        {
+          "label": "World Bank Development Committee statement, April 19, 2024",
+          "url": "https://documents1.worldbank.org/curated/en/099042224160037320/pdf/BOSIB1b72c350607818d931c978ce1d99b4.pdf"
+        },
+        {
+          "label": "World Bank press release on Indonesia Fiscal Reform Development Policy Loan",
+          "url": "https://www.worldbank.org/en/news/press-release/2022/06/24/new-support-will-help-strengthen-indonesia-tax-system-improve-development-spending"
+        },
+        {
+          "label": "World Bank blog biography of the former Managing Director and COO",
+          "url": "https://blogs.worldbank.org/en/team/s/sri-mulyani-indrawati"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "sri-mulyani-indrawati"
+    },
+    {
+      "id": "1403b88595c2",
+      "kind": "figure",
+      "name": "Mira Nair",
+      "lines": [
+        "For Salaam Bombay!, Nair worked with children she had met on Bombay’s streets. Krishna’s errands and search for a place to sleep give the audience a working child’s route through the city.",
+        "In Mississippi Masala, Mina’s Indian family has been expelled from Uganda and now lives in Mississippi. A love story between Mina and a Black American man brings three places, and the histories families carry from them, into one relationship.",
+        "While Monsoon Wedding follows preparations for Aditi’s arranged marriage, the wedding contractor Dubey has a courtship of his own. Nair gives the people putting on the celebration a love story alongside the family that hired them.",
+        "In Queen of Katwe, Nair follows Ugandan chess player Phiona Mutesi from her first encounter with the game into competition. Lessons with her coach make the growing skill visible, move by move."
+      ],
+      "sources": [
+        {
+          "label": "Criterion Collection · Salaam Bombay!",
+          "url": "https://www.criterion.com/films/33028-salaam-bombay"
+        },
+        {
+          "label": "Criterion Collection · Mississippi Masala",
+          "url": "https://www.criterion.com/films/32237-mississippi-masala"
+        },
+        {
+          "label": "Criterion Collection · Dubey and the wedding preparations",
+          "url": "https://www.criterion.com/current/posts/1266-monsoon-wedding-a-marigold-tapestry"
+        },
+        {
+          "label": "Disney · Queen of Katwe",
+          "url": "https://movies.disney.com/queen-of-katwe"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "mira-nair"
+    },
+    {
+      "id": "1bdef0002834",
+      "kind": "figure",
+      "name": "Benazir Bhutto",
+      "lines": [
+        "In a 1988 general election that IPU records as generally calm, Bhutto ran a populist campaign and her Pakistan People's Party took 92 seats according to the text, against 55 for the conservative alliance, after which acting president Ghulam Ishaq Khan invited the PPP to form a government and her cabinet was announced on 4 December.",
+        "After the National Assembly returned a hung Parliament in the October 1993 vote, with the PPP at 86 seats to the PML's 72, Bhutto gathered backing from minor parties and independents and was chosen prime minister by 121 votes to 71, taking the oath on 19 October.",
+        "Campaigning for the February 1997 election, Bhutto alleged irregularities in the voting but stopped short of calling for mass protests, saying Pakistan needed above all political stability to improve the domestic situation.",
+        "Addressing the Fourth World Conference on Women in Beijing on 4 September 1995, Prime Minister Bhutto disputed claims that Islam gives women second-class status and pressed governments to set priorities, commit resources and hold themselves accountable to the world's women."
+      ],
+      "sources": [
+        {
+          "label": "Inter-Parliamentary Union archive of Pakistan's 1988 National Assembly election results",
+          "url": "https://data.ipu.org/election-summary/HTML/2241_88.htm"
+        },
+        {
+          "label": "Inter-Parliamentary Union archive of Pakistan's 1993 National Assembly election results",
+          "url": "https://data.ipu.org/election-summary/HTML/2241_93.htm"
+        },
+        {
+          "label": "Inter-Parliamentary Union archive of Pakistan's 1997 National Assembly election results",
+          "url": "https://data.ipu.org/election-summary/HTML/2241_97.htm"
+        },
+        {
+          "label": "United Nations conference record A/CONF.177/20/Rev.1 of the 1995 Beijing Conference",
+          "url": "https://documents.un.org/doc/undoc/gen/n96/273/01/pdf/n9627301.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "benazir-bhutto"
+    },
+    {
+      "id": "1ce341ef96d5",
+      "kind": "figure",
+      "name": "Kofi Abrefa Busia",
+      "lines": [
+        "Busia's 1951 Oxford University Press monograph examined how contemporary social change reshaped Ashanti political institutions, treating chiefs' authority as a subject for documented fieldwork rather than assumption.",
+        "During the Second Republic the Busia government imposed a rural development levy to fund its decentralised rural programme, a fiscal choice tied to the Progress Party's 1969 election victory.",
+        "Busia recorded a radio and television broadcast on 20 April 1970 arguing for fair trial for all in Ghana, addressing the public directly through state broadcasting.",
+        "After returning to Ghana from exile in March 1966, Busia chaired the Centre for Civic Education. The National Liberation Council had created the centre to teach about democratic government."
+      ],
+      "sources": [
+        {
+          "label": "CiNii Books catalogue record, Oxford University Press monograph",
+          "url": "https://ci.nii.ac.jp/author/DA05442403?l=en"
+        },
+        {
+          "label": "Ghanaian Times feature on rural decentralisation policy",
+          "url": "https://ghanaiantimes.com.gh/rural-development-decentralisation-policy-the-ideal-strategies-for-speedy-development-in-african-countries/amp/"
+        },
+        {
+          "label": "CiNii Books catalogue record, Oxford University Press monograph",
+          "url": "https://ci.nii.ac.jp/author/DA05442403?l=en"
+        },
+        {
+          "label": "Edward A. Ulzen Memorial Foundation | Busia’s return from exile",
+          "url": "https://www.eaumf.org/ejm-blog/2018/3/25/march-24-1966-dr-busia-returns-to-ghana-from-7-years-in-exile"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "kofi-abrefa-busia"
+    },
+    {
+      "id": "1d1914f9f13c",
+      "kind": "figure",
+      "name": "Tanni Grey-Thompson",
+      "lines": [
+        "In a 2012 Laureus interview, she said it took her a while to find the sport she wanted to concentrate on, and that from the age of thirteen it was wheelchair racing.",
+        "Recalling Barcelona 1992, where she won four golds including world records in the 100m and 400m, she said the Games set a standard for others to follow and that it was the first time disability sport got significant media coverage.",
+        "Discussing Athens 2004, she said she had hoped for two golds, a silver and a bronze, was happy with the titles, and still wanted the fourth medal, adding that there is nothing you can do to affect what other people do in events.",
+        "Writing for the Telegraph in March 2020, during the postponement of the Tokyo Games, she advised Para athletes to take the positive from the situation, use the time as a training block, and noted that athletes are used to refocusing goals."
+      ],
+      "sources": [
+        {
+          "label": "Record Breakers: Tanni Grey-Thompson — Inspiring the next generation of Paralympians",
+          "url": "https://www.paralympic.org/feature/record-breakers-tanni-grey-thompson-inspiring-next-generation-paralympians"
+        },
+        {
+          "label": "Record Breakers: Tanni Grey-Thompson — Inspiring the next generation of Paralympians",
+          "url": "https://www.paralympic.org/feature/record-breakers-tanni-grey-thompson-inspiring-next-generation-paralympians"
+        },
+        {
+          "label": "Tanni Grey Thompson - Laureus Interview",
+          "url": "https://www.paralympic.org/video/tanni-grey-thompson-laureus-interview"
+        },
+        {
+          "label": "Record Breakers: Tanni Grey-Thompson — Inspiring the next generation of Paralympians",
+          "url": "https://www.paralympic.org/feature/record-breakers-tanni-grey-thompson-inspiring-next-generation-paralympians"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "tanni-grey-thompson"
+    },
+    {
+      "id": "1e80a6f83159",
+      "kind": "figure",
+      "name": "Tzipi Livni",
+      "lines": [
+        "At the Davos annual meeting in 2007, Livni asked whether shared two-state language carried real meaning, treating the phrase as a test to examine rather than an endorsement to repeat.",
+        "In Jerusalem on 4 May 2008, Livni said Annapolis launched negotiations on Israeli-Palestinian issues while the Roadmap obligations were addressed simultaneously, describing that parallel structure as the agreed basis.",
+        "Briefing the Quartet with President Abbas in 2008, Livni reported that the parties had reached mutual understandings on principles for their negotiating process, including continuous direct bilateral talks.",
+        "Addressing the General Assembly in September 2006, Livni called for full implementation of resolution 1701 and the immediate safe release of the Israeli hostages held after the Lebanon war."
+      ],
+      "sources": [
+        {
+          "label": "World Economic Forum 2007 plenary comments by Livni (UNISPAL record)",
+          "url": "https://www.un.org/unispal/document/auto-insert-199387/"
+        },
+        {
+          "label": "USDOS joint press availability with Livni, Jerusalem, May 2008 (UNISPAL)",
+          "url": "https://www.un.org/unispal/document/auto-insert-196675/"
+        },
+        {
+          "label": "Quartet statement following briefing by Abbas and Livni (UN Secretary-General)",
+          "url": "https://www.un.org/sg/en/content/former-secretary-general/press-events/2008-11-09/statement-issued-the-quartet-remarks-secretary-general-joint-press-conference-following-the-quartet-meeting"
+        },
+        {
+          "label": "UN news item on Livni's 2006 General Assembly address (UNISPAL)",
+          "url": "https://www.un.org/unispal/document/auto-insert-202318/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "tzipi-livni"
+    },
+    {
+      "id": "245257bc8fef",
+      "kind": "figure",
+      "name": "José Figueres Ferrer",
+      "lines": [
+        "On 1 December 1948, as president of the founding junta of the Second Republic, José Figueres Ferrer struck the wall of the Bellavista barracks with a mallet, symbolizing the decision to end the army as a permanent institution.",
+        "In 1948, as head of the Founding Junta of the Second Republic, José Figueres Ferrer publicly announced two measures the Junta had taken—the nationalization of banking and a 10% capital levy—which were promulgated as a decree days later.",
+        "In 1948, the Founding Junta of the Second Republic was established by a solemn oath to restore constitutional life, and José Figueres Ferrer was named its president.",
+        "On 8 July 1942, José Figueres Ferrer, then an agro-industrial entrepreneur, delivered a radio speech criticizing the economic and fiscal policies of Calderón Guardia's government, its wartime conduct and its approach to the Communist Party; police detained him before he finished, and he soon went into exile."
+      ],
+      "sources": [
+        {
+          "label": "INTRODUCCION",
+          "url": "https://www.sinabi.go.cr/biblioteca%20digital/bibliografia/bibliografias/bib%20abolicion%20ejercito.pdf"
+        },
+        {
+          "label": "Jose Figueres Ferrer: el hombre y su obra",
+          "url": "https://www.asamblea.go.cr/sd/Otras_publicaciones/Jose%20Figueres%20Ferrer%20%20el%20hombre%20y%20su%20obra.pdf"
+        },
+        {
+          "label": "Jose Figueres Ferrer: el hombre y su obra",
+          "url": "https://www.asamblea.go.cr/sd/Otras_publicaciones/Jose%20Figueres%20Ferrer%20%20el%20hombre%20y%20su%20obra.pdf"
+        },
+        {
+          "label": "Influencias intelectuales españolas en el discurso del nacionalismo costarricense (1940-1980) / Carlos Sancho Domingo",
+          "url": "https://zaguan.unizar.es/record/106275/files/TESIS-2021-194.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "jose-figueres-ferrer"
+    },
+    {
+      "id": "2523ed524186",
+      "kind": "figure",
+      "name": "Felipe González",
+      "lines": [
+        "Felipe González, as Spanish prime minister, signed the Treaty of Accession to the European Communities in the Hall of Columns at the Royal Palace of Madrid, alongside Foreign Minister Fernando Morán and other Spanish officials. The treaty was later ratified unanimously by the Spanish Lower House.",
+        "At a Madrid press conference marking his first 100 days in office, Prime Minister Felipe González said his government would not hold a NATO membership referendum that year, citing East-West talks in Geneva and the risk of weakening the Western position.",
+        "As parliamentary spokesman, Felipe González signed the political document of the Moncloa Pacts for the PSOE at the Palacio de las Cortes. The government president and group leaders signed in turn, with Manuel Fraga's Alianza Popular abstaining.",
+        "Felipe González, as Spain's prime minister, delivered an opening address at the Madrid Middle East Peace Conference on 30 October 1991, telling delegates Spaniards wanted to keep working with them toward a lasting peace."
+      ],
+      "sources": [
+        {
+          "label": "Libro España 2013_INGbis.indb",
+          "url": "https://www.lamoncloa.gob.es/espana/historico/Documents/Spain%20Today%202013.pdf"
+        },
+        {
+          "label": "Spanish Leader Rules Out Early Vote on NATO - The Washington Post",
+          "url": "https://www.washingtonpost.com/archive/politics/1983/03/15/spanish-leader-rules-out-early-vote-on-nato/53e91ed4-b318-4209-89c6-12ac3cc7a187/"
+        },
+        {
+          "label": "Los grupos parlamentarios, comprometidos el nuevo | España | EL PAÍS",
+          "url": "https://elpais.com/diario/1977/10/28/espana/246841202_850215.html"
+        },
+        {
+          "label": "Mideast situation - GA debate - Verbatim record - Question of Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-185276/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "felipe-gonzalez"
+    },
+    {
+      "id": "2764860b35ef",
+      "kind": "figure",
+      "name": "Olof Palme",
+      "lines": [
+        "In a Swedish radio interview on 23 December 1972, Prime Minister Olof Palme likened the United States bombing of Hanoi to historic atrocities, naming Guernica, Oradour, Treblinka and Sharpeville among precedents. He added Hanoi, Christmas 1972 to that list and called the bombings a form of torture.",
+        "As chairman of the Independent Commission on Disarmament and Security Issues, Olof Palme pressed a strong personal imprint on the body's work, and the commission's Common Security report was published in June 1982 in time for presentation to the UN Special Session on Disarmament.",
+        "On 21 February 1986 Palme gave the keynote address to the Swedish People's Parliament Against Apartheid in Stockholm, an event attended by ANC leaders including Oliver Tambo. In that speech he described apartheid as a despicable, doomed system and pressed for mandatory sanctions.",
+        "Before succeeding Tage Erlander as Prime Minister, Olof Palme was a driving force behind Sweden's introduction of state financial aid for studies in 1964, a reform carried out while he was a government minister and later paired with universal parental insurance."
+      ],
+      "sources": [
+        {
+          "label": "V. statements of swedish prime minister olof palme on u.s. bombing in vietnam, december 1972",
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-93hhrg89849/pdf/CHRG-93hhrg89849.pdf"
+        },
+        {
+          "label": "United Nations University Press is the publishing arm of the United",
+          "url": "https://digitallibrary.un.org/record/549981/files/powerofideas.pdf"
+        },
+        {
+          "label": "Assassination of Olof Palme",
+          "url": "https://en.wikipedia.org/wiki/Assassination_of_Olof_Palme"
+        },
+        {
+          "label": "Olof Palme · government.se",
+          "url": "https://www.government.se/articles/2016/02/olof-palme/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "olof-palme"
+    },
+    {
+      "id": "2ba375cfa67d",
+      "kind": "figure",
+      "name": "Claude Monet",
+      "lines": [
+        "At the Gare Saint-Lazare, Monet painted trains in the station beneath a cloud of steam. The steam both reveals the light under the roof and hides parts of the machinery producing it.",
+        "In the Grainstacks, Monet returned to stacks in the fields near Giverny as the season and light changed. A simple outline makes it easier to see what evening does to the colors.",
+        "For the Rouen Cathedral series, Monet kept returning to the stone facade under different conditions. The architecture stays recognizable even when light makes its edges seem to dissolve.",
+        "In his paintings of water lilies, Monet could leave out the shore and the horizon. Floating leaves and reflected clouds share the same painted surface, making it possible to look down and up at once."
+      ],
+      "sources": [
+        {
+          "label": "National Gallery, London · The Gare St-Lazare",
+          "url": "https://www.nationalgallery.org.uk/paintings/claude-monet-the-gare-st-lazare"
+        },
+        {
+          "label": "National Gallery, London · Grainstack at sunset",
+          "url": "https://www.nationalgallery.org.uk/paintings/claude-monet-grainstack-sunset-winter"
+        },
+        {
+          "label": "National Gallery of Art · Rouen Cathedral, West Façade",
+          "url": "https://www.nga.gov/node/856116"
+        },
+        {
+          "label": "National Gallery, London · Water-Lilies",
+          "url": "https://www.nationalgallery.org.uk/paintings/claude-monet-water-lilies"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "claude-monet"
+    },
+    {
+      "id": "2e366142196b",
+      "kind": "figure",
+      "name": "Salvador Allende",
+      "lines": [
+        "In December 1970, President Salvador Allende sent Congress a bill to amend the 1925 Constitution's Article 10, adding the word \"nacionalizar\" to the right of property; Allende signed the promulgating decree on 15 July 1971.",
+        "On 4 December 1972, Salvador Allende addressed the United Nations General Assembly, denouncing external pressures against Chile and describing the ITT's plan to overthrow his government within six months.",
+        "On 11 September 1973, Salvador Allende delivered his last words through Radio Magallanes in a special broadcast that also included a declaration by the Communist Party's Political Commission.",
+        "As Unidad Popular's presidential candidate, Allende endorsed the coalition's basic program of December 1969, which pledged to guarantee half a liter of milk daily as a ration for all Chilean children."
+      ],
+      "sources": [
+        {
+          "label": "Presidencia de la República",
+          "url": "https://archivospresidenciales.archivonacional.cl/uploads/r/archivo-presidencia-de-la-republica/c/2/9/c2919ef1771e66305b103b3273ec8eed6e2a06b4325569551af6b2495e40c987/D__a_de_la_Dignidad_Nacional.pdf"
+        },
+        {
+          "label": "Discurso ante la Asamblea General de las Naciones Unidas",
+          "url": "https://www.marxists.org/espanol/allende/1972/diciembre04.htm"
+        },
+        {
+          "label": "Archivo Radial",
+          "url": "https://archivoradial.mmdh.cl/buscador_resultado.php?filtro=1973&registros=69&tipo=3"
+        },
+        {
+          "label": "Salvador Allende (1969): Programa básico de la Unidad Popular.",
+          "url": "https://marxists.architexturez.net/espanol/allende/1969/diciembre17.htm"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "salvador-allende"
+    },
+    {
+      "id": "2fb8480cdbea",
+      "kind": "figure",
+      "name": "Golda Meir",
+      "lines": [
+        "Golda Meir presented her credentials in Moscow on 10 September 1948 as Israel's first official envoy to the Soviet Union, then reported on the situation of Soviet Jews during her months in the post.",
+        "As Minister of Labor and National Insurance from 1949, Golda Meir initiated extensive housing construction for immigrants and arranged their employment in public works projects.",
+        "As Foreign Minister from 1956 to 1965, Golda Meir pursued a policy of support and cooperation with newly independent African states and worked to strengthen Israel's relations with the United States.",
+        "On 11 April 1974, Prime Minister Golda Meir announced her resignation, a month after her government was approved by the Knesset following the December 1973 elections."
+      ],
+      "sources": [
+        {
+          "label": "Russian-language biographical page on the Israeli government portal describing Meir's Moscow mission",
+          "url": "https://icc.nativ.gov.il/about-israel/golda"
+        },
+        {
+          "label": "Knesset lexicon entry on Golda Meir",
+          "url": "https://main.knesset.gov.il/en/about/pages/golda.aspx"
+        },
+        {
+          "label": "Knesset lexicon entry on Golda Meir (Hebrew)",
+          "url": "https://main.knesset.gov.il/About/commemoration/Pages/golda.aspx"
+        },
+        {
+          "label": "Knesset page on Golda Meir's resignation",
+          "url": "https://m.knesset.gov.il/EN/About/Pages/golda.aspx"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "golda-meir"
+    },
+    {
+      "id": "3040444cc61e",
+      "kind": "figure",
+      "name": "Ursula von der Leyen",
+      "lines": [
+        "Less than two weeks after her Commission took office, von der Leyen presented the European Green Deal, the first of her six priorities, aiming to make Europe the world's first climate-neutral continent by 2050.",
+        "Von der Leyen brought a proposed €750 billion recovery instrument before the European Parliament in May 2020. She placed it within a revised long-term EU budget, after which the leaders of Parliament’s political groups gave their responses.",
+        "On a visit to Kyiv in April 2022, with High Representative Josep Borrell, von der Leyen gave President Volodymyr Zelenskyy the questionnaire on meeting the Copenhagen criteria, a step toward Ukraine's candidate status.",
+        "On 17 June 2020, the European Commission presented its EU Vaccines Strategy to speed the development, manufacturing and deployment of COVID-19 vaccines. The joint procurement approach let Member States purchase up to 250 million doses under the agreement."
+      ],
+      "sources": [
+        {
+          "label": "The EU in 2019 – General Report on the Activities of the European Union",
+          "url": "https://op.europa.eu/webpub/com/general-report-2019/en/"
+        },
+        {
+          "label": "European Parliament · debate on the Commission recovery package",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20200526IPR79817/eu-future-at-stake-meps-broadly-welcome-commission-s-recovery-package-proposals"
+        },
+        {
+          "label": "Volodymyr Zelenskyy handed over a completed questionnaire for Ukraine’s obtaining of the EU candidate status to Matti Maasikas — Official website of the Pr",
+          "url": "https://www.president.gov.ua/en/news/volodimir-zelenskij-peredav-matti-maasikasu-zapovnenu-anketu-74405"
+        },
+        {
+          "label": "EU Vaccines Strategy",
+          "url": "https://commission.europa.eu/strategy-and-policy/coronavirus-response/public-health/eu-vaccines-strategy_en?prefLang=mt"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "ursula-von-der-leyen"
+    },
+    {
+      "id": "32c1ad9e5b57",
+      "kind": "figure",
+      "name": "Amina J. Mohammed",
+      "lines": [
+        "Amina J. Mohammed traveled to Kandahar and Herat with UN Women chief Sima Bahous, meeting Taliban leaders and pressing them to provide a specific timeline for restoring women's rights to education.",
+        "At the 2026 launch of the Sustainable Development Goals Report in New York, Amina J. Mohammed delivered remarks on behalf of the Secretary-General, framing the SDGs as an economic agenda requiring investment in resilient, inclusive economies.",
+        "Amina J. Mohammed opened a 2018 Commission for Social Development side event in New York, citing Kaduna State's multi-level data exercise and Nigeria's Private Sector Advisory Group as local examples of poverty eradication efforts.",
+        "In her 2025 Africa Day remarks at the High-level Political Forum in New York, Amina J. Mohammed cited Nigeria's digital revolution, Seychelles' technology-driven governance and Morocco's AI research as examples of young Africans shaping the continent's future."
+      ],
+      "sources": [
+        {
+          "label": "UN News report on Mohammed's Afghanistan visit and meetings with Taliban",
+          "url": "https://news.un.org/en/story/2023/01/1132892"
+        },
+        {
+          "label": "UN Deputy Secretary-General's remarks at SDG Report 2026 launch",
+          "url": "https://www.un.org/sg/en/content/dsg/press-events/2026-07-07/deputy-secretary-generals-remarks-the-launch-of-the-sustainable-development-goals-report-2026-delivered"
+        },
+        {
+          "label": "UN Deputy Secretary-General's opening remarks at CSocD side event",
+          "url": "https://www.un.org/sg/en/content/dsg/statement/2018-02-06/deputy-secretary-general-opening-remarks-commission-social"
+        },
+        {
+          "label": "UN Deputy Secretary-General's Africa Day remarks at HLPF 2025",
+          "url": "https://www.un.org/sg/en/content/deputy-secretary-general/statements/2025-07-23/deputy-secretary-generals-remarks-the-occasion-of-africa-day-the-high-level-political-forum-sustainable-development-2025-prepared-for-delivery"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "amina-j-mohammed"
+    },
+    {
+      "id": "380559f04175",
+      "kind": "figure",
+      "name": "Nancy Pelosi",
+      "lines": [
+        "In 1987, Nancy Pelosi, newly sworn into Congress, used her first House floor remarks to declare she came to fight HIV and AIDS, and she later designed and made a NAMES Project AIDS Memorial Quilt panel for her wedding's flower girl.",
+        "On October 3, 2008, Pelosi voted yes as the House approved the $700 billion emergency financial rescue 263 to 171, two days after an earlier version failed and markets plunged.",
+        "In March 2010, Speaker Nancy Pelosi voted aye on the motion to concur in Senate amendments to the Patient Protection and Affordable Care Act during the 111th Congress's second session.",
+        "On September 24, 2019, House Speaker Nancy Pelosi announced that the House would proceed with an official impeachment inquiry into President Donald Trump, directing the investigating committees, Judiciary Committee, and other panels to continue their investigations of presidential misconduct."
+      ],
+      "sources": [
+        {
+          "label": "Pelosi Reflects on World AIDS Day: \"The Fight Isn’t Over.\" | Representative Nancy Pelosi",
+          "url": "https://pelosi.house.gov/news/press-releases/pelosi-reflects-world-aids-day-fight-isnt-over"
+        },
+        {
+          "label": "How They Voted - The Washington Post",
+          "url": "https://www.washingtonpost.com/archive/national/2008/10/04/how-they-voted/353b462b-931a-4374-9d93-0affe2d69c0b/"
+        },
+        {
+          "label": "Office of the Clerk, U.S. House of Representatives",
+          "url": "https://clerk.house.gov/Votes/2010165"
+        },
+        {
+          "label": "Presidential election, Speaker Nancy P. Pelosi announced on September 24, 2019 that the House would proceed with “an official impeachment inquiry,” under which the Investigating Committees, the Judiciary Committee, and the Committees on Fin",
+          "url": "https://docs.house.gov/billsthisweek/20191216/CRPT-116hrpt346.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "nancy-pelosi"
+    },
+    {
+      "id": "3b11da1b30de",
+      "kind": "figure",
+      "name": "Louis Armstrong",
+      "lines": [
+        "In the Hot Five’s “Heebie Jeebies,” Armstrong sings a passage in syllables chosen for sound. Listen to how the accents and pauses let his voice take a solo like a horn.",
+        "“West End Blues” opens with Armstrong’s trumpet alone. The full band waits until he finishes the opening flourish, so listeners hear his sense of time before they hear the shared beat.",
+        "In a 1957 interview during the Little Rock school integration crisis, Armstrong publicly criticized the governor of Arkansas and President Eisenhower. The remarks reached newspaper readers well beyond his concert audience.",
+        "In “What a Wonderful World,” Armstrong sings about trees, neighbors greeting one another and babies crying. The slow delivery gives each ordinary scene a little space of its own."
+      ],
+      "sources": [
+        {
+          "label": "Louis Armstrong House Museum · The “Heebie Jeebies” recording",
+          "url": "https://www.louisarmstronghouse.org/virtual-exhibits/i-got-the-heebies-100-years-of-heebie-jeebies/"
+        },
+        {
+          "label": "Library of Congress · The opening of “West End Blues”",
+          "url": "https://blogs.loc.gov/music/2010/08/satchmo/"
+        },
+        {
+          "label": "Louis Armstrong House Museum · Armstrong and the civil rights era",
+          "url": "https://www.louisarmstronghouse.org/virtual-exhibits/im-still-louis-armstrong-colored-louis-armstrong-and-the-civil-rights-era/"
+        },
+        {
+          "label": "Louis Armstrong House Museum · The story of “What a Wonderful World”",
+          "url": "https://www.louisarmstronghouse.org/news/50-years-wonderful-world/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "louis-armstrong"
+    },
+    {
+      "id": "3fda6f89a60d",
+      "kind": "figure",
+      "name": "Maria de Lourdes Pintasilgo",
+      "lines": [
+        "Maria de Lourdes Pintasilgo, national representative of the Independent Commission on Population and Quality of Life, signed a letter to the head of the Civil House proposing a meeting between Commission members and President Mário Soares during the Commission's fourth session in Lisbon, 4–7 February 1995.",
+        "Pintasilgo chaired the Independent Commission on Population and Quality of Life, which produced the 1992 report Cuidar o Futuro at the invitation of the United Nations, drawing on contributions from international specialists.",
+        "In August 1979 Pintasilgo went before Portugal’s Assembly of the Republic to present her government’s programme. The broadcast records her first parliamentary intervention as head of government, before ministers and deputies from the parliamentary parties.",
+        "At a minister’s invitation in 1959, Pintasilgo set up a commission on the status of women. She brought members of the Portuguese Grail movement into its work."
+      ],
+      "sources": [
+        {
+          "label": "Carta assinada por Maria de Lourdes Pintasilgo, representante nacional da Comissão Independente sobre População e Qualidade de Vida, dirigida ao Chefe da C",
+          "url": "https://www.arquivo.presidencia.pt/details?detailsType=Description&ht=silva&id=40965"
+        },
+        {
+          "label": "Maria de Lourdes Pintasilgo faleceu há quinze anos - CIG",
+          "url": "https://www.cig.gov.pt/2019/07/maria-lourdes-pintasilgo-faleceu-ha-quinze-anos/"
+        },
+        {
+          "label": "RTP Archives · presenting the government’s programme",
+          "url": "https://arquivos.rtp.pt/conteudos/apresentacao-do-programa-do-governo/"
+        },
+        {
+          "label": "The Grail · Maria de Lourdes Pintasilgo",
+          "url": "https://arquivo.graal.org.pt/uploads/r/graal/3/2/5/325b1431293102a29db25fdcdc526a49d35446f2332afea77da09768c407894f/Maria_de_Lourdes__Women_of_vision.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "maria-de-lourdes-pintasilgo"
+    },
+    {
+      "id": "48215e0db36d",
+      "kind": "figure",
+      "name": "Juan Perón",
+      "lines": [
+        "On 8 October 1944, Decreto-Ley 28.160/44 was sanctioned, with Juan Domingo Perón then at the Secretaría de Trabajo y Previsión Social; it set work conditions, social assistance and paid vacations as basic rural labor rights that Perón promoted from that role.",
+        "During Juan Domingo Perón's first presidency (1946–1952), his government's achievements include the nationalization of British and French railways, gas and telephone companies, and the Corporación de Transportes.",
+        "In June 1973 the CGT labor federation and the CGE business confederation concluded their Social Pact under President Héctor Cámpora and economy minister José Ber Gelbard. The pact was already in place when Perón returned to the presidency later that year.",
+        "Juan Perón delivered the closing address of the Congreso Nacional de Filosofía in Mendoza on 9 April 1949, later recovered as \"La Comunidad Organizada\" and included with the congress proceedings."
+      ],
+      "sources": [
+        {
+          "label": "PROYECTO DE DECLARACIÓN",
+          "url": "https://parlamentaria.legislatura.gob.ar/pages/download.aspx?IdDoc=210878"
+        },
+        {
+          "label": "JUAN DOMINGO PERÓN – I (1946 – 1952)",
+          "url": "https://www.casarosada.gob.ar/informacion/actividad-oficial/36330-juan-domingo-peron-i-"
+        },
+        {
+          "label": "Universidad Nacional de San Martín — Gelbard’s economic cabinet and the Social Pact",
+          "url": "https://cedinpe.unsam.edu.ar/sites/default/files/pdfs/del_contexto_al_texto_articulos_seleccio.pdf"
+        },
+        {
+          "label": "Biblioteca del Congreso de la Nación - Perón. La Comunidad Organizada (1949)",
+          "url": "https://bcn.gob.ar/coleccion-jdp-los-trabajos-y-los-dias/peron.-la-comunidad-organizada-segunda-edicion"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "juan-peron"
+    },
+    {
+      "id": "4aadfb658443",
+      "kind": "figure",
+      "name": "Fanny Blankers-Koen",
+      "lines": [
+        "At the 1948 London Olympics, Olympic rules limited athletes to three individual events plus a relay, so Blankers-Koen entered the 100m, 200m and 80m hurdles and the 4x100m relay, opting not to contest the high jump or long jump even though she was the world-record holder in both. She ran 11 races in eight days in London and won them all.",
+        "After winning four events in London in 1948, Blankers-Koen rode through Amsterdam in a public parade. When asked about the excitement surrounding her, she described the achievement simply as winning some footraces.",
+        "Before the 1952 Helsinki Olympics she ran her fastest-ever times for 100 yards, 100m and 200m, but, suffering from a painful carbuncle on her leg, she withdrew from the 100m semi-finals to save her strength for the 80m hurdles final, then pulled up in that final after hitting the first two hurdles hard. She was still top of the world lists for the 80m hurdles in 1953 with 11.1.",
+        "From a 1936 Olympic debut in which she finished fifth in the high jump and 4x100m relay, she went on to serve as Dutch athletics team manager from the 1958 European Championships to the Mexico City 1968 Olympic Games, and the Netherlands' prominent FBK Games in Hengelo, an annual fixture since 1981, is named after her and held in a stadium that also bears her name."
+      ],
+      "sources": [
+        {
+          "label": "Hall of Fame Profile - Fanny Blankers-Koen (The Netherlands) | NEWS | World Athletics",
+          "url": "https://worldathletics.org/news/news/hall-of-fame-profile-fanny-blankers-koen-th"
+        },
+        {
+          "label": "World Athletics · Blankers-Koen recalls the Amsterdam homecoming",
+          "url": "https://worldathletics.org/heritage/news/fanny-blankers-koen-legacy?__nextLocale=en"
+        },
+        {
+          "label": "100 years after her birth, Blankers-Koen’s legacy lives on | FEATURE | World Athletics",
+          "url": "https://worldathletics.org/news/feature/fanny-blankers-koen-legacy"
+        },
+        {
+          "label": "100 years after her birth, Blankers-Koen’s legacy lives on | FEATURE | World Athletics",
+          "url": "https://worldathletics.org/news/feature/fanny-blankers-koen-legacy"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "fanny-blankers-koen"
+    },
+    {
+      "id": "4e0694564cda",
+      "kind": "figure",
+      "name": "Alfred Hitchcock",
+      "lines": [
+        "Rear Window restricts much of the view to the courtyard visible from a photographer’s apartment. The audience has to decide what the neighbors are doing with the same incomplete evidence he has.",
+        "In Vertigo, the green light around Judy returning as Madeleine makes one character’s idea of another almost visible. Hitchcock lets the color tell the audience how closely it is sharing Scottie’s point of view.",
+        "In North by Northwest, the crop-duster attack takes place on an empty stretch of road in daylight. With so little in the frame, a distant engine becomes enough to change the whole scene.",
+        "The shower scene in Psycho uses rapid cuts among water, a raised knife and a terrified face. The audience supplies a continuity that no single shot shows."
+      ],
+      "sources": [
+        {
+          "label": "British Film Institute · Rear Window",
+          "url": "https://www.bfi.org.uk/film/9ba04910-29a5-5dd5-8ed0-17f844db1cb4/rear-window"
+        },
+        {
+          "label": "British Film Institute · Vertigo",
+          "url": "https://www.bfi.org.uk/features/david-lynch-alfred-hitchcock-vertigo-influence"
+        },
+        {
+          "label": "British Film Institute · North by Northwest",
+          "url": "https://www.bfi.org.uk/features/alfred-hitchcock-north-by-northwest"
+        },
+        {
+          "label": "British Film Institute · The shower scene in Psycho",
+          "url": "https://www.bfi.org.uk/interviews/psycho-shower-scene-alfred-hitchcock"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "alfred-hitchcock"
+    },
+    {
+      "id": "57c52ce822f2",
+      "kind": "figure",
+      "name": "Sila María Calderón",
+      "lines": [
+        "Until January 1995, Sila María Calderón directed the Cantera Peninsula Project, a joint community effort with private business and the government aimed at social rehabilitation and economic development in one of San Juan's poorest districts.",
+        "On March 1, 2001, Governor Sila Calderón signed her first law, creating the Office for Socioeconomic Development and Self-Management, also known as the Office of Special Communities, with the aim of finding solutions to address poverty in Puerto Rico.",
+        "In a nonbinding referendum held on July 30, 2001, about 68% of Vieques voters asked the U.S. Navy to clean up and return land it had controlled for 60 years. Governor Sila Calderón told reporters in San Juan that the people of Vieques had made their decision and spoken clearly, describing it as the united voice of a people.",
+        "In January 2002, Governor Calderón announced anticorruption measures, including investigating every government agency that held contracts with individuals or firms accused of fraud, and creating a finance ethics committee for electoral campaigns."
+      ],
+      "sources": [
+        {
+          "label": "Sila María Calderón Serra - Senado de Puerto Rico",
+          "url": "https://senado.pr.gov/biografias/sila-maria-calderon-serra"
+        },
+        {
+          "label": "La tarea inconclusa:",
+          "url": "https://revistas.upr.edu/index.php/rcs/article/download/7446/6063"
+        },
+        {
+          "label": "Vieques Votes to Boot Navy and Bombing - Los Angeles Times",
+          "url": "https://www.latimes.com/archives/la-xpm-2001-jul-30-mn-28230-story.html"
+        },
+        {
+          "label": "United Nations",
+          "url": "https://digitallibrary.un.org/record/496137/files/A_AC-109_2003_L-3-EN.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "sila-maria-calderon"
+    },
+    {
+      "id": "5833601a666b",
+      "kind": "figure",
+      "name": "Kenneth Kaunda",
+      "lines": [
+        "After winning Zambia's October 1964 election, Kaunda used his incoming presidency to let liberation movements from Angola, South Africa, Mozambique, Namibia and Zimbabwe operate from Zambian territory against white minority rule.",
+        "In 1979 Kaunda opened an international conference in Zambia in support of southern African liberation movements and the Frontline States, welcoming delegates on behalf of UNIP, his government and the Zambian people.",
+        "On 6 December 1977 Kaunda, then president of Zambia, declined to take part in a United Kingdom arrangement while remaining a key figure in the Zimbabwean liberation conflict against Ian Smith's Rhodesia.",
+        "In 1963, before leading an independent Zambia, Kaunda took the helm of the Pan-African Freedom Movement for East, Central and Southern Africa, giving him a continental platform alongside his domestic party work."
+      ],
+      "sources": [
+        {
+          "label": "South African History Online event record on Kaunda's 1964 election win",
+          "url": "https://sahistory.org.za/dated-event/kenneth-david-kaunda-wins-zambian-elections"
+        },
+        {
+          "label": "UN Digital Library transcript of Kaunda's 1979 conference opening statement",
+          "url": "https://digitallibrary.un.org/record/11192/files/A_34_24%5EVol.IV%5E--A_34_24--A_34_24Vol.IV-EN.pdf"
+        },
+        {
+          "label": "South African History Online event record dated 6 December 1977",
+          "url": "https://sahistory.org.za/dated-event/zambian-president-kenneth-kaunda-refuses-take-part-uk"
+        },
+        {
+          "label": "South African History Online biography of Kenneth Kaunda",
+          "url": "https://sahistory.org.za/people/kenneth-kaunda"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "kenneth-kaunda"
+    },
+    {
+      "id": "627a006c706f",
+      "kind": "figure",
+      "name": "Deng Xiaoping",
+      "lines": [
+        "In Beijing on 9 June 1989, after troops had suppressed the demonstrations, Deng publicly backed the military measures. A US diplomatic briefing recorded this statement in its account of his return to public view.",
+        "When Deng met Margaret Thatcher in Beijing in September 1982, he told her that sovereignty over Hong Kong was outside the scope of negotiation. He separated that position from the arrangements the two governments could discuss.",
+        "At the White House on 31 January 1979, Deng and Jimmy Carter signed agreements on scientific and technological cooperation and on cultural exchanges. Their foreign ministers signed a separate consular agreement at the same ceremony.",
+        "Between January and February 1992, Deng visited Wuchang, Shenzhen, Zhuhai and Shanghai. Through talks delivered on that journey, he made the case for continuing China’s economic reforms."
+      ],
+      "sources": [
+        {
+          "label": "USC China archive note on declassified Secretary of State morning summary, 10 June 1989",
+          "url": "https://china.usc.edu/node/19922"
+        },
+        {
+          "label": "Chinese Embassy in Switzerland page on Hong Kong introduction",
+          "url": "https://sa.china-embassy.gov.cn/eng/xwdt/201406/P020210616266596033139.pdf"
+        },
+        {
+          "label": "US Office of the Historian | Agreements signed during Deng’s 1979 visit",
+          "url": "https://history.state.gov//historicaldocuments/frus1977-80v13/d210"
+        },
+        {
+          "label": "China’s State Council Information Office | Deng’s 1992 southern tour",
+          "url": "https://english.scio.gov.cn/featured/chinakeywords/2022-07/13/content_78321925.htm"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "deng-xiaoping"
+    },
+    {
+      "id": "67ec59637fa8",
+      "kind": "figure",
+      "name": "Beata Szydło",
+      "lines": [
+        "In her government programme presentation opening the Sejm's first sitting, Beata Szydło announced a monthly PLN 500 child benefit: for lower-income families from the first child, and for second and further children in better-off families.",
+        "At December 2015 talks with David Cameron, Polish Prime Minister Beata Szydło was reported to support UK plans restricting migrants' claims to out-of-work benefits, while warning that EU freedom-of-movement rules must be respected and raising concerns over child benefits.",
+        "At the 2015 Paris climate conference, Szydło set out a condition for Polish participation in a climate agreement. She wanted a global commitment in which every country would take responsibility for action.",
+        "At the commemoration of Auschwitz’s liberation in 2017, Szydło spoke alongside survivors and described the way the camp stripped its victims of their humanity as well as their lives."
+      ],
+      "sources": [
+        {
+          "label": "Kancelaria sejmu|viii kadencja",
+          "url": "https://orka.sejm.gov.pl/kronika.nsf/0/89e5193d7b928636c1257f1c00429c63/%24file/kronika003_8.pdf"
+        },
+        {
+          "label": "EU reform negotiations: what's going on?",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7311/CBP-7311.pdf"
+        },
+        {
+          "label": "Polish Press Agency · Szydło at COP21 in Paris",
+          "url": "https://www.pap.pl/aktualnosci/news%2C438833%2Cszydlo-na-cop21-globalny-wysilek-to-dla-polski-warunek-przystapienia-do-umowy-klimatycznej.html"
+        },
+        {
+          "label": "Auschwitz-Birkenau Memorial · 72nd anniversary of liberation",
+          "url": "https://www.auschwitz.org/en/museum/news/time-72nd-anniversary-of-the-liberation-of-auschwitz-%2C1238.html"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "beata-szydlo"
+    },
+    {
+      "id": "697badf72914",
+      "kind": "figure",
+      "name": "Ursula K. Le Guin",
+      "lines": [
+        "In A Wizard of Earthsea, the young Ged releases a shadow he must eventually face. Le Guin turns the wizard’s education into a story about recognizing the consequences of his own power.",
+        "In The Left Hand of Darkness, an envoy travels to a world whose inhabitants do not have a fixed sex. Le Guin makes his difficulty understanding his hosts part of the diplomatic story.",
+        "The Ones Who Walk Away from Omelas asks readers to imagine a flourishing city, then shows the child whose suffering makes its happiness possible. Readers learn why some citizens leave without being told where they go.",
+        "In The Dispossessed, the physicist Shevek crosses between two neighboring societies. Le Guin shows each political order through the eyes of someone formed by the other."
+      ],
+      "sources": [
+        {
+          "label": "Ursula K. Le Guin — A Wizard of Earthsea",
+          "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea"
+        },
+        {
+          "label": "Ursula K. Le Guin — The Left Hand of Darkness",
+          "url": "https://www.ursulakleguin.com/left-hand-darkness"
+        },
+        {
+          "label": "Ursula K. Le Guin — The Ones Who Walk Away from Omelas",
+          "url": "https://www.ursulakleguin.com/the-ones-who-walk-away-from-omelas"
+        },
+        {
+          "label": "Ursula K. Le Guin — The Dispossessed",
+          "url": "https://www.ursulakleguin.com/dispossessed"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "ursula-k-le-guin"
+    },
+    {
+      "id": "6aa66add88a3",
+      "kind": "figure",
+      "name": "Barbara Jordan",
+      "lines": [
+        "Jordan told a Senate judiciary subcommittee in April 1975 that letting the Voting Rights Act lapse would reopen the door to the discrimination she had documented in Texas.",
+        "During the House Judiciary Committee's 1974 impeachment hearings, Jordan argued that the framers designed impeachment as a limited inquiry into serious offenses, not a punishment for ordinary politics.",
+        "In her July 1976 Democratic National Convention keynote, Jordan told delegates that her own presence on that podium would once have been improbable for a national party.",
+        "As chair of the U.S. Commission on Immigration Reform, Jordan urged Congress in 1995 to lower the annual ceiling on legal immigrants by about a third, from 800,000 to 550,000, and to restrict some family categories."
+      ],
+      "sources": [
+        {
+          "label": "Testimony of Representative Barbara Jordan Before the Subcommittee on Constitutional Rights Senate Committee on the Judiciary, April 22, 1975, Extension of the Voting Rights Act",
+          "url": "https://texashistory.unt.edu/ark%3A/67531/metapth611318/"
+        },
+        {
+          "label": "American Politics |",
+          "url": "https://www.laits.utexas.edu/gov310/PRES/jordan_5/index.html"
+        },
+        {
+          "label": "July 21, 1976 EXTENSIONS OF REMARKS 23261",
+          "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1976-pt18/pdf/GPO-CRECB-1976-pt18-5-3.pdf"
+        },
+        {
+          "label": "Immigration Cutback Urged by U.S. Panel - Los Angeles Times",
+          "url": "https://www.latimes.com/archives/la-xpm-1995-06-08-mn-10898-story.html"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "barbara-jordan"
+    },
+    {
+      "id": "6b47f53deae7",
+      "kind": "figure",
+      "name": "Didier Drogba",
+      "lines": [
+        "In the 2005 League Cup final against Liverpool, his first appearance in a cup final for Chelsea, Drogba started with Mateja Kezman and Eidur Gudjohnsen on the bench, was denied twice by Jerzy Dudek, then nudged in Chelsea's opening goal in extra time after Liverpool failed to deal with a Glen Johnson long throw.",
+        "After Côte d’Ivoire qualified for the 2006 World Cup, Drogba and his teammates gathered in the dressing room in front of television cameras. He asked Ivorians on both sides of the civil war to lay down their weapons.",
+        "In the 2012 Champions League final against Bayern München, the last game of his first Chelsea spell, he equalised late to force extra time and then converted the decisive penalty in the shootout, giving Chelsea their first European Cup.",
+        "On receiving the 2020 UEFA President's Award in Geneva, he said he always uses his career as an example, that a player can be talented and gifted but that without work it is difficult to achieve something, and that footballers represent society and should be role models who spread the right message."
+      ],
+      "sources": [
+        {
+          "label": "Didier Drogba | Official Site | Chelsea Football Club",
+          "url": "https://www.chelseafc.com/en/didier-drogba"
+        },
+        {
+          "label": "BBC Sport · Drogba’s televised appeal from the dressing room",
+          "url": "https://www.bbc.co.uk/sport/football/52072592"
+        },
+        {
+          "label": "How brilliant was Chelsea's final master Didier Drogba? | UEFA Champions League 2020/21 | UEFA.com",
+          "url": "https://www.uefa.com/uefachampionsleague/news/0261-107d82d75d76-8f0e9280f586-1000--how-brilliant-was-chelsea-s-final-master-didier-drogba/"
+        },
+        {
+          "label": "President's Award winner Didier Drogba: 'I'm really proud' | UEFA.com",
+          "url": "https://www.uefa.com/news-media/news/0262-1081ee024b0f-3c964d68a990-1000--drogba-i-m-really-proud/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "didier-drogba"
+    },
+    {
+      "id": "7c391c964883",
+      "kind": "figure",
+      "name": "Barack Obama",
+      "lines": [
+        "On June 4, 2009, President Barack Obama delivered a speech at Cairo University titled \"A New Beginning,\" proposing a new relationship between the United States and Muslims worldwide based on mutual interest and mutual respect, and outlining expanded partnerships in education, economic development, science and technology, and health.",
+        "On March 7, 2015, Obama spoke at the foot of the Edmund Pettus Bridge in Selma to mark fifty years since Bloody Sunday. He later joined marchers crossing the bridge where voting-rights demonstrators had been attacked in 1965.",
+        "On March 23, 2010, President Barack Obama delivered remarks at the signing of the Patient Protection and Affordable Care Act in Washington, DC.",
+        "In a letter dated June 30, 2015 and released July 1, Obama confirmed to Cuban president Raúl Castro that the two governments would reestablish diplomatic relations and permanent missions on July 20."
+      ],
+      "sources": [
+        {
+          "label": "The President's Speech in Cairo: A New Beginning | The White House",
+          "url": "https://obamawhitehouse.archives.gov/issues/foreign-policy/presidents-speech-cairo-a-new-beginning"
+        },
+        {
+          "label": "Archived Obama White House — fiftieth anniversary of the Selma marches",
+          "url": "https://obamawhitehouse.archives.gov/blog/2015/03/08/president-obama-marks-50th-anniversary-marches-selma-montgomery"
+        },
+        {
+          "label": "DCPD-201000196 - Remarks on Signing the Patient Protection and Affordable Care Act",
+          "url": "https://www.govinfo.gov/app/details/DCPD-201000196"
+        },
+        {
+          "label": "Presidential Letter -- Re-establishing Diplomatic Relations and Permanent Diplomatic Missions | whitehouse.gov",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2015/07/01/presidential-letter-re-establishing-diplomatic-relations-and-permanent-0"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "barack-obama"
+    },
+    {
+      "id": "7e9092cab10a",
+      "kind": "figure",
+      "name": "Laura Chinchilla",
+      "lines": [
+        "In October 2012 Chinchilla signed a decree addressing shark finning and the importation of shark fins. The action tightened controls on trade that could otherwise make detached fins profitable.",
+        "As public security minister from 1996 to 1998, Laura Chinchilla led Costa Rica's police portfolio, an office she also held as deputy minister from 1994 to 1996 and later described as central to her three-decade public service career.",
+        "In 2016, former Costa Rican president Laura Chinchilla headed the first OAS Electoral Observation Mission deployed to the United States, which observed the November 8 elections. She had previously led the OAS mission to Mexico's federal elections in 2015.",
+        "In a nationally broadcast statement on 3 November 2010, President Laura Chinchilla announced that Nicaraguan armed forces had entered Calero Island and said Costa Rica had asked the Organization of American States to hear its case."
+      ],
+      "sources": [
+        {
+          "label": "Costa Rica’s executive decree 37354 — reported at adoption by La Nación",
+          "url": "https://www.nacion.com/archivo/costa-rica-prohibe-importar-y-exportar-aletas-de-tiburon/3OLK4AOPWJAJHIOWZBRQRMEMYI/story/"
+        },
+        {
+          "label": "Laura Chinchilla Miranda | Municipalidad de Desamparados",
+          "url": "https://www.desamparados.go.cr/es/node/2626"
+        },
+        {
+          "label": "OAS - Organization of American States: Democracy for peace, security, and development",
+          "url": "https://www.oas.org/en/media_center/press_release.asp?sCodigo=E-097%2F16"
+        },
+        {
+          "label": "Etpu",
+          "url": "https://digitallibrary.un.org/record/693881/files/A_65_561-EN.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "laura-chinchilla"
+    },
+    {
+      "id": "815999408ab8",
+      "kind": "figure",
+      "name": "Margaret Atwood",
+      "lines": [
+        "Atwood tells The Handmaid’s Tale through Offred, who remembers an ordinary past while living under Gilead. Details of meals, clothes and conversation show how far the government reaches.",
+        "For Alias Grace, Atwood revisited the nineteenth-century case of Grace Marks. She set conflicting accounts of the murders beside the story Grace tells to a doctor.",
+        "In Oryx and Crake, a survivor called Snowman looks back on his friendships with Oryx and Crake. His recollections let readers piece together what happened to the world around him.",
+        "When Atwood returned to Gilead in The Testaments, she gave three women the account. Their different positions reveal parts of the regime that Offred could not see."
+      ],
+      "sources": [
+        {
+          "label": "The Handmaid's Tale - Margaret Atwood",
+          "url": "https://margaretatwood.ca/books/handmaids-tale/"
+        },
+        {
+          "label": "Alias Grace - Margaret Atwood",
+          "url": "https://margaretatwood.ca/books/alias-grace/"
+        },
+        {
+          "label": "Oryx and Crake - Margaret Atwood",
+          "url": "https://margaretatwood.ca/books/oryx-crake/"
+        },
+        {
+          "label": "The Testaments - Margaret Atwood",
+          "url": "https://margaretatwood.ca/books/the-testaments/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "margaret-atwood"
+    },
+    {
+      "id": "89b6334ff5e9",
+      "kind": "figure",
+      "name": "Alicia Bárcena",
+      "lines": [
+        "In 2010, as CEPAL Executive Secretary, Alicia Bárcena presented La hora de la igualdad: brechas por cerrar, caminos por abrir in Brasilia, describing equality as the primordial normative ethical principle and ultimate goal of development.",
+        "At the closing ceremony of the Escazú negotiations, Bárcena welcomed the agreement's adoption of the name Acuerdo de Escazú and recalled ECLAC's role in supporting the talks, including hosting the first negotiation meeting.",
+        "On April 11, 2024, Foreign Secretary Alicia Bárcena announced at the National Palace that Mexico had filed suit against Ecuador before the International Court of Justice over the raid on its Quito embassy, arguing Ecuador must answer for violating the embassy's inviolability and attacking diplomatic personnel.",
+        "On 20 May 2019, Bárcena presented to President López Obrador in Mexico City ECLAC's proposal for a Comprehensive Development Plan for El Salvador, Guatemala, Honduras and Mexico, which called for orderly migration flows from Central America and for greater public and private investment."
+      ],
+      "sources": [
+        {
+          "label": "Discurso de inauguración de Alicia Bárcena, Secretaria Ejecutiva de la CEPAL | Trigésimo quinto período de sesiones de la CEPAL",
+          "url": "https://periododesesiones.cepal.org/35/es/node/139"
+        },
+        {
+          "label": "Intervención de Alicia Bárcena, Secretaria Ejecutiva de la CEPAL, en la ceremonia de clausura",
+          "url": "https://negociacionp10.cepal.org/9/sites/negociacionp109/files/presentations/draft_abi_p10_v2_copia.pdf"
+        },
+        {
+          "label": "México demanda a Ecuador ante la Corte Internacional de Justicia por graves violaciones cometidas a su embajada en Quito | Secretaría de Relaciones Exteriores | Gobierno | gob.mx",
+          "url": "https://www.gob.mx/sre/prensa/mexico-demanda-a-ecuador-ante-la-corte-internacional-de-justicia-por-graves-violaciones-cometidas-a-su-embajada-en-quito?idiom=es"
+        },
+        {
+          "label": "Presidente López Obrador recibe propuesta de Cepal para desarrollo de México y Centroamérica: queremos paz con justicia y bienestar, afirma | Presidencia de la República 2018-2024 | Gobierno | gob.mx",
+          "url": "https://www.gob.mx/amlo/prensa/presidente-lopez-obrador-recibe-propuesta-de-cepal-para-desarrollo-de-mexico-y-centroamerica-queremos-paz-con-justicia-y-bienestar-afirma"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "alicia-barcena"
+    },
+    {
+      "id": "8b9ee839c04e",
+      "kind": "figure",
+      "name": "Elinor Ostrom",
+      "lines": [
+        "For her dissertation, Ostrom studied how water users around Los Angeles organized to manage a groundwater basin. She followed the local institutions people actually built to address a shared shortage.",
+        "In studies of American metropolitan policing, Ostrom and her colleagues compared which services small and large departments could deliver. They examined individual tasks before judging the size of a whole organization.",
+        "In Nepal, Ostrom’s team compared irrigation systems managed by farmers with systems managed by government agencies. Their comparison gave farmers’ working rules a place alongside the physical condition of the canals.",
+        "In experiments on shared resources, Ostrom and her collaborators let some participants talk face to face. They could then compare what people actually took when conversation was possible with what happened when it was barred."
+      ],
+      "sources": [
+        {
+          "label": "Indiana University’s archive of Ostrom’s groundwater dissertation",
+          "url": "https://dlc.dlib.indiana.edu/dlc/items/c26cc98f-fa7a-4fb3-9c21-5f7abf0344be"
+        },
+        {
+          "label": "Elinor Ostrom’s Nobel lecture",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/"
+        },
+        {
+          "label": "Elinor Ostrom’s Nobel lecture",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/"
+        },
+        {
+          "label": "Elinor Ostrom’s Nobel lecture",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/lecture/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "elinor-ostrom"
+    },
+    {
+      "id": "8f6a5e16d143",
+      "kind": "figure",
+      "name": "Eugenia Charles",
+      "lines": [
+        "Eugenia Charles, Dominica's prime minister and chairman of the Organization of Eastern Caribbean States, joined Ronald Reagan at the White House on 25 October 1983, where Reagan announced that the United States had received a formal request from the five OECS member nations to help restore order and democracy in Grenada.",
+        "During Dominica's 1979 political crisis, opposition leader Eugenia Charles served on the Committee for National Salvation, which brokered an interim government to administer the country until general elections could be organized.",
+        "After a December 1981 coup attempt in Dominica, Prime Minister Mary Eugenia Charles imposed a state of emergency while police searched mountain forests for men who had fled after the failed coup.",
+        "In March 1994, Britain's Foreign Office told Parliament that Charles had discussed the EC banana regime with ministers and, on a Saturday in Dominica, gave them a document on restructuring the Windward Islands banana industry, which was then under study."
+      ],
+      "sources": [
+        {
+          "label": "Remarks of the President and Prime Minister Eugenia Charles of Dominica Announcing the Deployment of United States Forces in Grenada | Ronald Reagan",
+          "url": "https://www.reaganlibrary.gov/archives/speech/remarks-president-and-prime-minister-eugenia-charles-dominica-announcing-deployment"
+        },
+        {
+          "label": "GH12",
+          "url": "https://www.commonwealthofnations.org/wp-content/uploads/2013/12/GH13-1-democracy.pdf"
+        },
+        {
+          "label": "State of emergency follows failed coup - UPI Archives",
+          "url": "https://www.upi.com/Archives/1981/12/20/State-of-emergency-follows-failed-coup/6855377672400/"
+        },
+        {
+          "label": "Dominica (Hansard, 4 March 1994)",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1994/mar/04/dominica"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "eugenia-charles"
+    },
+    {
+      "id": "943e2a9cc968",
+      "kind": "figure",
+      "name": "Katsushika Hokusai",
+      "lines": [
+        "In Under the Wave off Kanagawa, three boats pitch beneath a breaking wave while Mount Fuji sits small in the distance. The curl of the water frames the very mountain the wave seems large enough to swallow.",
+        "South Wind, Clear Sky gives Mount Fuji nearly the entire sheet. The broad red slope and narrow streaks of cloud make the same landmark recognizable with very little detail.",
+        "In The Amida Falls, water pours from a round opening while three figures picnic on a ledge. Their stillness gives the eye somewhere to pause beside the rushing waterfall.",
+        "In The Ghost of Kohada Koheiji, a skeletal figure peers over the rim of a mosquito net. A familiar household object becomes the thin boundary between a sleeping person and the ghost."
+      ],
+      "sources": [
+        {
+          "label": "Metropolitan Museum of Art · Under the Wave off Kanagawa",
+          "url": "https://www.metmuseum.org/art/collection/search/56353"
+        },
+        {
+          "label": "Metropolitan Museum of Art · South Wind, Clear Sky",
+          "url": "https://www.metmuseum.org/art/collection/search/36490"
+        },
+        {
+          "label": "Bristol Museums · The Amida Falls",
+          "url": "https://shop.bristolmuseums.org.uk/collections/japanese-prints/products/pod1034678"
+        },
+        {
+          "label": "Library of Congress · The Ghost of Kohada Koheiji",
+          "url": "https://www.loc.gov/item/2005678552/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "katsushika-hokusai"
+    },
+    {
+      "id": "963ab0233cdc",
+      "kind": "figure",
+      "name": "Helmut Kohl",
+      "lines": [
+        "Chancellor Helmut Kohl surprised the Bundestag on 28 November 1989 by presenting a multi-step plan for unification with a democratizing East Germany: closer cooperation between the two states, then confederation, then federation, compatible with détente and European integration.",
+        "At a 22 September 1984 ceremony at Verdun marking the seventieth anniversary of the First World War's outbreak, Kohl stood hand in hand with French President François Mitterrand at the Douaumont Ossuary before memorial wreaths, an image widely read as Franco-German reconciliation.",
+        "On 13 December 1991 Kohl told the Bundestag that the European Council had agreed at Maastricht, after more than thirty hours of talks, on treaties for political union and economic and monetary union, calling the path to European union irreversible.",
+        "During a July 1990 working visit to the Soviet Union, Kohl met Mikhail Gorbachev to discuss the terms of German reunification; in return for considerable payments and economic support, Gorbachev raised no objections to a united Germany belonging to NATO."
+      ],
+      "sources": [
+        {
+          "label": "Helmut Kohl’s Ten-Point Plan for German Unity (November 28, 1989) | German History in Documents and Images",
+          "url": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989"
+        },
+        {
+          "label": "Helmut Kohl, François Mitterrand – pioneers | European Union",
+          "url": "https://european-union.europa.eu/principles-countries-history/history-eu/eu-pioneers/helmut-kohl-and-francois-mitterrand_en"
+        },
+        {
+          "label": "erklaerung der bundesregierung zu den ergebnissen des europaeischen rates in maastricht, abgegeben von bundeskanzler dr. helmut Kohl vor dem deutschen bund",
+          "url": "https://www.bundesregierung.de/breg-de/service/newsletter-und-abos/bulletin/erklaerung-der-bundesregierung-zu-den-ergebnissen-des-europaeischen-rates-in-maastricht-abgegeben-von-bundeskanzler-dr-helmut-kohl-vor-dem-deutschen-bundestag-787294"
+        },
+        {
+          "label": "Helmut Kohl and Foreign Minister Hans-Dietrich Genscher during Talks with Mikhail Gorbachev in the Caucasus (July 15, 1990) | German History in Documents a",
+          "url": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-and-foreign-minister-hans-dietrich-genscher-during-talks-with-mikhail-gorbachev-in-the-caucasus-july-15-1990"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "helmut-kohl"
+    },
+    {
+      "id": "9b83bfb06111",
+      "kind": "figure",
+      "name": "Ayrton Senna",
+      "lines": [
+        "Midway through the 1988 season, in his first year as Alain Prost's McLaren teammate, Senna was asked at a press conference whether it was possible for the two to be equal; he answered that there could only be one winner, a reply Formula 1's retrospective records.",
+        "After taking pole for the 1988 Monaco Grand Prix, Senna kept going faster and ended the session over two seconds quicker than Prost in an identical McLaren, then told Formula 1's Hall of Fame profile that the lap frightened him and that he drove back to the pits slowly and did not go out again that day.",
+        "During his 1984 rookie season with Toleman, Senna opened talks with Lotus in the background, which Formula 1's profile describes as a breach of his Toleman contract, and he was suspended for a race late that year.",
+        "At the 1985 Portuguese Grand Prix, Senna took the first pole position and first win of his Formula 1 career, race day run in wet conditions, as Formula 1's profile records."
+      ],
+      "sources": [
+        {
+          "label": "Who was Ayrton Senna and why is he regarded as one of F1’s greatest drivers? | Formula 1®",
+          "url": "https://www.formula1.com/en/latest/article/who-was-ayrton-senna-and-why-is-he-regarded-as-one-of-f1s-greatest-drivers.2GZEdmgHd9mPeCae2n6n4K"
+        },
+        {
+          "label": "Ayrton Senna | Formula 1®",
+          "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-ayrton-senna.FLD7ZtO0nUn7JzLEn5rOJ"
+        },
+        {
+          "label": "Who was Ayrton Senna and why is he regarded as one of F1’s greatest drivers? | Formula 1®",
+          "url": "https://www.formula1.com/en/latest/article/who-was-ayrton-senna-and-why-is-he-regarded-as-one-of-f1s-greatest-drivers.2GZEdmgHd9mPeCae2n6n4K"
+        },
+        {
+          "label": "Who was Ayrton Senna and why is he regarded as one of F1’s greatest drivers? | Formula 1®",
+          "url": "https://www.formula1.com/en/latest/article/who-was-ayrton-senna-and-why-is-he-regarded-as-one-of-f1s-greatest-drivers.2GZEdmgHd9mPeCae2n6n4K"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "ayrton-senna"
+    },
+    {
+      "id": "9bb5cfc8a85e",
+      "kind": "figure",
+      "name": "Mary Shelley",
+      "lines": [
+        "In Frankenstein, Shelley lets an Arctic explorer relay Victor Frankenstein’s story and Victor relay the creature’s. Each speaker asks someone else to hear a version of events that might otherwise be lost.",
+        "For History of a Six Weeks’ Tour, Mary and Percy Shelley brought travel journals and letters into a shared account of a European journey. Domestic details and political observations sit alongside descriptions of the landscape.",
+        "The Last Man gives a future plague a witness who lives long enough to remember the people it has taken. Shelley approaches a catastrophe on a world scale through the narrowing circle of one narrator.",
+        "For the 1831 edition of Frankenstein, Shelley wrote an introduction describing how the story began. Readers received a separate account of the novel’s creation in its author’s own voice."
+      ],
+      "sources": [
+        {
+          "label": "Timeline of Mary Wollstonecraft Shelley's Life",
+          "url": "https://visit.bodleian.ox.ac.uk/sites/default/files/bodwhatson/documents/media/frankenstein-timeline-resource.pdf"
+        },
+        {
+          "label": "The Shelleys' History of a Six Weeks' Tour, with tipped-in autograph check from P. B. Shelley to Brooks, Son &…",
+          "url": "https://old-digitalcollections.nypl.org/items/bf4d0e0f-3690-96f1-e040-e00a180648ed"
+        },
+        {
+          "label": "University of Nebraska Press on The Last Man",
+          "url": "https://www.nebraskapress.unl.edu/bison-books/9780803293502/the-last-man/"
+        },
+        {
+          "label": "Mary Shelley’s Introduction",
+          "url": "https://romantic-circles.org/sites/default/files/2024-02/Last%20Man_Abridged.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "mary-shelley"
+    },
+    {
+      "id": "9cc0aaad6367",
+      "kind": "figure",
+      "name": "Mark Rutte",
+      "lines": [
+        "At the UN General Assembly's 69th session general debate, Dutch Prime Minister Mark Rutte said the 298 passengers of flight MH17 would be alive without the Crimea conflict and eastern Ukraine's destabilization, noting 196 victims were Dutch nationals.",
+        "In a speech on 19 December 2022, Prime Minister Mark Rutte apologised for the Dutch State's past actions to enslaved people worldwide and their descendants. He delivered the apology at the National Archives in The Hague before representatives of organisations that had pressed for acknowledgement of slavery's effects.",
+        "In 2020, Dutch Prime Minister Mark Rutte co-wrote op-eds with the leaders of Austria, Denmark and Sweden opposing a large EU recovery fund and grants-based pandemic assistance, as the so-called Frugal Four resisted increasing the multiannual budget.",
+        "On taking office as NATO Secretary General, Mark Rutte named stepping up support for Ukraine and bringing it closer to NATO as his second priority, saying Europe cannot have lasting security without a strong, independent Ukraine."
+      ],
+      "sources": [
+        {
+          "label": "General Debate of the 69th Session of the UN General Assembly",
+          "url": "https://www.un.org/en/ga/69/meetings/gadebate/25sep/netherlands.shtml"
+        },
+        {
+          "label": "Government apologises for the Netherlands’ role in the history of slavery | Government.nl",
+          "url": "https://www.government.nl/latest/news/2022/12/19/government-apologises-for-the-netherlands-role-in-the-history-of-slavery"
+        },
+        {
+          "label": "The European Council in 2020",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2022/699472/EPRS_STU%282022%29699472_EN.pdf"
+        },
+        {
+          "label": "NCIA | Mark Rutte takes office as NATO Secretary General",
+          "url": "https://www.ncia.nato.int/about-us/newsroom/mark-rutte-takes-office-as-nato-secretary-general"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "mark-rutte"
+    },
+    {
+      "id": "b24de44593c5",
+      "kind": "figure",
+      "name": "Penny Wong",
+      "lines": [
+        "At the 2024-25 Budget estimates hearing on 3 June 2024, Wong described taking forward the Falepili Union vision in Tuvalu on a bipartisan visit with Senator Birmingham, framing the trip around shared strategic priorities.",
+        "In her 29 November 2023 remarks to Pacific Emerging Leaders, Wong recounted that Tuvalu asked Australia to enhance the partnership through climate adaptation, security and mobility with dignity, presenting the Falepili Union as Australia's answer to that request.",
+        "The Australia-Tuvalu Falepili Union text, tabled in Parliament, records the parties committing to enhance their partnership on prosperity, stability and security including by responding to climate change as a shared security concern.",
+        "At the Tuvalu State Dinner in Funafuti, Wong described welcoming Tuvalu's request to elevate the relationship and said she was proud to agree shared understandings with Prime Minister Feleti on bringing the Falepili Union to life through close community consultation."
+      ],
+      "sources": [
+        {
+          "label": "Senate Foreign Affairs estimates opening statement, Parliament of Australia",
+          "url": "https://www.aph.gov.au/-/media/Estimates/fadt/bud2425/Foreign_Affairs/1_Penny_Wong_Opening_Statement.pdf?hash=7ECFEAFEE210E51743A9DE7FC94B3CF281D1CAB2&la=en"
+        },
+        {
+          "label": "Remarks to the Pacific Emerging Leaders breakfast, Australian Minister for Foreign Affairs",
+          "url": "https://www.foreignminister.gov.au/minister/penny-wong/speech/remarks-pacific-emerging-leaders-breakfast"
+        },
+        {
+          "label": "Australia-Tuvalu Falepili Union treaty text, Parliament of Australia",
+          "url": "https://www.aph.gov.au/-/media/02_Parliamentary_Business/24_Committees/244_Joint_Committees/JSCT/2024/Falepili_Union/Treaty_text_Falepili_Union.pdf"
+        },
+        {
+          "label": "Tuvalu State Dinner speech, Australian Minister for Foreign Affairs",
+          "url": "https://www.foreignminister.gov.au/minister/penny-wong/speech/tuvalu-state-dinner-funafuti"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "penny-wong"
+    },
+    {
+      "id": "b44ec1849007",
+      "kind": "figure",
+      "name": "Kader Asmal",
+      "lines": [
+        "In the April 1997 foreword to the White Paper on a National Water Policy, Asmal called for national water policy and the water law to be reviewed so that water would be shared equitably. The document's context section stated that South Africa's water law had applied the rules of the well-watered colonising countries of Europe to an arid and variable climate.",
+        "Asmal chaired the World Commission on Dams, which reported in December 2000 after an independent global review of the costs and benefits of large dam projects.",
+        "At the London launch of the commission's final report on 16 November 2000, the speaker recalled that Asmal, as Minister of Water Affairs, had faced the hard choice of relocating some so that all might have water, or forgoing a dam.",
+        "Asmal was chairperson of the Irish Anti-Apartheid Movement from 1972 until 1991, organising opposition to apartheid from his base in Dublin."
+      ],
+      "sources": [
+        {
+          "label": "White Paper on a National Water Policy for South Africa, foreword by the Minister",
+          "url": "https://www.dws.gov.za/IO/Docs/CMA/Catchment%20Management%20Strategy/WhitePaperonWaterPolicy.pdf"
+        },
+        {
+          "label": "South African Government profile of Prof Kader Asmal",
+          "url": "https://www.gov.za/about-government/contact-directory/asmal-kader-prof"
+        },
+        {
+          "label": "Address at the London launch of the World Commission on Dams final report",
+          "url": "https://sahistory.org.za/archive/address-occasion-launch-final-report-world-commission-dams-16-november-2000-cabot-hall"
+        },
+        {
+          "label": "South African Government profile of Prof Kader Asmal",
+          "url": "https://www.gov.za/about-government/contact-directory/asmal-kader-prof"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "kader-asmal"
+    },
+    {
+      "id": "b66f7d719d29",
+      "kind": "figure",
+      "name": "Simón Bolívar",
+      "lines": [
+        "On 6 September 1815, while in Kingston, Jamaica, Simón Bolívar wrote a letter addressed to a British subject, later identified as Henry Cullen of Falmouth, setting out his arguments for Latin American independence and seeking British support.",
+        "On 15 February 1819, Simón Bolívar delivered a speech at the Second Constituent Congress of Venezuela in Angostura, addressing the congressmen on the constitutional project and Venezuela's situation, a text he had drafted in late 1818 and shown to Manuel Palacio Fajardo for comment.",
+        "As head of state of Peru, Simón Bolívar issued a convocation on 7 December 1824 in Lima, two days before the Battle of Ayacucho, inviting the governments of Gran Colombia, Mexico, Río de la Plata, Chile and Central America to install an assembly of plenipotentiaries in Panama.",
+        "On 15 June 1813 in Trujillo, Simón Bolívar issued the Decreto de Guerra a Muerte, a proclamation declaring war to the death against royalist forces in Venezuela following the fall of the First Republic."
+      ],
+      "sources": [
+        {
+          "label": "Carta de Jamaica | Fundación Empresas Polar",
+          "url": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/carta-de-jamaica/"
+        },
+        {
+          "label": "Discurso de angostura",
+          "url": "https://biblioteca.inci.gov.co/handle/inci/5607"
+        },
+        {
+          "label": "INDEPENDENCIA HISPANOAMERICANA",
+          "url": "https://biblioteca-repositorio.clacso.edu.ar/bitstream/CLACSO/16736/1/Independencia-hispanoamericana.pdf"
+        },
+        {
+          "label": "Decreto de Guerra a Muerte – Ministerio del Poder Popular para la Cultura",
+          "url": "https://www.mincultura.gob.ve/eventos/decreto-de-guerra-a-muerte/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "simon-bolivar"
+    },
+    {
+      "id": "b9be73440d54",
+      "kind": "figure",
+      "name": "Mario Draghi",
+      "lines": [
+        "Addressing an investment conference in London on 26 July 2012, ECB President Mario Draghi said the central bank was ready, within its mandate, to do whatever it takes to preserve the euro, citing convertibility risk premia as falling within the ECB's remit.",
+        "At a Nicosia press conference on 5 March 2015, Mario Draghi said the ECB would begin buying euro-denominated public sector securities in the secondary market on 9 March. Combined public and private purchases were set at €60 billion a month.",
+        "Speaking in Strasbourg on 17 September 2024, Mario Draghi said he had presented his report on the future of Europe's competitiveness to the European Commission President the previous week, opening a Parliament presentation of the report.",
+        "On 27 April 2021 Mario Draghi, as prime minister, addressed the Senate with government communications ahead of transmitting Italy's National Recovery and Resilience Plan to the European Commission, placing the plan before parliament before its submission."
+      ],
+      "sources": [
+        {
+          "label": "10 years after “whatever it takes”: fragmentation risk in the current context",
+          "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2022/703367/IPOL_STU%282022%29703367_EN.pdf"
+        },
+        {
+          "label": "Introductory statement to the press conference (with Q&A)",
+          "url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/2015/html/is150305.en.html"
+        },
+        {
+          "label": "Address by Mr. Draghi – Presentation of the report on the Future of European competitiveness – European Parliament – Strasbourg – 17 September 2024",
+          "url": "https://commission.europa.eu/document/download/fcbc7ada-213b-4679-83f7-69a4c2127a25_en?filename=Address+by+Mario+Draghi+at+the+Presentation+of+the+report+on+the+future+of+European+competitiveness.pdf"
+        },
+        {
+          "label": "Procedura | Senato della Repubblica",
+          "url": "https://www.senato.it/legislature/18/leggi-e-documenti/attivita-non-legislative/procedure?documentoId=45473"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "mario-draghi"
+    },
+    {
+      "id": "bcef71d45e3c",
+      "kind": "figure",
+      "name": "Annette Lu",
+      "lines": [
+        "On 24 August 2005 Vice President Lu visited Kaohsiung over the Thai workers' riot, holding the Kaohsiung Rapid Transit and Hua Pan labour management companies responsible and calling for a swift, thorough investigation.",
+        "On 14 February 2006 Vice President Lu convened female officials and elected representatives at a tea party, proposing a nationwide association for female political figures to work with her Democratic Pacific Union.",
+        "Speaking at the Harvard ITASA conference in 2002, Vice President Lu suggested that China and Taiwan each first adopt one system, namely freedom and democracy, instead of 'one country, two systems.'",
+        "At a January 2004 Taipei inauguration for victims' families of the Kaohsiung Incident, Vice President Lu announced a 'save Taiwan with peace' campaign citing China's missile deployment and Taiwan's right to a referendum."
+      ],
+      "sources": [
+        {
+          "label": "Office of the President ROC (Taiwan) news release, 2005-08-24",
+          "url": "https://english.president.gov.tw/NEWS/2025"
+        },
+        {
+          "label": "Office of the President ROC (Taiwan) news release, 2006-02-14",
+          "url": "https://english.president.gov.tw/NEWS/2164"
+        },
+        {
+          "label": "Office of the President ROC (Taiwan) speech transcript, 2002",
+          "url": "https://english.president.gov.tw/NEWS/649"
+        },
+        {
+          "label": "Office of the President ROC (Taiwan) news release, 2004-01-12",
+          "url": "https://english.president.gov.tw/NEWS/1632"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "annette-lu"
+    },
+    {
+      "id": "bfb92968ed66",
+      "kind": "figure",
+      "name": "Mary Robinson",
+      "lines": [
+        "Mary Robinson, as President of Ireland, became the first Head of State to visit Rwanda soon after the 1994 genocide. At the conference she framed the discussion around Rwanda's post-genocide problems and the role of women in reconstruction and peace restoration.",
+        "Speaking at the UN Commission on the Status of Women on 8 March 1994, Robinson said she had come directly from Somalia to speak for the people she met there who could not speak for themselves, and urged the empowerment of women.",
+        "In a February 1995 address to both Houses of the Oireachtas, Robinson recalled committing her presidency to the seventy million people worldwide claiming Irish descent and argued Irishness should be broad and inclusive rather than territorial.",
+        "Mary Robinson served as the UN Secretary-General's Special Envoy on Climate Change in the run-up to the Paris Agreement, a post she held until the end of December 2015, when the COP21 summit concluded with the historic climate accord."
+      ],
+      "sources": [
+        {
+          "label": "Mary Robinson · digitallibrary.un.org",
+          "url": "https://digitallibrary.un.org/record/249985/files/A_52_720-EN.pdf"
+        },
+        {
+          "label": "Media Library | Speeches | President of Ireland",
+          "url": "https://www.president.ie/en/media-library/speeches/address-by-the-president-of-ireland-mary-robinson-united-nations-commission"
+        },
+        {
+          "label": "Media Library | Speeches | President of Ireland",
+          "url": "https://president.ie/en/media-library/speeches/address-by-president-mary-robinson-on-a-matter-of-public-importance-2-febru"
+        },
+        {
+          "label": "Mary Robinson | The Elders",
+          "url": "https://theelders.org/profile/mary-robinson"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "mary-robinson"
+    },
+    {
+      "id": "c0b8ebb95c69",
+      "kind": "figure",
+      "name": "Frederick Douglass",
+      "lines": [
+        "In his 1845 Narrative, Douglass recounted learning to read while enslaved and the efforts made to prevent it. A personal history placed before readers became an argument about who controlled access to knowledge.",
+        "In Rochester, Douglass founded The North Star, an antislavery newspaper. Editing it gave him a way to address readers regularly and publish voices alongside his own.",
+        "Invited to speak about Independence Day in 1852, Douglass asked what the celebration meant to people still enslaved. He made the distance between his listeners’ freedom and others’ captivity the subject of the speech.",
+        "During the Civil War, Douglass helped recruit Black soldiers and met Abraham Lincoln to raise the treatment they faced. He carried grievances about pay and protection directly to the president."
+      ],
+      "sources": [
+        {
+          "label": "Chronology of the Life of Frederick Douglass - Frederick Douglass National Historic Site (U.S. National Park Service)",
+          "url": "https://www.nps.gov/frdo/learn/kidsyouth/chronology.htm"
+        },
+        {
+          "label": "Chronology of the Life of Frederick Douglass - Frederick Douglass National Historic Site (U.S. National Park Service)",
+          "url": "https://www.nps.gov/frdo/learn/kidsyouth/chronology.htm"
+        },
+        {
+          "label": "What to the Slave is the 4th of July? - Frederick Douglass National Historic Site (U.S. National Park Service)",
+          "url": "https://www.nps.gov/frdo/what-to-the-slave-is-the-4th-of-july.htm"
+        },
+        {
+          "label": "Frederick Douglass and the Civil War (U.S. National Park Service)",
+          "url": "https://www.nps.gov/articles/frederick-douglass-and-civil-war.htm"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "frederick-douglass"
+    },
+    {
+      "id": "c368108886fb",
+      "kind": "figure",
+      "name": "Mette Frederiksen",
+      "lines": [
+        "At a 4 November 2020 press conference, Frederiksen announced a nationwide mink cull in response to the pandemic. A subsequent Danish inquiry examined the announcement and the absence of legal authority at the time for parts of the intended cull.",
+        "At the apology ceremony in Nuuk on 24 September 2025, Frederiksen addressed Greenlandic women and girls who had been fitted with contraceptive devices, many against their will. Speaking for Denmark, she apologised directly to those affected.",
+        "Addressing Ukraine's Verkhovna Rada on 6 September 2023, Prime Minister Mette Frederiksen said Danish F-16 aircraft were urgently wanted in Ukraine, praised Ukrainian pilots' eagerness to bring them home, and welcomed Ukraine's movement closer to the European Union and NATO.",
+        "In her address to the UN General Assembly, Prime Minister Mette Frederiksen said Denmark was committed to vaccine solidarity and COVAX and would scale up Danish grant-based climate finance to at least $500 million a year by 2023."
+      ],
+      "sources": [
+        {
+          "label": "Danish Parliament · inquiry into the mink cull",
+          "url": "https://www.ft.dk/samling/20211/almdel/GRA/bilag/46/2602665/index.htm"
+        },
+        {
+          "label": "Danish Prime Minister’s Office · address at the Nuuk apology ceremony",
+          "url": "https://stm.dk/statsministeren/taler/statsministerens-tale-til-undskyldningsarrangement-i-spiralsagen-den-24-september-2025/"
+        },
+        {
+          "label": "Verkhovna Rada of Ukraine",
+          "url": "https://www.rada.gov.ua/en/print/241081.html"
+        },
+        {
+          "label": "Official Records",
+          "url": "https://digitallibrary.un.org/record/3955235/files/A_76_PV.13-EN.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "mette-frederiksen"
+    },
+    {
+      "id": "c3bf32a309e8",
+      "kind": "figure",
+      "name": "Gabriel García Márquez",
+      "lines": [
+        "In One Hundred Years of Solitude, García Márquez followed generations of the Buendía family in Macondo. Marvels enter the town’s history in the same matter-of-fact voice as ordinary family events.",
+        "The Autumn of the Patriarch returns repeatedly to the death of a dictator. The shifting accounts make it difficult for the reader to separate one man’s life from the stories that maintained his power.",
+        "For The Story of a Shipwrecked Sailor, García Márquez reconstructed a Colombian sailor’s days adrift through interviews. He told the account in the survivor’s voice.",
+        "García Márquez opened his Nobel lecture with the traveler Antonio Pigafetta’s extraordinary accounts of South America. He then asked European listeners to consider the limits of their own ways of interpreting Latin America."
+      ],
+      "sources": [
+        {
+          "label": "Penguin on One Hundred Years of Solitude",
+          "url": "https://www.penguin.co.uk/books/57241/one-hundred-years-of-solitude-by-gabriel-garcia-marquez-trans-gregory-rabassa/9780141184999"
+        },
+        {
+          "label": "Cambridge University Press on The Autumn of the Patriarch",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-gabriel-garcia-marquez/autumn-of-the-patriarch/540A2E855634FD87139B14DE182565EF"
+        },
+        {
+          "label": "Penguin Random House on The Story of a Shipwrecked Sailor",
+          "url": "https://www.penguinrandomhouse.com/books/196920/relato-de-un-naufrago--the-story-of-a-shipwrecked-sailor-by-gabriel-garcia-marquez/9780307475381/"
+        },
+        {
+          "label": "Gabriel García Márquez’s Nobel lecture",
+          "url": "https://www.nobelprize.org/prizes/literature/1982/marquez/lecture/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "gabriel-garcia-marquez"
+    },
+    {
+      "id": "c6f097b73aaa",
+      "kind": "figure",
+      "name": "Eva Perón",
+      "lines": [
+        "In a national radio address on women’s suffrage, Eva Perón argued that Argentine women already shared the obligations of civic life and should have a vote in its decisions. She took that case directly to women listening around the country.",
+        "In 1948, the María Eva Duarte de Perón Social Aid Foundation was created; its Hogar de Tránsito Nº 2, the largest, offered women from across the country free lodging, food and assistance, and on leaving they received work tools and other aid.",
+        "In 1949, Eva Perón personally selected 23 delegates, one per province or territory and one for the Federal Capital, to conduct a national census of women as the first step in organizing the Peronist women's party.",
+        "On 22 August 1951, at the Cabildo Abierto rally organized by the CGT, Eva Perón publicly received the proposal to be vice-presidential candidate and asked for time to respond, before announcing her renunciation by radio five days later."
+      ],
+      "sources": [
+        {
+          "label": "Archivo Histórico de Radio y Televisión Argentina — Eva Perón on women’s suffrage",
+          "url": "https://www.archivorta.com.ar/asset/eva-peron-se-refiere-al-voto-femenino/"
+        },
+        {
+          "label": "El Hogar de Tránsito Nº 2 – Museo Evita",
+          "url": "https://museoevita.org.ar/el-hogar-de-transito-no-2/"
+        },
+        {
+          "label": "\"Las muchachas peronistas\". El partido peronista femenino en la provincia de Corrientes (1949- 1955)",
+          "url": "https://cdsa.aacademica.org/000-036/3.pdf"
+        },
+        {
+          "label": "Eva Perón solicita un plazo de tiempo para decidir su candidatura a la vicepresidencia nacional",
+          "url": "https://sedici.unlp.edu.ar/handle/10915/29472"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "eva-peron"
+    },
+    {
+      "id": "c9ebff55fc05",
+      "kind": "figure",
+      "name": "Lincoln Alexander",
+      "lines": [
+        "In October 1970, during the October Crisis, Alexander voted for the use of the War Measures Act. He later said he had underestimated the implications of limiting individual rights and reconsidered his judgment about that vote.",
+        "In his September 20, 1968 House of Commons maiden speech, Lincoln Alexander stated he accepted the responsibility of speaking for all Canadians who feel they are subjects of discrimination because of race, creed or colour.",
+        "Lincoln Alexander served as the first Chair of the Canadian Race Relations Foundation, an appointment cited in a 2017 government statement marking Lincoln Alexander Day.",
+        "Lincoln Alexander resigned his parliamentary seat to become Chair of the Ontario Workers' Compensation Board in 1980, leading the board for five years until 1985 before his appointment as Ontario's Lieutenant Governor."
+      ],
+      "sources": [
+        {
+          "label": "Operation Black Vote Canada — Lincoln Alexander on his parliamentary votes",
+          "url": "https://obvc.ca/story/lincoln-alexander-becomes-first-black-member-of-parliament/"
+        },
+        {
+          "label": "February 27, 2024 SENATE DEBATES 5631",
+          "url": "https://sencanada.ca/Content/SEN/Chamber/441/debates/pdf/182db_2024-02-27-e.pdf"
+        },
+        {
+          "label": "Statement by Minister Joly on Lincoln Alexander Day - Canada.ca",
+          "url": "https://www.canada.ca/en/canadian-heritage/news/2017/01/statement-minister-joly-lincoln-alexander.html"
+        },
+        {
+          "label": "Our Namesake - Lincoln Alexander School of Law - Toronto Metropolitan University (TMU)",
+          "url": "https://www.torontomu.ca/law/about/our-namesake/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "lincoln-alexander"
+    },
+    {
+      "id": "cd6705589f55",
+      "kind": "figure",
+      "name": "Dilma Rousseff",
+      "lines": [
+        "On 16 May 2012, Dilma Rousseff opened Brazil's National Truth Commission with a speech in Brasília, arguing that under democracy truth, memory and history should come to the surface and become known, especially for new and future generations.",
+        "At the NET Mundial conference in São Paulo, she signed the Marco Civil da Internet and defended freedom of expression and privacy online, saying the interception of communications of citizens, companies, diplomatic representations and the presidency was unacceptable.",
+        "At the 68th UN General Assembly in September 2013, Dilma Rousseff condemned a global electronic espionage network, noting that Brazilian diplomatic representations and the presidency itself had their communications intercepted, and defended an internet framework to prevent new abuses.",
+        "In her Senate impeachment defense of August 2016, Rousseff argued a political conviction requires a proven crime of responsibility and asked senators to weigh what they felt for the country and people over personal resentments."
+      ],
+      "sources": [
+        {
+          "label": "16-05-2012 - Discurso da Presidenta da República, Dilma Rousseff, na cerimônia de instalação da Comissão da Verdade",
+          "url": "https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/dilma-rousseff/discursos/discursos-da-presidenta/discurso-da-presidenta-da-republica-dilma-rousseff-na-cerimonia-de-instalacao-da-comissao-da-verdade-brasilia-df"
+        },
+        {
+          "label": "Sancionada a lei do marco civil da internet — Senado Notícias",
+          "url": "https://www12.senado.leg.br/noticias/materias/2014/04/23/sancionada-a-lei-do-marco-civil-da-internet"
+        },
+        {
+          "label": "Leia a íntegra do discurso de Dilma na Assembleia-Geral da ONU",
+          "url": "https://www1.folha.uol.com.br/mundo/2013/09/1346617-leia-a-integra-do-discurso-de-dilma-na-assembleia-geral-da-onu.shtml"
+        },
+        {
+          "label": "Veja a íntegra do discurso de defesa de Dilma no Senado — Senado Notícias",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/08/29/veja-a-integra-do-discurso-de-defesa-de-dilma-no-senado"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "dilma-rousseff"
+    },
+    {
+      "id": "dbc5e251bb41",
+      "kind": "figure",
+      "name": "Michael Manley",
+      "lines": [
+        "Under Michael Manley's premiership, his government introduced the Bauxite Levy in 1974, requiring the production levy to be paid on all bauxite or laterite extracted or won in Jamaica on or after 1 January 1974.",
+        "JAMAL and the Basic School Development Programmes were initiatives of Manley's new government, which also introduced free secondary education.",
+        "Michael Manley met Fidel Castro in late 1973, after which his government expanded ties with Cuba, part of a broader leftward shift during the 1970s.",
+        "Under its Democratic Socialism programme, Manley's government introduced a Minimum Wage Law, compulsory recognition of labour unions, and maternity leave for women."
+      ],
+      "sources": [
+        {
+          "label": "The Bauxite (Production Levy) Act | Laws of Jamaica",
+          "url": "https://laws.moj.gov.jm/library/statute/the-bauxite-production-levy-act"
+        },
+        {
+          "label": "The Most Honourable Michael Manley (1924-1997) | The National Library of Jamaica",
+          "url": "https://beta.nlj.gov.jm/project/rt-hon-michael-manley-1924-1997/"
+        },
+        {
+          "label": "Historical Documents - Office of the Historian",
+          "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p1/d465"
+        },
+        {
+          "label": "The Most Honourable Michael Manley (1924-1997) | The National Library of Jamaica",
+          "url": "https://nlj.gov.jm/project/rt-hon-michael-manley-1924-1997/"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "michael-manley"
+    },
+    {
+      "id": "e210828f3684",
+      "kind": "figure",
+      "name": "José de San Martín",
+      "lines": [
+        "In 1814 José de San Martín finished shaping a continental plan that avoided an offensive from Upper Peru and instead concentrated forces in Chile, the strategic scheme carried out through the Andes crossing of 1817.",
+        "On 25 July 1821, José de San Martín issued a bando in Lima announcing to Peruvians that the solemn proclamation of independence would take place on Saturday the 28th, and asking the noble vecindario to attend the oath, adorn and illuminate its houses on the nights of Friday, Saturday and Sunday.",
+        "After the Guayaquil interview of July 1822, San Martín presented his irrevocable resignation on 20 September before the first Constituent Congress held at the University of San Marcos.",
+        "As Protector of Peru, José de San Martín issued the so-called \"Ley de vientres,\" a legal norm that had given good results in Buenos Aires and freed from slavery those born from 28 July 1821 onward."
+      ],
+      "sources": [
+        {
+          "label": "Revolución : el cruce de los Andes",
+          "url": "https://www.bnm.me.gov.ar/giga1/documentos/EL005620.pdf"
+        },
+        {
+          "label": "28 de julio - Bicentenario de la independencia del Perú | Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/28-de-julio-bicentenario-de-la-independencia-del-peru"
+        },
+        {
+          "label": "“Bolívar y yo no cabemos en el Perú”: los secretos de la entrevista de Guayaquil y la decisión de San Martín de abandonar América - Infobae",
+          "url": "https://www.infobae.com/historia/2026/07/26/bolivar-y-yo-no-cabemos-en-el-peru-los-secretos-de-la-entrevista-de-guayaquil-y-la-decision-de-san-martin-de-abandonar-america/"
+        },
+        {
+          "label": "¿Los esclavos se vieron favorecidos por algún decreto promulgado por San Martín?",
+          "url": "https://repositorio.cultura.gob.pe/bitstream/handle/20.500.14427/8000/1.-%20200%20a%C3%B1os%20despu%C3%A9s.%20Los%20escolares%20preguntan%2C%20los%20historiadores%20responden%20%28primera%20edici%C3%B3n%20impresa%29-libro.pdf?isAllowed=y&sequence=1"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "jose-de-san-martin"
+    },
+    {
+      "id": "f10a0e8b3187",
+      "kind": "figure",
+      "name": "Yingluck Shinawatra",
+      "lines": [
+        "Yingluck Shinawatra met UN Secretary-General Ban Ki-moon in Bangkok on 16 November 2011, where she briefed him on Thailand's flood response and on efforts toward a national reconciliation dialogue, linking emergency relief with political talks.",
+        "In Seoul on 25 March 2012, Yingluck Shinawatra updated the UN Secretary-General on Thailand's flood recovery and received his emphasis on genuine national reconciliation for long-term stability, exchanging views on regional and development issues.",
+        "After the 3 July 2011 election gave Pheu Thai a majority, its leader Yingluck Shinawatra formed a coalition with four smaller parties, a governing arrangement described in an Inter-Parliamentary Union information note on reconciliation and political-party dissolution.",
+        "In December 2012, Yingluck Shinawatra and Myanmar's President jointly visited the Dawei Special Economic Zone, a cross-border industrial project, as recorded in a United Nations digital library document on regional cooperation."
+      ],
+      "sources": [
+        {
+          "label": "UN Secretary-General press stakeout remarks, Bangkok, 16 November 2011",
+          "url": "https://www.un.org/sg/en/content/former-secretary-general/press-events/2011-11-16/secretary-generals-remarks-press-stakeout-thai-prime-minister-%28qa-below%29"
+        },
+        {
+          "label": "UN readout of Secretary-General meeting with Thai Prime Minister, Seoul, 25 March 2012",
+          "url": "https://www.un.org/sg/en/content/former-secretary-general/readouts/2012-03-25/readout-of-the-secretary-generals-meeting-the-prime-minister-of-thailand"
+        },
+        {
+          "label": "Inter-Parliamentary Union information note on Thailand's reconciliation and political-party dissolution",
+          "url": "https://archive.ipu.org/conf-e/125/results.pdf"
+        },
+        {
+          "label": "UN digital library document on Myanmar-Thailand cooperation, December 2012",
+          "url": "https://digitallibrary.un.org/nanna/record/756823/files/A_68_331-EN.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "yingluck-shinawatra"
+    },
+    {
+      "id": "f1f5e16bfd8f",
+      "kind": "figure",
+      "name": "Ahmed Kathrada",
+      "lines": [
+        "Kathrada distributed Young Communist League leaflets at street corners after joining in 1941, an early activist task he chose for himself rather than a formal office.",
+        "In 1951 Kathrada attended the World Youth Festival in Berlin as chairperson of the Transvaal Indian Youth Congress and was elected leader of the multi-racial South African delegation.",
+        "Kathrada was among twenty officials charged with organising the 1952 Defiance Campaign, jointly run by the ANC and SAIC, and the group received a suspended nine-month sentence with hard labour, suspended for two years.",
+        "Returning from abroad in 1952, Kathrada joined the Defiance Campaign and was arrested and convicted, receiving a nine-month sentence that was suspended."
+      ],
+      "sources": [
+        {
+          "label": "South African History Online biographical article on Kathrada",
+          "url": "https://www.sahistory.org.za/people/ahmed-mohamed-kathy-kathrada"
+        },
+        {
+          "label": "South African History Online biographical article on Kathrada",
+          "url": "https://www.sahistory.org.za/people/ahmed-mohamed-kathy-kathrada"
+        },
+        {
+          "label": "South African History Online biography of Kathrada, Defiance Campaign section",
+          "url": "https://sahistory.org.za/people/ahmed-mohamed-kathy-kathrada"
+        },
+        {
+          "label": "South African History Online Kathrada profile",
+          "url": "https://sahistory.org.za/sites/default/files/archive-files3/SeJan81.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Advocate",
+      "slug": "ahmed-kathrada"
+    },
+    {
+      "id": "f80d714c7825",
+      "kind": "figure",
+      "name": "Cristina Fernández de Kirchner",
+      "lines": [
+        "In May 2012 Cristina Fernández de Kirchner signed decree 660, promulgating law 26.741, which took a 51 percent stake in YPF from Repsol, and she asked oil companies to invest in Argentina.",
+        "In July 2010 Fernández de Kirchner signed the decree promulgating law 26.618, which established same-sex marriage. At the ceremony she called it a broad social construction that belongs to no one.",
+        "In October 2009 Fernández de Kirchner announced the signing of a decree creating a universal child allowance of 180 pesos a month for children under 18 whose parents worked informally or were unemployed, and she said it alone would not end poverty.",
+        "In 2008 Argentina faced a 129-day rural strike over export taxes, leading to a congressional debate that ended with Vice President Julio Cobos casting a tie-breaking vote against the government's tax measure."
+      ],
+      "sources": [
+        {
+          "label": "La Presidenta promulgó la ley de recuperación de YPF: \"No es incompatible la eficiencia con la patria\"",
+          "url": "https://www.casarosada.gob.ar/informacion/archivo/25839-la-presidenta-promulgo-la-ley-de-recuperacion-de-ypf"
+        },
+        {
+          "label": "La presidenta Cristina Fernández promulgó la Ley de Matrimonio Igualitario",
+          "url": "https://www.casarosada.gob.ar/informacion/archivo/22423-blank-49238602"
+        },
+        {
+          "label": "La Presidenta anunció el otorgamiento de la asignación universal por hijo | Argentina.gob.ar",
+          "url": "https://www.argentina.gob.ar/noticias/la-presidenta-anuncio-el-otorgamiento-de-la-asignacion-universal-por-hijo"
+        },
+        {
+          "label": "CRISTINA FERNÁNDEZ DE KIRCHNER 131",
+          "url": "https://icn.gob.ar/public/publicaciones/democracia_40_a%C3%B1os/democracia_40_a%C3%B1os.pdf"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "cristina-fernandez-de-kirchner"
+    },
+    {
+      "id": "f9036fc8aeaf",
+      "kind": "figure",
+      "name": "Fela Kuti",
+      "lines": [
+        "“Water No Get Enemy” builds its argument out of an everyday necessity. Fela lets the band establish the groove before he begins listing the things people need water to do.",
+        "In “Zombie,” Fela barks out drill commands and the backing singers answer. The band turns the sound of soldiers obeying orders into a taunt anyone in the crowd can repeat.",
+        "On “Expensive Shit,” Fela turns a police attempt to catch him with marijuana into an extended comic story. The punch line depends on listeners following the evidence almost as closely as the police do.",
+        "In “Sorrow, Tears and Blood,” Fela describes what happens to people caught in a police or army raid. Each time he names the aftermath, the backing singers answer as witnesses who recognize the pattern."
+      ],
+      "sources": [
+        {
+          "label": "Fela Kuti archive · Expensive Shit",
+          "url": "https://felakuti.com/products/111906-expensive-shit-1975"
+        },
+        {
+          "label": "Fela Kuti archive · “Zombie”",
+          "url": "https://felakuti.com/news/zombie-edit"
+        },
+        {
+          "label": "Fela Kuti archive · Expensive Shit",
+          "url": "https://felakuti.com/products/111906-expensive-shit-1975"
+        },
+        {
+          "label": "Fela Kuti archive · Sorrow, Tears and Blood",
+          "url": "https://felakuti.com/us/products/111894-sorrow-tears-and-blood-1977"
+        }
+      ],
+      "group": "tentative",
+      "reference": "The Reframer",
+      "slug": "fela-kuti"
+    },
+    {
+      "id": "dc8a1ea0c98e",
+      "kind": "tone",
+      "name": "Fictional conversation 1",
+      "lines": [
+        "I stayed late so we could finish that story together.",
+        "I'd happily do it again."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "warm"
+    },
+    {
+      "id": "0599c6a494ba",
+      "kind": "tone",
+      "name": "Fictional conversation 2",
+      "lines": [
+        "Fair enough."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "Insufficient evidence"
+    },
+    {
+      "id": "68468e841cfe",
+      "kind": "tone",
+      "name": "Fictional conversation 3",
+      "lines": [
+        "That is the third time this happened after I asked for a heads-up.",
+        "I feel dismissed."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "tense"
+    },
+    {
+      "id": "324a018e312f",
+      "kind": "tone",
+      "name": "Fictional conversation 4",
+      "lines": [
+        "Oh brilliant, another mystery calendar invitation."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "playful"
+    },
+    {
+      "id": "3ed20755075b",
+      "kind": "tone",
+      "name": "Fictional conversation 5",
+      "lines": [
+        "Llegaré a las ocho.",
+        "Te aviso al salir."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "reserved"
+    },
+    {
+      "id": "d6b1b0e78653",
+      "kind": "tone",
+      "name": "Fictional conversation 6",
+      "lines": [
+        "Me hizo mucha ilusión que te acordaras.",
+        "Mil gracias por escucharme."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "warm"
+    },
+    {
+      "id": "b7d8f223662b",
+      "kind": "tone",
+      "name": "Fictional conversation 7",
+      "lines": [
+        "👌"
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "Insufficient evidence"
+    },
+    {
+      "id": "6dae28444382",
+      "kind": "tone",
+      "name": "Fictional conversation 8",
+      "lines": [
+        "I appreciate that you checked in.",
+        "I'm still upset about how yesterday went."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "tense"
+    },
+    {
+      "id": "582e08c89fb4",
+      "kind": "tone",
+      "name": "Fictional conversation 9",
+      "lines": [
+        "شكرًا لأنك استمعت لي حتى النهاية.",
+        "وجودك معي أسعدني كثيرًا."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "warm"
+    },
+    {
+      "id": "2864af6426b8",
+      "kind": "tone",
+      "name": "Fictional conversation 10",
+      "lines": [
+        "تمام."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "Insufficient evidence"
+    },
+    {
+      "id": "aa46e4eb0eef",
+      "kind": "tone",
+      "name": "Fictional conversation 11",
+      "lines": [
+        "For tonight I'd prefer some quiet time.",
+        "Let's talk after I've had a chance to think."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "reserved"
+    },
+    {
+      "id": "236470263cbd",
+      "kind": "tone",
+      "name": "Fictional conversation 12",
+      "lines": [
+        "I hereby appoint you captain of the snack committee 🍿",
+        "The first meeting is in my kitchen."
+      ],
+      "group": "tone",
+      "context": "The other person is responding after you asked how the exchange felt.",
+      "reference": "playful"
+    }
+  ]
+}

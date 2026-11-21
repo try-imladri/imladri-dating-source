@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/sqlite/sqlite/commit/e6ff280c839fdfc7418fd5add12e8f32702a17fb.patch",
+  "at": "2026-11-13T01:22:48.184510+00:00",
+  "sha256": "1c85c5d7019e6de2ea7fc9c082ed73d86c51903da3a73bec6f09b26796269afb",
+  "bytes": 7764,
+  "matches_previously_recorded_exact_primary_patch": true
+}

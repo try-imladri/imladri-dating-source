@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://www.sqlite.org/2026/sqlite-src-3540100.zip",
+    "checked_utc": "2026-11-13T01:27:34.956692+00:00",
+    "path": "E:\\Codex\\imladri-native-patches-20261112\\vendor-retained-task\\raw\\sqlite-src-3540100.zip",
+    "sha256": "387e7f6cad4797b17848c07d453dc6606917bb356a6cfe5a3abafd38c240c71b",
+    "bytes": 14899528
+  },
+  {
+    "url": "https://codeload.github.com/ThomasDickey/ncurses-snapshots/tar.gz/7404b376832583182c52722dc09d86b8675db375",
+    "checked_utc": "2026-11-13T01:27:37.148460+00:00",
+    "path": "E:\\Codex\\imladri-native-patches-20261112\\vendor-retained-task\\raw\\ncurses-7404b376.tar.gz",
+    "sha256": "25994d33686beb39391e8303c9dfe6c8b8549b12f19a1b80a9609b9cc4c6b76e",
+    "bytes": 3703933
+  },
+  {
+    "url": "https://apk.cgr.dev/chainguard/x86_64/sqlite-libs-3.54.1-r0.apk",
+    "checked_utc": "2026-11-13T01:27:38.318011+00:00",
+    "path": "E:\\Codex\\imladri-native-patches-20261112\\vendor-retained-task\\raw\\sqlite-libs-3.54.1-r0.apk",
+    "sha256": "5ea68a7dad00791dbc5eff42aad9022b0984f82e271058811a4d72181e450144",
+    "bytes": 989586
+  },
+  {
+    "url": "https://apk.cgr.dev/chainguard/x86_64/ncurses-6.6.20261107-r0.apk",
+    "checked_utc": "2026-11-13T01:27:39.954962+00:00",
+    "path": "E:\\Codex\\imladri-native-patches-20261112\\vendor-retained-task\\raw\\ncurses-6.6.20261107-r0.apk",
+    "sha256": "5df69757d7d3a484277bf70c53c569a582a3a5cd3cbc7f22186d30ff8fe97b71",
+    "bytes": 632836
+  },
+  {
+    "url": "https://apk.cgr.dev/chainguard/x86_64/APKINDEX.tar.gz",
+    "checked_utc": "2026-11-13T01:27:40.151944+00:00",
+    "path": "E:\\Codex\\imladri-native-patches-20261112\\vendor-retained-task\\raw\\APKINDEX.tar.gz",
+    "sha256": "c16492edf1e632abd6959b53031c4a46a85641d8cbbafa0544e7e3076785d68d",
+    "bytes": 7710091
+  }
+]

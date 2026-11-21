@@ -1,0 +1,1202 @@
+{
+ "elon-musk": {
+  "sections": {
+   "identity": "Musk explains a big technological bet by showing what a person could buy, watch or try today.",
+   "matches": [
+    {
+     "number": 48,
+     "why": "Musk translated plans for cheaper electric cars and reusable rockets into a buyer\u2019s decision and a filmed demonstration. Each gave the audience something concrete to check."
+    }
+   ],
+   "pattern": [
+    "Start with the objection, then answer it with the buyer in the room. In Tesla\u2019s 2006 master plan, Musk met the obvious question about an expensive sports car head-on: a Roadster buyer would help pay to develop a less expensive family car. He also gave the first customer a role in the next product, so the pitch was not only a promise about the future but an invitation to take part in it. For a reader, the transferable move is to name the skepticism before the other person has to raise it, and to show what their part actually builds toward.",
+    "Let people watch the claim happen before asking them to weigh the big argument. At TED in 2013, Musk showed footage of a SpaceX test rocket rising and landing upright; the audience could see the maneuver for itself before considering his much larger case for reusable rockets. The demonstration did not require anyone to accept the grand vision first. In a conversation, that suggests offering one concrete piece of evidence and letting the other person respond to it before you ask for agreement on the whole plan.",
+    "Turn a proposed change into a scene the listener can already picture. In Tesla\u2019s second master plan, he asked owners to imagine lending their car to a shared fleet when they weren\u2019t using it, so a familiar decision about an idle car made the proposed service easy to see. Crucially, that was a proposal, not a service customers could already use, and the distinction is worth keeping in your own explanations. When you describe something you hope to try, say plainly that it is a proposal and use an everyday moment to make it vivid rather than implying it already exists.",
+    "Put a specific design choice up for public debate rather than defending the whole endeavor in the abstract. When Chris Anderson asked about his bid for Twitter at TED in 2022, Musk made the recommendation algorithm part of his answer, arguing that publishing it would let people inspect how posts were ranked. The interview narrowed the discussion to one inspectable question. The practical echo for a reader is to bring a single checkable decision into a conversation instead of asking the other person to endorse everything at once."
+   ],
+   "communicates": {
+    "text": [
+     "Reading these four examples together, the recurring public move is to lower the cost of the next step. A skeptical buyer gets a role, an audience gets footage, an owner gets an idle-car scene, an interviewer gets a concrete algorithm question. Each time, the smaller, checkable element comes before the large claim. The pattern is an editorial reading of documented public actions, not a diagnosis of the person behind them.",
+     "A second reading is that these are public proposals and demonstrations, not settled results. The master plans describe plans; the rocket footage shows a test; the shared fleet was imagined rather than available; the algorithm argument was made in an interview. That gap matters for how a reader borrows the style: you can use a concrete prop or a specific question to start a conversation without letting the vividness stand in for proof. Notice, too, that the reader\u2019s choice stays separate from Musk\u2019s own actions, which is where the next step belongs."
+    ],
+    "examples": [
+     "Why start with an expensive sports car? In Tesla\u2019s 2006 master plan, Musk addressed that objection directly: a Roadster buyer would help pay to develop a less expensive family car. He gave the first customer a role in the next product.",
+     "At TED in 2013, Musk showed footage of a SpaceX test rocket rising and landing upright. The audience could see the maneuver for itself before weighing his much bigger argument for reusable rockets.",
+     "In Tesla\u2019s second master plan, he asked owners to imagine lending their car to a shared fleet when they weren\u2019t using it. A familiar decision about an idle car made a proposed service easy to picture; it was a proposal, not a service customers could already use.",
+     "When Chris Anderson asked about his bid for Twitter at TED in 2022, Musk made the recommendation algorithm part of his answer. He argued that publishing it would let people inspect how posts were ranked. The interview put a specific design choice up for public debate."
+    ],
+    "example_sources": [
+     {
+      "label": "Tesla \u00b7 The first master plan",
+      "url": "https://www.tesla.com/secret-master-plan"
+     },
+     {
+      "label": "TED \u00b7 The rocket demonstration",
+      "url": "https://blog.ted.com/transforming-transportation-elon-musk-at-ted2013/"
+     },
+     {
+      "label": "Tesla \u00b7 Master Plan, Part Deux",
+      "url": "https://www.tesla.com/master-plan-part-deux"
+     },
+     {
+      "label": "TED \u00b7 Musk on the Twitter bid",
+      "url": "https://www.youtube.com/watch?v=cdZZpaB2kDM"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "Interested in trying the public-project habit in miniature: pick one objection you expect and answer it with a plain, factual sentence before the other person raises it, the way the 2006 master plan began with the Roadster\u2019s cost. Keep it to one point and stop there.",
+    "invested": "Invested means adding a checkable element to the same conversation. You might say, hypothetically, \u201cCan I show you the one example that made this concrete for me?\u201d and offer something the other person can inspect, as the TED audience could watch the test footage before weighing reusable rockets. Then pause and ask what they noticed.",
+    "done": "Done is when you have moved from pitching to a single decision the other person can examine, and you say clearly whether it is a proposal or something already in place. A useful line is, hypothetically, \u201cThis part is still a proposal; is there one question about it you want answered first?\u201d That keeps the conversation about a specific design choice, as the 2022 interview did with the recommendation algorithm."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Show the price objection before answering it",
+      "detail": "The 2006 Tesla master plan did not dodge the familiar objection that a sports car costs too much; it named the objection itself. A Roadster buyer would help pay to develop a less expensive family car, Musk argued in that plan. The order matters for a reader: complaint first, concrete role second, invitation last. In a conversation, the parallel is starting with the objection the other person is actually holding before presenting your case."
+     },
+     {
+      "point": "Give the first customer a stake in what comes next",
+      "detail": "In that same plan, the early buyer was not just a source of revenue; the first customer was given a role in the next product. That turns a purchase into participation. For a reader, the practical move is to name what the other person's early commitment makes possible, rather than treating their yes as the end of the conversation."
+     },
+     {
+      "point": "Let footage carry the big claim",
+      "detail": "At TED in 2013, Musk showed test-rocket footage of a launch and an upright landing. The audience could see the maneuver before weighing the much larger argument for reusable rockets. Demonstration came before explanation. A reader can borrow the sequencing in a real conversation: put the concrete example on the table first, then make the broader case."
+     },
+     {
+      "point": "Anchor an unfamiliar proposal in a familiar decision",
+      "detail": "Tesla's second master plan asked owners to imagine lending their car to a shared fleet when it sat idle. That is an everyday decision about an unused object, which makes a proposed service easy to picture. The plan proposed a service; it did not describe one customers could already use. Signal the difference clearly when you use the same trick in conversation."
+     },
+     {
+      "point": "Put a design choice up for public debate",
+      "detail": "When Chris Anderson asked about the Twitter bid at TED in 2022, Musk folded the recommendation algorithm into his answer. He argued that publishing it would let people inspect how posts were ranked. That moved the conversation from a private bid to a specific, inspectable design choice. The reader's version is narrower: turn a vague disagreement into one visible decision that can be examined together."
+     }
+    ],
+    "never": [
+     {
+      "point": "Do not treat a plan's promise as a delivered product",
+      "detail": "The second master plan invited owners to imagine a shared fleet; it was a proposal, not a service already running. A reader should not quote an intention as if it were a result. In conversation, mark clearly what is planned versus what exists, or the other person will rightly stop trusting your examples."
+     },
+     {
+      "point": "Do not let the demo stand in for the whole argument",
+      "detail": "The TED 2013 footage showed a test rocket rising and landing upright; it did not settle the broader case for reusable rockets. Similarly, one vivid story about your own week is not proof of a general pattern in a relationship. Offer the example as a starting point, then say what larger claim it is meant to support."
+     },
+     {
+      "point": "Do not borrow a public figure's stance as a script",
+      "detail": "Musk's public arguments about the Roadster, the shared fleet, or the ranking algorithm are his documented moves in specific settings. They are not instructions for how a partner should be spoken to. A reader can study the structure of a move without adopting the person or the tone."
+     },
+     {
+      "point": "Do not compress an objection into a slogan",
+      "detail": "The 2006 master plan responded to the sports-car price objection with a specific development path; it did not simply wave the complaint away. In a conversation, answering a worry with a phrase like 'you just do not get it' closes the topic. Name the worry in the other person's terms and then answer that version."
+     },
+     {
+      "point": "Do not skip the invitation to inspect",
+      "detail": "Musk's 2022 answer tied publishing the algorithm to letting people inspect how posts were ranked. The invitation to look for yourself is part of the move. A reader can adapt this by offering to show the actual thing being argued about, not just describing it, and by accepting that inspection may change the discussion."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "Objection-first framing",
+     "how_it_works": "Musk's 2006 plan named the expensive-sports-car objection and then gave the buyer a role in funding a cheaper family car. The other person hears their own hesitation spoken aloud before any counterargument. That lowers the chance they spend the conversation defending a point you have not acknowledged.",
+     "defense": "If someone uses this on you, check whether the role offered is concrete or just a label. Ask what exactly your early commitment would make possible, and when."
+    },
+    {
+     "name": "Demonstrate, then argue",
+     "how_it_works": "At TED in 2013, the test-rocket footage let the audience see a launch and upright landing before hearing the case for reusable rockets. The evidence arrives as something watchable, so the larger claim has a place to land.",
+     "defense": "When a vivid example comes first, ask what it establishes and what it leaves out. One landing is a demonstration; the reusable-rocket case is bigger."
+    },
+    {
+     "name": "Borrow a familiar scenario",
+     "how_it_works": "Tesla's second master plan put readers inside a decision they already know, lending an idle car, to make a proposed shared fleet easy to picture. The familiar scene does the explanatory work, and the plan is clear that this is a proposal, not an existing service.",
+     "defense": "Ask whether the familiar scenario is actually comparable. Lending a car to a fleet and joining a relationship conversation may differ in ways that matter."
+    },
+    {
+     "name": "Move from vague to inspectable",
+     "how_it_works": "In the 2022 TED interview, Musk made the recommendation algorithm part of his answer about the Twitter bid, arguing that publication would let people inspect how posts were ranked. A broad dispute becomes a specific design question people can look at.",
+     "defense": "Make sure the specific item is the real issue and not a substitute. Inspecting a ranking algorithm is useful; it does not answer every concern about a platform."
+    },
+    {
+     "name": "Offer a checkable next step",
+     "how_it_works": "The Roadster buyer's role in the next product and the invitation to inspect the ranking algorithm both give the other person something to do besides agree or disagree. The move converts a claim into a shared object of attention.",
+     "defense": "Accept the offered next step only if you can actually check it. If the promised object never appears, that is information."
+    }
+   ],
+   "leverage": [
+    {
+     "point": "A mapped path from expensive to affordable",
+     "detail": "The 2006 master plan used the Roadster's price to explain how a cheaper family car would be developed. The leverage is the visible path, not the price alone. In conversation, a reader can make a large ask easier by showing the smaller steps that connect it to something the other person already values."
+    },
+    {
+     "point": "Footage as shared evidence",
+     "detail": "The 2013 TED audience saw the test rocket rise and land upright, which gave them a shared reference before the reusable-rocket argument. Shared evidence lowers the cost of disagreement because both people are looking at the same thing. A reader can bring the actual artifact, message, or plan to a conversation instead of paraphrasing it."
+    },
+    {
+     "point": "An everyday scene as the entry point",
+     "detail": "The second master plan's idle-car scenario gave readers a familiar decision to stand on while considering a proposed shared fleet. The scene is the leverage: it lets a new idea be discussed in old language. Pick a scenario the other person already navigates, and be explicit about where the analogy ends."
+    },
+    {
+     "point": "A design question instead of a personality clash",
+     "detail": "By folding the ranking algorithm into his 2022 TED answer, Musk turned part of the Twitter discussion into a question of how posts are ranked and whether that can be inspected. The leverage is specificity. A reader can ask 'what exactly should change, and how would we see it?' rather than relitigating who is right."
+    },
+    {
+     "point": "Invitation to participate",
+     "detail": "The first Roadster customer was given a role in the next product, and the algorithm argument invited people to inspect the ranking. Participation gives the other person a stake and a way to test the claim. A reader can offer a small, defined role in a shared decision, with the freedom to inspect the result."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 48,
+     "rationale": "Musk translated plans for cheaper electric cars and reusable rockets into a buyer\u2019s decision and a filmed demonstration. Each gave the audience something concrete to check."
+    },
+    "cousin": {
+     "number": 56,
+     "tell": "Ask each to explain a plan twice. The Storyteller will add color, tension, or a punchline; The Translator will simplify and then ask you to say it back."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Explains a long-term bet through a near-term demonstration",
+     "observation": "In Tesla\u2019s first master plan, Musk explained how an expensive Roadster could finance a more affordable car. At TED, he let footage of a rocket landing give the audience something it could judge for itself.",
+     "sources": [
+      {
+       "label": "Tesla \u00b7 The first master plan",
+       "url": "https://www.tesla.com/secret-master-plan"
+      },
+      {
+       "label": "TED \u00b7 The rocket demonstration",
+       "url": "https://blog.ted.com/transforming-transportation-elon-musk-at-ted2013/"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "Musk explains a big technological bet by showing what a person could buy, watch or try today.",
+  "matches": [
+   {
+    "number": 48,
+    "why": "Musk translated plans for cheaper electric cars and reusable rockets into a buyer\u2019s decision and a filmed demonstration. Each gave the audience something concrete to check."
+   }
+  ],
+  "photo_url": "/api/media/a4b619fd-4f49-4229-84dd-7648d2526a03",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "Tesla \u00b7 The first master plan",
+    "url": "https://www.tesla.com/secret-master-plan"
+   },
+   {
+    "label": "TED \u00b7 The rocket demonstration",
+    "url": "https://blog.ted.com/transforming-transportation-elon-musk-at-ted2013/"
+   },
+   {
+    "label": "Tesla \u00b7 Master Plan, Part Deux",
+    "url": "https://www.tesla.com/master-plan-part-deux"
+   },
+   {
+    "label": "TED \u00b7 Musk on the Twitter bid",
+    "url": "https://www.youtube.com/watch?v=cdZZpaB2kDM"
+   }
+  ]
+ },
+ "drake": {
+  "sections": {
+   "identity": "Drake can turn an award introduction, a music video or a scholarship presentation into a scene people retell.",
+   "matches": [
+    {
+     "number": 56,
+     "why": "Introducing Rihanna through his memory of a Toronto film set gives the audience a scene before a list of achievements. That way of paying tribute is the Storyteller comparison."
+    }
+   ],
+   "pattern": [
+    "In the Hotline Bling video, the walls shift color while Drake dances alone on a mostly empty set. With so little scenery to track, the eye lands on small gestures: a shrug, a turn of the shoulders, a glance at the camera. The observation is about staging a spare room so attention gathers on a single performer's movement, not about what any of it means about him. A reader can notice the same trick in ordinary conversation, where a quiet room makes a small answer carry more weight than a crowded excuse.",
+    "When Drake presented Rihanna's Video Vanguard Award in 2016, he began with his memory of her filming Pon de Replay in Toronto. He framed a long career through one place and one early encounter the audience could picture. That is a public way of introducing someone by a concrete scene rather than a list of honors. The same move is available to anyone introducing a friend or colleague: name the specific moment you saw them at work, and the praise stops sounding generic.",
+    "On More Life, Giggs joins Drake on No Long Talk, while Get It Together hands space to Jorja Smith's voice and Black Coffee's music. Played side by side, the guest changes the sound of what Drake billed as a playlist. The documented fact is the credit and the sonic contrast, not any claim about how Drake works with people. For a reader, it shows how a shared project can bend toward whoever is in the room, and that noticing whose contribution changes the texture is part of listening well.",
+    "In Miami in 2018, student Destiny James thought she was being filmed about scholarships, then Drake walked into the shoot with a $50,000 check for her. James's own account keeps the surprise attached to a named person and her voice, not just the sum. The gift is real and public; what it says about him as a private person is not something these facts settle. The practical lesson sits with the recipient's account: a gesture lands more clearly when the person receiving it gets to describe it in their own words."
+   ],
+   "communicates": {
+    "text": [
+     "Put these four scenes together and a theme is visible across his public work: restraint in staging, specificity in praise, room for collaborators, and a gift that keeps the recipient's voice in the story. That is a reading of documented public moments, not a diagnosis of the man behind them. The throughline is editorial: fewer decorations, more concrete detail. A reader can borrow the instinct without assuming anything about his private life.",
+     "For someone in a relationship, the transferable idea is to swap vague impression for a specific, checkable detail. Say what you actually saw rather than how you feel about the person in the abstract, and leave space for their account of events. The public record here shows only actions; it cannot tell you how he treats a partner. Use it as a prompt for your own habits of attention, not as evidence about his."
+    ],
+    "examples": [
+     "In the Hotline Bling video, the walls change color while Drake dances alone in a mostly empty set. With little scenery to follow, a shrug or a turn of his shoulders becomes the part you remember.",
+     "Presenting Rihanna\u2019s Video Vanguard Award in 2016, Drake opened with his memory of her filming Pon de Replay in Toronto. He introduced a career spanning years through a place and an encounter the audience could picture.",
+     "On More Life, Giggs joins Drake on No Long Talk, while Get It Together gives space to Jorja Smith\u2019s voice and Black Coffee\u2019s music. Put the tracks side by side and you can hear how much the guest changes the sound of what Drake billed as a playlist.",
+     "In Miami in 2018, student Destiny James thought she was being filmed about scholarships. Drake walked into the shoot with a $50,000 check for her. James\u2019s own account of the surprise puts a name and a voice beside the gift."
+    ],
+    "example_sources": [
+     {
+      "label": "Drake \u00b7 Hotline Bling, official video",
+      "url": "https://www.youtube.com/watch?v=uxpDa-c-4Mc"
+     },
+     {
+      "label": "Time \u00b7 The Video Vanguard presentation",
+      "url": "https://time.com/4470251/vmas-2016-drake-rihanna/"
+     },
+     {
+      "label": "Apple Music \u00b7 More Life credits and tracks",
+      "url": "https://music.apple.com/us/album/more-life/1440891750"
+     },
+     {
+      "label": "Recording Academy \u00b7 Destiny James\u2019s scholarship",
+      "url": "https://www.grammy.com/news/drake-awards-university-miami-student-scholarship/"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "A reader who is merely interested might watch the Hotline Bling video and ask, hypothetically, 'What in this room is doing the work, and what is the single gesture I remember?' That question trains attention on staging without claiming anything about the performer's inner life.",
+    "invested": "A reader who is invested could try the introduction move out loud: 'I first saw you handle that room in 2019, and here is what I noticed.' Or, in a shared project, ask, 'Whose contribution is changing how this sounds, and have we credited it?' Both are questions about public craft, not private feelings.",
+    "done": "A reader who is done with the analysis can carry one habit from the Destiny James account: when someone gives you something, let them describe it in their own words rather than narrating it for them. Say, hypothetically, 'How did that feel from where you were standing?' That keeps the gesture attached to the recipient, as the documented account does."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Let the empty room do some of the talking",
+      "detail": "In the Hotline Bling video, the walls change color while Drake dances alone on a mostly empty set. With little scenery to follow, a shrug or a turn of his shoulders becomes the part you remember. A sparse frame can sharpen a gesture instead of competing with it."
+     },
+     {
+      "point": "Anchor a long story in one picture",
+      "detail": "Presenting Rihanna\u2019s Video Vanguard Award in 2016, Drake opened with his memory of her filming Pon de Replay in Toronto. He introduced a career spanning years through a place and an encounter the audience could picture. One concrete scene can carry the weight of a decade."
+     },
+     {
+      "point": "Let guests change the sound",
+      "detail": "On More Life, Giggs joins Drake on No Long Talk, while Get It Together gives space to Jorja Smith\u2019s voice and Black Coffee\u2019s music. Put the tracks side by side and you can hear how much the guest changes the sound of what Drake billed as a playlist. The label promises variety, and the guest voices deliver it."
+     },
+     {
+      "point": "Put a name and voice beside the gift",
+      "detail": "In Miami in 2018, student Destiny James thought she was being filmed about scholarships. Drake walked into the shoot with a $50,000 check for her. James\u2019s own account of the surprise puts a name and a voice beside the gift, so the moment lives as her story, not only his gesture."
+     },
+     {
+      "point": "Keep the billing honest",
+      "detail": "Calling More Life a playlist sets an expectation: different voices, different rooms, a host who shares the frame. The album\u2019s credits and features match that billing. A clear label helps an audience know what kind of attention to bring."
+     }
+    ],
+    "never": [
+     {
+      "point": "Press a private life into a public story",
+      "detail": "The documented work and the documented surprise for Destiny James are enough to read. When a public figure\u2019s dating life becomes the frame, the work gets buried under speculation. Keep the analysis on what was actually shown or said."
+     },
+     {
+      "point": "Fill gaps with motive",
+      "detail": "Because we do not know why Drake made these choices, the honest reading stays with the visible result. Say what the video, the introduction, or the performance does, not what it secretly means about him. Readers can draw their own lessons without needing a hidden script."
+     },
+     {
+      "point": "Treat a gesture as a personality test",
+      "detail": "A $50,000 check and a surprise appearance are actions, not proof of a private self. Turning them into evidence about someone\u2019s character turns public material into a diagnosis. The warmer and more accurate move is to ask what the gesture offers to a reader who wants to act well."
+     },
+     {
+      "point": "Let a guest disappear into the host",
+      "detail": "On No Long Talk and Get It Together, the guests are audible and distinct. Reading those tracks as background misses the point of a playlist. The same is true in a conversation: if someone\u2019s contribution vanishes, the mix is not really shared."
+     },
+     {
+      "point": "Mistake a memorable frame for a full life",
+      "detail": "The Hotline Bling set is deliberately bare, and that bareness makes the movement stand out. It does not follow that the person is isolated or that the scene is autobiographical. A visual choice is a visual choice; the reader can borrow the technique without borrowing a story about the artist."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "The simple frame",
+     "how_it_works": "Strip the background to a changing wall or a single color, and a small motion becomes legible. In the Hotline Bling video, the set stays mostly empty while the walls shift, so a shrug reads clearly. Clarity can come from subtraction, not addition.",
+     "defense": "If a room or a message feels cluttered, remove one competing element before adding anything new. Ask what the other person will actually notice in the first five seconds, and keep only that. This is a public-facing technique; in a private conversation, the equivalent is to name the one thing you most want understood."
+    },
+    {
+     "name": "The picture before the timeline",
+     "how_it_works": "Drake opened a career tribute with a specific memory: Rihanna filming Pon de Replay in Toronto. A place and an encounter give the audience something to see before the years pile up. The sequence works because the image arrives first.",
+     "defense": "When you need to explain a long history, begin with a single scene you can describe in one breath. Then let the dates or the list follow. In a conversation, you might try a hypothetical opener such as, 'The first time I noticed this was\u2026' and see whether the other person leans in."
+    },
+    {
+     "name": "The guest-forward mix",
+     "how_it_works": "More Life is billed as a playlist, and the credits bear that out: Giggs changes the temperature on No Long Talk, and Jorja Smith and Black Coffee reshape Get It Together. The guests are not decoration; they alter the sound of the record. A host who shares the frame gets a wider range.",
+     "defense": "If you are leading a group project or a conversation, decide in advance which moments belong to someone else and protect them. Say, hypothetically, 'I want your part to be the one people remember from that section.' The move is generous and it raises the whole result."
+    },
+    {
+     "name": "The named recipient",
+     "how_it_works": "In Miami in 2018, Destiny James thought she was being filmed about scholarships, and then Drake walked in with a $50,000 check. James\u2019s own account gives the moment a name and a voice. The gift is not only the amount; it is the fact that the recipient can tell it her way.",
+     "defense": "When you help someone, leave room for them to describe what happened in their own words. Ask before sharing their story publicly, and if they want to remain private, let the action stand without a spotlight. In a conversation you might say, 'How would you like this to be mentioned, if at all?'"
+    },
+    {
+     "name": "The plain label",
+     "how_it_works": "Calling a release a playlist tells listeners to expect a range of voices and rooms, and More Life delivers that. The label is not a hedge; it sets a useful expectation. People can calibrate their attention when the form is named clearly.",
+     "defense": "Name the shape of what you are offering before you ask someone to invest time in it. Try a phrase such as, 'This is a first pass, not a final draft,' or 'This is a group effort, not a solo report.' Clear billing lowers the chance of a mismatch."
+    }
+   ],
+   "leverage": [
+    {
+     "point": "A sparse set makes motion legible",
+     "detail": "In the Hotline Bling video, the walls change color while Drake dances alone on a mostly empty set. With little scenery to follow, a shrug or a turn of his shoulders becomes the part you remember. A clear visual field gives small choices room to register."
+    },
+    {
+     "point": "One memory can introduce a long career",
+     "detail": "At the 2016 Video Vanguard presentation, Drake began with Rihanna filming Pon de Replay in Toronto. A place and an encounter gave the audience a picture to hold before the list of achievements. The specific moment does the work of a timeline."
+    },
+    {
+     "point": "Guests change the record",
+     "detail": "On No Long Talk, Giggs joins Drake and the track shifts; on Get It Together, Jorja Smith\u2019s voice and Black Coffee\u2019s music take up real space. More Life is billed as a playlist, and the features make that bill true. The variety is audible, not just advertised."
+    },
+    {
+     "point": "The recipient\u2019s account matters",
+     "detail": "Destiny James thought she was being filmed about scholarships, then Drake walked in with a $50,000 check for her in Miami in 2018. James\u2019s own account of the surprise gives the moment a name and a voice. A documented fact becomes a fuller story when the person at the center can tell it."
+    },
+    {
+     "point": "Ask what the public record actually shows",
+     "detail": "These four observations cover a video, an introduction, an album\u2019s credits, and a surprise gift. None of them requires a claim about Drake\u2019s dating life. A reader can ask, 'What did the public actually see, and what am I adding?' and keep the two separate."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 56,
+     "rationale": "Introducing Rihanna through his memory of a Toronto film set gives the audience a scene before a list of achievements. That way of paying tribute is the Storyteller comparison."
+    },
+    "cousin": {
+     "number": 52,
+     "tell": "Ask: 'Is this a scene you saw, or a scene you're making up to explain something?' If he can name it as his own construction and then say the actual ask, it's the Storyteller pattern. If he insists the scene is simply what happened and resists the direct version, the picture may be doing too much work."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Introduces people through a particular place or memory",
+     "observation": "Presenting Rihanna\u2019s Video Vanguard Award, Drake recalled the Toronto set where he first met her. The Miami scholarship surprise came through Destiny James\u2019s own account of the encounter. Those public gestures tell us how he put a person at the center of a story.",
+     "sources": [
+      {
+       "label": "Time \u00b7 The Video Vanguard presentation",
+       "url": "https://time.com/4470251/vmas-2016-drake-rihanna/"
+      },
+      {
+       "label": "Recording Academy \u00b7 Destiny James\u2019s scholarship",
+       "url": "https://www.grammy.com/news/drake-awards-university-miami-student-scholarship/"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "Drake can turn an award introduction, a music video or a scholarship presentation into a scene people retell.",
+  "matches": [
+   {
+    "number": 56,
+    "why": "Introducing Rihanna through his memory of a Toronto film set gives the audience a scene before a list of achievements. That way of paying tribute is the Storyteller comparison."
+   }
+  ],
+  "photo_url": "/api/media/c8570fa7-8937-45e4-b26b-a3ece2cdb419",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "Drake \u00b7 Hotline Bling, official video",
+    "url": "https://www.youtube.com/watch?v=uxpDa-c-4Mc"
+   },
+   {
+    "label": "Time \u00b7 The Video Vanguard presentation",
+    "url": "https://time.com/4470251/vmas-2016-drake-rihanna/"
+   },
+   {
+    "label": "Apple Music \u00b7 More Life credits and tracks",
+    "url": "https://music.apple.com/us/album/more-life/1440891750"
+   },
+   {
+    "label": "Recording Academy \u00b7 Destiny James\u2019s scholarship",
+    "url": "https://www.grammy.com/news/drake-awards-university-miami-student-scholarship/"
+   }
+  ]
+ },
+ "john-mayer": {
+  "sections": {
+   "identity": "Mayer makes an idea audible: he plays the mistake, compares the guitars and lets the listener hear a decision.",
+   "matches": [
+    {
+     "number": 51,
+     "why": "At Berklee, Mayer used the students\u2019 own songs and a mistake from his own practice to teach how an idea becomes music. The match rests on a teaching exchange, not on his lyrics."
+    }
+   ],
+   "pattern": [
+    "The Berklee visit is a working picture of how revision gets shared: six students play their own songs, then Mayer plays one of his and traces it back to a wrong note during a Grateful Dead tune. The sequence matters, because the mistake is not presented as an embarrassment to hide but as the hinge the song turned on. For a reader, the lesson is procedural rather than personal: a finished thing can be shown together with the rough place it came from.",
+    "The Silver Sky work with Paul Reed Smith is described as translating the feel of two vintage guitars into choices another builder can reproduce. That is a different kind of rigor from a private preference: the target has to survive being written down and handed off. A reader can borrow the frame without borrowing the taste, since the public description shows the pairing kept some things and changed others rather than chasing an exact copy.",
+    "In the Guitar World conversation about Sob Rock, Mayer described how far a track could suggest the 1980s before it stopped convincing him. Listening to Last Train Home with that limit in mind puts the reference inside the arrangement rather than on the album cover. The useful public detail is the boundary being decided and then audible, not a claim about why he chose it.",
+    "On Life With John Mayer, the listener's clock is the organizing principle: a Friday night can differ from a morning, and the station's identity comes from the sequence he chooses across genres. That is a public example of structure built around the person on the other end rather than around a fixed format. A reader can notice the difference between a playlist that serves a time of day and one that serves only the maker's mood."
+   ],
+   "communicates": {
+    "text": [
+     "Across these accounts, the recurring public move is to show the seam: the wrong note before the song, the translated guitar, the limit on a decade, the hour that changes the set list. The evidence is in what gets described and demonstrated, not in inferred motives. A reader who values visible process can take the example as a prompt to ask for the working version, not just the polished one.",
+     "The facts also distinguish kinds of investment: teaching at Berklee, collaborating with a builder, setting an aesthetic limit in an interview, and programming a station by the listener's day. None of these is a claim about private life, and the page should not stretch them into one. The takeaway for a reader is to treat public craft choices as the record and to leave the unrecorded parts alone."
+    ],
+    "examples": [
+     "At Berklee, six students played their own songs for Mayer. Then he played one of his and explained how a wrong note while practicing a Grateful Dead tune helped start it. The students got to hear how a finished songwriter deals with a mistake.",
+     "Developing the Silver Sky with Paul Reed Smith meant translating the feel of two vintage guitars into choices another builder could reproduce. Mayer\u2019s description of the finished instrument walks through what the pair kept and what they changed.",
+     "Talking to Guitar World about Sob Rock, Mayer described how far he would let a track suggest the 1980s before it stopped sounding convincing to him. Listen to Last Train Home with that limit in mind: the reference is part of the arrangement, not just the album cover.",
+     "On Life With John Mayer, the organizing principle is the listener\u2019s clock. What he schedules for a Friday night can differ from what he plays in the morning; the station\u2019s identity comes from the sequence he chooses, across genres."
+    ],
+    "example_sources": [
+     {
+      "label": "Berklee \u00b7 The student songwriting session",
+      "url": "https://college.berklee.edu/news/john-mayer-shares-stage-student-songwriters"
+     },
+     {
+      "label": "PRS \u00b7 Designing the Silver Sky",
+      "url": "https://prsguitars.com/news/story/prs_guitars_announces_new_john_mayer_signature_model_the_silver_sky"
+     },
+     {
+      "label": "Guitar World \u00b7 Mayer on making Sob Rock",
+      "url": "https://www.guitarworld.com/features/john-mayer-sob-rock"
+     },
+     {
+      "label": "SiriusXM \u00b7 Life With John Mayer",
+      "url": "https://www.siriusxm.com/channels/life-with-john-mayer"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "In public projects, interested looks like noticing the shape of the work: that the Berklee visit centers on a song's origin, that the Silver Sky discussion is about translatable feel, that the Sob Rock limit is audible in the arrangement, that the station bends to the listener's clock. A reader can ask a hypothetical question: 'Which part of this did you decide first, the reference or the limit?'",
+    "invested": "Invested looks like engaging the same evidence closely enough to compare it with itself: the mistake kept in the story of one song, the choices kept and changed in the guitar partnership, the boundary that makes the 1980s nod convincing, the sequence that changes from Friday to morning. A reader might say, 'I want to hear the working version alongside the finished one,' as a hypothetical invitation to share process rather than a demand for disclosure.",
+    "done": "Done, as a public distinction, is stopping at the documented facts and not converting craft choices into a claim about the person's relationships, health, or intentions. A reader can signal that by saying, hypothetically, 'We can talk about the work and leave the rest unnamed,' which keeps a conversation on the record and off the unrecorded."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Show the wrong note as material, not as an emergency",
+      "detail": "At Berklee, six students played their own songs before Mayer played one of his and explained how a wrong note while practicing a Grateful Dead tune helped start it. The room got to see the machinery behind a finished song rather than only the polished result. If you want to borrow this in a conversation, the move is to name a specific misfire in your own work and describe what it changed, not to deliver a general lecture on failure."
+     },
+     {
+      "point": "Translate feel into choices someone else can reproduce",
+      "detail": "Developing the Silver Sky with Paul Reed Smith meant turning the feel of two vintage guitars into decisions another builder could copy. Mayer's account of the finished instrument walks through what the pair kept and what they changed. That is a useful model for any collaboration: the fuzzy part is where you say exactly which details you are preserving, and the rest is where you are free to move."
+     },
+     {
+      "point": "Set a limit for a reference and stay inside it",
+      "detail": "In his Guitar World conversation about Sob Rock, Mayer described how far he would let a track suggest the 1980s before it stopped sounding convincing to him. Listen to Last Train Home with that limit in mind, and the reference reads as part of the arrangement rather than as album-cover costume. If you try this in a conversation, the workable version is a stated boundary, such as a hypothetical: \"Let's keep the eighties feel to the drum sound and leave the vocal cleaner.\""
+     },
+     {
+      "point": "Organize by the listener's clock, not by genre",
+      "detail": "On Life With John Mayer, the organizing principle is the listener's clock: a Friday night can differ from a morning, and the station's identity comes from the sequence he chooses across genres. The useful idea is that a set is a path through a day, not a filing cabinet. In a real conversation, that translates to guessing where the other person is in their day before deciding what to put on or what to bring up."
+     },
+     {
+      "point": "Let the process be the story",
+      "detail": "Across all four observations, the recurring subject is the making: a wrong note that starts a song, a decision two builders can hand off, a limit that keeps a reference honest, a sequence built around a clock. None of these depend on claims about his private life to be interesting. For a reader, the takeaway is that craft talk is a reliably safe and vivid way to engage with a public figure's work."
+     }
+    ],
+    "never": [
+     {
+      "point": "Don't use dating history as a lens",
+      "detail": "This page does not republish claims about the person's dating life, and the analyses here are built from the four documented observations only. If a conversation drifts toward who he dated, the neutral redirect is to the work itself, since nothing in the record above requires that material."
+     },
+     {
+      "point": "Don't infer motives behind decisions",
+      "detail": "When Mayer says he stopped a track at a certain point of eighties-ness, the observation is the stated limit, not a reason for it. A reader can note the limit as a craft choice without narrating why he wanted it. Say what was said and done, and mark any reading as yours."
+     },
+     {
+      "point": "Don't turn strong opinions into personality verdicts",
+      "detail": "A precise ear for vintage guitars or a preference for a certain amount of decade in a mix says something about the work, not about who someone is privately. The temptation to convert craft decisiveness into a character judgment is the error to avoid. If you catch yourself doing it aloud, the repair is to restate the observation in its narrow, factual form."
+     },
+     {
+      "point": "Don't invent quotes or paraphrase as if verbatim",
+      "detail": "The Berklee session, the Silver Sky development, the Guitar World talk and the Life With John Mayer format are documented; the sentences people wish he had said are not. When repeating any of this, signal clearly what is observation and what is your reading. A simple \"as reported\" or \"my read is\" keeps the line visible."
+     },
+     {
+      "point": "Don't diagnose the person",
+      "detail": "Nothing here supports claims about mental health, intimacy, sexuality or intention, and folding those in would be both unsupported and irrelevant to the craft material. The page's value is in what the documented actions show about making things. Keep the spotlight there."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "Name the mistake and keep moving",
+     "how_it_works": "Playing his own song after the students' and tying its origin to a wrong note during Grateful Dead practice shows how a finished maker treats an error as a thread to pull. The useful pattern is: misfire, notice, follow. For a reader in conversation, this looks like choosing one concrete slip and describing what it led to, rather than trading abstractions about perfectionism.",
+     "defense": "If someone turns your admitted mistake into a verdict on your competence, restate the scope: it was one note in one practice, and here is what changed after it. The example earns that reply, because the claim was about a specific misfire, not about you generally."
+    },
+    {
+     "name": "Convert a feeling into a specification",
+     "how_it_works": "The Silver Sky work with Paul Reed Smith meant encoding the feel of two vintage guitars into choices a second builder could reproduce. The power is in the handoff: the thing survives you because the description is detailed enough to act on. A reader can practice this by describing what they like in terms someone else could build or repeat, naming kept details and changed ones separately.",
+     "defense": "When a collaborator's version drifts, the specification gives you neutral ground: compare the output to the stated kept-and-changed list instead of arguing about taste. That keeps the disagreement about the plan both of you can see."
+    },
+    {
+     "name": "Set the reference limit out loud",
+     "how_it_works": "Describing how far a Sob Rock track would be allowed to suggest the 1980s, with Last Train Home as the test case, makes the decade a controlled ingredient in the arrangement. The move generalizes: state your ceiling before the borrowing starts, so the reference stays useful rather than costume. A reader's version might be, hypothetically, \"keep the retro feel to the drums and leave everything else modern.\"",
+     "defense": "If the discussion keeps sliding toward more pastiche, point back to the stated limit and the reason it was set: it stopped sounding convincing past that point. A boundary that was named in advance is easier to defend than one invented mid-argument."
+    },
+    {
+     "name": "Sequence for the listener's clock",
+     "how_it_works": "On Life With John Mayer, what he schedules for a Friday night can differ from the morning, and the station's identity is the sequence across genres. The pattern is designing for context instead of for categories: the same material lands differently at different hours. In conversation, that means asking where someone is in their day before proposing what to listen to or talk about.",
+     "defense": "If a choice that suited last night falls flat this morning, the clock explains it without blaming anyone: the sequence was built for a different hour. Rebuilding the order is a fix both people can share."
+    },
+    {
+     "name": "Make the process itself the contribution",
+     "how_it_works": "The Berklee session and the Silver Sky account both spend their time on making rather than on results, and that is what makes them portable to an outsider. The general move is to offer the workshop, not just the work: what you tried, what you kept, what you would repeat. A reader can do this by bringing one small making story to a conversation instead of a conclusion.",
+     "defense": "If process talk gets dismissed as inside baseball, ground it in one concrete choice and what it changed, and let the listener ask the next question. The documented material above is exactly that granular, which is what keeps it interesting."
+    }
+   ],
+   "leverage": [
+    {
+     "point": "Specificity makes teaching memorable",
+     "detail": "Six student songs, one dead-tune practice note, one illustration: the Berklee setting is remembered because the details are countable. In any conversation, the reader who brings a countable detail from their own work gets more traction than one who brings a slogan. The public figure's demonstration is the model; the application is the reader's choice."
+    },
+    {
+     "point": "A handoff-able description is durable leverage",
+     "detail": "The Silver Sky exists in the world partly because two builders could agree on what to keep and what to change. Leverage here is the described plan, not the personality doing the describing. A reader can build the same by writing down what matters before a collaboration begins."
+    },
+    {
+     "point": "Limits protect the effect",
+     "detail": "The Sob Rock limit, tested on Last Train Home, is the kind of constraint that keeps a strong flavor from overwhelming the dish. The leverage is that naming the ceiling in advance makes the reference defensible later. For a reader, that is one sentence of stated boundary, and a listener who can hear the difference."
+    },
+    {
+     "point": "Context beats catalog",
+     "detail": "Life With John Mayer is built around the listener's clock across genres, which means the order is doing work a list cannot. The leverage is attention to timing: the right thing at the wrong hour is the wrong thing. A reader can apply this directly by checking the moment before the material."
+    },
+    {
+     "point": "Craft talk is safe and vivid ground",
+     "detail": "All four documented observations stay on the making side, which is why they can be discussed warmly without speculative material. That is the leverage of this page: the reader gets vivid substance and a clean line between observation and interpretation. The choice to stay on that side in conversation is the reader's to make."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 51,
+     "rationale": "At Berklee, Mayer used the students\u2019 own songs and a mistake from his own practice to teach how an idea becomes music. The match rests on a teaching exchange, not on his lyrics."
+    },
+    "cousin": {
+     "number": 49,
+     "tell": "Ask yourself whether his feedback arrives with the language of 'you're learning' or 'your call.' If it's the former, you may be dealing with The Co-Builder; if it's the latter, with The Mentor \u2014 and if it's neither, listen for whether he ever really hands the decision over at all."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Teaches by letting people hear his process",
+     "observation": "At Berklee, Mayer listened to student songs and played one that began with a wrong note. Explaining the Silver Sky, he translated a familiar playing feel into choices another guitar builder could understand.",
+     "sources": [
+      {
+       "label": "Berklee \u00b7 The student songwriting session",
+       "url": "https://college.berklee.edu/news/john-mayer-shares-stage-student-songwriters"
+      },
+      {
+       "label": "PRS \u00b7 Designing the Silver Sky",
+       "url": "https://prsguitars.com/news/story/prs_guitars_announces_new_john_mayer_signature_model_the_silver_sky"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "Mayer makes an idea audible: he plays the mistake, compares the guitars and lets the listener hear a decision.",
+  "matches": [
+   {
+    "number": 51,
+    "why": "At Berklee, Mayer used the students\u2019 own songs and a mistake from his own practice to teach how an idea becomes music. The match rests on a teaching exchange, not on his lyrics."
+   }
+  ],
+  "photo_url": "/api/media/ef515c5c-4dac-4dbb-b109-8864b87fb4b7",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "Berklee \u00b7 The student songwriting session",
+    "url": "https://college.berklee.edu/news/john-mayer-shares-stage-student-songwriters"
+   },
+   {
+    "label": "PRS \u00b7 Designing the Silver Sky",
+    "url": "https://prsguitars.com/news/story/prs_guitars_announces_new_john_mayer_signature_model_the_silver_sky"
+   },
+   {
+    "label": "Guitar World \u00b7 Mayer on making Sob Rock",
+    "url": "https://www.guitarworld.com/features/john-mayer-sob-rock"
+   },
+   {
+    "label": "SiriusXM \u00b7 Life With John Mayer",
+    "url": "https://www.siriusxm.com/channels/life-with-john-mayer"
+   }
+  ]
+ },
+ "leonardo-dicaprio": {
+  "sections": {
+   "identity": "DiCaprio moves between the interviewer\u2019s chair and the podium, carrying questions from scientists to a wider audience.",
+   "matches": [
+    {
+     "number": 48,
+     "why": "DiCaprio sought an astronomer\u2019s help to explain science onscreen. At the Oscars, his story about a crew searching for snow made an abstract concern concrete for a different audience."
+    }
+   ],
+   "pattern": [
+    "DiCaprio's public use of his own job is the through-line. At the 2014 UN Climate Summit he introduced himself as an actor and drew a line between playing invented problems on screen and the climate problem in the room, using the limits of his profession to frame what he was asking leaders to do. The move is disarming rather than self-deprecating: he names what he cannot do so the request to people who can act lands cleanly.",
+    "He tends to build the frame before the argument. Accepting the Oscar for The Revenant, he moved from thanking collaborators to describing the crew's search for snow, and that production detail became the audience's concrete entry point to the climate appeal that closed the speech. A specific, shared experience does the work of a statistic here \u2014 it gives listeners something to stand on before the ask.",
+    "In Before the Flood he changed jobs: instead of delivering a speech, he put questions to people with very different kinds of authority, including Barack Obama and Pope Francis. The documentary format asked him to keep the subject steady while other voices explained what was at stake, which is a discipline of holding the thread rather than performing it.",
+    "He also treats expertise as something to be carried, not quoted. Before playing an astronomer in Don't Look Up, he repeatedly spoke with the film's science adviser, Amy Mainzer, and told Netflix those conversations helped him put the science into words as Randall Mindy. The expert's contribution reaches the audience through a fictional character \u2014 a relay rather than a citation."
+   ],
+   "communicates": {
+    "text": [
+     "Across these appearances, the recurring signal is that DiCaprio explains his own vantage point before making a claim. Naming the limits of acting or of a fictional role keeps the audience oriented, and it models a kind of public speech that says where the speaker stands rather than pretending to stand nowhere.",
+     "The second signal is relay. Whether through a crew anecdote, a documentary interview, or a science adviser behind a character, the substance often arrives through someone else's voice, and his job is to keep it intact. In a reader's own conversations, that might look like crediting the person who did the work, or saying plainly which part you observed and which part someone else told you."
+    ],
+    "examples": [
+     "Addressing the UN Climate Summit in 2014, DiCaprio introduced himself as an actor and distinguished playing invented problems on screen from the climate problem facing the delegates. He used the limits of his own profession to frame what he was asking leaders to do.",
+     "Accepting the Oscar for The Revenant, he moved from thanking collaborators to describing the crew\u2019s search for snow. That production detail gave the audience a concrete entry point to the climate appeal that closed his speech.",
+     "For Before the Flood, he put questions to people with very different kinds of authority, including Barack Obama and Pope Francis. The documentary gave him a different job from delivering a speech: keep the subject consistent while letting different people explain what was at stake.",
+     "Before playing an astronomer in Don\u2019t Look Up, DiCaprio repeatedly spoke with the film\u2019s science adviser, Amy Mainzer. He told Netflix those conversations helped him put the science into words as Randall Mindy. The expert\u2019s contribution reaches the audience through a fictional character."
+    ],
+    "example_sources": [
+     {
+      "label": "United Nations \u00b7 The Climate Summit address",
+      "url": "https://webtv.un.org/en/asset/k1o/k1o0v56tby"
+     },
+     {
+      "label": "Academy Awards \u00b7 The Revenant acceptance speech",
+      "url": "https://www.youtube.com/watch?v=xpyrefzvTpI"
+     },
+     {
+      "label": "National Geographic \u00b7 DiCaprio on Before the Flood",
+      "url": "https://www.nationalgeographic.com/magazine/article/3-questions-leonardo-dicaprio"
+     },
+     {
+      "label": "Netflix \u00b7 The cast discusses Don\u2019t Look Up",
+      "url": "https://about.netflix.com/en/news/dont-look-up-trailer-jennifer-lawrence-leonardo-dicaprio-adam-mckay"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "A reader who is curious but not ready to commit might ask, in an ordinary conversation, 'What part of this did you see yourself, and what part did someone tell you?' The question stays small and hands the other person room to answer.",
+    "invested": "A reader who wants to go further might name their own vantage point out loud before making a request \u2014 for example, 'I only know the small piece I watched; the person who knows the rest is my colleague.' That mirrors the move of framing what you can and cannot do before asking something of the listener.",
+    "done": "A reader who wants to close a thread might say, 'I've said what I saw; the expert's account is the one to rely on,' and then stop talking. Naming the limit of your own account and handing over the rest is a clear way to end a conversation without overclaiming."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Reframes his own profession as a limit, not a credential",
+      "detail": "At the 2014 UN Climate Summit he introduced himself as an actor and distinguished playing invented problems on screen from the climate problem facing the delegates. The move is disarming: he borrows the authority of the room but points out that his usual work is fiction. For a reader, this is the public equivalent of saying, 'I know my role here is small \u2014 here is the part that matters.'"
+     },
+     {
+      "point": "Moves from thanks to a concrete production detail",
+      "detail": "Accepting the Oscar for The Revenant, he shifted from thanking collaborators to describing the crew\u2019s search for snow. That specific, physical fact gave the audience an entry point before the climate appeal at the end. The pattern is to anchor an abstract ask in one visible image, so listeners have something to carry."
+     },
+     {
+      "point": "Lets other authorities carry the argument",
+      "detail": "For Before the Flood, he put questions to people with very different kinds of authority, including Barack Obama and Pope Francis. The documentary asked him to keep the subject steady while other voices explained what was at stake. This is a public form of hosting: the messenger stays consistent, but the evidence comes from varied sources."
+     },
+     {
+      "point": "Consults an expert before speaking as a character",
+      "detail": "Before playing an astronomer in Don\u2019t Look Up, DiCaprio repeatedly spoke with the film\u2019s science adviser, Amy Mainzer. He told Netflix those conversations helped him put the science into words as Randall Mindy. The expert\u2019s work reaches the audience through fiction, which is a way of preparing before speaking \u2014 not improvising authority."
+     },
+     {
+      "point": "Keeps the through-line visible across formats",
+      "detail": "Across a summit speech, an awards speech, a documentary, and a fiction film, the climate subject stays recognizable even as the job changes. The public pattern is continuity of topic with flexibility of role. A reader can borrow the idea of choosing one subject and letting different formats serve it."
+     }
+    ],
+    "never": [
+     {
+      "point": "Never lets the setting outrank the subject",
+      "detail": "Even at a UN summit or an Oscar podium, he returns the attention to the climate problem rather than the stage. The discipline is to treat the room as a tool, not the point. In conversation, that means not letting a formal setting turn the exchange into performance."
+     },
+     {
+      "point": "Never claims expertise he doesn\u2019t have",
+      "detail": "He names himself an actor and relies on advisers and interviewees for scientific authority. The restraint is visible: he asks, credits, and defers. For a reader, this models saying 'I\u2019m not the expert here \u2014 let me point you to one' rather than bluffing."
+     },
+     {
+      "point": "Never buries the ask in abstraction",
+      "detail": "The snow-search detail and the fictional astronomer both give the audience something concrete before the larger appeal. He does not open with a policy lecture. The habit is to start with a tangible image or scene, then widen."
+     },
+     {
+      "point": "Never lets gratitude replace the message",
+      "detail": "In the Oscar speech, thanks come first, but they are not the whole speech; they lead into a specific production memory and then a climate appeal. The pattern is to honor collaborators without letting the moment end there. A reader can note the difference between acknowledging help and stopping at it."
+     },
+     {
+      "point": "Never makes the messenger the story",
+      "detail": "In Before the Flood, he asks questions rather than supplying all the answers; in Don\u2019t Look Up, the expert\u2019s contribution reaches the audience through a character. The public figure stays a conduit. This is a useful contrast for readers who might be tempted to center themselves in a difficult conversation."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "The disarming frame",
+     "how_it_works": "He opens by naming his own limits \u2014 actor, invented problems \u2014 before making a request. That lowers the audience\u2019s guard and makes the later ask feel less like a celebrity lecture. In a conversation, a reader might say, hypothetically, 'I know I\u2019m not the expert on this, but here\u2019s what I\u2019ve seen.'",
+     "defense": "If someone uses self-deprecation to avoid substance, ask for the concrete point: 'That\u2019s fair \u2014 what would you want to happen next?' The defense is to accept the humility and still request the ask."
+    },
+    {
+     "name": "Concrete anchor first",
+     "how_it_works": "He gives the audience a physical detail \u2014 the crew searching for snow \u2014 before the climate appeal. The detail is easy to picture and gives the larger point somewhere to land. A reader can practice leading with one specific scene before a broad request.",
+     "defense": "When a vivid detail is used to skip the actual request, name the gap: 'I can picture that \u2014 and what are you asking me to do?' The defense keeps the image but restores the ask."
+    },
+    {
+     "name": "Borrowed authority, clearly credited",
+     "how_it_works": "He puts questions to Obama and Pope Francis and consults Amy Mainzer, then lets their expertise carry weight. The move works because the sources are named and the subject stays steady. A reader can borrow the structure: 'I asked someone who knows this better than I do, and here\u2019s what they said.'",
+     "defense": "If borrowed authority is vague or unnamed, ask, 'Who specifically said that, and in what context?' The defense is to request the source rather than dispute the messenger."
+    },
+    {
+     "name": "Role flexibility, subject continuity",
+     "how_it_works": "He can be host, speaker, or actor, but the climate subject remains recognizable across formats. The consistency makes each appearance reinforce the last. In a relationship conversation, a reader might keep one concern steady while changing the setting \u2014 a walk instead of a text, a calm moment instead of a crowd.",
+     "defense": "If flexibility becomes evasion, say, 'We keep changing the format \u2014 can we stay on the actual question?' The defense is to notice when the shape of the conversation keeps moving away from the point."
+    },
+    {
+     "name": "Preparation through experts",
+     "how_it_works": "Before playing an astronomer, he spoke repeatedly with a science adviser so the words would be credible. The preparation is invisible on screen but shapes what the audience hears. A reader can prepare for a hard conversation by checking one fact with someone who knows, rather than improvising.",
+     "defense": "If preparation turns into scripting every line, leave room for the other person: 'I checked this, but I want to hear your view too.' The defense is to use expertise as a door, not a wall."
+    }
+   ],
+   "leverage": [
+    {
+     "point": "A public platform can redirect attention",
+     "detail": "DiCaprio used a UN summit and an Oscar podium to point beyond himself. The leverage is not the stage but the redirection: the audience arrived for one reason and left with a subject. A reader can borrow the principle by using a moment when people are already listening to raise one concrete concern."
+    },
+    {
+     "point": "Naming your limits can build trust",
+     "detail": "Calling himself an actor who plays invented problems gave the summit audience a reason to keep listening. The limit is stated plainly, not performed as modesty. In a real conversation, admitting what you don\u2019t know can make the next sentence more credible."
+    },
+    {
+     "point": "Specific details travel further than abstractions",
+     "detail": "The crew\u2019s search for snow is the kind of detail an audience can repeat later. It does the work of a handle: easy to hold, easy to pass on. A reader can choose one concrete example when explaining a concern instead of a general complaint."
+    },
+    {
+     "point": "Crediting experts strengthens the messenger",
+     "detail": "By consulting Amy Mainzer and by interviewing Obama and Francis, he lets other authorities do part of the persuading. The credit does not diminish him; it gives the audience more than one reason to trust the subject. A reader can name a source explicitly rather than claiming the knowledge personally."
+    },
+    {
+     "point": "Consistency across roles makes the subject legible",
+     "detail": "The climate thread is recognizable whether he is speaking at the UN, accepting an award, hosting a documentary, or playing a character. That continuity is a form of reliability in public. In private, a reader can keep one concern steady across different conversations so the other person isn\u2019t left guessing what the point is."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 48,
+     "rationale": "DiCaprio sought an astronomer\u2019s help to explain science onscreen. At the Oscars, his story about a crew searching for snow made an abstract concern concrete for a different audience."
+    },
+    "cousin": {
+     "number": 56,
+     "tell": "Ask each to explain a plan twice. The Storyteller will add color, tension, or a punchline; The Translator will simplify and then ask you to say it back."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Moves between interviewing experts and addressing an audience",
+     "observation": "For Before the Flood, DiCaprio interviewed people including Barack Obama and Pope Francis. Preparing for Don\u2019t Look Up, he asked astronomer Amy Mainzer how to put the science into words on screen.",
+     "sources": [
+      {
+       "label": "National Geographic \u00b7 DiCaprio on Before the Flood",
+       "url": "https://www.nationalgeographic.com/magazine/article/3-questions-leonardo-dicaprio"
+      },
+      {
+       "label": "Netflix \u00b7 The cast discusses Don\u2019t Look Up",
+       "url": "https://about.netflix.com/en/news/dont-look-up-trailer-jennifer-lawrence-leonardo-dicaprio-adam-mckay"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "DiCaprio moves between the interviewer\u2019s chair and the podium, carrying questions from scientists to a wider audience.",
+  "matches": [
+   {
+    "number": 48,
+    "why": "DiCaprio sought an astronomer\u2019s help to explain science onscreen. At the Oscars, his story about a crew searching for snow made an abstract concern concrete for a different audience."
+   }
+  ],
+  "photo_url": "/api/media/da663e02-8e50-4ddf-a76d-1a8073730d29",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "United Nations \u00b7 The Climate Summit address",
+    "url": "https://webtv.un.org/en/asset/k1o/k1o0v56tby"
+   },
+   {
+    "label": "Academy Awards \u00b7 The Revenant acceptance speech",
+    "url": "https://www.youtube.com/watch?v=xpyrefzvTpI"
+   },
+   {
+    "label": "National Geographic \u00b7 DiCaprio on Before the Flood",
+    "url": "https://www.nationalgeographic.com/magazine/article/3-questions-leonardo-dicaprio"
+   },
+   {
+    "label": "Netflix \u00b7 The cast discusses Don\u2019t Look Up",
+    "url": "https://about.netflix.com/en/news/dont-look-up-trailer-jennifer-lawrence-leonardo-dicaprio-adam-mckay"
+   }
+  ]
+ },
+ "pete-davidson": {
+  "sections": {
+   "identity": "Davidson can tell the same audience a painful memory and an absurd joke, changing the distance by changing the scene.",
+   "matches": [
+    {
+     "number": 56,
+     "why": "Davidson used a childhood memory in his SNL opening and a fictional family in The King of Staten Island. Both are examples of choosing a scene to make a difficult subject approachable."
+    }
+   ],
+   "pattern": [
+    "Start with the family story: in the CBS conversation about The King of Staten Island, Davidson described how a fictional family let him revisit the loss of his firefighter father. That is a recognizable move \u2014 bringing a heavy personal subject into a public project while explicitly saying the scenes are not a transcript. This is a pattern of naming the source of the material and then handing it to the fiction to carry.",
+    "Watch how little he gives back in the SNL haunted-mansion sketch with Adele: Chad answers a dramatic ghost with barely a change of expression while his scene partner keeps raising the stakes. The comedy sits in the withholding, not in a big speech. It is a clean example of a performer who can hold a scene by staying still.",
+    "Bupkis is the next turn: Davidson plays a fictional Pete Davidson, with Edie Falco and Joe Pesci around him as mother and grandfather. Using the real name inside an invented frame invites the audience to notice the gap between performer and part. The structure itself is the statement \u2014 familiar actors, a familiar name, and a story that is openly not a documentary.",
+    "Finally, the October 2023 SNL opening: Davidson spoke straight to camera about grief and recalled his mother reaching for an Eddie Murphy recording to make him laugh. He used that small family memory to explain why a comedy show might still have something to offer. It is a public gesture, warm and specific, that turns personal recollection into an invitation rather than a confession."
+   ],
+   "communicates": {
+    "text": [
+     "Read together, these moments show a public figure working with personal material through frames he names out loud: a fictional family, a sketch where his character barely reacts, a fictional version of himself surrounded by actors. The through-line is craft and distance, not disclosure \u2014 the audience is told where the story started and where invention takes over.",
+     "That pattern also suggests how to hear him: take the documented framing seriously and leave the rest of the person alone. He tells you what he is willing to explain on camera, and the gaps are not puzzles for a stranger to solve. The useful response is to enjoy the work and not convert an onstage origin story into access."
+    ],
+    "examples": [
+     "Discussing The King of Staten Island with CBS, Davidson explained that a fictional family let him revisit the loss of his firefighter father. He could talk about where the story started without asking viewers to treat every scene as autobiography.",
+     "In SNL\u2019s haunted-mansion sketch with Adele, Davidson\u2019s Chad answers a dramatic ghost with barely a change of expression. The joke depends on how little he gives back while his scene partner keeps raising the stakes.",
+     "Bupkis casts Davidson as a fictional Pete Davidson, with Edie Falco and Joe Pesci playing his mother and grandfather. Putting familiar actors around a character who uses his real name invites the audience to notice the gap between the performer and the part.",
+     "Opening SNL in October 2023, Davidson spoke straight to the camera about grief and recalled his mother reaching for an Eddie Murphy recording to make him laugh. He let that small family memory explain why a comedy show might still have something to offer."
+    ],
+    "example_sources": [
+     {
+      "label": "CBS \u00b7 Davidson on The King of Staten Island",
+      "url": "https://www.cbsnews.com/news/pete-davidson-says-making-the-king-of-staten-island-has-been-cleansing-for-him/"
+     },
+     {
+      "label": "Saturday Night Live \u00b7 Chad in a Haunted Mansion",
+      "url": "https://www.youtube.com/watch?v=msaapeDvV5Y"
+     },
+     {
+      "label": "Peacock \u00b7 Introducing Bupkis",
+      "url": "https://www.peacocktv.com/blog/stream-the-new-peacock-original-bupkis-may-4"
+     },
+     {
+      "label": "Saturday Night Live \u00b7 October 2023 cold open",
+      "url": "https://www.youtube.com/watch?v=FqGs93VPuZw"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "You have watched the SNL haunted-mansion sketch and noticed how much the joke depends on Chad's flat expression beside Adele's escalation. The curiosity is about the craft of restraint \u2014 how a performer can hold a scene by giving less, not more.",
+    "invested": "You have looked at more than the sketches: the CBS conversation about The King of Staten Island and the Bupkis setup with Falco and Pesci. You are tracking the recurring method of using named fictions to carry personal material, and you can point to each documented example.",
+    "done": "You have seen enough of the public record and do not need to analyze the gap between performer and part any further. The work is there to watch or skip; the private life is not part of the question."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Ties fiction to a real loss without making the audience do the grieving",
+      "detail": "Talking with CBS about The King of Staten Island, Davidson described how a fictional family let him revisit the loss of his firefighter father. The move is to name the source and then hand the story over to the fiction, so a viewer can meet the film as a film. He could say where it started without asking anyone to treat every scene as autobiography."
+     },
+     {
+      "point": "Plays the low reactor so the other performer has room to climb",
+      "detail": "In SNL's haunted-mansion sketch with Adele, his Chad answers a dramatic ghost with barely a change of expression. The humor comes from how little he gives back while his scene partner keeps raising the stakes. Holding still is a choice, and it makes the partner's effort visible instead of competing with it."
+     },
+     {
+      "point": "Uses a shared name to make the gap between performer and part audible",
+      "detail": "Bupkis casts Davidson as a fictional Pete Davidson, with Edie Falco and Joe Pesci as his mother and grandfather. Putting familiar actors around a character who carries his real name invites the audience to notice the distance between the performer and the part. The casting sets the frame; the show does not ask anyone to mistake the character for the man."
+     },
+     {
+      "point": "Lets a small family memory carry a large public moment",
+      "detail": "Opening SNL in October 2023, Davidson spoke straight to the camera about grief and recalled his mother reaching for an Eddie Murphy recording to make him laugh. He used that one concrete memory, not a thesis, to explain why a comedy show might still have something to offer. The specificity does the work; the audience can draw the larger point themselves."
+     },
+     {
+      "point": "Repeats the pattern across formats so the terms stay legible",
+      "detail": "Across an interview, a sketch, a series, and a monologue, the same habit appears: name the personal source, then route it through a form that others can watch. Because the forms differ, a reader can see the move as a method rather than a single anecdote. The repetition is what makes it readable as a way of handling attention."
+     }
+    ],
+    "never": [
+     {
+      "point": "Treat a performance as a confession",
+      "detail": "A scene built around a character with his name is still a scene. Reading every line as a report from the performer's life skips the writing, the cast, and the edit, and it turns a shared craft into a private disclosure. The documented facts describe the project, not the man's interior."
+     },
+     {
+      "point": "Use a grief story to diagnose the teller",
+      "detail": "Davidson can describe a fictional family helping him revisit his father's death without that being a clinical account. A reader can notice the craft of that interview without assigning a condition, a diagnosis, or a hidden motive. Admiring the handling is not the same as explaining the person."
+     },
+     {
+      "point": "Invent offstage relationships from onstage material",
+      "detail": "The sketches and monologues involve scene partners and family memories, but they do not document dating life, friendships, or intentions. Fill those gaps and you are writing fan fiction in an evidence column. The page stays with what was said on camera and on the record."
+     },
+     {
+      "point": "Mistake a deadpan choice for a flat person",
+      "detail": "The Chad sketch works because the performer withholds a reaction on purpose. Concluding from that choice that the real person is cold, detached, or uninterested confuses a comedic tool with a temperament. A reader can enjoy the restraint without turning it into a character reference."
+     },
+     {
+      "point": "Cite a vibe as a source",
+      "detail": "No invented quotes, no reconstructed interviews, no 'sources say' where the record is silent. If a claim about Davidson cannot be traced to the CBS conversation, the sketches, Bupkis, or the October 2023 monologue, it does not belong on the page. Warmth in the writing is fine; warm speculation is not evidence."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "Name the source, then pass the story to the form",
+     "how_it_works": "Davidson told CBS that a fictional family let him revisit his father's loss, then let The King of Staten Island stand as its own story. The disclosure frames the work without demanding that viewers audit each scene against his life. The audience gets a doorway in and a clear exit back to the film.",
+     "defense": "If someone starts reading every plot beat as biography, you can say: 'He said the fiction gave him room; that does not make the script a diary.' Or, hypothetically, 'Let's talk about what the movie does, not what it proves about him.'"
+    },
+    {
+     "name": "Hold the reaction so the other person can play",
+     "how_it_works": "In the haunted-mansion sketch, Chad's near-blank reply lets Adele's escalating ghost performance carry the comedy. The restraint is generous: it makes the partner's choices legible instead of stepping on them. The scene gets funnier because one side refuses to compete.",
+     "defense": "When a quiet answer reads as disinterest, name the structure: 'In that sketch, the stillness is the setup; she's the punchline.' Hypothetically: 'I noticed he barely reacts on purpose, so she can go big.'"
+    },
+    {
+     "name": "Borrow a familiar name to expose the seam",
+     "how_it_works": "Bupkis gives the character Davidson's own name and surrounds him with Edie Falco and Joe Pesci as family. The familiar cast and the real name make the audience feel the gap between performer and part. The show turns that gap into part of the viewing experience rather than hiding it.",
+     "defense": "If a viewer treats the series as a documentary, you can point to the casting: 'That's Falco playing his mother, not a home video.' Or, hypothetically, 'The name is the joke and the frame; it's still a written part.'"
+    },
+    {
+     "name": "Build a big moment on one small memory",
+     "how_it_works": "Opening SNL in October 2023, Davidson talked to camera about grief and recalled his mother reaching for an Eddie Murphy recording to make him laugh. That single image does the persuading; he does not need to argue that comedy heals. The specificity makes the point land without a lecture.",
+     "defense": "If someone generalizes the monologue into a theory of healing, bring it back: 'He told one story about his mother and a record; that's the evidence.' Hypothetically: 'I liked the small detail, not a claim about everyone's grief.'"
+    },
+    {
+     "name": "Repeat the pattern across formats so it reads as method",
+     "how_it_works": "The same route, personal source into a shared form, shows up in an interview, a sketch, a series, and a monologue. Different formats let a reader compare the move instead of leaning on one clip. The consistency is what makes it look deliberate rather than accidental.",
+     "defense": "If one example feels thin, pair it with another: 'Watch the CBS talk next to the monologue; same move, different room.' Or, hypothetically, 'The pattern is across projects, not a claim about his private life.'"
+    }
+   ],
+   "leverage": [
+    {
+     "point": "A named source beats a guessed motive",
+     "detail": "The CBS conversation, the sketches, Bupkis, and the 2023 monologue are on the record; the reasons behind them are not. A reader who stays with the documented material can make a strong observation without pretending to know the man. The discipline is what keeps the page useful."
+    },
+    {
+     "point": "Specificity is the load-bearing wall",
+     "detail": "A mother reaching for an Eddie Murphy recording is more persuasive than any thesis about comedy and grief. Davidson's monologue works because the detail is small enough to picture. A reader can borrow that lesson: one concrete image carries more than three abstract claims."
+    },
+    {
+     "point": "Restraint can be a gift to the other person in the scene",
+     "detail": "Chad's flat response in the haunted-mansion sketch makes Adele's performance the event. In a real conversation, leaving space for the other person to finish a thought can do the same work. The reader can choose that move without needing to be a comedian."
+    },
+    {
+     "point": "The frame does part of the telling",
+     "detail": "Bupkis uses the real name and familiar actors to make the audience aware of the fiction. That is a craft decision about how information reaches a viewer. A reader can note how framing shapes what people assume, and ask before assuming."
+    },
+    {
+     "point": "Questions for the reader replace claims about the subject",
+     "detail": "Is the reader interested in the craft of the monologue, invested in tracing the pattern across projects, or done with the topic and ready to move on? Those are distinctions about attention to public work, not guesses about Davidson's private life. Letting a reader answer for themselves keeps the page honest and still useful."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 56,
+     "rationale": "Davidson used a childhood memory in his SNL opening and a fictional family in The King of Staten Island. Both are examples of choosing a scene to make a difficult subject approachable."
+    },
+    "cousin": {
+     "number": 52,
+     "tell": "Ask: 'Is this a scene you saw, or a scene you're making up to explain something?' If he can name it as his own construction and then say the actual ask, it's the Storyteller pattern. If he insists the scene is simply what happened and resists the direct version, the picture may be doing too much work."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Places a personal memory inside a joke or a fictional scene",
+     "observation": "Davidson explained to CBS how The King of Staten Island reworked family experience as fiction. In his October 2023 SNL opening, he spoke directly to viewers about a comedy recording his mother played after his father died.",
+     "sources": [
+      {
+       "label": "CBS \u00b7 Davidson on The King of Staten Island",
+       "url": "https://www.cbsnews.com/news/pete-davidson-says-making-the-king-of-staten-island-has-been-cleansing-for-him/"
+      },
+      {
+       "label": "Saturday Night Live \u00b7 October 2023 cold open",
+       "url": "https://www.youtube.com/watch?v=FqGs93VPuZw"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "Davidson can tell the same audience a painful memory and an absurd joke, changing the distance by changing the scene.",
+  "matches": [
+   {
+    "number": 56,
+    "why": "Davidson used a childhood memory in his SNL opening and a fictional family in The King of Staten Island. Both are examples of choosing a scene to make a difficult subject approachable."
+   }
+  ],
+  "photo_url": "/api/media/7ab38318-2ced-4ec2-91a5-01eec356ed5f",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "CBS \u00b7 Davidson on The King of Staten Island",
+    "url": "https://www.cbsnews.com/news/pete-davidson-says-making-the-king-of-staten-island-has-been-cleansing-for-him/"
+   },
+   {
+    "label": "Saturday Night Live \u00b7 Chad in a Haunted Mansion",
+    "url": "https://www.youtube.com/watch?v=msaapeDvV5Y"
+   },
+   {
+    "label": "Peacock \u00b7 Introducing Bupkis",
+    "url": "https://www.peacocktv.com/blog/stream-the-new-peacock-original-bupkis-may-4"
+   },
+   {
+    "label": "Saturday Night Live \u00b7 October 2023 cold open",
+    "url": "https://www.youtube.com/watch?v=FqGs93VPuZw"
+   }
+  ]
+ },
+ "travis-kelce": {
+  "sections": {
+   "identity": "Kelce gives a teammate room to improvise while making the timing of the shared play clear.",
+   "matches": [
+    {
+     "number": 51,
+     "why": "At Tight End University, Kelce gave Cole Kmet two constraints and the freedom to choose his route. What Kmet could do for himself afterward is the reason for the Mentor comparison."
+    }
+   ],
+   "pattern": [
+    "At Tight End University in 2021, Kelce gave Cole Kmet room to improvise on a route but attached two conditions: keep the quarterback\u2019s timing and arrive where the ball is supposed to go. The freedom was real, and so were the guardrails. Kmet later singled out that distinction as the coaching point he carried away.",
+    "Hosting Saturday Night Live in 2023, Kelce opened his monologue by bringing up his own dating show, Catching Kelce, and handed a comedy audience an easy laugh at his expense. He didn\u2019t wait for the room to find the joke; he offered it first. The move put the crowd on his side before he asked anything of them.",
+    "After the televised sideline confrontation with Andy Reid at Super Bowl LVIII, Kelce addressed it on New Heights. He acknowledged that he had crossed a line with his coach and gave listeners his own assessment of an incident they had already watched. He didn\u2019t leave the account to the highlight reel alone.",
+    "When New Heights returned to the University of Cincinnati in 2024, Travis and Jason hosted a live audience and welcomed Bengals quarterback Joe Burrow. A Chiefs player could share a stage with a rival because, for that evening, his job was to host the conversation. The setting, not the rivalry, set the terms."
+   ],
+   "communicates": {
+    "text": [
+     "Read together, the four moments show a public figure who pairs room to move with clear boundaries, gets ahead of an awkward story by naming it himself, and lets a role define the terms of an encounter. The through-line is structure: conditions on the field, a self-aware joke in the monologue, a direct accounting on the podcast, a hosted stage with a rival. None of it requires guessing at private motives; the actions themselves are the signal.",
+     "For a reader, the useful translation is to borrow the shape, not the person. In a conversation, you can offer someone latitude and still say what has to stay intact, or name a sore subject before someone else does. What Kelce did in public is his; what you choose to try in your own relationships is yours, and the two don\u2019t need to match."
+    ],
+    "examples": [
+     "At Tight End University in 2021, Kelce gave Cole Kmet room to improvise on a route, with two conditions: keep the quarterback\u2019s timing and arrive where the ball is supposed to go. Kmet later identified that distinction as the coaching point he took away.",
+     "Hosting Saturday Night Live in 2023, Kelce brought up his own dating show, Catching Kelce, in the monologue. The athlete introduced himself to a comedy audience by handing them an easy laugh at his expense.",
+     "After his televised sideline confrontation with Andy Reid at Super Bowl LVIII, Kelce addressed it on New Heights. He acknowledged that he had crossed a line with his coach, giving listeners his assessment of the incident they had already seen.",
+     "Bringing New Heights back to the University of Cincinnati in 2024, Travis and Jason hosted a live audience and welcomed Bengals quarterback Joe Burrow. A Chiefs player could share a stage with a rival because, for that evening, his job was to host the conversation."
+    ],
+    "example_sources": [
+     {
+      "label": "Chicago Bears \u00b7 What Cole Kmet learned",
+      "url": "https://www.chicagobears.com/news/kmet-benefits-from-attending-tight-end-university-training-camp-2021"
+     },
+     {
+      "label": "NFL \u00b7 Kelce hosts Saturday Night Live",
+      "url": "https://www.nfl.com/news/chiefs-tight-end-travis-kelce-catches-the-comedy-bug-hosts-saturday-night-live"
+     },
+     {
+      "label": "NFL \u00b7 Kelce addresses the Reid incident",
+      "url": "https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii"
+     },
+     {
+      "label": "University of Cincinnati \u00b7 The live New Heights show",
+      "url": "https://www.uc.edu/news/articles/2024/04/jason-and-travis-kelce-take-cincinnati-to-new-heights.html"
+     }
+    ]
+   },
+   "spectrum": {
+    "interested": "In public projects, interested looks like paying attention from the outside: you notice how a host sets conditions, how a monologue gets ahead of a joke, how a podcast addresses a visible moment. You might say, hypothetically, \u201cI noticed how he framed that\u2014what did you make of it?\u201d to open a conversation without claiming insight into the person.",
+    "invested": "Invested means you\u2019re trying the shape in your own conversations: you give someone room and state the two things that must hold, or you raise a sore subject first. A hypothetical line: \u201cYou can change the approach, as long as we keep the timing and end up where we agreed.\u201d The point is practice, not imitation.",
+    "done": "Done is knowing when a public moment has been addressed and the conversation can close. If a subject has already been named and assessed out loud, you can say, hypothetically, \u201cThat\u2019s been covered\u2014let\u2019s leave it there,\u201d rather than re-litigating it. The boundary is yours to set, and it doesn\u2019t depend on what the public figure does next."
+   },
+   "handling": {
+    "works": [
+     {
+      "point": "Give room inside boundaries.",
+      "detail": "At Tight End University in 2021, Kelce let Cole Kmet improvise on a route while holding two conditions: keep the quarterback\u2019s timing and arrive where the ball is supposed to go. The freedom was real, but it came wrapped around a non-negotiable frame. In a conversation, you can borrow the shape: name the two things that must stay true, then let the other person choose the path."
+     },
+     {
+      "point": "Name the constraint before the freedom.",
+      "detail": "Kmet later singled out that distinction\u2014improvisation with timing and destination intact\u2014as the coaching point he took away. The lesson lands because the limits were stated first, not discovered after a mistake. If you want someone to feel trusted, say the two anchors out loud before you hand over the room."
+     },
+     {
+      "point": "Introduce yourself through a known story.",
+      "detail": "Hosting Saturday Night Live in 2023, Kelce brought up his own dating show, Catching Kelce, in the monologue. He handed a comedy audience an easy laugh at his expense rather than asking them to guess who he was. A reader can use the same move in a new group: offer one self-aware detail that shows you know how you might look, then let the conversation move on."
+     },
+     {
+      "point": "Return to a public moment on your own terms.",
+      "detail": "After the televised sideline confrontation with Andy Reid at Super Bowl LVIII, Kelce addressed it on New Heights. He acknowledged that he had crossed a line with his coach, giving listeners his assessment of an incident they had already seen. The move works because he did not wait for the story to be told entirely about him, and he did not pretend the cameras missed it. In a real conversation, you can say, hypothetically, \u201cI know you saw that; here is what I think happened,\u201d without demanding absolution."
+     },
+     {
+      "point": "Let the role carry the room.",
+      "detail": "Bringing New Heights back to the University of Cincinnati in 2024, Travis and Jason hosted a live audience and welcomed Bengals quarterback Joe Burrow. A Chiefs player could share a stage with a rival because, for that evening, his job was to host the conversation. The handling is situational: the role, not the rivalry, set the tone. A reader can do something similar by naming the job of the moment\u2014\u201ctonight I\u2019m hosting, not debating\u201d\u2014so the other person knows which hat is on."
+     }
+    ],
+    "never": [
+     {
+      "point": "Do not perform the private story as public proof.",
+      "detail": "The documented SNL monologue used a past television show, not a current private relationship, as the material. Treating a partner\u2019s private life as a ready-made anecdote puts them in a audience they did not choose. Keep the easy laugh aimed at your own public mishaps, not at someone who has not agreed to be part of the bit."
+     },
+     {
+      "point": "Do not let a camera substitute for a conversation.",
+      "detail": "Kelce addressed the sideline incident on New Heights after it had already been televised. The public explanation was a second step, not a replacement for speaking with the coach directly. A reader should not assume that posting, podcasting, or narrating a conflict to friends counts as repairing it with the person involved."
+     },
+     {
+      "point": "Do not confuse a shared stage with a resolved rivalry.",
+      "detail": "The Cincinnati live show put a Chiefs player and a Bengals quarterback on the same stage because the job that evening was hosting. That is a working truce around a defined task, not evidence that every difference disappeared. In a conversation, a temporary role can make a tense room usable, but do not mistake the truce for a settlement."
+     },
+     {
+      "point": "Do not coach by ambush.",
+      "detail": "The Tight End University detail works because the conditions were clear enough for Kmet to name them afterward. If you give someone room to improvise but only reveal the non-negotiables after they fail, you have set a trap, not a boundary. State the frame before the freedom, or the freedom is not real."
+     },
+     {
+      "point": "Do not make the apology a bid for the last word.",
+      "detail": "Acknowledging a crossed line, as Kelce did on New Heights, gives your account of the incident. It does not entitle you to decide when the other person is finished with it. A reader can say, hypothetically, \u201cThat\u2019s my side; I\u2019m not asking you to be done,\u201d and then leave room for a response that is not a performance."
+     }
+    ]
+   },
+   "power_moves": [
+    {
+     "name": "The two-anchor handoff",
+     "how_it_works": "You name the two things that cannot move\u2014timing and destination, in Kelce\u2019s Tight End University example\u2014and then hand over the route. The other person gets real room to improvise, but they are not guessing what success looks like. It works because the constraint is a gift of clarity, not a leash.",
+     "defense": "If someone gives you room but keeps the anchors vague, ask before you move: \u201cWhat are the two things that have to stay true?\u201d That turns a possible setup into a shared frame."
+    },
+    {
+     "name": "The self-aware entrance",
+     "how_it_works": "Kelce\u2019s SNL monologue brought up Catching Kelce so the audience could laugh with him rather than at a stranger. You offer one known, low-stakes detail about how you might be perceived, and the room relaxes. The move works when the detail is yours to give and does not draft someone else into the punchline.",
+     "defense": "When someone opens with a self-deprecating story, you can enjoy it without treating it as an invitation to pile on. Say, hypothetically, \u201cThat\u2019s a good one\u2014what else should I know?\u201d and let them keep the controls."
+    },
+    {
+     "name": "The second telling",
+     "how_it_works": "After the Super Bowl sideline moment, Kelce used New Heights to give his own account and acknowledge crossing a line with Andy Reid. The move takes the already-public incident and puts a frame around it instead of letting the clip be the whole story. It works because it adds ownership, not a denial that the cameras were there.",
+     "defense": "If someone narrates a public conflict before you have spoken privately, you can say, hypothetically, \u201cI heard your version\u2014can we talk about it just us?\u201d That keeps the second telling from becoming the only telling."
+    },
+    {
+     "name": "The host hat",
+     "how_it_works": "At the Cincinnati live show, Kelce and his brother welcomed Joe Burrow, a rival quarterback, because the evening\u2019s job was hosting. The role creates a temporary truce: competition is real, but it is not the task on stage. You can use the same move in a tense room by naming the job out loud before anyone settles into their usual corner.",
+     "defense": "If someone puts on a host hat to smooth a room, you can cooperate with the role without pretending the rivalry is gone. Say, hypothetically, \u201cI\u2019m here to do the job tonight; we can pick the rest up later.\u201d"
+    },
+    {
+     "name": "The line named, not hidden",
+     "how_it_works": "Kelce\u2019s public acknowledgment that he crossed a line with his coach works because it names the boundary instead of leaving it for others to infer. Named lines are easier to respect and harder to quietly move. The move is not a confession of everything; it is a clear marker of where the trouble was.",
+     "defense": "When someone names a line they crossed, you can acknowledge the marker without awarding them the outcome. Say, hypothetically, \u201cI hear that you see the line; I\u2019m still deciding what I need.\u201d"
+    }
+   ],
+   "leverage": [
+    {
+     "point": "Timing is leverage.",
+     "detail": "In the Tight End University example, the quarterback\u2019s timing was one of the two conditions Kelce set. A route can be creative, but if it breaks the timing, the play fails. In a conversation, timing works the same way: the content can be flexible, but when it lands still matters."
+    },
+    {
+     "point": "Destination is leverage.",
+     "detail": "The second condition was arriving where the ball is supposed to go. Improvisation without a destination is just motion. If you are asking for room in a conversation, name the outcome you are trying to reach so the other person can tell whether the freedom is productive or just drift."
+    },
+    {
+     "point": "The public record is leverage\u2014and a limit.",
+     "detail": "Kelce addressed the sideline incident on New Heights after it had been televised, which means the audience already had a version. Speaking to a public moment gives you a chance to shape the account, but it also means you are not the only source. A reader can use the same awareness: if a disagreement has already been witnessed, acknowledge the shared record before offering your read."
+    },
+    {
+     "point": "The role is leverage.",
+     "detail": "Hosting the Cincinnati live show gave Kelce and his brother a defined job that made a rival\u2019s presence workable. The role is a kind of leverage because it tells everyone what the moment is for. In a real conversation, naming the role\u2014\u201cI\u2019m asking as a colleague,\u201d or \u201cI\u2019m saying this as a host\u201d\u2014changes what the other person hears."
+    },
+    {
+     "point": "Self-aware material is leverage.",
+     "detail": "Bringing up Catching Kelce in the SNL monologue gave Kelce a way to meet a new audience on his own terms. The material was his to offer, and it lowered the cost of introduction. A reader can borrow the principle by choosing one true, low-stakes thing to disclose early, rather than letting the room assemble a story without them."
+    }
+   ],
+   "map": {
+    "closest": {
+     "number": 51,
+     "rationale": "At Tight End University, Kelce gave Cole Kmet two constraints and the freedom to choose his route. What Kmet could do for himself afterward is the reason for the Mentor comparison."
+    },
+    "cousin": {
+     "number": 49,
+     "tell": "Ask yourself whether his feedback arrives with the language of 'you're learning' or 'your call.' If it's the former, you may be dealing with The Co-Builder; if it's the latter, with The Mentor \u2014 and if it's neither, listen for whether he ever really hands the decision over at all."
+    },
+    "secondary": [],
+    "basis": {
+     "style": "Makes room to improvise within an agreed plan",
+     "observation": "Cole Kmet could repeat Kelce\u2019s route-running advice after Tight End University: choose your own path while keeping the quarterback\u2019s timing and destination. Kelce also publicly acknowledged on New Heights where he had crossed a line with his coach.",
+     "sources": [
+      {
+       "label": "Chicago Bears \u00b7 What Cole Kmet learned",
+       "url": "https://www.chicagobears.com/news/kmet-benefits-from-attending-tight-end-university-training-camp-2021"
+      },
+      {
+       "label": "NFL \u00b7 Kelce addresses the Reid incident",
+       "url": "https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii"
+      }
+     ]
+    }
+   },
+   "v": 2
+  },
+  "identity": "Kelce gives a teammate room to improvise while making the timing of the shared play clear.",
+  "matches": [
+   {
+    "number": 51,
+    "why": "At Tight End University, Kelce gave Cole Kmet two constraints and the freedom to choose his route. What Kmet could do for himself afterward is the reason for the Mentor comparison."
+   }
+  ],
+  "photo_url": "/api/media/eeb44086-0ec8-4414-9934-92d1ee88d417",
+  "photo_credit": "Photo: Wikimedia Commons",
+  "sources": [
+   {
+    "label": "Chicago Bears \u00b7 What Cole Kmet learned",
+    "url": "https://www.chicagobears.com/news/kmet-benefits-from-attending-tight-end-university-training-camp-2021"
+   },
+   {
+    "label": "NFL \u00b7 Kelce hosts Saturday Night Live",
+    "url": "https://www.nfl.com/news/chiefs-tight-end-travis-kelce-catches-the-comedy-bug-hosts-saturday-night-live"
+   },
+   {
+    "label": "NFL \u00b7 Kelce addresses the Reid incident",
+    "url": "https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii"
+   },
+   {
+    "label": "University of Cincinnati \u00b7 The live New Heights show",
+    "url": "https://www.uc.edu/news/articles/2024/04/jason-and-travis-kelce-take-cincinnati-to-new-heights.html"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2108 @@
+package:
+  name: openssl-4.0
+  version: 4.0.3
+  epoch: 8
+  description: the OpenSSL cryptography suite
+  annotations:
+    toolchain-stream: "true"
+    toolchain-stream-pkgs: openssl-4.0-dev
+  commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+  copyright:
+    - license: Apache-2.0
+  dependencies:
+    provides:
+      - openssl=4.0.3-r8
+  cpe:
+    vendor: openssl
+    product: openssl
+  resources:
+    cpu: "9"
+    memory: 7Gi
+  test-resources:
+    cpu: "3"
+    memory: 4Gi
+environment:
+  contents:
+    build_repositories:
+      - https://apk.cgr.dev/chainguard
+    packages:
+      - binutils=2.47-r1
+      - brotli-dev=1.2.0-r6
+      - brotli=1.2.0-r6
+      - build-base=1-r10
+      - busybox=1.38.0-r3
+      - ca-certificates-bundle=20260909-r2
+      - cyrus-sasl-heimdal-libs=2.1.28-r58
+      - gcc=16.2.0-r1
+      - gdbm=1.26-r7
+      - git=2.56.0-r2
+      - glibc-2.44-dev=2.44-r8
+      - glibc-2.44-locale-posix=2.44-r8
+      - glibc-2.44=2.44-r8
+      - gmp=6.3.0-r10
+      - heimdal-libs=7.8.0-r54
+      - isl=0.28-r4
+      - keyutils-libs=1.6.3-r41
+      - krb5-conf=1.0-r10
+      - krb5-libs=1.22.2-r5
+      - ld-linux-2.44=2.44-r8
+      - libatomic=16.2.0-r1
+      - libbrotlicommon1=1.2.0-r6
+      - libbrotlidec1=1.2.0-r6
+      - libbrotlienc1=1.2.0-r6
+      - libbz2-1=1.0.8-r25
+      - libcom_err=1.47.4-r3
+      - libcrypt1-2.44=2.44-r8
+      - libcurl-openssl4=8.23.0-r0
+      - libexpat1=2.9.0-r0
+      - libgcc=16.2.0-r1
+      - libgomp=16.2.0-r1
+      - libidn2=2.3.8-r10
+      - libldap-2.7=2.7.1-r2
+      - libnghttp2-14=1.70.0-r5
+      - libpcre2-8-0=10.49-r1
+      - libpsl=0.23.3-r2
+      - libquadmath=16.2.0-r1
+      - libstdc++-dev=16.2.0-r1
+      - libstdc++=16.2.0-r1
+      - libunistring=1.5-r0
+      - libverto=0.3.2-r9
+      - libxcrypt-dev=4.5.2-r6
+      - libxcrypt=4.5.2-r6
+      - libzstd1=1.5.7-r10
+      - linux-headers=7.3-r0
+      - make=4.4.1-r15
+      - mpc=1.4.1-r1
+      - mpfr=4.2.2-r3
+      - ncurses-terminfo-base=6.6.20261017-r0
+      - ncurses=6.6.20261017-r0
+      - nghttp3=1.18.0-r1
+      - ngtcp2=1.25.0-r5
+      - openssf-compiler-options=20250904-r11
+      - openssl-4.0-libcrypto=4.0.3-r7
+      - openssl-4.0-libssl=4.0.3-r7
+      - openssl-provider-legacy-allowed=4.0.3-r1
+      - patch=2.8-r10
+      - perl=5.44.0-r1
+      - pkgconf=3.0.10-r0
+      - posix-cc-wrappers=2-r10
+      - readline=8.3-r3
+      - scanelf=1.3.11-r3
+      - sqlite-libs=3.54.1-r0
+      - wolfi-baselayout=20230201-r30
+      - zlib=1.3.2.1_rc20260921-r0
+  accounts:
+    run-as: ""
+    users:
+      - username: build
+        uid: 1000
+        gid: 1000
+        shell: ""
+        homedir: /home/build
+    groups:
+      - groupname: build
+        gid: 1000
+        members:
+          - build
+  archs:
+    - amd64
+  environment:
+    CFLAGS: -g -ffile-prefix-map=/home/build=/usr/src/openssl-4.0
+    COMPOSER_CACHE_DIR: /var/cache/melange/composer
+    GOFLAGS: ""
+    GOMODCACHE: /var/cache/melange/gomodcache
+    GOPATH: /home/build/.cache/go
+    GOTOOLCHAIN: local
+    HOME: /home/build
+    PIP_CACHE_DIR: /var/cache/melange/pip
+    PYTHONHASHSEED: "0"
+    RUST_LOG: uv=debug,info
+    UV_CACHE_DIR: /var/cache/melange/uv
+    UV_LINK_MODE: copy
+    UV_PYTHON_DOWNLOADS: never
+    npm_config_cache: /var/cache/melange/npm
+    npm_config_git: /usr/bin/git
+    npm_config_ignore_scripts: "true"
+    npm_config_script_shell: /bin/sh
+    npm_config_shell: /bin/sh
+pipeline:
+  - uses: git-checkout
+    with:
+      cherry-picks: |
+        openssl-4.0/7c7b9684f868c5c0de74bdd34ce07b0fe739631d: fix regression in x509 app
+      expected-commit: af1775b60dfa141a4ad762585052cabeb9f37e9e
+      repository: https://github.com/openssl/openssl
+      tag: openssl-4.0.3
+    pipeline:
+      - runs: |
+          #!/bin/sh
+          set -eu
+          msg() { echo "[git checkout]" "$@"; }
+          fail() {
+          	msg FAIL "$@"
+          	exit 1
+          }
+          vr() {
+          	msg "execute:" "$@"
+          	"$@"
+          }
+          retry_with_backoff() {
+          	local max_retries=$1
+          	local initial_backoff=$2
+          	local max_backoff=$3
+          	shift 3
+          	local attempt=0
+          	local backoff=$initial_backoff
+
+          	while [ $attempt -le "$max_retries" ]; do
+          		if [ $attempt -gt 0 ]; then
+          			msg "Retry attempt $attempt/$max_retries after ${backoff}s backoff..."
+          		fi
+
+          		if "$@"; then
+          			return 0
+          		fi
+
+          		attempt=$((attempt + 1))
+          		if [ $attempt -gt "$max_retries" ]; then
+          			msg "All $max_retries retry attempts exhausted"
+          			return 1
+          		fi
+
+          		local jitter=0
+          		if [ -n "$RANDOM" ]; then
+          			jitter=$((RANDOM % (backoff + 1)))
+          		else
+
+          			jitter=$((($$ * attempt) % (backoff + 1)))
+          		fi
+
+          		local sleep_time=$((backoff + jitter))
+          		msg "Waiting ${sleep_time}s before retry (backoff: ${backoff}s, jitter: ${jitter}s)..."
+          		sleep $sleep_time
+
+          		backoff=$((backoff * 2))
+          		if [ $backoff -gt "$max_backoff" ]; then
+          			backoff=$max_backoff
+          		fi
+          	done
+
+          	return 1
+          }
+          process_cherry_picks() {
+          	local cpicksf="$1" count=0
+          	local fetched_branches=""
+          	local sdate=${SOURCE_DATE_EPOCH:-0}
+          	if [ "$sdate" -lt 315532800 ]; then
+          		msg "Setting commit date to Jan 1, 1980 (SOURCE_DATE_EPOCH found ${SOURCE_DATE_EPOCH:-(not set)})"
+          		sdate=315532800
+          	fi
+          	if [ -z "$cpicksf" ]; then
+          		return 0
+          	fi
+          	if [ ! -f "$cpicksf" ]; then
+          		msg "cherry picks input '$cpicksf' is not a file"
+          		return 1
+          	fi
+
+          	local line="" branch="" hash="" comment="" unshallow_arg is_shallow
+          	while IFS= read -r line; do
+
+          		line=${line%%#*}
+          		[ -z "$line" ] && continue
+
+          		if ! echo "$line" | grep -q ':'; then
+          			msg "Invalid format, expected '[branch/]commit: comment'. Found: $line"
+          			return 1
+          		fi
+
+          		branch=${line%%:*}
+          		comment=${line#*:}
+
+          		comment=$(
+          			set -f
+          			echo $comment
+          		)
+
+          		if [ -z "$comment" ]; then
+          			msg "Empty comment for cherry-pick: $line"
+          			return 1
+          		fi
+
+          		hash=${branch##*/}
+
+          		[ "$branch" != "$hash" ] && branch=${branch%/*} || branch=""
+
+          		unshallow_arg=""
+          		is_shallow=$(git rev-parse --is-shallow-repository)
+          		if [ "$is_shallow" = "true" ]; then
+          			unshallow_arg="--unshallow"
+          		fi
+
+          		if [ -n "$branch" ]; then
+          			case " $fetched_branches " in
+          			*" $branch "*) ;;
+          			*)
+          				vr git fetch $unshallow_arg origin "$branch:$branch" || {
+          					msg "failed to fetch branch $branch"
+          					return 1
+          				}
+          				fetched_branches="$fetched_branches $branch "
+          				;;
+          			esac
+          		fi
+
+          		vr env \
+          			GIT_COMMITTER_DATE="@$sdate" \
+          			git cherry-pick -x "$hash" || {
+          			msg "failed to cherry-pick $hash from branch $branch"
+          			return 1
+          		}
+
+          		msg "Cherry-picked $hash from $branch with comment: $comment"
+
+          		count=$((count + 1))
+          	done <"$cpicksf"
+
+          	if [ $count -gt 0 ]; then
+          		msg "applied $count cherry-pick(s). head is now $(git rev-parse HEAD)"
+          	fi
+          }
+          main() {
+          	local repo=$1 dest=${2:-.} depth=${3:-"unset"} branch=$4
+          	local tag=$5 expcommit=$6 recurse=${7:-false}
+          	local cherry_pick="$8" sparse_paths="$9"
+          	local max_retries="${10:-3}" initial_backoff="${11:-2}" max_backoff="${12:-60}"
+          	local shallow_submodules="${13:-false}" submodule_jobs="${14:-1}"
+          	local expected_commit_is_branch_tip="${15:-false}"
+          	msg "repo='$repo' dest='$dest' depth='$depth' branch='$branch'" \
+          		"tag='$tag' expcommit='$expcommit' recurse='$recurse'" \
+          		"sparse_paths='$sparse_paths' max_retries='$max_retries'" \
+          		"initial_backoff='$initial_backoff' max_backoff='$max_backoff'" \
+          		"shallow_submodules='$shallow_submodules' submodule_jobs='$submodule_jobs'" \
+          		"expected_commit_is_branch_tip='$expected_commit_is_branch_tip'"
+
+          	case "$recurse" in
+          	true | false) : ;;
+          	*) fail "recurse must be true or false, not '$recurse'" ;;
+          	esac
+          	case "$shallow_submodules" in
+          	true | false) : ;;
+          	*) fail "shallow_submodules must be true or false, not '$shallow_submodules'" ;;
+          	esac
+          	case "$expected_commit_is_branch_tip" in
+          	true | false) : ;;
+          	*) fail "expected-commit-is-branch-tip must be true or false," \
+          		"not '$expected_commit_is_branch_tip'" ;;
+          	esac
+
+          	[ -n "$repo" ] || fail "repository not provided"
+
+          	if [ -z "$branch" ] && [ -z "$tag" ]; then
+          		msg "Warning: you have not specified a branch or tag."
+          	elif [ -n "$branch" ] && [ -n "$tag" ]; then
+          		fail "both branch ($branch) and tag ($tag) are specified."
+          	fi
+
+          	if [ "$expected_commit_is_branch_tip" = "true" ]; then
+          		[ -z "$tag" ] ||
+          			fail "expected-commit-is-branch-tip is only valid with" \
+          				"'branch', not 'tag'."
+          		[ -n "$branch" ] ||
+          			fail "expected-commit-is-branch-tip requires 'branch' to be set."
+          		[ -n "$expcommit" ] ||
+          			fail "expected-commit-is-branch-tip requires 'expected-commit'" \
+          				"to be set."
+          	fi
+
+          	[ -n "$expcommit" ] ||
+          		msg "Warning: no expected-commit"
+
+          	local flags="" depthflag="" dest_fullpath="" workdir=""
+          	local remote="origin" rcfile="" rc="" quiet="--quiet"
+          	flags="--config=advice.detachedHead=false"
+          	[ -n "$branch" ] && flags="$flags --branch=$branch"
+          	[ -n "$tag" ] && flags="$flags --branch=$tag"
+          	if [ "$recurse" = "true" ]; then
+          		flags="$flags --recurse-submodules --jobs=$submodule_jobs"
+          		[ "$shallow_submodules" = "true" ] && flags="$flags --shallow-submodules"
+          	fi
+          	[ -n "$sparse_paths" ] && flags="$flags --sparse --filter=blob:none"
+
+          	if [ "$depth" = "unset" ]; then
+          		depth=1
+          		if [ -n "$branch" ] && [ -n "$expcommit" ] &&
+          			[ "$expected_commit_is_branch_tip" = "false" ]; then
+
+          			depth=-1
+          		fi
+          	fi
+
+          	[ "$depth" = "-1" ] || depthflag="--depth=$depth"
+
+          	workdir=$(mktemp -d)
+          	rcfile=$(mktemp)
+          	mkdir -p "$dest"
+          	dest_fullpath=$(realpath "$dest")
+
+          	vr git config --global --add safe.directory "$workdir"
+          	vr git config --global --add safe.directory "$dest_fullpath"
+
+          	vr git config --global maintenance.auto false
+          	vr git config --global gc.auto 0
+
+          	msg "Attempting git clone with retry (max_retries=$max_retries, initial_backoff=${initial_backoff}s, max_backoff=${max_backoff}s)"
+
+          	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+          		git clone $quiet "--origin=$remote" \
+          		"--config=user.name=Melange Build" \
+          		"--config=user.email=melange-build@cgr.dev" \
+          		$flags \
+          		${depthflag:+"${depthflag}"} "$repo" "$workdir" ||
+          		fail "git clone failed after $max_retries retries"
+
+          	msg "cloned from $(cd "$workdir" && git remote get-url origin)"
+
+          	vr cd "$workdir"
+
+          	if [ -n "$sparse_paths" ]; then
+          		msg "Configuring sparse-checkout with paths: $sparse_paths"
+
+          		vr git sparse-checkout set --cone $sparse_paths ||
+          			fail "failed to configure sparse-checkout --filter=blob:none"
+          	fi
+
+          	msg "tar -c . | tar -C \"$dest_fullpath\" -x"
+          	(
+          		tar -c .
+          		echo $? >"$rcfile"
+          	) | tar -C "$dest_fullpath" -x --no-same-owner
+
+          	read rc <"$rcfile" || fail "failed to read rc file"
+          	[ "$rc" -eq 0 ] || fail "tar creation in $workdir failed"
+
+          	rm -rf "$workdir"
+          	vr cd "$dest_fullpath"
+          	vr git config --global --add safe.directory "$dest_fullpath"
+
+          	local foundcommit="" tagobj=""
+          	if [ -z "$tag" ]; then
+          		foundcommit=$(git rev-parse --verify HEAD)
+          		if [ -n "$expcommit" ] && [ "$expcommit" != "$foundcommit" ]; then
+          			if [ "$expected_commit_is_branch_tip" = "true" ]; then
+
+          				fail "expected-commit $expcommit is not the tip of branch" \
+          					"${branch:-HEAD} ($foundcommit); the branch advanced" \
+          					"or the version was bumped without updating" \
+          					"expected-commit"
+          			elif [ "$depth" = "-1" ]; then
+
+          				if git merge-base --is-ancestor "$expcommit" "$foundcommit"; then
+          					msg "expected commit $expcommit on ${branch:-HEAD}," \
+          						"got $foundcommit, performing reset"
+          					vr git reset --hard "$expcommit"
+          				else
+          					fail "expected commit $expcommit is not reachable from" \
+          						"${branch:-HEAD} (tip $foundcommit); the branch may" \
+          						"have diverged from the pinned commit -- update" \
+          						"expected-commit"
+          				fi
+          			else
+          				fail "expected commit $expcommit on ${branch:-HEAD}," \
+          					"got $foundcommit, set depth to -1 to attempt a reset"
+          			fi
+          		fi
+          		msg "tip of ${branch:-HEAD} is commit $foundcommit"
+          		process_cherry_picks "$cherry_pick" || fail "failed to apply cherry-pick"
+          		return 0
+          	fi
+
+          	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+          		vr git fetch $quiet $remote ${depthflag:+"${depthflag}"} --no-tags \
+          		"+refs/tags/$tag:refs/$remote/tags/$tag" ||
+          		fail "git fetch of tag $tag failed after $max_retries retries"
+          	vr git checkout $quiet "$remote/tags/$tag"
+
+          	foundcommit=$(git rev-parse --verify HEAD)
+          	if [ -z "$expcommit" ] || [ "$expcommit" = "$foundcommit" ]; then
+          		msg "tag $tag is $foundcommit"
+          	else
+
+          		tagobj=$(git rev-parse --verify --end-of-options \
+          			"refs/$remote/tags/$tag")
+          		if [ "$expcommit" != "$tagobj" ]; then
+          			[ "$tagobj" != "$expcommit" ] &&
+          				msg "tag object hash was $tagobj"
+          			fail "Expected commit $expcommit for $tag, found $foundcommit"
+          		fi
+
+          		msg "Warning: The provided expected-commit ($expcommit)"
+          		msg "was the hash of the annotated tag object for $tag."
+          		msg "Update to set expected-commit to $foundcommit"
+          	fi
+
+          	process_cherry_picks "$cherry_pick" ||
+          		fail "failed to apply cherry-pick"
+
+          	return 0
+          }
+          cpickf=$(mktemp) || {
+          	echo "failed mktemp"
+          	exit 1
+          }
+          cat >"$cpickf" <<"END_CHERRY_PICKS"
+          openssl-4.0/7c7b9684f868c5c0de74bdd34ce07b0fe739631d: fix regression in x509 app
+
+          END_CHERRY_PICKS
+          main \
+          	"https://github.com/openssl/openssl" "." \
+          	"unset" "" \
+          	"openssl-4.0.3" "af1775b60dfa141a4ad762585052cabeb9f37e9e" \
+          	"false" "$cpickf" \
+          	"" \
+          	"3" "2" \
+          	"60" \
+          	"false" "1" \
+          	"false"
+          rm -f "$cpickf"
+  - uses: patch
+    with:
+      patches: |
+        0001-fips-block-HMAC-calculation-with-unapproved-digests.patch
+        0001-fips-retain-FIPS-140-2-TLSv1.2-connectivity.patch
+        0001-Remove-pre-share-from-default-TLS-groups.patch
+        0001-Look-for-providers-in-ossl-modules-4-before-ossl-mod.patch
+        0001-Revert-fips-Align-PKCS5_PBKDF2_HMAC-defaults-with-EV.patch
+        0001-Chainguard-Cryptographic-Hardening.patch
+    pipeline:
+      - runs: |
+          strip_components=$(
+          	cat <<'MELANGE_STRIP_EOF'
+          1
+          MELANGE_STRIP_EOF
+          )
+          strip_components=$(printf '%s' "$strip_components" | sed 's/^[[:space:]]*//' | tr -d '\n')
+          fuzz=$(
+          	cat <<'MELANGE_FUZZ_EOF'
+          2
+          MELANGE_FUZZ_EOF
+          )
+          fuzz=$(printf '%s' "$fuzz" | sed 's/^[[:space:]]*//' | tr -d '\n')
+          case "$strip_components" in
+          '' | *[!0-9]*)
+          	printf 'ERROR: strip-components must be a non-negative integer, got: %s\n' "$strip_components" >&2
+          	exit 1
+          	;;
+          esac
+          case "$fuzz" in
+          '' | *[!0-9]*)
+          	printf 'ERROR: fuzz must be a non-negative integer, got: %s\n' "$fuzz" >&2
+          	exit 1
+          	;;
+          esac
+          series=$(
+          	cat <<'MELANGE_SERIES_EOF'
+
+          MELANGE_SERIES_EOF
+          )
+          series=$(printf '%s' "$series" | sed 's/^[[:space:]]*//' | tr -d '\n')
+          case "$series" in
+          *"'"* | *'`'* | *'$('* | *'${'* | *';'* | *'|'* | *'&'* | *'>'* | *'<'*)
+          	printf 'ERROR: series path contains invalid characters\n' >&2
+          	exit 1
+          	;;
+          esac
+          if [ -z "$series" ]; then
+          	patches_input=$(
+          		cat <<'MELANGE_PATCHES_EOF'
+          0001-fips-block-HMAC-calculation-with-unapproved-digests.patch
+          0001-fips-retain-FIPS-140-2-TLSv1.2-connectivity.patch
+          0001-Remove-pre-share-from-default-TLS-groups.patch
+          0001-Look-for-providers-in-ossl-modules-4-before-ossl-mod.patch
+          0001-Revert-fips-Align-PKCS5_PBKDF2_HMAC-defaults-with-EV.patch
+          0001-Chainguard-Cryptographic-Hardening.patch
+
+          MELANGE_PATCHES_EOF
+          	)
+          	patches_input=$(printf '%s' "$patches_input" | sed 's/^[[:space:]]*//')
+          	if [ -n "$patches_input" ]; then
+          		series=$(mktemp)
+          		printf '%s\n' "$patches_input" | awk '{ for(i = 1; i <= NF; i++) { print $i; } }' >"$series"
+          	else
+          		printf 'ERROR: Neither patches or series was set.\n' >&2
+          		exit 1
+          	fi
+          else
+
+          	if [ ! -f "$series" ]; then
+          		printf 'ERROR: series file does not exist: %s\n' "$series" >&2
+          		exit 1
+          	fi
+          fi
+          grep -v -E '^(#|$)' "$series" | while IFS= read -r patchfile || [ -n "$patchfile" ]; do
+
+          	case "$patchfile" in
+          	*"'"* | *'`'* | *'$('* | *'${'* | *';'* | *'|'* | *'&'* | *'>'* | *'<'*)
+          		printf 'ERROR: patch file path contains invalid characters: %s\n' "$patchfile" >&2
+          		exit 1
+          		;;
+          	esac
+          	printf 'applying patch file %s\n' "$patchfile"
+          	patch "-p${strip_components}" "--fuzz=${fuzz}" --verbose <"$patchfile"
+          done
+  - name: Configure and build
+    runs: |
+      perl ./Configure \
+      	--prefix=/usr \
+      	--libdir=lib \
+      	--openssldir=/etc/ssl \
+      	enable-brotli \
+      	enable-ec_nistp_64_gcc_128 \
+      	enable-ktls \
+      	enable-pie \
+      	no-aria \
+      	enable-bf \
+      	enable-camellia \
+      	enable-cast \
+      	no-dtls1 \
+      	no-ec_explicit_curves \
+      	no-ec2m \
+      	no-gost \
+      	no-idea \
+      	no-integrity-only-ciphers \
+      	no-mdc2 \
+      	enable-ocb \
+      	enable-psk \
+      	no-pvkkdf \
+      	enable-rc2 \
+      	enable-rc4 \
+      	enable-rc5 \
+      	enable-rmd160 \
+      	no-seed \
+      	no-sm2 \
+      	no-sm2-precomp \
+      	enable-sm3 \
+      	no-sm4 \
+      	enable-srp \
+      	no-tls1 \
+      	no-tls1_1 \
+      	no-weak-ssl-ciphers \
+      	no-whirlpool \
+      	-Wa,--noexecstack
+      perl configdata.pm --dump
+      make build_all_generated
+      SRCDIR=$(mktemp -d)
+      cp -r . $SRCDIR/
+      mkdir -p /home/build/melange-out/openssl-4.0-dbg/usr/src/
+      mv $SRCDIR /home/build/melange-out/openssl-4.0-dbg/usr/src/openssl-4.0
+      chmod 755 /home/build/melange-out/openssl-4.0-dbg/usr/src/openssl-4.0
+      make -j$(nproc)
+  - uses: autoconf/make-install
+    pipeline:
+      - runs: |
+          make -C "." install DESTDIR="/home/build/melange-out/openssl-4.0" V=1
+      - runs: |
+          find /home/build/melange-out/openssl-4.0 -name '*.la' -print -exec rm \{} \;
+  - name: Run full tests, without Chainguard Cryptographic Hardening patches
+    runs: |
+      patch -p1 -R <0001-Chainguard-Cryptographic-Hardening.patch
+      patch -p1 -R <0001-Remove-pre-share-from-default-TLS-groups.patch
+      make tests HARNESS_JOBS=10
+  - runs: |
+      rm /home/build/melange-out/openssl-4.0/etc/ssl/openssl.cnf
+      rm /home/build/melange-out/openssl-4.0/etc/ssl/openssl.cnf.dist
+      rm /home/build/melange-out/openssl-4.0/etc/ssl/ct_log_list.cnf
+      rm /home/build/melange-out/openssl-4.0/etc/ssl/ct_log_list.cnf.dist
+      rm /home/build/melange-out/openssl-4.0/usr/lib/ossl-modules/legacy.so
+subpackages:
+  - name: openssl-4.0-dbg
+    pipeline:
+      - uses: split/debug
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/openssl-4.0"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/openssl-4.0-dbg" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              mkdir -p "$PACKAGE_DIR/.dbg-tmp"
+              scanelf -Ry "$PACKAGE_DIR"/* | while read type src; do
+              	if [ "$type" != ET_DYN ]; then
+              		continue
+              	fi
+              	dst=/home/build/melange-out/openssl-4.0-dbg/usr/lib/debug/${src#"$PACKAGE_DIR"/}.debug
+              	mkdir -p "${dst%/*}"
+              	ino=$(stat -c %i "$src")
+              	if ! [ -e "$PACKAGE_DIR/.dbg-tmp/$ino" ]; then
+              		tmp=$PACKAGE_DIR/.dbg-tmp/${src##*/}
+              		objcopy --only-keep-debug "$src" "$dst"
+              		objcopy --add-gnu-debuglink="$dst" --strip-unneeded -R .comment "$src" "$tmp"
+
+              		cat "$tmp" >"$src"
+              		rm "$tmp"
+              		ln "$dst" "$PACKAGE_DIR/.dbg-tmp/$ino"
+              	fi
+              done
+              rm -r "$PACKAGE_DIR/.dbg-tmp"
+    dependencies:
+      runtime:
+        - openssl-4.0=4.0.3-r8
+        - openssl-4.0-libcrypto=4.0.3-r8
+        - openssl-4.0-libssl=4.0.3-r8
+      provides:
+        - openssl-dbg=4.0.3-r8
+    description: OpenSSL debug symbols
+    commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+    test:
+      environment:
+        contents:
+          packages:
+            - gdb
+            - openssl-4.0-dbg
+            - openssl-4.0=4.0.3-r8
+            - package-type-check
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/debugpackage
+          pipeline:
+            - name: Check if the package is a Debug Package
+              runs: |
+                package-type-check debug "openssl-4.0-dbg"
+        - name: Test gdb usage
+          runs: |
+            cat <<EOF >openssl.gdb
+            set pagination off
+            set logging file gdb.log
+            set logging enabled on
+            set width 0
+            set height 0
+            set verbose on
+            set breakpoint pending on
+            break syscall_random
+            commands 1
+              continue
+            end
+            run rand -hex 8
+            EOF
+            gdb --batch --command ./openssl.gdb openssl
+            grep -q 'Breakpoint 1,' gdb.log || exit 1
+  - name: openssl-4.0-doc
+    pipeline:
+      - uses: split/manpages
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/openssl-4.0"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/openssl-4.0-doc" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              case "false" in
+              true | false) ;;
+              *)
+              	echo "ERROR: preserve-path must be \"true\" or \"false\", got \"false\"" >&2
+              	exit 1
+              	;;
+              esac
+              merge_tree() {
+              	local src="$1" dst="$2" entry name
+              	mkdir -p "$dst"
+              	for entry in "$src"/* "$src"/.[!.]* "$src"/..?*; do
+
+              		[ -e "$entry" ] || [ -L "$entry" ] || continue
+              		name="${entry##*/}"
+
+              		if [ -d "$entry" ] && [ ! -L "$entry" ]; then
+              			if [ -d "$dst/$name" ] && [ ! -L "$dst/$name" ]; then
+              				merge_tree "$entry" "$dst/$name"
+              				rmdir "$entry"
+              			elif [ -e "$dst/$name" ] || [ -L "$dst/$name" ]; then
+              				echo "ERROR: cannot merge $entry into $dst/$name: destination exists and is not a directory" >&2
+              				exit 1
+              			else
+              				mv "$entry" "$dst/$name"
+              			fi
+              		elif [ -e "$dst/$name" ] || [ -L "$dst/$name" ]; then
+              			echo "ERROR: $name is present in more than one man root; refusing to overwrite $dst/$name" >&2
+              			exit 1
+              		else
+              			mv "$entry" "$dst/$name"
+              		fi
+              	done
+              }
+              split_root() {
+              	local root="$1" dest="$2"
+
+              	if [ -L "$PACKAGE_DIR/$root" ]; then
+              		echo "ERROR: $root is a symlink to a directory; name its target in paths instead" >&2
+              		exit 1
+              	fi
+
+              	if [ -z "$(ls -A "$PACKAGE_DIR/$root")" ]; then
+              		echo "ERROR: $root exists but contains no files; the install step did not put manuals there" >&2
+              		exit 1
+              	fi
+
+              	if [ -e "$dest" ] || [ -L "$dest" ]; then
+              		merge_tree "$PACKAGE_DIR/$root" "$dest"
+              	else
+
+              		mkdir -p "$(dirname "$dest")"
+              		mv "$PACKAGE_DIR/$root" "$dest"
+              	fi
+
+              	if [ -d "$PACKAGE_DIR/$root" ]; then
+              		rmdir --parents --ignore-fail-on-non-empty "$PACKAGE_DIR/$root"
+              	else
+              		rmdir --parents --ignore-fail-on-non-empty "$(dirname "$PACKAGE_DIR/$root")"
+              	fi
+              }
+              for root in usr/share/man usr/local/share/man usr/man; do
+              	[ -d "$PACKAGE_DIR/$root" ] || continue
+              	split_root "$root" "/home/build/melange-out/openssl-4.0-doc/usr/share/man"
+              done
+              paths=""
+              set -f
+              extra=""
+              for root in $paths; do
+              	case "$root" in
+              	/*)
+              		echo "ERROR: paths entry \"$root\" must be relative to the package root" >&2
+              		exit 1
+              		;;
+              	.. | ../* | */.. | */../*)
+
+              		echo "ERROR: paths entry \"$root\" must not contain a \"..\" component" >&2
+              		exit 1
+              		;;
+              	. | ./* | */. | */./*)
+
+              		echo "ERROR: paths entry \"$root\" must not contain a \".\" component" >&2
+              		exit 1
+              		;;
+              	*[\*\?\[]*)
+              		echo "ERROR: paths entry \"$root\" must not contain a glob pattern; name each directory" >&2
+              		exit 1
+              		;;
+              	esac
+              	extra="$extra $root"
+              done
+              set +f
+              for root in $extra; do
+
+              	if [ ! -d "$PACKAGE_DIR/$root" ]; then
+              		echo "ERROR: paths entry \"$root\" does not exist in the package" >&2
+              		exit 1
+              	fi
+
+              	if [ "false" = "true" ]; then
+
+              		split_root "$root" "/home/build/melange-out/openssl-4.0-doc/$root"
+              	else
+              		split_root "$root" "/home/build/melange-out/openssl-4.0-doc/usr/share/man"
+              	fi
+              done
+      - runs: |
+          mv "/home/build/melange-out/openssl-4.0"/usr/share/doc "/home/build/melange-out/openssl-4.0-doc"/usr/share
+    dependencies:
+      provides:
+        - openssl-doc=4.0.3-r8
+    description: OpenSSL documentation
+    commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+    test:
+      environment:
+        contents:
+          packages:
+            - openssl-4.0-doc
+            - package-type-check
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/docs
+          pipeline:
+            - name: Check if the package is a Documentation Package
+              runs: |
+                package-type-check docs "openssl-4.0-doc" \
+                	--path-prefix "usr/share"
+  - name: openssl-4.0-dev
+    pipeline:
+      - uses: split/dev
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/openssl-4.0"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/openssl-4.0-dev" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              cd "$PACKAGE_DIR" || exit 0
+              prefix="/usr"
+              while [ "${prefix#/}" != "$prefix" ]; do
+              	prefix="${prefix#/}"
+              done
+              libdirs="${prefix}/"
+              if [ "${prefix%%/*}" = "usr" ] && [ -d lib/ ]; then
+
+              	libdirs="lib/ $libdirs"
+              fi
+              for i in "${prefix}"/include "${prefix}"/lib/pkgconfig "${prefix}"/share/pkgconfig \
+              	"${prefix}"/share/aclocal "${prefix}"/share/gettext \
+              	"${prefix}"/bin/*-config "${prefix}"/bin/*_config "${prefix}"/share/vala/vapi \
+              	"${prefix}"/share/gir-[0-9]* "${prefix}"/share/qt*/mkspecs \
+              	"${prefix}"/lib/qt*/mkspecs \
+              	"${prefix}"/lib/cmake "${prefix}"/share/cmake \
+              	"${prefix}"/lib/glade/modules "${prefix}"/share/glade/catalogs \
+              	$(find . -name include -type d) \
+              	$(find $libdirs -name '*.a' 2>/dev/null) \
+              	$(find $libdirs -name '*.[cho]' \
+              		-o -name '*.prl' 2>/dev/null); do
+              	if [ -e "$PACKAGE_DIR/$i" ] || [ -L "$PACKAGE_DIR/$i" ]; then
+              		d="/home/build/melange-out/openssl-4.0-dev/${i%/*}"
+              		mkdir -p "$d"
+              		mv "$PACKAGE_DIR/$i" "$d"
+              		rmdir "$PACKAGE_DIR/${i%/*}" 2>/dev/null || :
+              	fi
+              done
+              sodirs="$prefix/lib"
+              case "$prefix" in
+              usr)
+              	sodirs="lib $sodirs"
+              	;;
+              */usr)
+              	sodirs="${prefix%/*}/lib $sodirs"
+              	;;
+              esac
+              for sodir in $sodirs; do
+              	for i in "$sodir"/*.so; do
+              		if [ -L "$i" ]; then
+              			mkdir -p "/home/build/melange-out/openssl-4.0-dev"/"${i%/*}"
+              			mv "$i" "/home/build/melange-out/openssl-4.0-dev/$i" || return 1
+              		fi
+              	done
+              done
+    dependencies:
+      provides:
+        - openssl-dev=4.0.3-r8
+    description: OpenSSL headers
+    commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+    test:
+      environment:
+        contents:
+          packages:
+            - ldd-check
+            - openssl-4.0-dev
+            - package-type-check
+            - pkgconf
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/devpackage
+          pipeline:
+            - name: Check if the package is a Dev Package
+              runs: |
+                package-type-check dev "openssl-4.0-dev" \
+                	--prefix "/usr"
+        - uses: test/pkgconf
+          pipeline:
+            - name: pkgconf build dependency check
+              runs: |
+                dev_pkg=$(basename /home/build/melange-out/openssl-4.0-dev)
+                cd /
+                pc_files=false
+                for pc_file in $(apk info -L "$dev_pkg" 2>/dev/null | grep "\.pc$"); do
+                	pc_files=true
+
+                	if grep -q "^Name:" $pc_file; then
+                		lib_name=$(basename "$pc_file" ".pc")
+
+                		pc_paths="/usr/lib/pkgconfig /usr/share/pkgconfig"
+                		if [ -n "$PKG_CONFIG_PATH" ]; then
+
+                			for path in $(echo "$PKG_CONFIG_PATH" | tr ':' ' '); do
+                				pc_paths="$pc_paths $path"
+                			done
+                		fi
+                		found=false
+                		for path in $pc_paths; do
+                			[ -e "${path}/${lib_name}.pc" ] || continue
+                			found=true
+                			break
+                		done
+                		if [ "$found" = "false" ]; then
+                			echo "Error: $pc_file not in valid pkgconfig paths" && exit 1
+                		fi
+
+                		pkgconf --exists $lib_name || pkgconf --print-errors --exists $lib_name
+
+                		if grep -q "^Version:" $pc_file; then
+                			pkgconf --modversion $lib_name
+                		fi
+
+                		if grep -q "^Libs:" $pc_file; then
+                			pkgconf --libs $lib_name
+                		fi
+
+                		if grep -q "^Cflags:" $pc_file; then
+                			pkgconf --cflags $lib_name
+                		fi
+                	fi
+                done
+                if [ $pc_files = "false" ]; then
+                	echo "No .pc files found in $dev_pkg please remove the pkgconf test"
+                fi
+        - uses: test/tw/ldd-check
+          pipeline:
+            - name: check for missing library dependencies using ldd
+              runs: |
+                ldd-check \
+                	--files="" \
+                	--exclude-files="" \
+                	--packages="openssl-4.0-dev" \
+                	--extra-library-paths="" \
+                	--verbose="false"
+  - name: openssl-4.0-libcrypto
+    pipeline:
+      - runs: |
+          mkdir -p "/home/build/melange-out/openssl-4.0-libcrypto"/usr/lib
+          mv "/home/build/melange-out/openssl-4.0"/usr/lib/libcrypto.so.* "/home/build/melange-out/openssl-4.0-libcrypto"/usr/lib
+          mkdir -p "/home/build/melange-out/openssl-4.0-libcrypto"/etc/ssl
+          cp openssl.cnf ca.cnf /home/build/melange-out/openssl-4.0-libcrypto/etc/ssl/
+    dependencies:
+      runtime:
+        - openssl-provider-legacy-allowed
+      replaces:
+        - libcrypto3
+    description: OpenSSL libcrypto library
+    commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+    test:
+      environment:
+        contents:
+          packages:
+            - ldd-check
+            - openssl-4.0-libcrypto
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/ldd-check
+          pipeline:
+            - name: check for missing library dependencies using ldd
+              runs: |
+                ldd-check \
+                	--files="" \
+                	--exclude-files="" \
+                	--packages="openssl-4.0-libcrypto" \
+                	--extra-library-paths="" \
+                	--verbose="false"
+  - name: openssl-4.0-libssl
+    pipeline:
+      - runs: |
+          mkdir -p "/home/build/melange-out/openssl-4.0-libssl"/usr/lib
+          mv "/home/build/melange-out/openssl-4.0"/usr/lib/libssl.so.* "/home/build/melange-out/openssl-4.0-libssl"/usr/lib
+    description: OpenSSL libssl library
+    commit: 53fb2f6751f832fa61ddba06cb8a40dbba5f409f
+    test:
+      environment:
+        contents:
+          packages:
+            - ldd-check
+            - openssl-4.0-libssl
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/ldd-check
+          pipeline:
+            - name: check for missing library dependencies using ldd
+              runs: |
+                ldd-check \
+                	--files="" \
+                	--exclude-files="" \
+                	--packages="openssl-4.0-libssl" \
+                	--extra-library-paths="" \
+                	--verbose="false"
+update:
+  enabled: true
+  manual: false
+  require-sequential: false
+  github:
+    identifier: openssl/openssl
+    strip-prefix: openssl-
+    tag-filter-prefix: openssl-4.0.
+var-transforms:
+  - from: ${{package.version}}
+    match: (\d+\.\d+).*
+    replace: $1
+    to: major-version
+test:
+  environment:
+    contents:
+      packages:
+        - bash
+        - busybox
+        - curl
+        - git
+        - git-daemon
+        - hardening-check
+        - ldd-check
+        - openssl
+        - openssl-4.0
+        - python3
+        - wait-for-it
+        - wget
+    accounts:
+      run-as: ""
+      users:
+        - username: build
+          uid: 1000
+          gid: 1000
+          shell: ""
+          homedir: ""
+      groups:
+        - groupname: build
+          gid: 1000
+          members:
+            - build
+  pipeline:
+    - uses: test/tw/ldd-check
+      pipeline:
+        - name: check for missing library dependencies using ldd
+          runs: |
+            ldd-check \
+            	--files="" \
+            	--exclude-files="" \
+            	--packages="openssl-4.0" \
+            	--extra-library-paths="" \
+            	--verbose="false"
+    - uses: test/hardening-check
+      with:
+        package-match: |-
+          openssl-4.0$
+          openssl-4.0-libcrypto$
+          openssl-4.0-libssl$
+      pipeline:
+        - name: check files for hardening flags
+          runs: |
+            cat <<"END_CHECK" >/tmp/hardening-check-files
+            #!/bin/bash
+            set -o errexit -o nounset -o errtrace -o pipefail
+            r=0
+
+            checkfile() {
+                arch_skip=
+                # full cfprotection is x86 only for now
+                if [ "x86_64" = "aarch64" ]; then
+                    arch_skip=--nocfprotection
+                fi
+                # the branch protection check is ARM only for now
+                [ "x86_64" = "aarch64" ] || arch_skip=--nobranchprotection
+
+                ### <DELETE WHEN GLIBC OPENSSF HARDENING IS RE-ENABLED>
+                if [ "x86_64" = "aarch64" ]; then
+                  arch_skip="$arch_skip --nobranchprotection"
+                fi
+                ### </DELETE>
+
+                hardening-check $arch_skip  --color $1
+            }
+
+            debug() {
+                [ "$DEBUG" = "true" ] || return 0
+                echo "$@"
+            }
+            packages=false
+            if [ "$1" = "--package" ]; then
+                packages=true
+                shift
+            fi
+
+            TEMP_D=$(mktemp -d)
+            trap "rm -Rf '${TEMP_D}'" EXIT
+
+            errors=0
+            files=0
+            DEBUG=false
+            command -v readelf >/dev/null 2>&1 ||
+                { echo "ERROR: You need 'readelf' executable"; exit 1; }
+
+            if [ "$packages" = "true" ]; then
+                flist="${TEMP_D}/files"
+                cd /
+                for pkg in "$@"; do
+                    apk info --quiet -L "$pkg" > "$flist" || {
+                        echo "failed to list contents of $pkg"
+                        exit 1
+                    }
+                    debug ":: $pkg"
+                    while read f; do
+                        # apk info -L adds a blank line at the end.
+                        [ -z "$f" ] && continue
+                        [ -d "$f" ] && continue
+                        outf="${TEMP_D}/version.out"
+                        errf="${TEMP_D}/version.err"
+                        set +e
+                        LANG=C readelf -hW "$f" > "$outf" 2> "$errf"
+                        rc=$?
+                        set -e
+                        if grep -qi "readelf: Error: Not an ELF file" "$errf"; then
+                            debug "$f: not an ELF file"
+                            continue
+                        fi
+                        if grep -qi "readelf: Error: .*: Failed to read file.*" "$errf"; then
+                            debug "$f: not an ELF file"
+                            continue
+                        fi
+                        checkfile "$f" || errors=$((errors+1))
+                        files=$((files+1))
+                    done < "$flist"
+                done
+            else
+                for path in "$@"; do
+                    if [ -f "$path" ]; then
+                        checkfile "$path" || errors=$((errors+1))
+                        files=$((files+1))
+                    else
+                        echo "ERROR: $path is not a file!"
+                        exit 2
+                    fi
+                done
+            fi
+
+            result=FAIL
+            rc=1
+            [ $errors -eq 0 ] && { result="PASS"; rc=0; }
+
+            echo "$result: $files checked. $errors hardening failures found."
+            exit $rc
+            END_CHECK
+            chmod 755 /tmp/hardening-check-files
+            pkgmatch='openssl-4.0$
+            openssl-4.0-libcrypto$
+            openssl-4.0-libssl$'
+            pkgname='openssl-4.0'
+            if [ "${pkgmatch}" = "DEFAULT" ]; then
+            	pkgmatch="^${pkgname}"
+            fi
+            pfile=/tmp/packages.list
+            if ! apk info -L >"$pfile" 2>"$pfile.err"; then
+            	echo "ERROR: apk info -L failed"
+            	cat "$pfile" "$pfile.err"
+            	exit 1
+            fi
+            packages=$(grep "$pkgmatch" "$pfile") || :
+            set -- ${packages}
+            if [ $# -eq 0 ]; then
+            	echo "packages:"
+            	sed 's,^,>  ,' "$pfile"
+            	echo "ERROR: package-match '$pkgmatch'" \
+            		"did not match any installed packages (see list above)"
+            	exit 1
+            fi
+            echo "checking $# packages: $*"
+            /tmp/hardening-check-files --package "$@"
+    - runs: |
+        openssl --version
+        openssl --help
+    - name: Measure the size of the first ClientHello
+      uses: test/daemon-check-output
+      with:
+        expected_output: ACCEPT
+        post: |
+          # A ClientHello that does not fit into a single TCP segment gets
+          # silently dropped by some middleboxes, AWS Network Firewall among
+          # them. An IPv6 header (40 bytes) and a TCP header with options (32
+          # bytes) leave 1428 bytes of a 1500 byte MTU, so keep margin below
+          # that.
+          max_clienthello=1400
+
+          # Handshake against the local server with every record dumped, then
+          # report how big the first ClientHello was. -msg prints the length
+          # of the handshake message, e.g.
+          #   >>> TLS 1.3, Handshake [length 0111], ClientHello
+          # to which the 5 byte TLS record header is added for the size that
+          # actually goes out on the wire.
+          clienthello_size() {
+            log=/tmp/clienthello/client.log
+            OPENSSL_CONF="$1" openssl s_client -connect 127.0.0.1:4433 \
+              -servername localhost -CAfile /tmp/clienthello/server.crt -msg \
+              </dev/null >"$log" 2>&1
+            grep -q "Verify return code: 0 (ok)" "$log"
+            hexlen=$(sed -n '/^>>> TLS.*, Handshake \[length .*\], ClientHello$/ {
+                       s/.*\[length \([0-9a-f]*\)\].*/\1/p; q; }' "$log")
+            if [ -z "$hexlen" ]; then
+              echo "no ClientHello found in s_client -msg output" >&2
+              cat "$log" >&2
+              return 1
+            fi
+            echo $((0x$hexlen + 5))
+          }
+
+          # What everything linked against libssl gets, by way of the
+          # openssl.cnf shipped in libcrypto3.
+          size="$(clienthello_size /etc/ssl/openssl.cnf)"
+          echo "first ClientHello with /etc/ssl/openssl.cnf: $size bytes"
+          [ "$size" -le "$max_clienthello" ]
+
+          # And what applications opting out of the system configuration get
+          # from the group list compiled into libssl.
+          size="$(clienthello_size /dev/null)"
+          echo "first ClientHello with built-in defaults: $size bytes"
+          [ "$size" -le "$max_clienthello" ]
+        setup: |
+          mkdir -p /tmp/clienthello
+          openssl req -x509 -newkey rsa:2048 -noenc -days 1 \
+            -subj "/CN=localhost" \
+            -addext "subjectAltName=DNS:localhost,IP:127.0.0.1" \
+            -keyout /tmp/clienthello/server.key \
+            -out /tmp/clienthello/server.crt
+        start: /usr/bin/openssl s_server -accept 127.0.0.1:4433 -naccept 10 -www -cert /tmp/clienthello/server.crt -key /tmp/clienthello/server.key
+      pipeline:
+        - name: start daemon on localhost
+          runs: |
+            info() { echo "$@"; }
+            term_wait_kill() {
+            	local pid="$1" ttime="$2" ktime="$3" n="" killrc="0"
+            	n=0
+            	[ -d "/proc/$pid" ] || {
+            		info "twk: pid $pid did not exist"
+            		return 0
+            	}
+            	while [ $n -lt $ttime ] && n=$((n + 1)); do
+            		if [ ! -d "/proc/$pid" ]; then
+            			info "twk: pid $pid did not exist after $n seconds"
+            			return 0
+            		fi
+            		sleep 1
+            	done
+            	if [ ! -d "/proc/$pid" ]; then
+            		info "twk: pid $pid died on its own within $n seconds"
+            		return 0
+            	fi
+            	kill -TERM "$pid" || killrc=$?
+            	info "twk: SIGTERM sent to pid $pid. kill returned $killrc."
+            	n=0
+            	while [ $n -lt $ktime ] && n=$((n + 1)); do
+            		if [ ! -d "/proc/$pid" ]; then
+            			info "twk: pid $pid exited within $n seconds after SIGTERM"
+            			return 0
+            		fi
+            		sleep 1
+            	done
+            	if [ ! -d "/proc/$pid" ]; then
+            		info "twk: pid $pid exited within $n seconds after SIGTERM"
+            		return 0
+            	fi
+            	kill -KILL "$pid" || killrc=$?
+            	info "twk: SIGKILL sent to pid $pid [kill returned $killrc]"
+            	return 0
+            }
+            cleanup() {
+
+            	if [ "$$" != "$MAINPID" ]; then
+            		return 0
+            	fi
+            	rm -Rf "$TMPD"
+            }
+            set +x
+            MAINPID=$$
+            TMPD=$(mktemp -d)
+            trap cleanup EXIT
+            KID=""
+            OUT_F="${TMPD}/out"
+            EXPECTED_F="${TMPD}/expected"
+            MISSING_F="${TMPD}/missing"
+            ERRORS_F="${TMPD}/errorstrings"
+            ERRORS_FOUND_F="${TMPD}/errorstrings-found"
+            SETUP_F="${TMPD}/setup"
+            POST_F="${TMPD}/post"
+            rc=0
+            timeout=30
+            cat >"${TMPD}/setup_input" <<'MELANGE_SETUP_EOF'
+            mkdir -p /tmp/clienthello
+            openssl req -x509 -newkey rsa:2048 -noenc -days 1 \
+              -subj "/CN=localhost" \
+              -addext "subjectAltName=DNS:localhost,IP:127.0.0.1" \
+              -keyout /tmp/clienthello/server.key \
+              -out /tmp/clienthello/server.crt
+
+            MELANGE_SETUP_EOF
+            setup=$(cat "${TMPD}/setup_input")
+            cat >"${EXPECTED_F}" <<'MELANGE_EXPECTED_EOF'
+            ACCEPT
+            MELANGE_EXPECTED_EOF
+            cat >"${ERRORS_F}" <<'MELANGE_ERRORS_EOF'
+            ERROR
+            FAIL
+            FATAL
+            Traceback.*most.recent.call
+            Exception in thread
+            java.lang.NullPointerException
+            java.lang.RuntimeException
+            Gem::MissingSpecError
+            command not found
+
+            MELANGE_ERRORS_EOF
+            error_strings=$(cat "${ERRORS_F}")
+            cat >"${TMPD}/post_input" <<'MELANGE_POST_EOF'
+            # A ClientHello that does not fit into a single TCP segment gets
+            # silently dropped by some middleboxes, AWS Network Firewall among
+            # them. An IPv6 header (40 bytes) and a TCP header with options (32
+            # bytes) leave 1428 bytes of a 1500 byte MTU, so keep margin below
+            # that.
+            max_clienthello=1400
+
+            # Handshake against the local server with every record dumped, then
+            # report how big the first ClientHello was. -msg prints the length
+            # of the handshake message, e.g.
+            #   >>> TLS 1.3, Handshake [length 0111], ClientHello
+            # to which the 5 byte TLS record header is added for the size that
+            # actually goes out on the wire.
+            clienthello_size() {
+              log=/tmp/clienthello/client.log
+              OPENSSL_CONF="$1" openssl s_client -connect 127.0.0.1:4433 \
+                -servername localhost -CAfile /tmp/clienthello/server.crt -msg \
+                </dev/null >"$log" 2>&1
+              grep -q "Verify return code: 0 (ok)" "$log"
+              hexlen=$(sed -n '/^>>> TLS.*, Handshake \[length .*\], ClientHello$/ {
+                         s/.*\[length \([0-9a-f]*\)\].*/\1/p; q; }' "$log")
+              if [ -z "$hexlen" ]; then
+                echo "no ClientHello found in s_client -msg output" >&2
+                cat "$log" >&2
+                return 1
+              fi
+              echo $((0x$hexlen + 5))
+            }
+
+            # What everything linked against libssl gets, by way of the
+            # openssl.cnf shipped in libcrypto3.
+            size="$(clienthello_size /etc/ssl/openssl.cnf)"
+            echo "first ClientHello with /etc/ssl/openssl.cnf: $size bytes"
+            [ "$size" -le "$max_clienthello" ]
+
+            # And what applications opting out of the system configuration get
+            # from the group list compiled into libssl.
+            size="$(clienthello_size /dev/null)"
+            echo "first ClientHello with built-in defaults: $size bytes"
+            [ "$size" -le "$max_clienthello" ]
+
+            MELANGE_POST_EOF
+            post=$(cat "${TMPD}/post_input")
+            set --
+            while read line; do
+            	[ "$line" = "" ] && continue
+            	set -- "$@" "$line"
+            done <"$EXPECTED_F"
+            num_lines=$#
+            if [ -n "$setup" ]; then
+            	shbang="#!"
+            	if [ "${setup#${shbang}}" = "$setup" ]; then
+            		printf "%s\n" '#!/bin/sh -ex' >"${SETUP_F}"
+            	fi
+            	printf "%s\n" "$setup" >>"${SETUP_F}"
+            	chmod 755 "${SETUP_F}"
+            	info "running setup from ${SETUP_F}"
+            	"${SETUP_F}" || {
+            		rc=$?
+            		info "ERROR: setup failed with $rc"
+            		exit $rc
+            	}
+            fi
+            if [ -n "$post" ]; then
+            	shbang="#!"
+            	if [ "${post#${shbang}}" = "$post" ]; then
+            		printf "%s\n" '#!/bin/sh -ex' >"${POST_F}"
+            	fi
+            	printf "%s\n" "$post" >>"${POST_F}"
+            	chmod 755 "${POST_F}"
+            fi
+            set -- /usr/bin/openssl s_server -accept 127.0.0.1:4433 -naccept 10 -www -cert /tmp/clienthello/server.crt -key /tmp/clienthello/server.key
+            n=$#
+            "$@" >"$OUT_F" 2>&1 </dev/null &
+            KID=$!
+            info "daemon started as pid $KID with: $*"
+            info "looking for ${num_lines} lines in output within $timeout seconds"
+            set --
+            while read line; do
+            	[ "$line" = "" ] && continue
+            	set -- "$@" "$line"
+            done <"$EXPECTED_F"
+            found=0
+            n=0
+            while n=$((n + 1)); do
+            	while [ $# -gt 0 ] && grep -q "$1" "$OUT_F"; do
+            		info "found within $n seconds: $1"
+            		found=$((found + 1))
+            		shift
+            	done
+            	[ $# -eq 0 ] && break
+            	[ -d "/proc/$KID" ] || {
+            		wait $KID || rc=$?
+            		info "process $KID died inside $n seconds. exited $rc"
+            		break
+            	}
+            	if [ $n -gt $timeout ]; then
+            		info "timeout $timeout seconds reached."
+            		break
+            	fi
+            	sleep 1
+            done
+            while [ $# -ne 0 ]; do
+            	if grep -q "$1" "$OUT_F"; then
+            		info "found within $n seconds: $1"
+            		found=$((found + 1))
+            	else
+            		info "missing expected output: $1"
+            		echo "$1" >>"$MISSING_F"
+            	fi
+            	shift
+            done
+            errors_found=0
+            num_error_strings=0
+            if [ -z "${error_strings}" ]; then
+            	info "error string checking is disabled."
+            else
+            	set --
+            	while read line; do
+            		[ "$line" = "" ] && continue
+            		set -- "$@" "$line"
+            	done <"$ERRORS_F"
+            	num_error_strings=$#
+            	for errmsg in "$@"; do
+            		if out=$(grep "$errmsg" "$OUT_F"); then
+            			info "ERROR: found error message '$errmsg' in output: $out"
+            			errors_found=$((errors_found + 1))
+            			echo "$errmsg" >>"$ERRORS_FOUND_F"
+            		fi
+            	done
+            fi
+            if [ -f "$POST_F" ]; then
+            	info "running post from ${POST_F}"
+            	"${POST_F}" || {
+            		rc=$?
+            		info "ERROR: post failed with $rc"
+            	}
+            fi
+            info "-- begin output --"
+            sed 's,^,> ,' "$OUT_F"
+            info "-- end   output --"
+            if [ $num_lines -eq 1 ]; then
+            	line_str="line"
+            else
+            	line_str="lines"
+            fi
+            if [ $found -ne $num_lines ]; then
+            	rc=1
+            	info "ERROR: found $found of expected ${num_lines} ${line_str} in output."
+            	info "missing:"
+            	sed 's,^,> ,' "$MISSING_F"
+            else
+            	info "found $found of expected ${num_lines} ${line_str} in output."
+            fi
+            if [ $errors_found -ne 0 ]; then
+            	rc=1
+            	info "ERROR: matched ${errors_found} error strings below in output above:"
+            	sed 's,^,> ,' "$ERRORS_FOUND_F"
+            elif [ $num_error_strings -ne 0 ]; then
+            	info "found 0 / ${num_error_strings} error strings in output."
+            fi
+            term_wait_kill "$KID" 0 30
+            wait || info "wait returned $?"
+            exit $rc
+    - name: Verify curl still works
+      runs: |
+        curl -I https://github.com/openssl/openssl
+        ! curl https://expired.badssl.com/
+        curl --http3-only -s -o /dev/null https://cloudflare-quic.com/
+    - name: Verify git still works
+      uses: test/git-https-auth
+      pipeline:
+        - name: git over HTTPS with credentials
+          runs: |
+            port="8443"
+            work="$(mktemp -d /tmp/git-https-auth.XXXXXX)"
+            fail() {
+            	echo "FAIL: $*" >&2
+            	exit 1
+            }
+            export GIT_CONFIG_GLOBAL="$work/gitconfig" GIT_CONFIG_NOSYSTEM=1
+            : >"$GIT_CONFIG_GLOBAL"
+            openssl req -x509 -newkey rsa:2048 -sha256 -noenc -days 1 \
+            	-subj /CN=test-ca -keyout "$work/ca.key" -out "$work/ca.crt"
+            openssl req -newkey rsa:2048 -sha256 -noenc -subj /CN=localhost \
+            	-keyout "$work/server.key" -out "$work/server.csr"
+            printf '%s\n' basicConstraints=CA:FALSE extendedKeyUsage=serverAuth \
+            	subjectAltName=DNS:localhost,IP:127.0.0.1 >"$work/ext.cnf"
+            openssl x509 -req -sha256 -days 1 -in "$work/server.csr" \
+            	-CA "$work/ca.crt" -CAkey "$work/ca.key" -CAcreateserial \
+            	-extfile "$work/ext.cnf" -out "$work/server.crt"
+            git init -q --bare -b main "$work/srv/repo.git"
+            git -C "$work/srv/repo.git" config http.receivepack true
+            git init -q -b main "$work/seed"
+            echo hello >"$work/seed/README"
+            git -C "$work/seed" add README
+            git -C "$work/seed" -c user.name=test -c user.email=test@example.com \
+            	commit -q -m seed
+            git -C "$work/seed" push -q "$work/srv/repo.git" main
+            cat >"$work/server.py" <<'PY'
+            import base64, http.server, os, ssl, subprocess, sys
+
+            root, port, cert, key = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
+            accepted = {"Basic " + base64.b64encode(c).decode() for c in (b"user:secret", b"tok:")}
+
+
+            class Handler(http.server.BaseHTTPRequestHandler):
+                def handle_git(self):
+                    if self.headers.get("Authorization") not in accepted:
+                        self.send_response(401)
+                        self.send_header("WWW-Authenticate", 'Basic realm="git"')
+                        self.send_header("Content-Length", "0")
+                        self.end_headers()
+                        return
+                    if self.headers.get("Transfer-Encoding"):
+                        self.send_error(411)
+                        return
+                    length = int(self.headers.get("Content-Length") or 0)
+                    path, _, query = self.path.partition("?")
+                    env = {
+                        "PATH": os.environ["PATH"],
+                        "GIT_CONFIG_NOSYSTEM": "1",
+                        "GIT_HTTP_EXPORT_ALL": "1",
+                        "GIT_PROJECT_ROOT": root,
+                        "REQUEST_METHOD": self.command,
+                        "PATH_INFO": path,
+                        "QUERY_STRING": query,
+                        "CONTENT_TYPE": self.headers.get("Content-Type", ""),
+                        "CONTENT_LENGTH": str(length),
+                        "HTTP_CONTENT_ENCODING": self.headers.get("Content-Encoding", ""),
+                        "HTTP_GIT_PROTOCOL": self.headers.get("Git-Protocol", ""),
+                        "REMOTE_ADDR": "127.0.0.1",
+                        "REMOTE_USER": "user",
+                    }
+                    cgi = subprocess.run(["git", "http-backend"], input=self.rfile.read(length),
+                                         env=env, capture_output=True, check=True)
+                    head, _, body = cgi.stdout.partition(b"\r\n\r\n")
+                    status, headers = 200, []
+                    for line in head.decode().split("\r\n"):
+                        name, _, value = line.partition(":")
+                        if name.lower() == "status":
+                            status = int(value.split()[0])
+                        else:
+                            headers.append((name, value.strip()))
+                    self.send_response(status)
+                    for name, value in headers:
+                        self.send_header(name, value)
+                    self.send_header("Content-Length", str(len(body)))
+                    self.end_headers()
+                    self.wfile.write(body)
+
+                do_GET = do_POST = handle_git
+
+
+            ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+            ctx.load_cert_chain(cert, key)
+            server = http.server.ThreadingHTTPServer(("127.0.0.1", port), Handler)
+            server.socket = ctx.wrap_socket(server.socket, server_side=True)
+            server.serve_forever()
+            PY
+            python3 "$work/server.py" "$work/srv" "$port" "$work/server.crt" \
+            	"$work/server.key" 2>"$work/server.log" &
+            srv=$!
+            trap 'kill "$srv" 2>/dev/null; rm -rf "$work"' EXIT
+            wait-for-it "127.0.0.1:$port" -t 30 || {
+            	cat "$work/server.log" >&2
+            	fail "test git server did not start"
+            }
+            echo | openssl s_client -connect "127.0.0.1:$port" -servername localhost \
+            	-CAfile "$work/ca.crt" >"$work/s_client.log" 2>&1 || true
+            grep -F "Verify return code: 0 (ok)" "$work/s_client.log" >/dev/null || {
+            	cat "$work/s_client.log" >&2
+            	fail "TLS handshake against the test CA"
+            }
+            export GIT_TERMINAL_PROMPT=0 GIT_SSL_CAINFO="$work/ca.crt"
+            anon="https://127.0.0.1:$port/repo.git"
+            authed="https://user:secret@127.0.0.1:$port/repo.git"
+            failed=""
+            check() {
+            	what=$1
+            	shift
+            	if ! git "$@" >"$work/out" 2>"$work/err"; then
+            		cat "$work/err" >&2
+            		echo "FAIL: $what" >&2
+            		failed="$failed\n  $what"
+            	elif grep -F "redirecting to" "$work/err" >&2; then
+            		echo "FAIL: $what: spurious redirect, git dropped the credentials" >&2
+            		failed="$failed\n  $what (spurious redirect)"
+            	else
+            		echo "PASS: $what"
+            	fi
+            }
+            if git ls-remote "$anon" >"$work/out" 2>"$work/err"; then
+            	fail "ls-remote without credentials succeeded"
+            fi
+            grep -F '" 401 ' "$work/server.log" >/dev/null ||
+            	fail "server never rejected the request without credentials"
+            if env -u GIT_SSL_CAINFO git ls-remote "$authed" >"$work/out" 2>"$work/err"; then
+            	fail "ls-remote succeeded without trusting the test CA"
+            fi
+            grep -i -F certificate "$work/err" >/dev/null || {
+            	cat "$work/err" >&2
+            	fail "untrusted server was not rejected for its certificate"
+            }
+            echo "PASS: auth and certificate verification are enforced"
+            code="$(curl -s -o /dev/null -w '%{http_code}' --cacert "$work/ca.crt" \
+            	"$anon/info/refs?service=git-upload-pack")"
+            [ "$code" = 401 ] || fail "curl without credentials got HTTP $code, want 401"
+            curl -sf --cacert "$work/ca.crt" "$authed/info/refs?service=git-upload-pack" |
+            	grep -F "# service=git-upload-pack" >/dev/null ||
+            	fail "curl with credentials in the URL"
+            echo "PASS: curl with credentials in the URL"
+            check "clone with user:password in the URL" clone -q "$authed" "$work/c1"
+            check "clone with a token-only URL" \
+            	clone -q "https://tok@127.0.0.1:$port/repo.git" "$work/c2"
+            git config --global url."https://tok@127.0.0.1:$port/".insteadOf \
+            	https://tok.example.invalid/
+            git config --global url."https://user:secret@127.0.0.1:$port/".insteadOf \
+            	https://user.example.invalid/
+            check "clone through a token-only insteadOf rewrite" \
+            	clone -q https://tok.example.invalid/repo.git "$work/c3"
+            check "clone through a user:password insteadOf rewrite" \
+            	clone -q https://user.example.invalid/repo.git "$work/c4"
+            if [ -d "$work/c4" ]; then
+            	grep -x -F hello "$work/c4/README" >/dev/null || fail "cloned content differs"
+            	git -C "$work/c4" -c user.name=test -c user.email=test@example.com \
+            		commit -q --allow-empty -m pushed
+            	check "push through a user:password insteadOf rewrite" \
+            		-C "$work/c4" push -q origin main
+            	[ "$(git -C "$work/srv/repo.git" log -1 --format=%s main)" = pushed ] ||
+            		failed="$failed\n  push did not reach the server"
+            fi
+            [ -z "$failed" ] || fail "git lost credentials over HTTPS:$(printf "$failed")"
+    - name: Verify wget still works
+      runs: |
+        wget -O /dev/null https://github.com/openssl/openssl
+        ! wget https://expired.badssl.com/
+    - name: docker-dind certificate generation
+      runs: |
+        set -x
+        tmpdir="$(mktemp -d)"
+        trap "rm -rf "$tmpdir"" EXIT
+        rm -rf "$tmpdir/certs/"
+        mkdir -p "$tmpdir/certs/ca"
+        openssl genrsa -out "$tmpdir/certs/ca/key.pem" 4096
+        openssl req -new -key "$tmpdir/certs/ca/key.pem" \
+        	-out "$tmpdir/certs/ca/cert.pem" -subj '/CN=docker:dind CA' \
+        	-x509 -days 825
+        mkdir -p "$tmpdir/certs/server"
+        openssl genrsa -out "$tmpdir/certs/server/key.pem" 4096
+        openssl req -new -key "$tmpdir/certs/server/key.pem" \
+        	-out "$tmpdir/certs/server/csr.pem" -subj '/CN=docker:dind server'
+        cat <<EOF >"$tmpdir/certs/server/openssl.cnf"
+        [ x509_exts ]
+        subjectAltName = DNS:b51ddd7b8dcd,DNS:docker,DNS:localhost,IP:127.0.0.1,IP:172.17.0.4,IP:::1
+        EOF
+        openssl x509 -req -in "$tmpdir/certs/server/csr.pem" \
+        	-CA "$tmpdir/certs/ca/cert.pem" -CAkey "$tmpdir/certs/ca/key.pem" \
+        	-CAcreateserial -out "$tmpdir/certs/server/cert.pem" \
+        	-days 825 -extfile "$tmpdir/certs/server/openssl.cnf" \
+        	-extensions x509_exts
+        cp "$tmpdir/certs/ca/cert.pem" "$tmpdir/certs/server/ca.pem"
+        openssl verify -CAfile "$tmpdir/certs/server/ca.pem" \
+        	"$tmpdir/certs/server/cert.pem"
+    - uses: git-checkout
+      with:
+        destination: wazuh-kubernetes
+        expected-commit: 2c2d13c550248b1fe91a5c3e3671de06a6180769
+        repository: https://github.com/wazuh/wazuh-kubernetes
+        tag: v4.14.8
+      pipeline:
+        - runs: |
+            #!/bin/sh
+            set -eu
+            msg() { echo "[git checkout]" "$@"; }
+            fail() {
+            	msg FAIL "$@"
+            	exit 1
+            }
+            vr() {
+            	msg "execute:" "$@"
+            	"$@"
+            }
+            retry_with_backoff() {
+            	local max_retries=$1
+            	local initial_backoff=$2
+            	local max_backoff=$3
+            	shift 3
+            	local attempt=0
+            	local backoff=$initial_backoff
+
+            	while [ $attempt -le "$max_retries" ]; do
+            		if [ $attempt -gt 0 ]; then
+            			msg "Retry attempt $attempt/$max_retries after ${backoff}s backoff..."
+            		fi
+
+            		if "$@"; then
+            			return 0
+            		fi
+
+            		attempt=$((attempt + 1))
+            		if [ $attempt -gt "$max_retries" ]; then
+            			msg "All $max_retries retry attempts exhausted"
+            			return 1
+            		fi
+
+            		local jitter=0
+            		if [ -n "$RANDOM" ]; then
+            			jitter=$((RANDOM % (backoff + 1)))
+            		else
+
+            			jitter=$((($$ * attempt) % (backoff + 1)))
+            		fi
+
+            		local sleep_time=$((backoff + jitter))
+            		msg "Waiting ${sleep_time}s before retry (backoff: ${backoff}s, jitter: ${jitter}s)..."
+            		sleep $sleep_time
+
+            		backoff=$((backoff * 2))
+            		if [ $backoff -gt "$max_backoff" ]; then
+            			backoff=$max_backoff
+            		fi
+            	done
+
+            	return 1
+            }
+            process_cherry_picks() {
+            	local cpicksf="$1" count=0
+            	local fetched_branches=""
+            	local sdate=${SOURCE_DATE_EPOCH:-0}
+            	if [ "$sdate" -lt 315532800 ]; then
+            		msg "Setting commit date to Jan 1, 1980 (SOURCE_DATE_EPOCH found ${SOURCE_DATE_EPOCH:-(not set)})"
+            		sdate=315532800
+            	fi
+            	if [ -z "$cpicksf" ]; then
+            		return 0
+            	fi
+            	if [ ! -f "$cpicksf" ]; then
+            		msg "cherry picks input '$cpicksf' is not a file"
+            		return 1
+            	fi
+
+            	local line="" branch="" hash="" comment="" unshallow_arg is_shallow
+            	while IFS= read -r line; do
+
+            		line=${line%%#*}
+            		[ -z "$line" ] && continue
+
+            		if ! echo "$line" | grep -q ':'; then
+            			msg "Invalid format, expected '[branch/]commit: comment'. Found: $line"
+            			return 1
+            		fi
+
+            		branch=${line%%:*}
+            		comment=${line#*:}
+
+            		comment=$(
+            			set -f
+            			echo $comment
+            		)
+
+            		if [ -z "$comment" ]; then
+            			msg "Empty comment for cherry-pick: $line"
+            			return 1
+            		fi
+
+            		hash=${branch##*/}
+
+            		[ "$branch" != "$hash" ] && branch=${branch%/*} || branch=""
+
+            		unshallow_arg=""
+            		is_shallow=$(git rev-parse --is-shallow-repository)
+            		if [ "$is_shallow" = "true" ]; then
+            			unshallow_arg="--unshallow"
+            		fi
+
+            		if [ -n "$branch" ]; then
+            			case " $fetched_branches " in
+            			*" $branch "*) ;;
+            			*)
+            				vr git fetch $unshallow_arg origin "$branch:$branch" || {
+            					msg "failed to fetch branch $branch"
+            					return 1
+            				}
+            				fetched_branches="$fetched_branches $branch "
+            				;;
+            			esac
+            		fi
+
+            		vr env \
+            			GIT_COMMITTER_DATE="@$sdate" \
+            			git cherry-pick -x "$hash" || {
+            			msg "failed to cherry-pick $hash from branch $branch"
+            			return 1
+            		}
+
+            		msg "Cherry-picked $hash from $branch with comment: $comment"
+
+            		count=$((count + 1))
+            	done <"$cpicksf"
+
+            	if [ $count -gt 0 ]; then
+            		msg "applied $count cherry-pick(s). head is now $(git rev-parse HEAD)"
+            	fi
+            }
+            main() {
+            	local repo=$1 dest=${2:-.} depth=${3:-"unset"} branch=$4
+            	local tag=$5 expcommit=$6 recurse=${7:-false}
+            	local cherry_pick="$8" sparse_paths="$9"
+            	local max_retries="${10:-3}" initial_backoff="${11:-2}" max_backoff="${12:-60}"
+            	local shallow_submodules="${13:-false}" submodule_jobs="${14:-1}"
+            	local expected_commit_is_branch_tip="${15:-false}"
+            	msg "repo='$repo' dest='$dest' depth='$depth' branch='$branch'" \
+            		"tag='$tag' expcommit='$expcommit' recurse='$recurse'" \
+            		"sparse_paths='$sparse_paths' max_retries='$max_retries'" \
+            		"initial_backoff='$initial_backoff' max_backoff='$max_backoff'" \
+            		"shallow_submodules='$shallow_submodules' submodule_jobs='$submodule_jobs'" \
+            		"expected_commit_is_branch_tip='$expected_commit_is_branch_tip'"
+
+            	case "$recurse" in
+            	true | false) : ;;
+            	*) fail "recurse must be true or false, not '$recurse'" ;;
+            	esac
+            	case "$shallow_submodules" in
+            	true | false) : ;;
+            	*) fail "shallow_submodules must be true or false, not '$shallow_submodules'" ;;
+            	esac
+            	case "$expected_commit_is_branch_tip" in
+            	true | false) : ;;
+            	*) fail "expected-commit-is-branch-tip must be true or false," \
+            		"not '$expected_commit_is_branch_tip'" ;;
+            	esac
+
+            	[ -n "$repo" ] || fail "repository not provided"
+
+            	if [ -z "$branch" ] && [ -z "$tag" ]; then
+            		msg "Warning: you have not specified a branch or tag."
+            	elif [ -n "$branch" ] && [ -n "$tag" ]; then
+            		fail "both branch ($branch) and tag ($tag) are specified."
+            	fi
+
+            	if [ "$expected_commit_is_branch_tip" = "true" ]; then
+            		[ -z "$tag" ] ||
+            			fail "expected-commit-is-branch-tip is only valid with" \
+            				"'branch', not 'tag'."
+            		[ -n "$branch" ] ||
+            			fail "expected-commit-is-branch-tip requires 'branch' to be set."
+            		[ -n "$expcommit" ] ||
+            			fail "expected-commit-is-branch-tip requires 'expected-commit'" \
+            				"to be set."
+            	fi
+
+            	[ -n "$expcommit" ] ||
+            		msg "Warning: no expected-commit"
+
+            	local flags="" depthflag="" dest_fullpath="" workdir=""
+            	local remote="origin" rcfile="" rc="" quiet="--quiet"
+            	flags="--config=advice.detachedHead=false"
+            	[ -n "$branch" ] && flags="$flags --branch=$branch"
+            	[ -n "$tag" ] && flags="$flags --branch=$tag"
+            	if [ "$recurse" = "true" ]; then
+            		flags="$flags --recurse-submodules --jobs=$submodule_jobs"
+            		[ "$shallow_submodules" = "true" ] && flags="$flags --shallow-submodules"
+            	fi
+            	[ -n "$sparse_paths" ] && flags="$flags --sparse --filter=blob:none"
+
+            	if [ "$depth" = "unset" ]; then
+            		depth=1
+            		if [ -n "$branch" ] && [ -n "$expcommit" ] &&
+            			[ "$expected_commit_is_branch_tip" = "false" ]; then
+
+            			depth=-1
+            		fi
+            	fi
+
+            	[ "$depth" = "-1" ] || depthflag="--depth=$depth"
+
+            	workdir=$(mktemp -d)
+            	rcfile=$(mktemp)
+            	mkdir -p "$dest"
+            	dest_fullpath=$(realpath "$dest")
+
+            	vr git config --global --add safe.directory "$workdir"
+            	vr git config --global --add safe.directory "$dest_fullpath"
+
+            	vr git config --global maintenance.auto false
+            	vr git config --global gc.auto 0
+
+            	msg "Attempting git clone with retry (max_retries=$max_retries, initial_backoff=${initial_backoff}s, max_backoff=${max_backoff}s)"
+
+            	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+            		git clone $quiet "--origin=$remote" \
+            		"--config=user.name=Melange Build" \
+            		"--config=user.email=melange-build@cgr.dev" \
+            		$flags \
+            		${depthflag:+"${depthflag}"} "$repo" "$workdir" ||
+            		fail "git clone failed after $max_retries retries"
+
+            	msg "cloned from $(cd "$workdir" && git remote get-url origin)"
+
+            	vr cd "$workdir"
+
+            	if [ -n "$sparse_paths" ]; then
+            		msg "Configuring sparse-checkout with paths: $sparse_paths"
+
+            		vr git sparse-checkout set --cone $sparse_paths ||
+            			fail "failed to configure sparse-checkout --filter=blob:none"
+            	fi
+
+            	msg "tar -c . | tar -C \"$dest_fullpath\" -x"
+            	(
+            		tar -c .
+            		echo $? >"$rcfile"
+            	) | tar -C "$dest_fullpath" -x --no-same-owner
+
+            	read rc <"$rcfile" || fail "failed to read rc file"
+            	[ "$rc" -eq 0 ] || fail "tar creation in $workdir failed"
+
+            	rm -rf "$workdir"
+            	vr cd "$dest_fullpath"
+            	vr git config --global --add safe.directory "$dest_fullpath"
+
+            	local foundcommit="" tagobj=""
+            	if [ -z "$tag" ]; then
+            		foundcommit=$(git rev-parse --verify HEAD)
+            		if [ -n "$expcommit" ] && [ "$expcommit" != "$foundcommit" ]; then
+            			if [ "$expected_commit_is_branch_tip" = "true" ]; then
+
+            				fail "expected-commit $expcommit is not the tip of branch" \
+            					"${branch:-HEAD} ($foundcommit); the branch advanced" \
+            					"or the version was bumped without updating" \
+            					"expected-commit"
+            			elif [ "$depth" = "-1" ]; then
+
+            				if git merge-base --is-ancestor "$expcommit" "$foundcommit"; then
+            					msg "expected commit $expcommit on ${branch:-HEAD}," \
+            						"got $foundcommit, performing reset"
+            					vr git reset --hard "$expcommit"
+            				else
+            					fail "expected commit $expcommit is not reachable from" \
+            						"${branch:-HEAD} (tip $foundcommit); the branch may" \
+            						"have diverged from the pinned commit -- update" \
+            						"expected-commit"
+            				fi
+            			else
+            				fail "expected commit $expcommit on ${branch:-HEAD}," \
+            					"got $foundcommit, set depth to -1 to attempt a reset"
+            			fi
+            		fi
+            		msg "tip of ${branch:-HEAD} is commit $foundcommit"
+            		process_cherry_picks "$cherry_pick" || fail "failed to apply cherry-pick"
+            		return 0
+            	fi
+
+            	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+            		vr git fetch $quiet $remote ${depthflag:+"${depthflag}"} --no-tags \
+            		"+refs/tags/$tag:refs/$remote/tags/$tag" ||
+            		fail "git fetch of tag $tag failed after $max_retries retries"
+            	vr git checkout $quiet "$remote/tags/$tag"
+
+            	foundcommit=$(git rev-parse --verify HEAD)
+            	if [ -z "$expcommit" ] || [ "$expcommit" = "$foundcommit" ]; then
+            		msg "tag $tag is $foundcommit"
+            	else
+
+            		tagobj=$(git rev-parse --verify --end-of-options \
+            			"refs/$remote/tags/$tag")
+            		if [ "$expcommit" != "$tagobj" ]; then
+            			[ "$tagobj" != "$expcommit" ] &&
+            				msg "tag object hash was $tagobj"
+            			fail "Expected commit $expcommit for $tag, found $foundcommit"
+            		fi
+
+            		msg "Warning: The provided expected-commit ($expcommit)"
+            		msg "was the hash of the annotated tag object for $tag."
+            		msg "Update to set expected-commit to $foundcommit"
+            	fi
+
+            	process_cherry_picks "$cherry_pick" ||
+            		fail "failed to apply cherry-pick"
+
+            	return 0
+            }
+            cpickf=$(mktemp) || {
+            	echo "failed mktemp"
+            	exit 1
+            }
+            cat >"$cpickf" <<"END_CHERRY_PICKS"
+
+            END_CHERRY_PICKS
+            main \
+            	"https://github.com/wazuh/wazuh-kubernetes" "wazuh-kubernetes" \
+            	"unset" "" \
+            	"v4.14.8" "2c2d13c550248b1fe91a5c3e3671de06a6180769" \
+            	"false" "$cpickf" \
+            	"" \
+            	"3" "2" \
+            	"60" \
+            	"false" "1" \
+            	"false"
+            rm -f "$cpickf"
+    - name: Test wazuh cert generation
+      runs: |
+        wazuh-kubernetes/wazuh/certs/indexer_cluster/generate_certs.sh

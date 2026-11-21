@@ -1,0 +1,1888 @@
+package:
+  name: ncurses
+  version: 6.6.20261107
+  epoch: 0
+  description: console display library
+  commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+  copyright:
+    - license: MIT
+  dependencies:
+    runtime:
+      - ncurses-terminfo-base=6.6.20261107-r0
+  resources:
+    cpu: "1"
+    memory: 4Gi
+  test-resources:
+    cpu: "1"
+    memory: 4Gi
+environment:
+  contents:
+    build_repositories:
+      - https://apk.cgr.dev/chainguard
+    packages:
+      - autoconf=2.73-r1
+      - automake=1.20-r0
+      - binutils=2.47-r2
+      - build-base=1-r10
+      - busybox=1.38.0-r3
+      - ca-certificates-bundle=20261020-r0
+      - cyrus-sasl-heimdal-libs=2.1.28-r58
+      - gcc=16.2.0-r2
+      - gdbm=1.26-r9
+      - git=2.56.0-r3
+      - glibc-2.44-dev=2.44-r14
+      - glibc-2.44-locale-posix=2.44-r14
+      - glibc-2.44=2.44-r14
+      - gmp=6.3.0-r12
+      - heimdal-libs=7.8.0-r55
+      - isl=0.28-r6
+      - keyutils-libs=1.6.3-r41
+      - krb5-conf=1.0-r10
+      - krb5-libs=1.22.2-r6
+      - ld-linux-2.44=2.44-r14
+      - libatomic=16.2.0-r2
+      - libbrotlicommon1=1.2.1-r3
+      - libbrotlidec1=1.2.1-r3
+      - libbrotlienc1=1.2.1-r3
+      - libbz2-1=1.0.8-r30
+      - libcom_err=1.47.4-r5
+      - libcrypt1-2.44=2.44-r14
+      - libcurl-openssl4=8.23.0-r3
+      - libexpat1=2.10.0-r1
+      - libgcc=16.2.0-r2
+      - libgomp=16.2.0-r2
+      - libidn2=2.3.8-r12
+      - libldap-2.7=2.7.2-r0
+      - libltdl=2.5.4-r5
+      - libnghttp2-14=1.71.0-r0
+      - libpcre2-8-0=10.49-r3
+      - libpsl=0.23.3-r4
+      - libquadmath=16.2.0-r2
+      - libstdc++-dev=16.2.0-r2
+      - libstdc++=16.2.0-r2
+      - libtool=2.5.4-r5
+      - libunistring=1.5-r1
+      - libverto=0.3.2-r11
+      - libxcrypt-dev=4.5.2-r8
+      - libxcrypt=4.5.2-r8
+      - libzstd1=1.5.7-r13
+      - linux-headers=7.3.3-r0
+      - lmdb=0.9.35-r3
+      - m4=1.4.21-r10
+      - make=4.4.1-r15
+      - mpc=1.4.1-r3
+      - mpfr=4.2.2-r5
+      - ncurses-terminfo-base=6.6.20261031-r0
+      - ncurses=6.6.20261031-r0
+      - nghttp3=1.19.0-r0
+      - ngtcp2=1.26.0-r0
+      - openssf-compiler-options=20250904-r11
+      - openssl-4.0-libcrypto=4.0.3-r8
+      - openssl-4.0-libssl=4.0.3-r8
+      - openssl-provider-legacy-allowed=4.1.0-r0
+      - perl=5.44.0-r4
+      - pkgconf=3.0.10-r2
+      - posix-cc-wrappers=2-r10
+      - readline=8.3-r3
+      - scanelf=1.3.11-r5
+      - sqlite-libs=3.54.1-r0
+      - wolfi-baselayout=20230201-r31
+      - zlib=1.3.2.1_rc20260921-r2
+  accounts:
+    run-as: ""
+    users:
+      - username: build
+        uid: 1000
+        gid: 1000
+        shell: ""
+        homedir: /home/build
+    groups:
+      - groupname: build
+        gid: 1000
+        members:
+          - build
+  archs:
+    - amd64
+  environment:
+    COMPOSER_CACHE_DIR: /var/cache/melange/composer
+    GOFLAGS: ""
+    GOMODCACHE: /var/cache/melange/gomodcache
+    GOPATH: /home/build/.cache/go
+    GOTOOLCHAIN: local
+    HOME: /home/build
+    PIP_CACHE_DIR: /var/cache/melange/pip
+    PYTHONHASHSEED: "0"
+    RUST_LOG: uv=debug,info
+    UV_CACHE_DIR: /var/cache/melange/uv
+    UV_LINK_MODE: copy
+    UV_PYTHON_DOWNLOADS: never
+    npm_config_cache: /var/cache/melange/npm
+    npm_config_git: /usr/bin/git
+    npm_config_ignore_scripts: "true"
+    npm_config_script_shell: /bin/sh
+    npm_config_shell: /bin/sh
+pipeline:
+  - uses: git-checkout
+    with:
+      expected-commit: 7404b376832583182c52722dc09d86b8675db375
+      repository: https://github.com/ThomasDickey/ncurses-snapshots
+      tag: v6_6_20261107
+    pipeline:
+      - runs: |
+          #!/bin/sh
+          set -eu
+          msg() { echo "[git checkout]" "$@"; }
+          fail() {
+          	msg FAIL "$@"
+          	exit 1
+          }
+          vr() {
+          	msg "execute:" "$@"
+          	"$@"
+          }
+          retry_with_backoff() {
+          	local max_retries=$1
+          	local initial_backoff=$2
+          	local max_backoff=$3
+          	shift 3
+          	local attempt=0
+          	local backoff=$initial_backoff
+
+          	while [ $attempt -le "$max_retries" ]; do
+          		if [ $attempt -gt 0 ]; then
+          			msg "Retry attempt $attempt/$max_retries after ${backoff}s backoff..."
+          		fi
+
+          		if "$@"; then
+          			return 0
+          		fi
+
+          		attempt=$((attempt + 1))
+          		if [ $attempt -gt "$max_retries" ]; then
+          			msg "All $max_retries retry attempts exhausted"
+          			return 1
+          		fi
+
+          		local jitter=0
+          		if [ -n "$RANDOM" ]; then
+          			jitter=$((RANDOM % (backoff + 1)))
+          		else
+
+          			jitter=$((($$ * attempt) % (backoff + 1)))
+          		fi
+
+          		local sleep_time=$((backoff + jitter))
+          		msg "Waiting ${sleep_time}s before retry (backoff: ${backoff}s, jitter: ${jitter}s)..."
+          		sleep $sleep_time
+
+          		backoff=$((backoff * 2))
+          		if [ $backoff -gt "$max_backoff" ]; then
+          			backoff=$max_backoff
+          		fi
+          	done
+
+          	return 1
+          }
+          process_cherry_picks() {
+          	local cpicksf="$1" count=0
+          	local fetched_branches=""
+          	local sdate=${SOURCE_DATE_EPOCH:-0}
+          	if [ "$sdate" -lt 315532800 ]; then
+          		msg "Setting commit date to Jan 1, 1980 (SOURCE_DATE_EPOCH found ${SOURCE_DATE_EPOCH:-(not set)})"
+          		sdate=315532800
+          	fi
+          	if [ -z "$cpicksf" ]; then
+          		return 0
+          	fi
+          	if [ ! -f "$cpicksf" ]; then
+          		msg "cherry picks input '$cpicksf' is not a file"
+          		return 1
+          	fi
+
+          	local line="" branch="" hash="" comment="" unshallow_arg is_shallow
+          	while IFS= read -r line; do
+
+          		line=${line%%#*}
+          		[ -z "$line" ] && continue
+
+          		if ! echo "$line" | grep -q ':'; then
+          			msg "Invalid format, expected '[branch/]commit: comment'. Found: $line"
+          			return 1
+          		fi
+
+          		branch=${line%%:*}
+          		comment=${line#*:}
+
+          		comment=$(
+          			set -f
+          			echo $comment
+          		)
+
+          		if [ -z "$comment" ]; then
+          			msg "Empty comment for cherry-pick: $line"
+          			return 1
+          		fi
+
+          		hash=${branch##*/}
+
+          		[ "$branch" != "$hash" ] && branch=${branch%/*} || branch=""
+
+          		unshallow_arg=""
+          		is_shallow=$(git rev-parse --is-shallow-repository)
+          		if [ "$is_shallow" = "true" ]; then
+          			unshallow_arg="--unshallow"
+          		fi
+
+          		if [ -n "$branch" ]; then
+          			case " $fetched_branches " in
+          			*" $branch "*) ;;
+          			*)
+          				vr git fetch $unshallow_arg origin "$branch:$branch" || {
+          					msg "failed to fetch branch $branch"
+          					return 1
+          				}
+          				fetched_branches="$fetched_branches $branch "
+          				;;
+          			esac
+          		fi
+
+          		vr env \
+          			GIT_COMMITTER_DATE="@$sdate" \
+          			git cherry-pick -x "$hash" || {
+          			msg "failed to cherry-pick $hash from branch $branch"
+          			return 1
+          		}
+
+          		msg "Cherry-picked $hash from $branch with comment: $comment"
+
+          		count=$((count + 1))
+          	done <"$cpicksf"
+
+          	if [ $count -gt 0 ]; then
+          		msg "applied $count cherry-pick(s). head is now $(git rev-parse HEAD)"
+          	fi
+          }
+          archive_is_contained() {
+          	tar -tzvf "$1" | awk '
+                  { name = $0
+                    sub(/^[^ ]+ +[^ ]+ +[0-9]+ +[0-9-]+ +[0-9:]+ /, "", name)
+                    if (substr($1, 1, 1) == "l") { n = index(name, " -> "); if (n > 0) name = substr(name, 1, n - 1); sym[name "/"] = 1 }
+                    if (name ~ /^\// || name ~ /(^|\/)\.\.(\/|$)/) { print "  refusing " name; bad = 1 }
+                    for (s in sym) if (index(name, s) == 1) { print "  refusing " name " (through symlink " s ")"; bad = 1 }
+                  }
+                  END { exit bad }'
+          }
+          submodule_archive_fits() {
+          	local subfile=$1 subpath=$2 stage=$3 p="" c=""
+          	case "$subfile" in
+          	git:*.sub.*.tar.gz) [ "$subfile" = "${subfile##*/}" ] || {
+          		msg "  refusing submodule archive name $subfile"
+          		return 1
+          	} ;;
+          	*)
+          		msg "  refusing submodule archive name $subfile"
+          		return 1
+          		;;
+          	esac
+          	case "$subpath" in
+          	"" | /* | . | .. | ./* | ../* | */. | */.. | */./* | */../* | *//* | */)
+          		msg "  refusing submodule path $subpath"
+          		return 1
+          		;;
+          	esac
+          	p=$stage
+          	for c in $(printf '%s\n' "$subpath" | tr / '\n'); do
+          		p="$p/$c"
+          		[ ! -L "$p" ] || {
+          			msg "  refusing submodule path $subpath: $c is a symlink"
+          			return 1
+          		}
+          	done
+          	[ -z "$(find "$stage/$subpath" -type l 2>/dev/null | head -n 1)" ] ||
+          		{
+          			msg "  refusing submodule path $subpath: it already holds a symlink"
+          			return 1
+          		}
+          	tar -tzf "/var/cache/melange/$subfile" | awk -v p="$subpath/" '
+                  { if ($0 != substr(p, 1, length(p) - 1) && index($0, p) != 1) { print "  refusing " $0 " (not under " p ")"; bad = 1 } }
+                  END { exit bad }'
+          }
+          archive_tree() {
+          	local dir=$1 prefix=$2 out=$3 attrs="" had=""
+          	attrs="$(git -C "$dir" rev-parse --absolute-git-dir)/info/attributes"
+          	mkdir -p "${attrs%/*}"
+          	[ -f "$attrs" ] && had=1 && cp "$attrs" "$attrs.melange-save"
+          	printf '* -export-ignore -export-subst\n' >>"$attrs"
+          	(
+          		set -o pipefail
+          		git -C "$dir" -c tar.umask=022 archive --format=tar --prefix="$prefix" HEAD | gzip -n >"$out"
+          	)
+          	local rc=$?
+          	if [ -n "$had" ]; then mv "$attrs.melange-save" "$attrs"; else rm -f "$attrs"; fi
+          	return $rc
+          }
+          stash_trees() {
+          	local dir=$1 out=$2 c=""
+          	shift 2
+          	for c in "$@"; do
+          		git -C "$dir" rev-parse "$c^{tree}"
+          		git -C "$dir" ls-tree -r -d "$c" | awk '$2 == "tree" { print $3 }'
+          	done | sort -u | git -C "$dir" pack-objects -q --stdout >"$out" || rm -f "$out"
+          }
+          stash_source() {
+          	local dest=$1 expcommit=$2 repo=$3 recurse=$4 tag=$5 sparse_paths=$6
+          	local stash="${MELANGE_SOURCE_STASH:-}" head="" key="" name=""
+          	[ -n "$stash" ] || return 0
+          	if [ -n "$sparse_paths" ]; then
+          		msg "Warning: sparse-paths is set; the -source package will not carry this checkout"
+          		return 0
+          	fi
+          	[ -d "$dest/.git" ] || dest=.
+          	[ -d "$dest/.git" ] || return 0
+          	head=$(git -C "$dest" rev-parse HEAD) || return 0
+          	key="git:${expcommit:-$head}"
+
+          	[ -f "$stash/$key.tar.gz" ] && return 0
+          	name=$(basename "$repo" .git)
+          	mkdir -p "$stash"
+          	msg "archiving checkout as $key.tar.gz for the -source package"
+          	if ! archive_tree "$dest" "$name-$head/" "$stash/$key.tar.gz"; then
+          		msg "Warning: archiving the checkout failed; the -source package will not carry it"
+          		rm -f "$stash/$key.tar.gz"
+          		return 0
+          	fi
+
+          	printf '%s\n%s\n%s\n%s\n' "$(printf '%s' "$repo" | sed -e 's|://[^/?#]*@|://|' -e 's|[?#].*$||')" "$head" "$(git -C "$dest" log -1 --format=%ct)" \
+          		"$(git -C "$dest" symbolic-ref --short -q HEAD || true)" >"$stash/$key.uri"
+          	git -C "$dest" cat-file commit "$head" >"$stash/$key.commit" || rm -f "$stash/$key.commit"
+
+          	if [ -n "$expcommit" ] && [ "$head" != "$expcommit" ]; then
+          		for c in $(git -C "$dest" rev-list "$head" "^$expcommit" 2>/dev/null) "$expcommit"; do
+          			[ "$c" = "$head" ] && continue
+          			git -C "$dest" cat-file commit "$c" >"$stash/$key.obj.$c" || rm -f "$stash/$key.obj.$c"
+          		done
+          	fi
+          	if [ -n "$tag" ] && [ "$(git -C "$dest" cat-file -t "refs/tags/$tag" 2>/dev/null)" = "tag" ]; then
+          		git -C "$dest" cat-file tag "refs/tags/$tag" >"$stash/$key.tag" || rm -f "$stash/$key.tag"
+          	fi
+          	stash_describe_history "$dest" "$stash" "$key" "$head"
+
+          	set -- HEAD
+          	for f in "$stash/$key".obj.*; do
+          		[ -f "$f" ] || continue
+          		[ $# -le 300 ] && set -- "$@" "${f##*.obj.}"
+          	done
+          	stash_trees "$dest" "$stash/$key.trees" "$@"
+
+          	git -C "$dest" ls-tree -r HEAD | awk '$2 == "commit" { print $4, $3 }' >"$stash/$key.gitlinks"
+          	if [ "$recurse" = "true" ]; then
+
+          		: >"$stash/$key.submodules"
+          		git -C "$dest" submodule foreach --recursive --quiet 'echo "$displaypath $sha1"' |
+          			while read -r subpath subsha; do
+          				[ -n "$subpath" ] || continue
+          				subkey="$key.sub.$(printf '%s' "$subpath" | sha256sum | cut -c1-16)"
+          				if archive_tree "$dest/$subpath" "$subpath/" "$stash/$subkey.tar.gz"; then
+          					printf '%s %s %s\n' "$subpath" "$subkey.tar.gz" "$subsha" >>"$stash/$key.submodules"
+          					git -C "$dest/$subpath" cat-file commit HEAD >"$stash/$subkey.commit" || rm -f "$stash/$subkey.commit"
+          					stash_trees "$dest/$subpath" "$stash/$subkey.trees" HEAD
+          					git -C "$dest/$subpath" ls-tree -r HEAD | awk -v p="$subpath/" '$2 == "commit" { print p $4, $3 }' >>"$stash/$key.gitlinks"
+          				else
+          					msg "Warning: archiving submodule $subpath failed"
+          					rm -f "$stash/$subkey.tar.gz"
+          				fi
+          			done
+          	fi
+          }
+          stash_describe_history() {
+          	local dir=$1 stash=$2 key=$3 head=$4 desc="" base="" n="" c="" name="" type="" obj="" target=""
+          	desc=$(git -C "$dir" describe --tags --long HEAD 2>/dev/null) || desc=""
+          	if [ -n "$desc" ]; then
+          		base=$(git -C "$dir" rev-parse "${desc%-*-g*}^{commit}" 2>/dev/null) || base=""
+          		n=$(git -C "$dir" rev-list --count HEAD "^$base" 2>/dev/null) || n=999999
+          		if [ -n "$base" ] && [ "$n" -le 2000 ]; then
+          			for c in $(git -C "$dir" rev-list HEAD "^$base") "$base"; do
+          				[ "$c" = "$head" ] && continue
+          				[ -f "$stash/$key.obj.$c" ] ||
+          					git -C "$dir" cat-file commit "$c" >"$stash/$key.obj.$c" || rm -f "$stash/$key.obj.$c"
+          			done
+          		fi
+          	fi
+          	: >"$stash/$key.tags"
+          	git -C "$dir" for-each-ref refs/tags --format='%(refname:short) %(objecttype) %(objectname) %(*objectname)' |
+          		while read -r name type obj target; do
+          			c=$target
+          			[ "$type" = "commit" ] && c=$obj
+          			[ "$c" = "$head" ] || [ -f "$stash/$key.obj.$c" ] || continue
+          			if [ "$type" = "tag" ]; then
+          				git -C "$dir" cat-file tag "$obj" >"$stash/$key.tagobj.$obj" || {
+          					rm -f "$stash/$key.tagobj.$obj"
+          					continue
+          				}
+          				printf '%s tag %s %s\n' "$name" "$obj" "$c" >>"$stash/$key.tags"
+          			else
+          				printf '%s commit %s\n' "$name" "$c" >>"$stash/$key.tags"
+          			fi
+          		done
+          }
+          restore_head() {
+          	local cachebase=$1 expcommit=$2 tag=$3 initial=$4 cpicksf=$5 parent=$6
+          	local tree="" want="" sha="" f="" c="" p="" known=""
+          	[ -f "$cachebase.commit" ] ||
+          		{
+          			msg "$cachebase.commit is missing; the archive cannot be authenticated"
+          			return 1
+          		}
+          	want=$(sed -n 's/^tree //p;1q' "$cachebase.commit")
+          	if [ -f "$cachebase.trees" ] && git unpack-objects -q <"$cachebase.trees" 2>/dev/null &&
+          		git cat-file -e "$want" 2>/dev/null; then
+
+          		git read-tree "$want" || return 1
+          		verify_worktree || return 1
+          		tree=$want
+          	else
+
+          		git add -A -f . && add_gitlinks "$cachebase" "$parent" || return 1
+          		tree=$(git write-tree) || return 1
+          		if [ "$tree" != "$want" ]; then
+          			mkdir -p "$(git rev-parse --git-dir)/info"
+          			printf '* -text -eol -ident -filter\n' >>"$(git rev-parse --git-dir)/info/attributes"
+          			git add -A -f --renormalize . 2>/dev/null || return 1
+          			tree=$(git write-tree) || return 1
+          		fi
+          		[ "$tree" = "$want" ] ||
+          			{
+          				msg "restored tree $tree is not the tree of the stashed commit ($want); the archive does not match it"
+          				return 1
+          			}
+          	fi
+          	sha=$(git hash-object -t commit -w --literally --stdin <"$cachebase.commit") &&
+          		git update-ref HEAD "$sha" || return 1
+
+          	known=" $sha "
+          	for f in "$cachebase".obj.*; do
+          		[ -f "$f" ] || continue
+          		c=$(git hash-object -t commit -w --literally --stdin <"$f") && known="$known$c "
+          	done
+
+          	if [ -f "$cachebase.tag" ] && [ "$(git hash-object -t tag --literally --stdin <"$cachebase.tag")" = "$expcommit" ]; then
+          		expcommit=$(sed -n 's/^object //p;1q' "$cachebase.tag")
+          		msg "expected-commit named the tag object; it names commit $expcommit"
+          	fi
+          	authenticate_head "$sha" "$expcommit" "$cpicksf" "$known" || return 1
+          	msg "restored tree is upstream commit $sha"
+
+          	: >"$(git rev-parse --git-dir)/shallow"
+          	for c in $known; do
+          		for p in $(git cat-file commit "$c" | awk '/^$/ { exit } /^parent / { print $2 }'); do
+          			case "$known" in *" $p "*) ;; *)
+          				echo "$c" >>"$(git rev-parse --git-dir)/shallow"
+          				break
+          				;;
+          			esac
+          		done
+          	done
+          	recreate_tags "$cachebase" "$known" &&
+          		recreate_tag "$cachebase" "$tag" "$known" &&
+          		place_head "$cachebase" "$initial"
+          }
+          recreate_tags() {
+          	local cachebase=$1 known=$2 name="" type="" obj="" target="" tsha=""
+          	[ -f "$cachebase.tags" ] || return 0
+          	while read -r name type obj target; do
+          		[ -n "$name" ] || continue
+          		if [ "$type" = "tag" ]; then
+          			case "$known" in *" $target "*) ;; *) continue ;; esac
+          			[ -f "$cachebase.tagobj.$obj" ] || continue
+          			tsha=$(git hash-object -t tag -w --literally --stdin <"$cachebase.tagobj.$obj") || continue
+          			[ "$tsha" = "$obj" ] && git update-ref "refs/tags/$name" "$tsha"
+          		else
+          			case "$known" in *" $obj "*) git update-ref "refs/tags/$name" "$obj" ;; esac
+          		fi
+          	done <"$cachebase.tags"
+          	return 0
+          }
+          verify_worktree() {
+          	local entries="" paths="" raw="" clean="" tab="" bad="" assume="" line="" mode="" sha="" path="" r="" c=""
+          	tab=$(printf '\t')
+          	entries=$(mktemp)
+          	paths=$(mktemp)
+          	raw=$(mktemp)
+          	clean=$(mktemp)
+          	bad=$(mktemp)
+          	assume=$(mktemp)
+          	git -c core.quotePath=false ls-files -s >"$entries"
+          	awk -F"$tab" '$1 ~ /^100(644|755) / { print $2 }' "$entries" >"$paths"
+          	if [ -s "$paths" ]; then
+          		git hash-object -w --no-filters --stdin-paths <"$paths" >"$raw" || return 1
+          		git hash-object -w --stdin-paths <"$paths" >"$clean" || return 1
+          	fi
+
+          	while IFS="$tab" read -r meta path; do
+          		mode=${meta%% *}
+          		sha=${meta#* }
+          		sha=${sha%% *}
+          		case "$mode" in
+          		100644 | 100755)
+          			r=""
+          			c=""
+          			read -r r <&3 || :
+          			read -r c <&4 || :
+          			if [ "$r" = "$sha" ]; then
+          				[ "$c" = "$sha" ] || printf '%s\n' "$path" >>"$assume"
+          			elif [ "$c" != "$sha" ]; then
+          				printf '%s\n' "$path" >>"$bad"
+          			fi
+          			;;
+          		120000)
+          			[ "$(printf '%s' "$(readlink "$path")" | git hash-object -w --stdin)" = "$sha" ] ||
+          				printf '%s\n' "$path" >>"$bad"
+          			;;
+          		esac
+          	done <"$entries" 3<"$raw" 4<"$clean"
+
+          	git -c core.quotePath=false ls-files -o >"$paths"
+          	if [ -s "$paths" ]; then
+          		msg "archive holds files the tree does not name: $(head -3 "$paths" | tr '\n' ' ')$([ "$(wc -l <"$paths")" -gt 3 ] && echo '...')"
+          		rm -f "$entries" "$paths" "$raw" "$clean" "$bad" "$assume"
+          		return 1
+          	fi
+          	if [ -s "$bad" ]; then
+          		msg "restored files do not match the tree the commit names: $(head -3 "$bad" | tr '\n' ' ')$([ "$(wc -l <"$bad")" -gt 3 ] && echo '...')"
+          		rm -f "$entries" "$paths" "$raw" "$clean" "$bad" "$assume"
+          		return 1
+          	fi
+          	[ -s "$assume" ] && git update-index --assume-unchanged --stdin <"$assume"
+          	git update-index -q --refresh >/dev/null 2>&1 || true
+          	rm -f "$entries" "$paths" "$raw" "$clean" "$bad" "$assume"
+          }
+          authenticate_head() {
+          	local head=$1 expcommit=$2 cpicksf=$3 known=$4 c=$1 want="" hash="" line="" from=""
+          	if [ -n "$cpicksf" ] && [ -f "$cpicksf" ]; then
+          		while IFS= read -r line; do
+          			line=${line%%#*}
+          			[ -n "$line" ] || continue
+          			hash=${line%%:*}
+          			hash=${hash##*/}
+          			want="$hash $want"
+          		done <"$cpicksf"
+          	fi
+          	while [ "$c" != "$expcommit" ]; do
+          		case "$known" in *" $c "*) ;; *)
+          			msg "commit $c is not among the restored objects"
+          			return 1
+          			;;
+          		esac
+          		[ -n "$want" ] ||
+          			{
+          				msg "restored HEAD $head does not reach expected-commit $expcommit"
+          				return 1
+          			}
+          		hash=${want%% *}
+          		want=${want#"$hash"}
+          		want=${want# }
+          		from=$(git cat-file commit "$c" | sed -n 's/^(cherry picked from commit \([0-9a-f]*\))$/\1/p' | tail -1)
+          		case "$from" in "$hash"*) ;; *)
+          			msg "commit $c is not the cherry-pick of configured $hash"
+          			return 1
+          			;;
+          		esac
+          		c=$(git cat-file commit "$c" | awk '/^$/ { exit } /^parent / { print $2; exit }')
+          		[ -n "$c" ] || {
+          			msg "cherry-pick $hash has no parent"
+          			return 1
+          		}
+          	done
+          	[ -z "$want" ] ||
+          		{
+          			msg "cherry-pick(s) configured but absent from the restored history: $want"
+          			return 1
+          		}
+          }
+          verify_submodules() {
+          	local cachebase=$1 dest=$2 subpath="" subfile="" parent="" other="" x="" rel="" want="" got=""
+          	[ -f "$cachebase.submodules" ] || return 0
+          	while read -r subpath subfile subsha; do
+          		[ -n "$subpath" ] || continue
+          		parent=""
+          		while read -r other x y; do
+          			[ -n "$other" ] && [ "$other" != "$subpath" ] || continue
+          			case "$subpath" in "$other"/*) [ ${#other} -gt ${#parent} ] && parent=$other ;; esac
+          		done <"$cachebase.submodules"
+          		rel=$subpath
+          		[ -z "$parent" ] || rel=${subpath#"$parent"/}
+          		want=$(git -C "$dest/$parent" rev-parse -q --verify "HEAD:$rel") ||
+          			{
+          				msg "the tree records no gitlink at $subpath"
+          				return 1
+          			}
+          		got=$(git -C "$dest/$subpath" rev-parse -q --verify HEAD) || return 1
+          		[ "$want" = "$got" ] ||
+          			{
+          				msg "submodule $subpath restored as $got but the tree pins $want"
+          				return 1
+          			}
+          	done <"$cachebase.submodules"
+          }
+          place_head() {
+          	local cachebase=$1 initial=$2 sym="" repo="" when=""
+          	[ -f "$cachebase.uri" ] && sym=$(sed -n 4p "$cachebase.uri")
+          	if [ -n "$sym" ]; then
+          		if [ "$sym" != "$initial" ]; then
+          			git branch -q -f "$sym" HEAD && git symbolic-ref HEAD "refs/heads/$sym" &&
+          				git branch -q -D "$initial" || return 1
+          		fi
+          	else
+          		git checkout -q --detach && git branch -q -D "$initial" || return 1
+          	fi
+
+          	if [ -f "$cachebase.uri" ]; then
+          		repo=$(sed -n 1p "$cachebase.uri")
+          		when=$(sed -n 3p "$cachebase.uri")
+          		printf '%040d %s Melange Build <melange-build@cgr.dev> %s +0000\tclone: from %s\n' 0 "$(git rev-parse HEAD)" "${when:-0}" "$repo" >"$(git rev-parse --git-dir)/logs/HEAD"
+          	fi
+          }
+          recreate_tag() {
+          	local cachebase=$1 tag=$2 known=$3 p="" tsha=""
+          	[ -n "$tag" ] || return 0
+          	git show-ref -q --verify "refs/tags/$tag" && return 0
+          	if [ -f "$cachebase.tag" ]; then
+          		p=$(sed -n 's/^object //p;1q' "$cachebase.tag")
+          		case "$known" in
+          		*" $p "*)
+          			tsha=$(git hash-object -t tag -w --literally --stdin <"$cachebase.tag") &&
+          				git update-ref "refs/tags/$tag" "$tsha"
+          			return
+          			;;
+          		esac
+          		git tag -a -m "$tag" "$tag"
+          	else
+          		git tag "$tag"
+          	fi
+          }
+          add_gitlinks() {
+          	local cachebase=$1 parent=$2 sub="" sha="" rel="" other="" x="" nested=""
+          	[ -f "$cachebase.gitlinks" ] || return 0
+          	while read -r sub sha; do
+          		[ -n "$sub" ] || continue
+          		if [ -z "$parent" ]; then
+          			rel=$sub
+          		else
+          			case "$sub" in "$parent"/*) rel=${sub#"$parent"/} ;; *) continue ;; esac
+          		fi
+          		nested=""
+          		while read -r other x; do
+          			[ -n "$other" ] && [ "$other" != "$sub" ] && [ "$other" != "$parent" ] || continue
+          			case "$sub" in "$other"/*) ;; *) continue ;; esac
+          			case "$parent" in "$other"/*) continue ;; esac
+          			nested=1
+          		done <"$cachebase.gitlinks"
+          		[ -z "$nested" ] || continue
+          		git update-index --add --cacheinfo "160000,$sha,$rel" || return 1
+          	done <"$cachebase.gitlinks"
+          }
+          restore_submodules() {
+          	local cachebase=$1 dest=$2 subpath="" subfile="" subsha=""
+          	[ -f "$cachebase.submodules" ] || return 0
+          	awk '{ n = gsub("/", "/", $1); print n, $0 }' "$cachebase.submodules" | sort -rn | cut -d' ' -f2- |
+          		while read -r subpath subfile subsha; do
+          			[ -n "$subpath" ] && [ -n "$subsha" ] || continue
+          			(cd "$dest/$subpath" &&
+          				rm -rf .git &&
+          				git init -q -b main . &&
+          				git config --global --add safe.directory "$(pwd)" &&
+          				restore_head "/var/cache/melange/${subfile%.tar.gz}" "$subsha" "" main "" "$subpath") ||
+          				{
+          					msg "submodule $subpath does not authenticate to $subsha"
+          					exit 1
+          				}
+          		done || return 1
+          }
+          main() {
+          	local repo=$1 dest=${2:-.} depth=${3:-"unset"} branch=$4
+          	local tag=$5 expcommit=$6 recurse=${7:-false}
+          	local cherry_pick="$8" sparse_paths="$9"
+          	local max_retries="${10:-3}" initial_backoff="${11:-2}" max_backoff="${12:-60}"
+          	local shallow_submodules="${13:-false}" submodule_jobs="${14:-1}"
+          	local expected_commit_is_branch_tip="${15:-false}"
+          	msg "repo='$repo' dest='$dest' depth='$depth' branch='$branch'" \
+          		"tag='$tag' expcommit='$expcommit' recurse='$recurse'" \
+          		"sparse_paths='$sparse_paths' max_retries='$max_retries'" \
+          		"initial_backoff='$initial_backoff' max_backoff='$max_backoff'" \
+          		"shallow_submodules='$shallow_submodules' submodule_jobs='$submodule_jobs'" \
+          		"expected_commit_is_branch_tip='$expected_commit_is_branch_tip'"
+
+          	case "$recurse" in
+          	true | false) : ;;
+          	*) fail "recurse must be true or false, not '$recurse'" ;;
+          	esac
+          	case "$shallow_submodules" in
+          	true | false) : ;;
+          	*) fail "shallow_submodules must be true or false, not '$shallow_submodules'" ;;
+          	esac
+          	case "$expected_commit_is_branch_tip" in
+          	true | false) : ;;
+          	*) fail "expected-commit-is-branch-tip must be true or false," \
+          		"not '$expected_commit_is_branch_tip'" ;;
+          	esac
+
+          	[ -n "$repo" ] || fail "repository not provided"
+
+          	if [ -z "$branch" ] && [ -z "$tag" ]; then
+          		msg "Warning: you have not specified a branch or tag."
+          	elif [ -n "$branch" ] && [ -n "$tag" ]; then
+          		fail "both branch ($branch) and tag ($tag) are specified."
+          	fi
+
+          	if [ "$expected_commit_is_branch_tip" = "true" ]; then
+          		[ -z "$tag" ] ||
+          			fail "expected-commit-is-branch-tip is only valid with" \
+          				"'branch', not 'tag'."
+          		[ -n "$branch" ] ||
+          			fail "expected-commit-is-branch-tip requires 'branch' to be set."
+          		[ -n "$expcommit" ] ||
+          			fail "expected-commit-is-branch-tip requires 'expected-commit'" \
+          				"to be set."
+          	fi
+
+          	[ -n "$expcommit" ] ||
+          		msg "Warning: no expected-commit"
+
+          	local cachebase="/var/cache/melange/git:$expcommit" cachef="/var/cache/melange/git:$expcommit.tar.gz"
+          	if [ -n "${MELANGE_SOURCE_RESTORE:-}" ] && [ -z "$sparse_paths" ] && [ -n "$expcommit" ] && [ -f "$cachef" ]; then
+          		msg "found $cachef in cache; restoring instead of cloning"
+
+          		local stage
+          		stage=$(mktemp -d)
+          		archive_is_contained "$cachef" || fail "$cachef would write outside its directory; refusing it"
+          		tar -xzf "$cachef" --strip-components=1 --no-same-owner -C "$stage" ||
+          			fail "restoring $cachef failed"
+          		if [ -f "$cachebase.submodules" ]; then
+          			while read -r subpath subfile subsha; do
+          				[ -n "$subpath" ] || continue
+          				submodule_archive_fits "$subfile" "$subpath" "$stage" ||
+          					fail "submodule archive $subfile cannot be laid at $subpath over what is already restored; refusing it"
+          				archive_is_contained "/var/cache/melange/$subfile" ||
+          					fail "submodule archive $subfile would write outside its directory; refusing it"
+          				tar -xzf "/var/cache/melange/$subfile" --no-same-owner -C "$stage" ||
+          					fail "restoring submodule $subpath from $subfile failed"
+          			done <"$cachebase.submodules"
+          		fi
+
+          		local sdate=${SOURCE_DATE_EPOCH:-0}
+          		[ -f "$cachebase.uri" ] && sdate=$(sed -n 3p "$cachebase.uri")
+          		[ "${sdate:-0}" -ge 315532800 ] 2>/dev/null || sdate=315532800
+          		export GIT_AUTHOR_NAME="Melange Build" GIT_AUTHOR_EMAIL="melange-build@cgr.dev" \
+          			GIT_COMMITTER_NAME="Melange Build" GIT_COMMITTER_EMAIL="melange-build@cgr.dev" \
+          			GIT_AUTHOR_DATE="@$sdate" GIT_COMMITTER_DATE="@$sdate"
+          		restore_submodules "$cachebase" "$stage" ||
+          			fail "a submodule archive in the cache for $expcommit does not authenticate; refusing to build from it"
+
+          		(cd "$stage" &&
+          			rm -rf .git &&
+          			git init -q -b "${branch:-main}" . &&
+          			git config --global --add safe.directory "$(pwd)" &&
+          			restore_head "$cachebase" "$expcommit" "$tag" "${branch:-main}" "$cherry_pick" "") ||
+          			fail "$cachef does not authenticate to expected-commit $expcommit; refusing to build from it"
+          		verify_submodules "$cachebase" "$stage" ||
+          			fail "a restored submodule is not the one the tree for $expcommit pins; refusing to build from it"
+          		mkdir -p "$dest"
+          		(cd "$stage" && tar -c .) | tar -C "$dest" -x --no-same-owner ||
+          			fail "laying the restored checkout into $dest failed"
+          		rm -rf "$stage"
+          		git config --global --add safe.directory "$(realpath "$dest")"
+
+          		if [ -n "${MELANGE_SOURCE_STASH:-}" ]; then
+          			mkdir -p "$MELANGE_SOURCE_STASH"
+          			cp "$cachebase".* "$MELANGE_SOURCE_STASH/"
+          		fi
+          		return 0
+          	fi
+
+          	local flags="" depthflag="" dest_fullpath="" workdir=""
+          	local remote="origin" rcfile="" rc="" quiet="--quiet"
+          	flags="--config=advice.detachedHead=false"
+          	[ -n "$branch" ] && flags="$flags --branch=$branch"
+          	[ -n "$tag" ] && flags="$flags --branch=$tag"
+          	if [ "$recurse" = "true" ]; then
+          		flags="$flags --recurse-submodules --jobs=$submodule_jobs"
+          		[ "$shallow_submodules" = "true" ] && flags="$flags --shallow-submodules"
+          	fi
+          	[ -n "$sparse_paths" ] && flags="$flags --sparse --filter=blob:none"
+
+          	if [ "$depth" = "unset" ]; then
+          		depth=1
+          		if [ -n "$branch" ] && [ -n "$expcommit" ] &&
+          			[ "$expected_commit_is_branch_tip" = "false" ]; then
+
+          			depth=-1
+          		fi
+          	fi
+
+          	[ "$depth" = "-1" ] || depthflag="--depth=$depth"
+
+          	workdir=$(mktemp -d)
+          	rcfile=$(mktemp)
+          	mkdir -p "$dest"
+          	dest_fullpath=$(realpath "$dest")
+
+          	vr git config --global --add safe.directory "$workdir"
+          	vr git config --global --add safe.directory "$dest_fullpath"
+
+          	vr git config --global maintenance.auto false
+          	vr git config --global gc.auto 0
+
+          	msg "Attempting git clone with retry (max_retries=$max_retries, initial_backoff=${initial_backoff}s, max_backoff=${max_backoff}s)"
+
+          	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+          		git clone $quiet "--origin=$remote" \
+          		"--config=user.name=Melange Build" \
+          		"--config=user.email=melange-build@cgr.dev" \
+          		$flags \
+          		${depthflag:+"${depthflag}"} "$repo" "$workdir" ||
+          		fail "git clone failed after $max_retries retries"
+
+          	msg "cloned from $(cd "$workdir" && git remote get-url origin)"
+
+          	vr cd "$workdir"
+
+          	if [ -n "$sparse_paths" ]; then
+          		msg "Configuring sparse-checkout with paths: $sparse_paths"
+
+          		vr git sparse-checkout set --cone $sparse_paths ||
+          			fail "failed to configure sparse-checkout --filter=blob:none"
+          	fi
+
+          	msg "tar -c . | tar -C \"$dest_fullpath\" -x"
+          	(
+          		tar -c .
+          		echo $? >"$rcfile"
+          	) | tar -C "$dest_fullpath" -x --no-same-owner
+
+          	read rc <"$rcfile" || fail "failed to read rc file"
+          	[ "$rc" -eq 0 ] || fail "tar creation in $workdir failed"
+
+          	rm -rf "$workdir"
+          	vr cd "$dest_fullpath"
+          	vr git config --global --add safe.directory "$dest_fullpath"
+
+          	local foundcommit="" tagobj=""
+          	if [ -z "$tag" ]; then
+          		foundcommit=$(git rev-parse --verify HEAD)
+          		if [ -n "$expcommit" ] && [ "$expcommit" != "$foundcommit" ]; then
+          			if [ "$expected_commit_is_branch_tip" = "true" ]; then
+
+          				fail "expected-commit $expcommit is not the tip of branch" \
+          					"${branch:-HEAD} ($foundcommit); the branch advanced" \
+          					"or the version was bumped without updating" \
+          					"expected-commit"
+          			elif [ "$depth" = "-1" ]; then
+
+          				if git merge-base --is-ancestor "$expcommit" "$foundcommit"; then
+          					msg "expected commit $expcommit on ${branch:-HEAD}," \
+          						"got $foundcommit, performing reset"
+          					vr git reset --hard "$expcommit"
+          				else
+          					fail "expected commit $expcommit is not reachable from" \
+          						"${branch:-HEAD} (tip $foundcommit); the branch may" \
+          						"have diverged from the pinned commit -- update" \
+          						"expected-commit"
+          				fi
+          			else
+          				fail "expected commit $expcommit on ${branch:-HEAD}," \
+          					"got $foundcommit, set depth to -1 to attempt a reset"
+          			fi
+          		fi
+          		msg "tip of ${branch:-HEAD} is commit $foundcommit"
+          		process_cherry_picks "$cherry_pick" || fail "failed to apply cherry-pick"
+          		return 0
+          	fi
+
+          	retry_with_backoff "$max_retries" "$initial_backoff" "$max_backoff" \
+          		vr git fetch $quiet $remote ${depthflag:+"${depthflag}"} --no-tags \
+          		"+refs/tags/$tag:refs/$remote/tags/$tag" ||
+          		fail "git fetch of tag $tag failed after $max_retries retries"
+          	vr git checkout $quiet "$remote/tags/$tag"
+
+          	foundcommit=$(git rev-parse --verify HEAD)
+          	if [ -z "$expcommit" ] || [ "$expcommit" = "$foundcommit" ]; then
+          		msg "tag $tag is $foundcommit"
+          	else
+
+          		tagobj=$(git rev-parse --verify --end-of-options \
+          			"refs/$remote/tags/$tag")
+          		if [ "$expcommit" != "$tagobj" ]; then
+          			[ "$tagobj" != "$expcommit" ] &&
+          				msg "tag object hash was $tagobj"
+          			fail "Expected commit $expcommit for $tag, found $foundcommit"
+          		fi
+
+          		msg "Warning: The provided expected-commit ($expcommit)"
+          		msg "was the hash of the annotated tag object for $tag."
+          		msg "Update to set expected-commit to $foundcommit"
+          	fi
+
+          	process_cherry_picks "$cherry_pick" ||
+          		fail "failed to apply cherry-pick"
+
+          	return 0
+          }
+          cpickf=$(mktemp) || {
+          	echo "failed mktemp"
+          	exit 1
+          }
+          cat >"$cpickf" <<"END_CHERRY_PICKS"
+
+          END_CHERRY_PICKS
+          main \
+          	"https://github.com/ThomasDickey/ncurses-snapshots" "." \
+          	"unset" "" \
+          	"v6_6_20261107" "7404b376832583182c52722dc09d86b8675db375" \
+          	"false" "$cpickf" \
+          	"" \
+          	"3" "2" \
+          	"60" \
+          	"false" "1" \
+          	"false"
+          stash_source "." "7404b376832583182c52722dc09d86b8675db375" \
+          	"https://github.com/ThomasDickey/ncurses-snapshots" "false" "v6_6_20261107" \
+          	""
+          rm -f "$cpickf"
+  - pipeline:
+      - runs: |
+          ln -s ../configure
+        working-directory: without-widec
+      - uses: autoconf/configure
+        with:
+          build: x86_64-pc-linux-gnu
+          host: x86_64-pc-linux-gnu
+          opts: |+
+            --disable-widec \
+            --without-progs \
+            --without-ada \
+            --without-tests \
+            --disable-termcap \
+            --disable-rpath-hack \
+            --disable-stripping \
+            --with-pkg-config-libdir=/usr/lib/pkgconfig \
+            --without-cxx-binding \
+            --with-terminfo-dirs="/etc/terminfo:/usr/share/terminfo:/lib/terminfo:/usr/lib/terminfo" \
+            --enable-pc-files \
+            --with-shared \
+            --with-termlib=tinfo \
+            --with-xterm-kbs=DEL
+
+        pipeline:
+          - runs: |
+              cd .
+              if [[ ! -f ./configure && -f ./configure.ac ]]; then
+              	autoreconf -vfi
+              fi
+              ./configure \
+              	--host=x86_64-pc-linux-gnu \
+              	--build=x86_64-pc-linux-gnu \
+              	--prefix=/usr \
+              	--sysconfdir=/etc \
+              	--libdir=/usr/lib \
+              	--mandir=/usr/share/man \
+              	--infodir=/usr/share/info \
+              	--localstatedir=/var \
+              	--disable-widec \
+              	--without-progs \
+              	--without-ada \
+              	--without-tests \
+              	--disable-termcap \
+              	--disable-rpath-hack \
+              	--disable-stripping \
+              	--with-pkg-config-libdir=/usr/lib/pkgconfig \
+              	--without-cxx-binding \
+              	--with-terminfo-dirs="/etc/terminfo:/usr/share/terminfo:/lib/terminfo:/usr/lib/terminfo" \
+              	--enable-pc-files \
+              	--with-shared \
+              	--with-termlib=tinfo \
+              	--with-xterm-kbs=DEL
+            working-directory: without-widec
+        needs:
+          packages:
+            - autoconf
+            - automake
+            - libtool
+        working-directory: without-widec
+      - uses: autoconf/make
+        pipeline:
+          - runs: |
+              make -C "." -j$(nproc) V=1
+            working-directory: without-widec
+        needs:
+          packages:
+            - make
+        working-directory: without-widec
+      - uses: autoconf/make-install
+        pipeline:
+          - runs: |
+              make -C "." install DESTDIR="/home/build/melange-out/ncurses" V=1
+            working-directory: without-widec
+          - runs: |
+              find /home/build/melange-out/ncurses -name '*.la' -print -exec rm \{} \;
+            working-directory: without-widec
+        needs:
+          packages:
+            - make
+        working-directory: without-widec
+    working-directory: without-widec
+  - pipeline:
+      - runs: |
+          ln -s ../configure
+        working-directory: with-widec
+      - uses: autoconf/configure
+        with:
+          build: x86_64-pc-linux-gnu
+          host: x86_64-pc-linux-gnu
+          opts: |+
+            --enable-widec \
+            --with-ticlib=tic \
+            --without-ada \
+            --without-tests \
+            --disable-termcap \
+            --disable-rpath-hack \
+            --disable-stripping \
+            --with-pkg-config-libdir=/usr/lib/pkgconfig \
+            --without-cxx-binding \
+            --with-terminfo-dirs="/etc/terminfo:/usr/share/terminfo:/lib/terminfo:/usr/lib/terminfo" \
+            --enable-pc-files \
+            --with-shared \
+            --with-termlib=tinfo \
+            --with-xterm-kbs=DEL
+
+        pipeline:
+          - runs: |
+              cd .
+              if [[ ! -f ./configure && -f ./configure.ac ]]; then
+              	autoreconf -vfi
+              fi
+              ./configure \
+              	--host=x86_64-pc-linux-gnu \
+              	--build=x86_64-pc-linux-gnu \
+              	--prefix=/usr \
+              	--sysconfdir=/etc \
+              	--libdir=/usr/lib \
+              	--mandir=/usr/share/man \
+              	--infodir=/usr/share/info \
+              	--localstatedir=/var \
+              	--enable-widec \
+              	--with-ticlib=tic \
+              	--without-ada \
+              	--without-tests \
+              	--disable-termcap \
+              	--disable-rpath-hack \
+              	--disable-stripping \
+              	--with-pkg-config-libdir=/usr/lib/pkgconfig \
+              	--without-cxx-binding \
+              	--with-terminfo-dirs="/etc/terminfo:/usr/share/terminfo:/lib/terminfo:/usr/lib/terminfo" \
+              	--enable-pc-files \
+              	--with-shared \
+              	--with-termlib=tinfo \
+              	--with-xterm-kbs=DEL
+            working-directory: with-widec
+        needs:
+          packages:
+            - autoconf
+            - automake
+            - libtool
+        working-directory: with-widec
+      - uses: autoconf/make
+        pipeline:
+          - runs: |
+              make -C "." -j$(nproc) V=1
+            working-directory: with-widec
+        needs:
+          packages:
+            - make
+        working-directory: with-widec
+      - uses: autoconf/make-install
+        pipeline:
+          - runs: |
+              make -C "." install DESTDIR="/home/build/melange-out/ncurses" V=1
+            working-directory: with-widec
+          - runs: |
+              find /home/build/melange-out/ncurses -name '*.la' -print -exec rm \{} \;
+            working-directory: with-widec
+        needs:
+          packages:
+            - make
+        working-directory: with-widec
+    working-directory: with-widec
+  - name: Set up development files
+    runs: |
+      for lib in ncurses ncursesw; do
+      	fullpath="/home/build/melange-out/ncurses/usr/lib/lib${lib}.so"
+      	basename_versioned_so=$(basename $(readlink -f "${fullpath}"))
+      	rm -f "${fullpath}"
+      	echo "INPUT(${basename_versioned_so} -ltinfo)" >"${fullpath}"
+      done
+      ln -s "libncursesw.so" "/home/build/melange-out/ncurses/usr/lib/libcursesw.so"
+  - uses: strip
+    pipeline:
+      - runs: |
+          case "x86_64" in
+          x86_64) native_mach="EM_X86_64" ;;
+          aarch64) native_mach="EM_AARCH64" ;;
+          *)
+          	echo "strip: unsupported architecture: x86_64" >&2
+          	exit 1
+          	;;
+          esac
+          scanelf --recursive --nobanner --osabi --format "%a %o %F" --etype "ET_DYN,ET_EXEC" . |
+          	while read mach osabi filename; do
+
+          		[ "$osabi" != "STANDALONE" ] || continue
+          		[ "$mach" = "$native_mach" ] || continue
+
+          		[ -e "$filename" ] || continue
+          		strip -g "${filename}"
+          	done
+        working-directory: /home/build/melange-out/ncurses
+subpackages:
+  - name: ncurses-static
+    pipeline:
+      - uses: split/static
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/ncurses"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/ncurses-static" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              i= j=
+              cd "$PACKAGE_DIR" || exit 0
+              libdirs=usr/
+              [ -d lib/ ] && libdirs="lib/ $libdirs"
+              for i in \
+              	$(find $libdirs -name '*.a' 2>/dev/null); do
+              	if [ -e "$PACKAGE_DIR/$i" ] || [ -L "$PACKAGE_DIR/$i" ]; then
+              		d="/home/build/melange-out/ncurses-static/${i%/*}"
+              		mkdir -p "$d"
+              		mv "$PACKAGE_DIR/$i" "$d"
+              		rmdir "$PACKAGE_DIR/${i%/*}" 2>/dev/null || :
+              	fi
+              done
+    description: ncurses static
+    commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+    test:
+      environment:
+        contents:
+          packages:
+            - ncurses-static
+            - package-type-check
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/staticpackage
+          pipeline:
+            - name: Check if the package is a Static Package
+              runs: |
+                package-type-check static "ncurses-static"
+  - name: ncurses-dev
+    pipeline:
+      - uses: split/dev
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/ncurses"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/ncurses-dev" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              cd "$PACKAGE_DIR" || exit 0
+              prefix="/usr"
+              while [ "${prefix#/}" != "$prefix" ]; do
+              	prefix="${prefix#/}"
+              done
+              libdirs="${prefix}/"
+              if [ "${prefix%%/*}" = "usr" ] && [ -d lib/ ]; then
+
+              	libdirs="lib/ $libdirs"
+              fi
+              for i in "${prefix}"/include "${prefix}"/lib/pkgconfig "${prefix}"/share/pkgconfig \
+              	"${prefix}"/share/aclocal "${prefix}"/share/gettext \
+              	"${prefix}"/bin/*-config "${prefix}"/bin/*_config "${prefix}"/share/vala/vapi \
+              	"${prefix}"/share/gir-[0-9]* "${prefix}"/share/qt*/mkspecs \
+              	"${prefix}"/lib/qt*/mkspecs \
+              	"${prefix}"/lib/cmake "${prefix}"/share/cmake \
+              	"${prefix}"/lib/glade/modules "${prefix}"/share/glade/catalogs \
+              	$(find . -name include -type d) \
+              	$(find $libdirs -name '*.a' 2>/dev/null) \
+              	$(find $libdirs -name '*.[cho]' \
+              		-o -name '*.prl' 2>/dev/null); do
+              	if [ -e "$PACKAGE_DIR/$i" ] || [ -L "$PACKAGE_DIR/$i" ]; then
+              		d="/home/build/melange-out/ncurses-dev/${i%/*}"
+              		mkdir -p "$d"
+              		mv "$PACKAGE_DIR/$i" "$d"
+              		rmdir "$PACKAGE_DIR/${i%/*}" 2>/dev/null || :
+              	fi
+              done
+              sodirs="$prefix/lib"
+              case "$prefix" in
+              usr)
+              	sodirs="lib $sodirs"
+              	;;
+              */usr)
+              	sodirs="${prefix%/*}/lib $sodirs"
+              	;;
+              esac
+              for sodir in $sodirs; do
+              	for i in "$sodir"/*.so; do
+              		if [ -L "$i" ]; then
+              			mkdir -p "/home/build/melange-out/ncurses-dev"/"${i%/*}"
+              			mv "$i" "/home/build/melange-out/ncurses-dev/$i" || return 1
+              		fi
+              	done
+              done
+      - runs: |
+          mv "/home/build/melange-out/ncurses"/usr/lib/lib*.so "/home/build/melange-out/ncurses-dev"/usr/lib/
+    dependencies:
+      runtime:
+        - ncurses=6.6.20261107-r0
+    description: ncurses headers
+    commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+    test:
+      environment:
+        contents:
+          packages:
+            - build-base
+            - help-check
+            - ldd-check
+            - ncurses-dev
+            - package-type-check
+            - pkgconf
+            - ver-check
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/devpackage
+          pipeline:
+            - name: Check if the package is a Dev Package
+              runs: |
+                package-type-check dev "ncurses-dev" \
+                	--prefix "/usr"
+        - uses: test/tw/ver-check
+          with:
+            bins: ncursesw6-config
+            version: 6.6.20261107
+          pipeline:
+            - name: check version information for binaries
+              runs: |
+                ver-check \
+                	--bins="ncursesw6-config" \
+                	--version="6.6.20261107" \
+                	--version-flag="auto" \
+                	--match-type="contains" \
+                	--verbose="false"
+        - uses: test/tw/help-check
+          with:
+            bins: ncursesw6-config
+          pipeline:
+            - name: check help information for binaries
+              runs: |
+                help-check \
+                	--bins="ncursesw6-config" \
+                	--help-flag="auto" \
+                	--expect-contains="" \
+                	--verbose="false"
+        - uses: test/tw/ldd-check
+          pipeline:
+            - name: check for missing library dependencies using ldd
+              runs: |
+                ldd-check \
+                	--files="" \
+                	--exclude-files="" \
+                	--packages="ncurses-dev" \
+                	--extra-library-paths="" \
+                	--verbose="false"
+        - uses: test/pkgconf
+          pipeline:
+            - name: pkgconf build dependency check
+              runs: |
+                dev_pkg=$(basename /home/build/melange-out/ncurses-dev)
+                cd /
+                pc_files=false
+                for pc_file in $(apk info -L "$dev_pkg" 2>/dev/null | grep "\.pc$"); do
+                	pc_files=true
+
+                	if grep -q "^Name:" $pc_file; then
+                		lib_name=$(basename "$pc_file" ".pc")
+
+                		pc_paths="/usr/lib/pkgconfig /usr/share/pkgconfig"
+                		if [ -n "$PKG_CONFIG_PATH" ]; then
+
+                			for path in $(echo "$PKG_CONFIG_PATH" | tr ':' ' '); do
+                				pc_paths="$pc_paths $path"
+                			done
+                		fi
+                		found=false
+                		for path in $pc_paths; do
+                			[ -e "${path}/${lib_name}.pc" ] || continue
+                			found=true
+                			break
+                		done
+                		if [ "$found" = "false" ]; then
+                			echo "Error: $pc_file not in valid pkgconfig paths" && exit 1
+                		fi
+
+                		pkgconf --exists $lib_name || pkgconf --print-errors --exists $lib_name
+
+                		if grep -q "^Version:" $pc_file; then
+                			pkgconf --modversion $lib_name
+                		fi
+
+                		if grep -q "^Libs:" $pc_file; then
+                			pkgconf --libs $lib_name
+                		fi
+
+                		if grep -q "^Cflags:" $pc_file; then
+                			pkgconf --cflags $lib_name
+                		fi
+                	fi
+                done
+                if [ $pc_files = "false" ]; then
+                	echo "No .pc files found in $dev_pkg please remove the pkgconf test"
+                fi
+        - name: Test compile and link with ncurses
+          runs: |
+            tee /tmp/test_ncurses.c <<'EOF'
+            #include <ncurses.h>
+            #include <stdio.h>
+            int main() {
+                /* Verify we can reference ncurses symbols */
+                printf("ncurses header version: %s\n", NCURSES_VERSION);
+                return 0;
+            }
+            EOF
+            gcc $(pkg-config --cflags ncurses) /tmp/test_ncurses.c -o /tmp/test_ncurses $(pkg-config --libs ncurses)
+            /tmp/test_ncurses | grep -F "ncurses header version:"
+        - name: Test compile and link with ncursesw
+          runs: |
+            tee /tmp/test_ncursesw.c <<'EOF'
+            #include <ncurses.h>
+            #include <locale.h>
+            #include <stdio.h>
+            #include <stdlib.h>
+            #include <string.h>
+
+            int main(void) {
+                setlocale(LC_ALL, "");
+
+                FILE *out = tmpfile();   // curses output lands here so we can inspect it
+                if (!out) {
+                    fprintf(stderr, "FAIL: cannot create temp file\n");
+                    return 1;
+                }
+
+                const char *term = getenv("TERM");
+                if (!term || !*term || strcmp(term, "dumb") == 0)
+                    term = "xterm";
+
+                SCREEN *scr = newterm(term, out, stdin);
+                if (scr == NULL) {
+                    fprintf(stderr, "FAIL: newterm() returned NULL\n");
+                    return 1;
+                }
+
+                int ok = (addwstr(L"café — ω — 日本語 — €") != ERR) && (refresh() != ERR);
+                const char *ver = curses_version();
+
+                endwin();
+                delscreen(scr);
+
+                fflush(out);
+                long bytes = ftell(out);   // total bytes curses wrote
+                fclose(out);
+
+                if (ok && bytes > 0 && ver) {
+                    fprintf(stderr, "PASS: libncursesw working, %ld bytes emitted (%s)\n", bytes, ver);
+                    return 0;
+                }
+                fprintf(stderr, "FAIL: ok=%d bytes=%ld\n", ok, bytes);
+                return 1;
+            }
+            EOF
+            gcc $(pkg-config --cflags ncursesw) /tmp/test_ncursesw.c -o /tmp/test_ncursesw $(pkg-config --libs ncursesw)
+            /tmp/test_ncursesw
+  - name: ncurses-doc
+    pipeline:
+      - uses: split/manpages
+        pipeline:
+          - runs: |
+              PACKAGE_DIR="/home/build/melange-out/ncurses"
+              if [ -n "" ]; then
+              	PACKAGE_DIR="/home/build/melange-out/"
+              fi
+              if [ "$PACKAGE_DIR" = "/home/build/melange-out/ncurses-doc" ]; then
+              	echo "ERROR: Package can not split files from itself!" && exit 1
+              fi
+              case "false" in
+              true | false) ;;
+              *)
+              	echo "ERROR: preserve-path must be \"true\" or \"false\", got \"false\"" >&2
+              	exit 1
+              	;;
+              esac
+              merge_tree() {
+              	local src="$1" dst="$2" entry name
+              	mkdir -p "$dst"
+              	for entry in "$src"/* "$src"/.[!.]* "$src"/..?*; do
+
+              		[ -e "$entry" ] || [ -L "$entry" ] || continue
+              		name="${entry##*/}"
+
+              		if [ -d "$entry" ] && [ ! -L "$entry" ]; then
+              			if [ -d "$dst/$name" ] && [ ! -L "$dst/$name" ]; then
+              				merge_tree "$entry" "$dst/$name"
+              				rmdir "$entry"
+              			elif [ -e "$dst/$name" ] || [ -L "$dst/$name" ]; then
+              				echo "ERROR: cannot merge $entry into $dst/$name: destination exists and is not a directory" >&2
+              				exit 1
+              			else
+              				mv "$entry" "$dst/$name"
+              			fi
+              		elif [ -e "$dst/$name" ] || [ -L "$dst/$name" ]; then
+              			echo "ERROR: $name is present in more than one man root; refusing to overwrite $dst/$name" >&2
+              			exit 1
+              		else
+              			mv "$entry" "$dst/$name"
+              		fi
+              	done
+              }
+              split_root() {
+              	local root="$1" dest="$2"
+
+              	if [ -L "$PACKAGE_DIR/$root" ]; then
+              		echo "ERROR: $root is a symlink to a directory; name its target in paths instead" >&2
+              		exit 1
+              	fi
+
+              	if [ -z "$(ls -A "$PACKAGE_DIR/$root")" ]; then
+              		echo "ERROR: $root exists but contains no files; the install step did not put manuals there" >&2
+              		exit 1
+              	fi
+
+              	if [ -e "$dest" ] || [ -L "$dest" ]; then
+              		merge_tree "$PACKAGE_DIR/$root" "$dest"
+              	else
+
+              		mkdir -p "$(dirname "$dest")"
+              		mv "$PACKAGE_DIR/$root" "$dest"
+              	fi
+
+              	if [ -d "$PACKAGE_DIR/$root" ]; then
+              		rmdir --parents --ignore-fail-on-non-empty "$PACKAGE_DIR/$root"
+              	else
+              		rmdir --parents --ignore-fail-on-non-empty "$(dirname "$PACKAGE_DIR/$root")"
+              	fi
+              }
+              for root in usr/share/man usr/local/share/man usr/man; do
+              	[ -d "$PACKAGE_DIR/$root" ] || continue
+              	split_root "$root" "/home/build/melange-out/ncurses-doc/usr/share/man"
+              done
+              paths=""
+              set -f
+              extra=""
+              for root in $paths; do
+              	case "$root" in
+              	/*)
+              		echo "ERROR: paths entry \"$root\" must be relative to the package root" >&2
+              		exit 1
+              		;;
+              	.. | ../* | */.. | */../*)
+
+              		echo "ERROR: paths entry \"$root\" must not contain a \"..\" component" >&2
+              		exit 1
+              		;;
+              	. | ./* | */. | */./*)
+
+              		echo "ERROR: paths entry \"$root\" must not contain a \".\" component" >&2
+              		exit 1
+              		;;
+              	*[\*\?\[]*)
+              		echo "ERROR: paths entry \"$root\" must not contain a glob pattern; name each directory" >&2
+              		exit 1
+              		;;
+              	esac
+              	extra="$extra $root"
+              done
+              set +f
+              for root in $extra; do
+
+              	if [ ! -d "$PACKAGE_DIR/$root" ]; then
+              		echo "ERROR: paths entry \"$root\" does not exist in the package" >&2
+              		exit 1
+              	fi
+
+              	if [ "false" = "true" ]; then
+
+              		split_root "$root" "/home/build/melange-out/ncurses-doc/$root"
+              	else
+              		split_root "$root" "/home/build/melange-out/ncurses-doc/usr/share/man"
+              	fi
+              done
+    description: ncurses documentation
+    commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+    test:
+      environment:
+        contents:
+          packages:
+            - apk-tools
+            - grep
+            - man-db
+            - ncurses-doc
+            - texinfo
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/docs
+          pipeline:
+            - name: docs readability check
+              runs: |
+                doc_pkg=$(basename /home/build/melange-out/ncurses-doc)
+                if [ $(apk info -qL "$doc_pkg" | grep -v "^var/lib/db/sbom" | grep -v "^$" | wc -l) -eq 0 ]; then
+                	echo "See:"
+                	apk info -qL "$doc_pkg"
+                	echo "This package [$doc_pkg] is completely empty (i.e. installs no files)."
+                	echo "Please check the package build for proper docs installation, and either:"
+                	echo "  (a) fix the docs subpackage build to actually include documentation (check the split/manpages and split/infodir pipelines), or"
+                	echo "  (b) remove the test/docs pipeline (if for some reason we want an empty docs package), or"
+                	echo "  (c) remove the docs subpackage entirely"
+                	exit 1
+                fi
+                cd /
+                doc_files=false
+                for doc_file in $(apk info -qL "$doc_pkg" | grep "^usr/share/man/" | grep -v "^usr/share/man/db/"); do
+                	if [ -f /"$doc_file" ]; then
+
+                		man -l /"$doc_file" >/dev/null
+                		doc_files=true
+                	fi
+                done
+                for doc_file in $(apk info -qL "$doc_pkg" | grep "^usr/share/info/"); do
+                	if [ -f /"$doc_file" ]; then
+
+                		[ $(info -f /"$doc_file" -o - | wc -l) -gt 0 ] && doc_files=true
+                	fi
+                done
+                for doc_file in $(apk info -qL "$doc_pkg" | grep "^usr/share/"); do
+                	if [ -f /"$doc_file" ]; then
+
+                		cat /"$doc_file" >/dev/null
+                		doc_files=true
+                	fi
+                done
+                if [ $doc_files = "false" ]; then
+                	echo "See:"
+                	apk info -qL "$doc_pkg"
+                	echo "This package [$doc_pkg] installs files, but no usable documentation"
+                	echo "Please check the package build for proper docs installation, and either:"
+                	echo "  (a) fix the docs subpackage build to actually include docs (check the split/manpages and split/infodir pipelines), or"
+                	echo "  (b) remove the test/docs pipeline"
+                	exit 1
+                fi
+  - name: ncurses-terminfo-base
+    pipeline:
+      - runs: |
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/a
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/a/alacritty "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/a
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/a/ansi "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/a
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/d
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/d/dumb "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/d
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/g
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/g/gnome* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/g
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/k
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/k/konsole* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/k
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/l
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/l/linux "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/l
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/p
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/p/putty* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/p
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/s
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/s/screen* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/s
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/s/st-* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/s
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/s/sun "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/s
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/t
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/t/terminator "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/t
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/t/terminology* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/t
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/t/tmux* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/t
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/v
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/v/vt1* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/v
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/v/vt2* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/v
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/v/vt52 "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/v
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/v/vte* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/v
+          mkdir -p "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/x
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo/x/xterm* "/home/build/melange-out/ncurses-terminfo-base"/etc/terminfo/x
+    description: descriptions of common terminals
+    commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+    test:
+      environment:
+        contents:
+          packages:
+            - ncurses
+            - ncurses-terminfo-base
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - name: Verify key terminfo files exist
+          runs: |
+            stat /etc/terminfo/x/xterm
+            stat /etc/terminfo/l/linux
+            stat /etc/terminfo/s/screen
+            stat /etc/terminfo/a/ansi
+            stat /etc/terminfo/d/dumb
+            stat /etc/terminfo/a/alacritty
+            stat /etc/terminfo/t/tmux
+        - name: Verify terminfo entries are valid
+          runs: |
+            TERMINFO=/etc/terminfo infocmp xterm | grep -F "xterm"
+            TERMINFO=/etc/terminfo infocmp linux | grep -F "linux"
+            TERMINFO=/etc/terminfo infocmp screen | grep -F "screen"
+  - name: ncurses-terminfo
+    pipeline:
+      - runs: |
+          mkdir -p "/home/build/melange-out/ncurses-terminfo"/usr/share
+          mv "/home/build/melange-out/ncurses"/usr/share/terminfo "/home/build/melange-out/ncurses-terminfo"/usr/share
+    description: other terminal descriptions
+    commit: 57b90c0084b0bc101663cdfcaa44f4ce83312443
+    test:
+      environment:
+        contents:
+          packages:
+            - ncurses-terminfo
+        accounts:
+          run-as: ""
+          users:
+            - username: build
+              uid: 1000
+              gid: 1000
+              shell: ""
+              homedir: ""
+          groups:
+            - groupname: build
+              gid: 1000
+              members:
+                - build
+      pipeline:
+        - uses: test/tw/contains-files
+          with:
+            dir: /usr/share/terminfo
+          pipeline:
+            - name: check the specified dir for file names
+              runs: |
+                dir="/usr/share/terminfo"
+                name="*"
+                type="f"
+                files=""
+                if [ ! -z "${files}" ]; then
+
+                	exit 0
+                fi
+                message="files found in [${dir}] with name [${name}] and type [${type}]"
+                list=$(find "${dir}" -name "${name}" -type "${type}")
+                if [ -z "${list}" ]; then
+                	echo "FAIL: no ${message}. This is unexpected." >&2
+                	exit 1
+                fi
+                echo "PASS: ${message}. This is expected."
+            - name: check the speficied files paths
+              runs: |
+                files=""
+                if [ -z "${files}" ]; then
+
+                	exit 0
+                fi
+                for file in $files; do
+                	if [ ! -e "$file" ]; then
+                		echo "FAIL: file [${file}] is not in the package. This is unexpected." >&2
+                		exit 1
+                	fi
+                done
+                echo "PASS: the specified file paths are in the package. This is expected."
+update:
+  enabled: true
+  manual: false
+  require-sequential: false
+  version-separator: _
+  github:
+    identifier: ThomasDickey/ncurses-snapshots
+    strip-prefix: v
+    tag-filter-prefix: v
+    use-tag: true
+vars:
+  common-configure-options: |
+    --without-ada \
+    --without-tests \
+    --disable-termcap \
+    --disable-rpath-hack \
+    --disable-stripping \
+    --with-pkg-config-libdir=/usr/lib/pkgconfig \
+    --without-cxx-binding \
+    --with-terminfo-dirs="/etc/terminfo:/usr/share/terminfo:/lib/terminfo:/usr/lib/terminfo" \
+    --enable-pc-files \
+    --with-shared \
+    --with-termlib=tinfo \
+    --with-xterm-kbs=DEL
+var-transforms:
+  - from: ${{package.version}}
+    match: (\d+)\.(\d+).(\d+)$
+    replace: ${1}_${2}_${3}
+    to: tag-version
+test:
+  environment:
+    contents:
+      packages:
+        - build-base
+        - ldd-check
+        - ncurses
+        - ncurses-dev
+        - ncurses-terminfo-base
+        - pkgconf
+        - ver-check
+    accounts:
+      run-as: ""
+      users:
+        - username: build
+          uid: 1000
+          gid: 1000
+          shell: ""
+          homedir: ""
+      groups:
+        - groupname: build
+          gid: 1000
+          members:
+            - build
+  pipeline:
+    - uses: test/tw/ver-check
+      with:
+        bins: |
+          captoinfo
+          clear
+          infocmp
+          infotocap
+          reset
+          tabs
+          tic
+          toe
+          tput
+          tset
+        version: 6.6.20261107
+      pipeline:
+        - name: check version information for binaries
+          runs: |
+            ver-check \
+            	--bins="captoinfo
+            clear
+            infocmp
+            infotocap
+            reset
+            tabs
+            tic
+            toe
+            tput
+            tset
+            " \
+            	--version="6.6.20261107" \
+            	--version-flag="auto" \
+            	--match-type="contains" \
+            	--verbose="false"
+    - uses: test/tw/ldd-check
+      pipeline:
+        - name: check for missing library dependencies using ldd
+          runs: |
+            ldd-check \
+            	--files="" \
+            	--exclude-files="" \
+            	--packages="ncurses" \
+            	--extra-library-paths="" \
+            	--verbose="false"
+    - name: Functional test for infocmp
+      runs: |
+        infocmp xterm | grep -F "xterm"
+        infocmp xterm | grep -F "colors"
+    - name: Functional test for tput
+      runs: |
+        TERM=xterm tput cols
+        TERM=xterm tput lines
+        TERM=xterm tput bold | od -c | head -1
+    - name: Test compile and link with ncurses library
+      runs: |
+        tee /tmp/test_ncurses_main.c <<'EOF'
+        #include <curses.h>
+        #include <stdio.h>
+        int main() {
+            /* Verify ncurses symbols are linkable */
+            WINDOW *win = initscr();
+            if (win == NULL) {
+                /* initscr may fail without a real terminal, but linking succeeded */
+                printf("initscr returned NULL (no terminal), but link succeeded\n");
+            } else {
+                endwin();
+                printf("ncurses init and endwin succeeded\n");
+            }
+            printf("ncurses version: %s\n", curses_version());
+            return 0;
+        }
+        EOF
+        gcc $(pkg-config --cflags ncursesw) /tmp/test_ncurses_main.c -o /tmp/test_ncurses_main $(pkg-config --libs ncursesw)
+        stat /tmp/test_ncurses_main
+        tee /tmp/test_ncurses_ver.c <<'EOF'
+        #include <curses.h>
+        #include <stdio.h>
+        int main() {
+            printf("%s\n", curses_version());
+            return 0;
+        }
+        EOF
+        gcc $(pkg-config --cflags ncursesw) /tmp/test_ncurses_ver.c -o /tmp/test_ncurses_ver $(pkg-config --libs ncursesw)
+        /tmp/test_ncurses_ver | grep -F "ncurses"

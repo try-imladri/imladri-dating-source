@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "classification": "custom_backport",
+  "distribution": "cryptography",
+  "upstream_version": "50.0.2",
+  "build_tag": "1imladrisecurity",
+  "not_a_PyPI_supplied_wheel": true,
+  "OpenSSL_source_commit": "af1775b60dfa141a4ad762585052cabeb9f37e9e",
+  "source_date_epoch": 1794528866,
+  "toolchain_image": "sha256:46994923894e9b9a746074fccdf81f0287bc3786a8f92a0ab869121fa113a021",
+  "source_inputs": [
+    {
+      "path": "cryptography-50.0.2.tar.gz",
+      "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5"
+    },
+    {
+      "path": "openssl-af1775b6.tar.gz",
+      "sha256": "219c0a389f3c76e58f2d9e2b216101887f94747e669bb79c43225d7b6ac1253a"
+    },
+    {
+      "path": "patches/CVE-2026-107496-a8531368ddb1f86d2a2782a8b693926bb67b59e7.patch",
+      "sha256": "50f9dd4cb6e193cc6e3d23179ca3817491873109205516793cb97f8b8aadef20"
+    },
+    {
+      "path": "patches/CVE-2026-88822-911eee8eb7550b95a206f1ad8cbdb986098982f3.patch",
+      "sha256": "379bd978090b771d91f319119e5e40d6656f512b2fd6138fc95b8f5a2558439c"
+    },
+    {
+      "path": "patches/CVE-2026-88823-2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682.patch",
+      "sha256": "6626f2fc1834647586a505583b9dcb42be0d762eaa3f92159219db7947cb16ba"
+    },
+    {
+      "path": "patches/CVE-2026-95691-ec9d4de9d03989b29db5a3d7efdb4c285deaf386.patch",
+      "sha256": "8f3ea9e7e6f0387dc0bcf988ae590a9cf103494999258f585c5fe342e91d9d4d"
+    },
+    {
+      "path": "patches/CVE-2026-95692-510872388f5d145cf870868b3d288a23822cb776.patch",
+      "sha256": "f6e60d254e9bfbe3b6e599f0eb65bf6639e9dacb48ca77b5a61b116a6f266b42"
+    }
+  ],
+  "native_module": {
+    "path": "cryptography/hazmat/bindings/_rust.abi3.so",
+    "sha256": "b37d8ffeafddb555563d6ddbcdc170d66f200b9815cad90f5663d16084710f14",
+    "bytes": 14004480
+  },
+  "independent_native_rebuild_byte_identical": true,
+  "upstream_tests": {
+    "OpenSSL": {
+      "files": 368,
+      "passed": 4158
+    },
+    "cryptography_Python": {
+      "passed": 4495,
+      "skipped": 186,
+      "failed": 0
+    },
+    "cryptography_Rust": {
+      "passed": 108,
+      "failed": 0
+    }
+  },
+  "skips_are_explicit_feature_or_backend_variants": true,
+  "application_image_and_provider_release_verification_still_required": true,
+  "wheel": {
+    "filename": "cryptography-50.0.2-1imladrisecurity-cp312-abi3-linux_x86_64.whl",
+    "sha256": "1b832fce8c549ac3b2f3ab0f6e76459741ac18f88c116fc0949e3f4c1e5c9526",
+    "bytes": 4943345
+  },
+  "recipe_sha256": "a000f2210daa1afa7162f81856ccefe21ca918b4535dd19c24a4197987fc46d1",
+  "rebuild_script_sha256": "22f46ce461678d05dd17dc8a53beab3526d56347d3a1bebfdf5dd888c3c2953e"
+}

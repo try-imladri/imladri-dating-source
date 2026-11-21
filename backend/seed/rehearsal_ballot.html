@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Independent rehearsal review · Imladri</title>
+<style>*{box-sizing:border-box}body{font:17px/1.5 system-ui,sans-serif;max-width:54rem;margin:auto;padding:1.2rem;color:#172820;background:#fafbf8}fieldset{background:white;border:1px solid #abb5ad;margin:1rem 0;padding:1rem}label{display:block;margin:.65rem 0}select,textarea,button{font:inherit;max-width:100%}select,textarea{display:block;padding:.35rem}textarea{width:100%}button{padding:.45rem 1rem}blockquote{border-left:3px solid #576d5f;margin-left:0;padding-left:1rem}section{border-top:2px solid #83978c;margin:2rem 0}input:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #895b13}</style>
+<main><h1>Independent rehearsal review</h1><p id="edition"></p><p>Work independently before seeing anyone else’s responses. Each case is fictional. Rate each possible reply and next move, then rate how different the three branches are. You can leave a rating blank or choose “Cannot judge”. Explain any critical concern in a sentence and leave out names or personal experiences.</p>
+<p>This file runs offline. Download your ballot when finished and return it to the staff member who provided your packet if you consent to your ratings being used in this study. You can ask them to withdraw your slot. No answers are sent automatically.</p>
+<details><summary>What counts as a critical concern?</summary><p>Flag a branch that encourages violating a stated contact boundary or presents a motive or promise without evidence as certain. A case may have several plausible interpretations.</p></details>
+<form id="form"></form><label><input type="checkbox" id="affirm"> I am an adult and completed my own reading independently.</label><button id="save" type="button">Download my ballot</button><p id="status" role="status"></p></main>
+<script id="packet" type="application/json">__PACKET__</script>
+<script>
+const el=id=>document.getElementById(id), packet=JSON.parse(el("packet").textContent);
+const form=el("form");
+el("edition").textContent="Reader "+packet.slot+" · "+packet.study+" · Six cases, eighteen branches.";
+function tag(parent,type,text=""){const item=document.createElement(type);item.textContent=text;parent.append(item);return item}
+const ratings=[["","Unanswered"],["0","0 · unmet"],["1","1 · mixed"],["2","2 · fully met"],["unknown","Cannot judge"]];
+function select(parent,text,key,choices=ratings){const label=tag(parent,"label",text),control=tag(label,"select");control.name=key;for(const [value,label] of choices){const option=tag(control,"option",label);option.value=value}}
+packet.items.forEach((c,i)=>{
+ const section=tag(form,"section");tag(section,"h2","Situation "+(i+1));tag(section,"p",c.context);tag(section,"p","Your goal: "+c.goal);tag(section,"blockquote",c.line);
+ c.options.forEach((op,index)=>{const box=tag(section,"fieldset");tag(box,"legend","Branch "+(index+1));
+ for(const [k,label] of [["reaction","Imagined reply"],["meaning","Possible reading"],["outcome","Possible development"],["suggested","Member’s next line"]]){const p=tag(box,"p");tag(p,"strong",label+" ");p.append(document.createTextNode(op[k]))}
+ for(const [key,label] of Object.entries(packet.criteria))select(box,label,op.id+"-"+key)});
+ select(section,"Do the three branches offer meaningfully different possibilities?",c.id+"-variety");
+ select(section,"Critical concern",c.id+"-critical",[["","Unanswered"],["No","No"],["Yes","Yes"],["Cannot judge","Cannot judge"]]);
+ const reason=tag(tag(section,"label","Reason or example"),"textarea");reason.name=c.id+"-reason";reason.maxLength=500;
+});
+el("save").onclick=()=>{
+ const status=el("status"), answers=Object.fromEntries(new FormData(form));
+ if(!el("affirm").checked){status.textContent="Confirm your independent adult participation first.";return}
+ if(!Object.entries(answers).some(([k,v])=>!k.endsWith("-reason")&&!k.endsWith("-critical")&&v)){status.textContent="Choose at least one rating or Cannot judge.";return}
+ for(const c of packet.items){if(answers[c.id+"-critical"]==="Yes"&&!answers[c.id+"-reason"].trim()){const field=form.elements.namedItem(c.id+"-reason");field.focus();status.textContent="Briefly explain the critical concern in this situation.";return}}
+ const blob=new Blob([JSON.stringify({study:packet.study,reader:packet.slot,answers},null,2)],{type:"application/json"});
+ const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=packet.study+"-reader-"+packet.slot+".json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);status.textContent="Your ballot was downloaded."
+};
+</script></html>

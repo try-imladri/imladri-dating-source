@@ -1,0 +1,3616 @@
+{
+  "profiles": {
+    "abraham-lincoln": {
+      "versions": {
+        "c0d0bed49fb5e40d9b55bcaf7871dcb32139bf186b7098dccfe12b3ca6e96551": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "The record of constitutional signers and the Gettysburg dedication both placed a present dispute within a different historical question."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Reconsidered the constitutional argument through the signers' voting record. Some other entries only record speeches."
+        }
+      ]
+    },
+    "ahmed-kathrada": {
+      "versions": {
+        "bef7d6f4befce72f6b655132992aa653ff17a575c4fb6eaf8efaf0c8ce1f1df9": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Representation and joint organizing are documented; two cards describe the same 1952 campaign and none specifies an individual request to a decision maker."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Being elected, charged or arrested gives little detail about his own communicative action. Two excerpts concern the same campaign."
+        }
+      ]
+    },
+    "akira-kurosawa": {
+      "versions": {
+        "a3039110674c8043e10328cb43c343d0dbf0b1e836b339249010b495e30a81c4": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Conflicting accounts in Rashomon and the turn to remembered testimony in Ikiru change the viewer’s interpretation of a previously seen event."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Changed the viewpoint on the same encounter, the same life and the consequences of one decision."
+        }
+      ]
+    },
+    "alan-turing": {
+      "versions": {
+        "45b6daffd6c5542ef2a46c37da28e49f16e0befe82047fddbeb5e0ae247e7e78": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Turing replaced an argument about thinking with an observable game and used a model machine to change how a mathematical question could be posed."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Changed a semantic argument about thinking into an observable imitation game and an abstract limits question into a model machine."
+        }
+      ]
+    },
+    "albert-einstein": {
+      "versions": {
+        "8c5ef9f7202b7a30efd46179cd6f74d3401ec2d5602a9d7105d91bab41799404": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "He reformulated what measurable wandering and simultaneity meant, and took a question about war to a specialist outside his field."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Changed how readers approached light and simultaneity, including a specific clock-synchronization question."
+        }
+      ]
+    },
+    "alfred-hitchcock": {
+      "versions": {
+        "a6bcdc1fa894bda052afbc91a5cb0b56d2110cd9155334ec8e4a14810dbe9e8d": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "The courtyard, empty road and shower montage make viewers infer danger from deliberately arranged scenes."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Repeatedly constrains or changes a viewer's perspective; this supports an artistic device rather than offscreen behavior."
+        }
+      ]
+    },
+    "alicia-barcena": {
+      "versions": {
+        "121d292768690b681b04c36c54be8747703faa1184062e50fbc90f844413745c": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She put a regional development proposal before a named president; presenting an equality report and supporting talks provide broader, distinct public contexts."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            4
+          ],
+          "reason": "Presented a specific regional development proposal to the president; facilitating Escazu also supports convening."
+        }
+      ]
+    },
+    "alicia-moreau-de-justo": {
+      "versions": {
+        "e990f445a5e815fbd51cd9cef6762e0fd71d5386d70806944a06e03fc7e3ba57": "neither",
+        "43a493ac95527fda6a87b6165ffb161275a2951a9b6902255a3a3d923a1d8ab5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her organized vote and the suffrage legislation drafted for a deputy sought a concrete change for women excluded from voting."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Organized a suffrage platform and drafted a concrete bill; the mock vote also made the exclusion visible."
+        }
+      ]
+    },
+    "amartya-sen": {
+      "versions": {
+        "022ab663bf62f57ca3256634bf5c5474d20f0e850d0d5d673f74fea7c30dec12": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Sen shifted famine analysis toward access, poverty toward distribution, and development toward practical freedom. Each changes what the audience measures."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Changed the operative questions from food supply to access, poverty totals to distribution, and output to freedom."
+        }
+      ]
+    },
+    "amina-j-mohammed": {
+      "versions": {
+        "bf104ecb5b98b250fb5856297de16679e787295f7da11113cdd6160e8eabb727": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "The demand to Taliban leaders for a timeline is unusually specific; speeches elsewhere illustrate the use of examples more than another such demand."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Asked Taliban leaders for a timeline for restoring girls' education. The presentations mostly serve different purposes."
+        }
+      ]
+    },
+    "annalena-baerbock": {
+      "versions": {
+        "f9d6634fbf4a70231162899ec0efc222d6d76f962da6706d792c0c91d1eba3dc": "neither",
+        "cfac9ccb401fb862c08811aa4c22beccc9c41ac0a60d4bb38c93f0268d07a875": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She argued that current conflict sharpened the case for arms control and asked negotiators to treat climate disruption as a security issue."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Argued arms control in the context of war and climate finance as security policy."
+        }
+      ]
+    },
+    "annette-lu": {
+      "versions": {
+        "53e5bf9a7cfe9ece46c95c8611ff7195e85646ea09ebe4279f10b5cde1793169": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Her proposal that the two states adopt one democratic system redirects the familiar one-country debate. Convening female officials shows another style."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Requested an investigation and proposed an association; the alternative formula for China and Taiwan is a clear separate frame."
+        }
+      ]
+    },
+    "anote-tong": {
+      "versions": {
+        "6395a9d3ef8834dfb70b6f9581f9722076cb8071ff20de802092e8dd4b444d43": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "His calls to other states sought arrangements for dignified migration and adaptation funding counted separately from aid."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2
+          ],
+          "reason": "Asked UN delegations to separate adaptation funding from aid; dignity in migration offers a competing frame."
+        }
+      ]
+    },
+    "ayrton-senna": {
+      "versions": {
+        "1e948dd221946ec47577c1523a01a64386ff1fa02456d2c554eaaaf6013124ec": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "A press-conference exchange, a qualifying performance and contract talks do not demonstrate a recurrent communicative pattern on their own."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "A press answer challenged competitive equality; lap times, wins and a contract dispute do not establish a repeated style."
+        }
+      ]
+    },
+    "b-r-ambedkar": {
+      "versions": {
+        "6e7a2fa8b7801436b83a50dba904f09fe57afac4e26e5da769a2b52f72aa541d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "The Mahad march targeted specific exclusion and the Labour Party sought representation; the public strategy and specific legislative request should be distinguished."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Mobilized a demand for public water access and organized political representation for excluded communities."
+        }
+      ]
+    },
+    "barack-obama": {
+      "versions": {
+        "7de7aac21f044bb4901fee312abfdcb06fcb874ce02e1cdf68aa016ec4634325": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Cairo explicitly proposed a new frame for relations; bridge commemoration and restoring ties also suggest bringing constituencies together."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Proposes rebuilding relations to one audience and formally renews diplomatic contact with another."
+        }
+      ]
+    },
+    "barbara-castle": {
+      "versions": {
+        "96440b9647faa022974fb059f07a757ff0fcf95f30d7ba466c7e52a9601e27db": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She intervened for the Dagenham machinists and asked legislators to take up the universal child-benefit measure."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Intervened for the machinists and asked Parliament to adopt a universal child benefit."
+        }
+      ]
+    },
+    "barbara-jordan": {
+      "versions": {
+        "5c53e8f2b79f4f12c331ea0d8899d801f8c2535d69d6520220c4aaa1f11c3086": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She asked legislators for distinct policy decisions; the narrower rights example is strongest, and her impeachment statement supports a different style."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Identified specific changes she wanted legislators to make on voting rights and later immigration."
+        }
+      ]
+    },
+    "beata-szydlo": {
+      "versions": {
+        "9b76105801e80928b0ad8a37a561baca07fffe18fcc9e8a16a4ac0ce711e2bfc": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "She made participation conditional at the climate talks and discussed specific terms on benefits. Her child-benefit announcement is a different act."
+        },
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Stated conditions for agreeing to proposed European and international arrangements, alongside a domestic benefit proposal."
+        }
+      ]
+    },
+    "benazir-bhutto": {
+      "versions": {
+        "7c664c6e45c462b034a2c3a4aee2b5b41d15d948d3ddfe3fc7b68067a98cc083": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Her Beijing speech challenged a premise about Islam and women; de-escalating the post-election response supplies weaker corroboration."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            4
+          ],
+          "reason": "Asked governments to commit priorities for women and challenged a premise about Islam; the election results add little."
+        }
+      ]
+    },
+    "benjamin-disraeli": {
+      "versions": {
+        "f72337f53c10c0dd89093ae608f3795553e927dd5535c40f06f0117a485c27b5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "He cast electoral reform as preserving the Commons; the Berlin settlement is also consistent with bargaining."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1
+          ],
+          "reason": "Cast broadening the franchise as preserving the Commons; the remaining international and commercial deals support alternatives."
+        }
+      ]
+    },
+    "bertha-lutz": {
+      "versions": {
+        "e744cb4212a7abb4787ef020bf2d0a147b323311bf0ca6b47982600f2454cae5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She pressed delegates for textual equality in the Charter and introduced a statute improving conditions for working women."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Pressed for charter language, suffrage and workplace legislation before the bodies empowered to act."
+        }
+      ]
+    },
+    "berthe-morisot": {
+      "versions": {
+        "3b255b67905e86acf70cbbdd68e67902db19abc40d266f6e26b78b6d15b5d1f2": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Specific placements of figures, gaze and domestic work tell a visual story. They establish a pictorial technique more clearly than a repeated direct interaction."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Changes visual emphasis between a figure and surroundings. Evidence is confined to interpretation of paintings."
+        }
+      ]
+    },
+    "billie-jean-king": {
+      "versions": {
+        "196c47d0b1a46a6b8ae3f81e382f19b1624c41ebdbf1da3f77ef091d58476a43": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "She directly demanded equal prize money and organized players to seek changes from tournament authorities. The new association also supports Co-Builder."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Pressed tournament organizers for equal prizes and backed the demand with a concrete decision about her participation."
+        }
+      ]
+    },
+    "c-v-raman": {
+      "versions": {
+        "b583bcb98500aa6c63cb645a032ffbf3578ed51e82ee855b103ef15a1b60b065": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "He converted a musical and a maritime observation into questions about physical processes; evidence for interpersonal reframing is indirect."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Turned familiar musical sounds and ocean color into different research questions; conversational fit is indirect."
+        }
+      ]
+    },
+    "cathy-freeman": {
+      "versions": {
+        "60c2b7016af897f1edfcb2d003835bab37078a0b1df9a864518411216a52ee1e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Carrying two flags together and explicitly linking an athletic outcome to social justice invited a different understanding of what representation meant."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Carried both flags and explained her achievement through a joint sporting and social lens."
+        }
+      ]
+    },
+    "celine-sciamma": {
+      "versions": {
+        "ebd7768af5eea1153d9f44038f8fa6a6acb169d84fd9a7753a08f47a1f56416d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "She reverses who can scrutinize the portrait and lets parent and child meet as peers. Both invite the audience to revise its starting perspective."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Turns a passive sitter into a co-observer and lets a child meet her mother as an equal."
+        }
+      ]
+    },
+    "charles-darwin": {
+      "versions": {
+        "51369033a92e03881292cc98eb0e251d1baff852168e2dbe86bd587f3cdd4fe3": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Darwin made ordinary variation and garden soil evidence for processes over time; the publications establish a public explanatory analogy, less about direct conversation."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Gave daily phenomena a different explanatory question in works on species and earthworms."
+        }
+      ]
+    },
+    "chien-shiung-wu": {
+      "versions": {
+        "e15fd5cdc8bf2947f8dccb5e68e465effecd4007560ccd5528260937afeb3e0e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Wu put a discrimination question to physicists in the terms of their own discipline; her parity experiment documents a research method."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2
+          ],
+          "reason": "Recast a sexist premise as a physicist's question to a scientific audience."
+        }
+      ]
+    },
+    "chinua-achebe": {
+      "versions": {
+        "518b6e954484f5a37e2a6d9a84975e66ff7eb9cdd0f6026b1da8e1b7f6f78d3b": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "He places local community experience before colonial arrival and distributes narration among witnesses to change whose interpretation carries weight."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "An inside-first point of view and multiple narrators interrupt the single outsider account."
+        }
+      ]
+    },
+    "claude-monet": {
+      "versions": {
+        "d0685f73efffa1066110aadeb090b2e9e79e358badadd9bb7f17360e876e44ea": "one"
+      },
+      "readers": [
+        {
+          "label": "The Experimenter",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "He varied light and season against a fixed subject in two series. This comparison concerns artistic method, with limited evidence about communication to another person."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Revisits the same subject under different conditions and changes the viewer's spatial reference in the water lilies."
+        }
+      ]
+    },
+    "cristina-fernandez-de-kirchner": {
+      "versions": {
+        "b99e98b2956ca5e7ef11560c37354f10c15a3ca8c5596306ae4731362f3b3902": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Signing legislation and creating benefits show decisions; the oil-company request alone cannot establish the same communication across the unrelated policies."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Signing laws and announcing benefits demonstrate policy. The examples do not identify repeated appeals on others' behalf."
+        }
+      ]
+    },
+    "dag-hammarskjold": {
+      "versions": {
+        "7e095b9113c434e951718548371cfb3517a3174834327ac7fe248863048f2731": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "He carried airmen’s release request to Chou En-lai and brought the requested Congo assistance before the Council; negotiating conditions gives a related reading."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Took the airmen's request directly to Chinese authorities and asked the Council for Congo assistance."
+        }
+      ]
+    },
+    "daniel-inouye": {
+      "versions": {
+        "b419ef2419d08dc7f39accc95af88257d8b95b622da3d80ce8fc97f473dcd872": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "The Smithsonian founding bill names a tangible public institution and a decision maker; setting hearing rules is procedural."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            4
+          ],
+          "reason": "Introduced founding legislation for the National Museum of the American Indian; committee roles are less specific evidence."
+        }
+      ]
+    },
+    "david-lloyd-george": {
+      "versions": {
+        "05266fab21924baeb65d4e7c08ea77eb90a9276aea6449cee261f789d83f276e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "He asked Parliament to fund pensions and pressed negotiators in Paris to give named dominions representation."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Asked Parliament for pension funding and for underrepresented delegations to have seats in Paris."
+        }
+      ]
+    },
+    "deng-xiaoping": {
+      "versions": {
+        "28bc690b869a3d6df5a5a270e6782bb63602931e0c076d9fcbe3b6a57e7d8adb": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Separating sovereignty from negotiable matters and signing concrete bilateral terms show negotiation; ratification alone says little about how he negotiated."
+        },
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Separated a nonnegotiable sovereignty claim from terms that could be negotiated; the examples show mixed public acts."
+        }
+      ]
+    },
+    "didier-drogba": {
+      "versions": {
+        "3b7d0746c15a4141c86c228cb976fe596034db0eb32e412621d151e2cd2e626e": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "His appeal to opposing sides was a concrete attempt to bring separate constituencies into conversation; playing statistics are irrelevant to that inference."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            2
+          ],
+          "reason": "Addressed people on both sides of the conflict in a shared appeal for peace. Goals scored do not corroborate a communication lead."
+        }
+      ]
+    },
+    "dilma-rousseff": {
+      "versions": {
+        "327b885252e63fb3e8e0c87746f2fac8ab86bafa2dc5b314d68c4e3f4dc9afc1": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She framed democratic truth through public memory and asked senators to distinguish political conviction from proof in an impeachment hearing."
+        },
+        {
+          "label": "The Dissenter",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Condemned surveillance directly and defended a competing principle in two public forums."
+        }
+      ]
+    },
+    "edith-cowan": {
+      "versions": {
+        "24d70c3fa1d43356f12e821b1307bde5fff8a8a9f110e5c54338a2949f723a0b": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Cowan sought precisely defined inheritance and eligibility changes for women in separate legislative proposals."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Proposed two concrete legal changes on behalf of mothers and women excluded from office."
+        }
+      ]
+    },
+    "elinor-ostrom": {
+      "versions": {
+        "8863d78c7ac9500c89dd2f3adf53bbe7e2e0ffab041194e5874636af11c758b8": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Experimenter",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Ostrom explicitly compared organizations and varied whether participants could talk in resource experiments. Her empirical method also supports testing a different policy framing."
+        },
+        {
+          "label": "The Experimenter",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Compared what groups do under different institutions and experimentally varied whether participants could speak."
+        }
+      ]
+    },
+    "elisabeth-selbert": {
+      "versions": {
+        "dd99fdec7d9af5ade5a252ba663c5ea5a846a419f2a3044ea6f8cf2c9e4ea260": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Selbert repeatedly pressed constitutional bodies for enforceable equality, including a specific Article 3 formula."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Repeatedly pressed constitutional bodies for a specific, enforceable equality provision."
+        }
+      ]
+    },
+    "ellen-fairclough": {
+      "versions": {
+        "4c0f174562262b765ebc757ed7360870fc1e8fec5dfd4e935bae29d8e2f154f0": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her repeated equal-pay bill and her work securing the vote name concrete changes and an identifiable parliamentary audience."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Repeatedly asked Parliament for equal pay and carried federal voting legislation through the House."
+        }
+      ]
+    },
+    "ellen-johnson-sirleaf": {
+      "versions": {
+        "d62bb83a11d61889b08ca1fe5af60af307f1801b3008bcee8aea1a5b06e4a6a6": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her appeal for support on behalf of affected countries meets the definition directly; centering the Liberian women’s work instead illustrates Witness."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "Appealed for assistance on behalf of Mano River countries; her Nobel speech also explicitly credits the peace organizers."
+        }
+      ]
+    },
+    "ellen-wilkinson": {
+      "versions": {
+        "e4e84641cb878eba08064d41c89ad476d206e71f5ac5ae86c8e72db0df7d8197": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "The unemployed marchers had parliamentary demands; she pressed for a concrete provision for children."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Carried the unemployed marchers' petition into Parliament and specified how schools would provide free milk."
+        }
+      ]
+    },
+    "eric-williams": {
+      "versions": {
+        "299603eca4a04b6b24e163cc6fda79561954c351ce7fc220b54581ee4e34d9b2": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "His slavery argument connected familiar industrial history to Caribbean extraction and his federation arithmetic reframed the consequences of withdrawal."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Reinterpreted British economic development through slavery and compressed a federation's changed prospects into a new calculation."
+        }
+      ]
+    },
+    "eugenia-charles": {
+      "versions": {
+        "029c15793581345ec5ba7b9db69a454d794cc00c43fff0d761f959473598c388": "one"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Presentations to outside governments included a specific banana-trade issue. The interim-government example also supports a bridge-building reading."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Participated in interim-government mediation and brought a restructuring document to ministers; personal acts in the collective process are thinly described."
+        }
+      ]
+    },
+    "eva-peron": {
+      "versions": {
+        "df49b5133cae774fe089a528823be15c05d1faab0f70428dfc9a43e0fc49b683": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her radio appeal linked civic duties to voting rights and she organized women provincial delegates for the party’s political work."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Made women’s enfranchisement a public demand and organized a constituency; the rights-versus-obligations argument also reframes."
+        }
+      ]
+    },
+    "fanny-blankers-koen": {
+      "versions": {
+        "5e4861f741a61a4c93ec9b5b46492cd71d9e1c7c26f19d46b2d3ce8c6e97e1db": "one"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Race results and one short comment after a parade do not establish a recurring public communication pattern."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2
+          ],
+          "reason": "Played down public celebration by re-describing it as running races; three other examples describe competition or roles."
+        }
+      ]
+    },
+    "fela-kuti": {
+      "versions": {
+        "87b51cd7f60806ea9d617d596d62b55e83013264a925a802eebfd3fbbbe914d1": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Staged commands, a comic sequence about evidence and the aftermath of a raid make the political message concrete through scenes and voices."
+        },
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Water, a police search and a raid become concrete scenes, while the mock drill illustrates a change in frame."
+        }
+      ]
+    },
+    "felipe-gonzalez": {
+      "versions": {
+        "9da92d1831b462465c782608e1584e83be3ba106a5eae85f7633fad8f2a1c82d": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Joining the Moncloa political accord and opening the peace talks illustrate bringing different parties into a common forum; signatures alone are limited evidence."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Signed a cross-party pact and welcomed parties to a peace conference; specific reciprocal terms are less visible."
+        }
+      ]
+    },
+    "fiame-naomi-mataafa": {
+      "versions": {
+        "3371be58f844de723ff00d88eb675e52bd5a78fcb9b2822a80d69aa976676191": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "She asked identifiable delegations for travel offsets, treaty signatures and support for Pacific infrastructure."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Solicited specific commitments on flight offsets, treaty ratification and resilient infrastructure from named audiences."
+        }
+      ]
+    },
+    "flora-macdonald": {
+      "versions": {
+        "1f46b267147295a41d905aaa2aac2f59521cab24b5f3617347802f8b47cfc4ec": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "She backed a refugee admission target and supported protecting the sheltered Americans; distinguish an authorized decision from an appeal to another authority."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Sought support for a defined refugee intake and for permission to shelter escapees; the latter is a stronger communication example."
+        }
+      ]
+    },
+    "francois-mitterrand": {
+      "versions": {
+        "8326ca9de666557ed0dcf619a6852deee965a617cce7d06eb9a58ccf1205acb8": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "His instruction to Badinter sought a very specific abolition bill; the German policy speech and the symbolic Verdun encounter supply other styles."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Asked the justice minister to draft the abolition bill; Verdun instead illustrates symbolic reconciliation."
+        }
+      ]
+    },
+    "frederick-douglass": {
+      "versions": {
+        "afc716caff232d779bb749ed876de20ed61e7666e91a8d6323c75debb5417989": "one"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "He brought grievances about Black soldiers directly to Lincoln; his Independence Day address provides an equally substantial case for Reframer."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Recast Independence Day from the position of those enslaved; bringing soldiers' grievances to Lincoln strongly supports a second reading."
+        }
+      ]
+    },
+    "frida-kahlo": {
+      "versions": {
+        "22c0a81cb17bce13a88d46d816dd41cdf7f644af0a5717ad6d7b9805b85f32e2": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "The added mirror brought the viewer into a portrait and the paired self-portraits offered a second way to see one subject."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "The mirror and doubled portrait move the viewer between positions. The reading concerns the work."
+        }
+      ]
+    },
+    "gabriel-garcia-marquez": {
+      "versions": {
+        "cb8a5050e2472bbf0baf87d695efc1ce0c8af1983363f68642d85439426b87e5": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Shifting testimony about a dictator, then inviting European listeners to revise their frame of reference, support a recurrent perspective shift."
+        },
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "A concrete travel narrative delivered the Nobel argument; the speech also challenges an interpretive frame."
+        }
+      ]
+    },
+    "george-w-bush": {
+      "versions": {
+        "c4165315645b43e1cd451f340e4726aec7b27848299485adc237756527c580a7": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Bush asked Congress to fund HIV/AIDS relief for specified beneficiaries; signing the education bill documents an outcome and less about the appeal."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Asked Congress to fund a specific global AIDS response. Other examples establish office or policy."
+        }
+      ]
+    },
+    "georgia-okeeffe": {
+      "versions": {
+        "d863613cf39a07e217ae648bc01df02bef462a9d2a9aa40ba67874cfc3857751": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "She shifts the familiar scale of clouds and flowers and recasts a skull as an image of America, each time changing the viewer’s frame of reference."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Repeated changes in scale direct how viewers see a familiar subject. Literary/visual interpretation is the limit of this evidence."
+        }
+      ]
+    },
+    "geraldine-ferraro": {
+      "versions": {
+        "3325cc8239dcd76deac606a218c06ecf786cdb84f27666f5d63ffac973cc642c": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Her pension-equity bill names a specific action for Congress; the bureau’s casework offers context but less evidence about a repeated request."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Introduced the pension equity measure and later explained the remedy on the record."
+        }
+      ]
+    },
+    "golda-meir": {
+      "versions": {
+        "889a72af7f530d706f904586f22f5c0edc726c28b28caff37a3155ba8186f278": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Diplomatic service and agency decisions on housing and cooperation show responsibilities; the evidence does not specify one repeated communicative move."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Reporting on Soviet Jews and building housing show concerns and policy; the actual request or changed framing is unclear."
+        }
+      ]
+    },
+    "habib-bourguiba": {
+      "versions": {
+        "b0b9abaa4b0cf90eb03b8b48d9ffa8d45aebe19b2c1aa3dd33bf62b3819fd8da": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "He asked two different audiences to reconsider the conflict through governing legal commitments."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Bourguiba recast both the strategy at Jericho and the French treaty argument in legal terms."
+        }
+      ]
+    },
+    "hanan-ashrawi": {
+      "versions": {
+        "0404e9913be2a555f7c413053dd705e21d65b3235ddd6e38ff300e70c3f80869": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "She asked a council for authority to attend talks and later specifically sought a multilateral negotiating mechanism."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Asked a council for a negotiating mandate and publicly requested a specific multilateral replacement process."
+        }
+      ]
+    },
+    "hansa-mehta": {
+      "versions": {
+        "70a26bada9f7601b741e701a2eac881742be462156ffadecfd2029703a8c882f": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Mehta pressed Indian and international drafting bodies for specific equality protections and inclusive wording."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Asked legislators for equal status and the UN drafting commission for inclusive wording."
+        }
+      ]
+    },
+    "harriet-harman": {
+      "versions": {
+        "fb56ef9b5a6781291407b5cce4a33b689d893ad991186f24f0ebe85f3e674844": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "She urged her party to change its candidate lists and sought concrete protective measures from government."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Pushed specific legal and party measures and wrote to the prime minister about care-home restrictions."
+        }
+      ]
+    },
+    "harvey-milk": {
+      "versions": {
+        "944685290f6439e10339f661864a10dd2a0052bf477c71a64a642ff3e52fd80a": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Milk sought Carter’s opposition to Proposition 6 and authored specific anti-discrimination legislation. His boycott work also demonstrates coalition building."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Requested Carter's opposition to the Briggs Initiative and authored a specific antidiscrimination ordinance."
+        }
+      ]
+    },
+    "helene-weber": {
+      "versions": {
+        "b8ec905879be7914e8b29657e0ce40dc261ef666f3608057b866d404e608ee3c": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her personal appeal to Adenauer had a named recipient and a specific promise; the dissenting party vote suggests a competing interpretation."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "Took a campaign promise directly to Adenauer asking him to appoint a woman; the vote on the Enabling Act is mixed."
+        }
+      ]
+    },
+    "helle-thorning-schmidt": {
+      "versions": {
+        "1f5b4def5793009c59179bc5f4521fe64d0f0bbfff26e7c4d034ed306a9809fb": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "The call for targeted support to children affected by war is direct; her security pledge supplies less evidence of a request to another decision maker."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2
+          ],
+          "reason": "Named concrete supplies and education for children in war zones; one direct appeal carries most of the reading."
+        }
+      ]
+    },
+    "helmut-kohl": {
+      "versions": {
+        "c7dd0125e5f488b4274b120299af4ab75c82fa23b0ef917e2d3c84e674588ae7": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "The payments and terms discussed with Gorbachev demonstrate a reciprocal negotiation; the Verdun gesture separately illustrates Bridge Builder."
+        },
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Negotiated identifiable reciprocal terms over reunification; public reconciliation also supports a bridge-building reading."
+        }
+      ]
+    },
+    "hilda-heine": {
+      "versions": {
+        "8189652ffc8eba791f1383f342ce44041f4a61c658b1f149fce81a3c832f3187": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She sought authority for the school system and an explicit commitment to fixed maritime baselines on behalf of islanders."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Moved a concrete schools bill and pressed the UN to maintain existing maritime baselines."
+        }
+      ]
+    },
+    "hillary-clinton": {
+      "versions": {
+        "48177d8af29d385d2253aef3b80f1911551bc328bc0d088909543fa80f59ca1d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She used the human-rights frame for women’s rights and later sexual orientation, addressing multilateral audiences."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Repeatedly applied a universal rights lens to categories audiences treated separately."
+        }
+      ]
+    },
+    "hiram-rhodes-revels": {
+      "versions": {
+        "f9e6abd96e03687103431a55c3f2a83706f7aff2e33482e4d4e14d6c0cf7d8c5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "He urged Congress to restore the expelled legislators and sought school protections and changed party conduct."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Asked Congress to restore expelled legislators and defended equal access to District schools."
+        }
+      ]
+    },
+    "indira-gandhi": {
+      "versions": {
+        "4bf190763b7d88ce7f7d3628fbc4692a7494434e3a8903b025f69cfca4466fe1": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "She asked delegates considering environmental damage to consider poverty and distinguished different objections to the Simla agreement."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2
+          ],
+          "reason": "Asked an environmental conference to weigh poverty and pollution together; signatures and censorship do not establish the same pattern."
+        }
+      ]
+    },
+    "isaac-asimov": {
+      "versions": {
+        "8d7eb3ecbadfaf90b35f7ea222f4b20ad98256732fc68247e8d22b4025a1b29e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Asimov repeatedly changed the circumstances around a fixed rule so its meaning became a new question for readers; his detective partnership also supports Storyteller."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Changed the hypothetical case to reveal different implications of the same rules."
+        }
+      ]
+    },
+    "jackie-robinson": {
+      "versions": {
+        "c583a5c226371c0aecc32a27ac1b5832f14028be73c1caf46cfcaa0db34284c0": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Robinson used his platform to ask baseball to address who managed its teams; the athletic records cannot corroborate that public appeal."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            4
+          ],
+          "reason": "Publicly urged major-league teams to hire a Black manager. The sporting results alone do not show this style."
+        }
+      ]
+    },
+    "jane-addams": {
+      "versions": {
+        "c208920752d54104f251feb8bc6b797af66f96c6e5cc74d18d6dfbeb190fd12e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Child labour campaigning and the explicit request to Wilson to mediate make targeted requests traceable; chairing the congress is a related Bridge Builder example."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Took demands about child labor into public debate and personally urged Wilson to mediate."
+        }
+      ]
+    },
+    "jane-austen": {
+      "versions": {
+        "d2e12e19277728004e71c3816630f7ee4eee320af206bd22b4fce098e37967dd": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "A letter changes Elizabeth’s judgment, and Emma’s assumptions influence what readers initially believe. Austen repeatedly changes the evidence available to an interpreter."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Puts readers inside provisional judgments and introduces another perspective or evidence that changes them."
+        }
+      ]
+    },
+    "jean-augustine": {
+      "versions": {
+        "b205266fee63b7cc3a44274fc96f30d079c3162fcbf6228de1b867a72ff867f5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "She brought two specific public recognition motions to the Commons, including the Famous Five Foundation’s request."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Asked the Commons twice for identifiable acts of recognition on behalf of specific constituencies."
+        }
+      ]
+    },
+    "joe-biden": {
+      "versions": {
+        "cfe5a583528b74adf0b7426142502cbb9e9d96fb818dac69fed6e079fd18b43c": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Sponsoring a bill after investigating violence against women identifies a concrete legislative ask; ordinary signatures and a nomination give much weaker evidence."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "Sponsored specific legislation after a committee investigation; other signatures and a nomination describe official outcomes."
+        }
+      ]
+    },
+    "joni-mitchell": {
+      "versions": {
+        "1ec86137d55d153c1c01c7fafbee5ebb6288b447b2a57297076f551b0a4e80d2": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Both recordings revisit the same subjects from altered vantage points or life stages; concrete storytelling also supports a competing interpretation."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Repeated shifts in vantage position and the replacement of a valued site with a parking lot change the listener's frame."
+        }
+      ]
+    },
+    "jose-de-san-martin": {
+      "versions": {
+        "c3441ca7e46405f452d0f85eaf7d754bf399cf30d6833945d688aa73e07ad05d": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "A change in military route and a legal decree document decisions; neither identifies a recurring communicative move."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Changing a military route and announcing a ceremony are weak evidence of a repeated public communication mechanism."
+        }
+      ]
+    },
+    "jose-figueres-ferrer": {
+      "versions": {
+        "8c967d2e92c5ec547706009c44a668e3400fc87cb57e07941b2c05b909800714": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "The mallet striking the barracks made abolition legible as a public scene. Announcements elsewhere leave the recurrence uncertain."
+        },
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "The mallet against the barracks wall made abolition visible. The economic critique and official announcements are different kinds of evidence."
+        }
+      ]
+    },
+    "jose-mujica": {
+      "versions": {
+        "19d71c567a38d2d1f8f84d55ae0d979d81b64079bf88726e0576b017bc64ff12": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "He turned the sustainability discussion toward whether consumption expectations could generalize and presented accepting detainees as a question of principle."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Shifted the sustainability question to a political model of consumption; the detainee request suggests negotiation as well."
+        }
+      ]
+    },
+    "jose-ramos-horta": {
+      "versions": {
+        "7d6657a9d60dcc2d8fbc3bf4e4b400ee348956b7bd50ee92b278a713827329e4": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "He proposed humanitarian measures to advance talks and asked donors to redirect spending to named rural programmes."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Brought Timor's case to the UN and requested particular shifts in donor spending."
+        }
+      ]
+    },
+    "joyce-banda": {
+      "versions": {
+        "cd1fb2c19054dab35736f4cce606e0c735791573a980bbcca575c236500c459d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She championed domestic-violence legislation and specifically asked chiefs to speak about childbirth."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Championing domestic violence legislation and asking chiefs to intervene in maternal health supplied named recipients and outcomes."
+        }
+      ]
+    },
+    "juan-peron": {
+      "versions": {
+        "8077cde6e9f26d59e35dd4eae6872ecfbd6d9707143f2aa0052440a1fe4962ef": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Broad policy outputs and an accord reached during another presidency provide too little direct attribution to distinguish these behavior labels."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "A decree and a social pact show policy context; the pact predates his return and the excerpts do not document an identifiable ask."
+        }
+      ]
+    },
+    "julia-gillard": {
+      "versions": {
+        "f2ab4b9384010bdbcff810903ef2d25bbe1ec2135170a792b1b44fbe32b80104": "neither",
+        "2a888a86ea07e41a88276538d5adf62beb9ed10c30a44ade3c4c5d6858df0778": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She brought a disability scheme to legislators and sought action for schoolchildren from a national audience."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Took disability insurance legislation and a concrete improvement campaign for education to decision makers."
+        }
+      ]
+    },
+    "julie-dash": {
+      "versions": {
+        "1c131524ddf8c71a9c338b1d3d30865b605ce50a5d28ab51ac1c8470952f9dd6": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "She made viewers attend to the performer erased by the finished film and set Parks’s public action in her prior family life."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Changes whose story is visible: the dubbing singer, multiple generations and the family around a public act."
+        }
+      ]
+    },
+    "julius-nyerere": {
+      "versions": {
+        "1fcc2008cd4c1bc642630ce6610d00fc2cc875a0670e765c5b1bd09d16bd5732": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "He urged regional political bodies to act on apartheid. Facilitating Burundi talks separately shows Bridge Builder; the committee address is weaker corroboration."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Called on the ANC audience to continue a liberation campaign and separately facilitated a peace negotiation."
+        }
+      ]
+    },
+    "kader-asmal": {
+      "versions": {
+        "c400b4a72c563c6f961f3dd72e3fd9843f3934811de371ac4cd03ee45a907dee": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Proceduralist",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Water-law review and the independent commission evaluating dam tradeoffs offer procedural evidence. The commission’s goals need separating from his personal practice."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Requested equitable water-law review and organized opposition to apartheid; chairing commissions alone is ambiguous."
+        }
+      ]
+    },
+    "kamala-harris": {
+      "versions": {
+        "d123af22649784df634bb16a9c5c3a44b3289174e63bb54c29f54185a7531b74": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "The negotiated relief commitment from banks has a specific beneficiary and counterparty; ordering a training review also shows a procedural approach."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Secured specific commitments from banks for homeowners; the implicit-bias review illustrates a distinct process role."
+        }
+      ]
+    },
+    "kathrine-switzer": {
+      "versions": {
+        "702e723fe1b22dabaeef81cab3d271fb700c5c2e9441958d27c55b4f04affaf7": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Switzer organized for official entry of women at Boston and for new opportunities to race internationally."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Organized women to obtain official entry and built a circuit supporting that participation."
+        }
+      ]
+    },
+    "katsushika-hokusai": {
+      "versions": {
+        "14c5cd86e914fc1ac0a460290c26bf81ce45d74ec57f67b396aa1010e87d9404": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "The wave, picnickers and mosquito net stage contrasting stakes through images; art can illustrate an editorial style without establishing an interaction pattern."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Shows Fuji as a distant detail and an entire composition; the change in perspective is physical and artistic."
+        }
+      ]
+    },
+    "kenneth-kaunda": {
+      "versions": {
+        "696bdbc30d2114670be5c06ce471d629c7235dcba41ec7033099970603d1342e": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "He brought movements and delegations to a common organizing site or conference. This supports convening more directly than an identifiable third-party request."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Provided organizing space for liberation movements and convened them; the examples give fewer specific asks to a decision maker."
+        }
+      ]
+    },
+    "kofi-abrefa-busia": {
+      "versions": {
+        "1358dc7b8ea4e668aed90d4b334f9dea99e984a728a41a307bc0f6c0eb92583a": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "His book reexamined chiefship through social change. The fair-trial broadcast states a position, leaving limited independent support for this label."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "An institutional monograph and a broadcast for fair trials do not show one repeated interpersonal move."
+        }
+      ]
+    },
+    "laura-chinchilla": {
+      "versions": {
+        "be971f13b77dfaf113ea94447b15009a056afdca73a15425afc5a4aee998c643": "one"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "The decree, ministry role and observation appointment describe authority and offices; they give limited evidence of a repeated interaction pattern."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            4
+          ],
+          "reason": "Explained the request Costa Rica took to the OAS; officeholding and mission leadership alone tell little about style."
+        }
+      ]
+    },
+    "lee-kuan-yew": {
+      "versions": {
+        "2d581c404a196c104fea3f2dbbc7ee9f6eeeb0479b4e394da8799d580ab0a6b5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "He asked listeners to weigh newspaper perspectives, drew a comparison from another multilingual country and brought grandparents into language policy."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Urged comparison across newspaper accounts and reframed a home-language issue in terms of the wider environment."
+        }
+      ]
+    },
+    "leni-robredo": {
+      "versions": {
+        "fee5c6708e6c08791cbc51f8090b76ea4583fcdcd6444b34877f13cf640d9e53": "neither",
+        "0825ad65f6e5a6ecac56818e203d6a52404a93e675b668c4fa283bb332b32df5": "both"
+      },
+      "readers": [
+        {
+          "label": "The Co-Builder",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "The university relief partnership, disaster preparedness partnership and cross-sector Angat Buhay programme repeatedly organized shared delivery."
+        },
+        {
+          "label": "The Co-Builder",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Repeatedly organized joint action with community, university and nongovernmental partners around actual relief infrastructure."
+        }
+      ]
+    },
+    "lewis-hamilton": {
+      "versions": {
+        "275d94b0da3a976fca773e5c8afdc341f8afc455aa9098da3ff2451583474a78": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "The commission issued recommendations for increasing Black representation; the racing results and family gesture offer no second independent request."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "The commission asked teams to adopt identifiable recommendations; racing victories carry no similar evidence."
+        }
+      ]
+    },
+    "lincoln-alexander": {
+      "versions": {
+        "35878ed814f9ec73fd2a0e200abeeeb83c5c08af989250cc09aa3ccfcaafd3d5": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "He spoke for people facing discrimination, but the cards record a role, an appointment and a retrospective judgment more clearly than repeated specific asks."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "A promise of representation and a later reconsidered vote give mixed evidence; later chair titles do not show a request."
+        }
+      ]
+    },
+    "louis-armstrong": {
+      "versions": {
+        "fc412446d1a47599a90f3dcc9c1bd50988231ad05e1230e28e35b1ebc62a5bda": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Two musical devices and one political criticism provide no common recipient, frame shift or demand that recurs across the cards."
+        },
+        {
+          "label": "The Dissenter",
+          "examples": [
+            3
+          ],
+          "reason": "Publicly challenged the governor and president over Little Rock. Performance technique and the song's scenes do not corroborate the same public stance."
+        }
+      ]
+    },
+    "louise-bourgeois": {
+      "versions": {
+        "c319bc12a0f83902958c3a2559df3ff5a6c9e8f6d2ab85023ba90561f6703294": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "A house becomes both shelter and obstacle, and legs that could threaten also shelter. Multiple works invite the viewer to hold a second meaning."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "The same structure changes meaning with the viewer's position; the house, enclosure and spider supply visual evidence."
+        }
+      ]
+    },
+    "lyndon-b-johnson": {
+      "versions": {
+        "7624c21eb5bcbc522c0be9f98b16b3f329a08dfc67d7ef4a78eb78c3dbe8908e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Johnson explicitly asked Congress for voting-rights and civil-rights legislation in two distinct addresses."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Asked Congress twice for clearly defined voting and civil-rights protections for specific constituencies."
+        }
+      ]
+    },
+    "margaret-atwood": {
+      "versions": {
+        "b199b17f44bedd7f452ef044439758c01b66516d3adf96ac1d52b47ef7a26047": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Offred’s daily details, Grace’s contested stories and three accounts of Gilead bring political and historical problems into readers’ view through narrators."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Changed the reader's interpretation with conflicting versions of events and a later shift to three narrators."
+        }
+      ]
+    },
+    "maria-de-lourdes-pintasilgo": {
+      "versions": {
+        "e20ca1b526d56f88f7b748f810ae31441abaff83c8975f0ca01acd0bfcf0f3a7": "one"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "The letter proposing an action to the head of the Civil House is direct; convening women’s organizations has a different, coalition-building purpose."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Invited officials into discussions and brought civil-society participants into commission work."
+        }
+      ]
+    },
+    "marian-anderson": {
+      "versions": {
+        "2f2a284b32f4220fc7606a10144aaa4e3482b95e7c7255daa7e0cd112d2d34df": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Performing a familiar national song at a new site after exclusion, and presenting spirituals at the White House, shifted what those audiences encountered."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "A patriotic song outside an exclusionary venue gives an audience a different vantage; the evidence concerns public performance."
+        }
+      ]
+    },
+    "mario-draghi": {
+      "versions": {
+        "6b9bcdf075ffc55421f3e059147d9844ab68494fb823c83ee48082d592ad57e0": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "An assurance within the central bank’s mandate, a purchase announcement and delivery of a report have distinct purposes. The cited actions do not show a clear repeated ask or reframe."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "The London address redefined the bank's willingness to intervene. Other excerpts largely announce decisions."
+        }
+      ]
+    },
+    "mark-rutte": {
+      "versions": {
+        "a6bcf059c23789e12a447b22fb2578c43d9e7d7e24861f327e3a0dee1e329916": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "He explained the plane tragedy through a geopolitical connection and tied Ukrainian security to wider European security; a reparative apology serves a different function."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Reconnected the plane disaster and security in Europe to the situation in Ukraine; public apology and joint opposition support other readings."
+        }
+      ]
+    },
+    "martin-luther-king-jr": {
+      "versions": {
+        "2656605557947f2af39a65046004da99f32b4482b5e42c6b29af66d47206a0a7": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "He changed how clergy were asked to hear the word wait and linked the war to conditions people faced at home. Advocacy is also plausible."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Organized a shared demand and argued for timely action for people denied rights; the Birmingham letter also changes the frame."
+        }
+      ]
+    },
+    "mary-anning": {
+      "versions": {
+        "3c469fcb46a8575c093203a55c2799e4cae9e93768a37fcca7c13cc4951e8c61": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "The complete skeleton and Anning’s attention to fish remains changed what researchers could infer; the observations alone only indirectly establish her delivery."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Fossil recovery and identification changed scientific knowledge without clearly showing a conversational style."
+        }
+      ]
+    },
+    "mary-robinson": {
+      "versions": {
+        "4bc385ef3064c673d7df575c7648445c7e3dac633e9f60424599d2c79502ccd0": "one"
+      },
+      "readers": [
+        {
+          "label": "The Witness",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Robinson explicitly carried to the UN the accounts of people she had met in Somalia and brought Rwandan experience before an international audience."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Spoke at the UN for people she had met in Somalia and directed attention to practical needs after Rwanda's genocide."
+        }
+      ]
+    },
+    "mary-shelley": {
+      "versions": {
+        "2daf2d086ec6ce068294659f30bb9c4c4c8f72b9cb4b6e73ba6df97d720c937a": "one"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Nested tellings and the catastrophe narrated by a survivor change whose evidence the same reader can weigh."
+        },
+        {
+          "label": "The Witness",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "A chain of narrators and a sole surviving narrator deliberately preserve others' versions in fiction."
+        }
+      ]
+    },
+    "mette-frederiksen": {
+      "versions": {
+        "c9c9db75d0c5f8d8f6dba4d55795264dccdb3a0ca0d1e9de02fbf0ad897c6aa9": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "An announcement, an institutional apology and a vaccination commitment differ in audience and function. They do not substantiate a single recurring move."
+        },
+        {
+          "label": "The Witness",
+          "examples": [
+            2
+          ],
+          "reason": "The Nuuk apology publicly acknowledged the harm to named groups. The remaining announcements do not corroborate a single approach."
+        }
+      ]
+    },
+    "mia-mottley": {
+      "versions": {
+        "65052ea47f924bc36852d172c96c779c110a7bcaa97cee82f1c9d580450f8157": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She put specific climate-financing demands to leaders and named the temperature threshold affected islanders needed."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Proposed specific finance mechanisms and appealed to climate negotiators on behalf of exposed nations."
+        }
+      ]
+    },
+    "michael-manley": {
+      "versions": {
+        "56622a3f86f4bcd317922078713268d7559bbdae3f924335b5822322af0cb4db": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "These outcomes are collectively attributed to a government. The cards lack individual requests, exchanges or explanatory moves."
+        },
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            4
+          ],
+          "reason": "Laws under his government describe outcomes; the record gives little of his own communicative move."
+        }
+      ]
+    },
+    "mira-nair": {
+      "versions": {
+        "7c237356866e9bac0e3c59448ce07e1f59f06a85675e724e966e26cc479b2c03": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Street errands, a cross-community romance and chess lessons give specific people and scenes through which the audience encounters larger subjects."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "A working child's path and a contractor's courtship redirect the audience's attention to usually peripheral people."
+        }
+      ]
+    },
+    "miriam-defensor-santiago": {
+      "versions": {
+        "de8daa45d8454ee85c58435a99d77c9b39c9f045139e5ba7cd7e9e3347df1f53": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Santiago urged regional legislators to act and sought Senate concurrence on the Rome Statute; cards two and three partly repeat that domestic action."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Pressed regional legislatures and her own Senate for particular acts supporting ratification. Two examples repeat the Senate proceeding."
+        }
+      ]
+    },
+    "mo-mowlam": {
+      "versions": {
+        "5ffc8575f36c773b3a294e15efafaa70d7e46f3e67480a652b420528b1097273": "neither",
+        "8b01c8a6461d0e58bdc2037017416e33f4dccc5d69910be8abffd6700d05befc": "both"
+      },
+      "readers": [
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Her visit to prisoners who had withdrawn backing for talks and her meeting with families reopened routes to other parties."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Personally engaged prisoners whose support for talks had stalled, and separately met families to hear their evidence."
+        }
+      ]
+    },
+    "muhammad-ali-jinnah": {
+      "versions": {
+        "ce6a34a98e77740a373b330f8cabaf40925f2d6065e3179b4c29df89ae1fae6a": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "His constitutional points specified institutional protections; he also asked legislators to treat religious identity differently in citizenship."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Put specific political safeguards before constitutional negotiators and asked banks and universities for support."
+        }
+      ]
+    },
+    "muhammad-yunus": {
+      "versions": {
+        "0c4538ebf77239dd28931a6a3aef273548b613591d6fb573ab94e5bec9ce3e4a": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "He went to a bank on behalf of excluded borrowers and later urged governments to act on spending priorities."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Took borrowers' specific need directly to the bank and asked governments to reconsider budgetary priorities."
+        }
+      ]
+    },
+    "nancy-astor": {
+      "versions": {
+        "c3f7679ee6a4d802676ac3a0580710d7121ac8ebe7aece096e47c760cb452e27": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "She pressed for nursery provision and questioned ministers about women cable workers. Two cards on her broader programme partly overlap."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "Pressed parliament for specific public services and challenged the replacement of women cable workers."
+        }
+      ]
+    },
+    "nancy-pelosi": {
+      "versions": {
+        "d862b9baf9479846e18e329f6067a799cd19b2f9f8c7f216c37f441a327a5107": "one"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her first House remarks centered people affected by AIDS; a vote on health legislation gives thin independent evidence of how she presented their case."
+        },
+        {
+          "label": "The Proceduralist",
+          "examples": [
+            4
+          ],
+          "reason": "Specified how a congressional investigation should proceed. Two legislative votes do not independently show her communication style."
+        }
+      ]
+    },
+    "nilde-iotti": {
+      "versions": {
+        "fc8451a02a4663a452a12d33f609efb01147509f6197934a6344831be9c9e9c4": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Iotti put identifiable proposals for spouses, pension coverage and voting before decision-making bodies."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Offered constitutional wording and a concrete pension proposal for women working at home."
+        }
+      ]
+    },
+    "nina-simone": {
+      "versions": {
+        "46940d585930e902c6884e0a4e5d81ac44a4239da3acfc91eade168291aa560b": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "An unexpected rhythmic frame for protest and the four changing speakers both make a listener reconsider what they initially heard."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "The show-tune rhythm and alternating speakers displace the listener's initial frame; this is evidence about artistic address."
+        }
+      ]
+    },
+    "olof-palme": {
+      "versions": {
+        "f1f9d636025b662767b1513b667d1d23f254d97e7fb63c688d38afc0ab71958a": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "He invited listeners to classify the bombing through other historical atrocities and reframed disarmament around common security."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Read the bombing through historical precedents and examined security as common, alongside forceful public dissent."
+        }
+      ]
+    },
+    "patsy-mink": {
+      "versions": {
+        "77fd076f30b63f7c365addd43d0e3b34e54008eeb4271618f1b7883bc2325e5d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Mink urged senators about a nomination and sought colleagues’ votes for equal educational access in distinct legislative actions."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Directly solicited colleagues' support for educational equity and challenged a judicial nomination."
+        }
+      ]
+    },
+    "penny-wong": {
+      "versions": {
+        "ebe61fbac09664765d5d8ad0ebe0de30dfe6b319cae8014a8b51ea223bb37436": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Deal Broker",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "The treaty articulates negotiated commitments and shared understandings following Tuvalu’s request. Several cards describe the same agreement."
+        },
+        {
+          "label": "The Co-Builder",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Repeatedly centered Tuvalu's request and shared decisions for the resulting bilateral partnership."
+        }
+      ]
+    },
+    "phumzile-mlambo-ngcuka": {
+      "versions": {
+        "5a05724f603bbaa218dd66a06cdfa0c011f8ae7ef35da4d67423a41da45384a8": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She explicitly recruited men to equality work and asked governments to repeal legally specified restrictions."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Asked identifiable audiences to commit resources and governments to repeal specific restrictions."
+        }
+      ]
+    },
+    "portia-simpson-miller": {
+      "versions": {
+        "eb50e94a33fa90ef1b97fb09c8bea262a2f0fd754745ce0473b661444f9b7f7f": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She reframed a question about sexuality around appointment criteria; the constitutional speech offered another lens on sovereignty."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1
+          ],
+          "reason": "Changed the cabinet eligibility question from orientation to competence; the debt exchange is a different negotiating move."
+        }
+      ]
+    },
+    "rachel-carson": {
+      "versions": {
+        "6393e2adcc23695800e9dc076923d19e2d394da3e86f8bd02af3c2f5c3cc6f67": "neither",
+        "06e461ba3b8bf0316a315242486b17cb2a52b82312448fad1abab571b8c40bea": "both"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Carson put ecological questions into the movements of individual sea creatures and the concrete scene of a town without birdsong; her Senate testimony separately supports advocacy."
+        },
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "Invited readers into ecology through an animal's movements and the silent town; separately made a direct oversight request to senators."
+        }
+      ]
+    },
+    "rawya-ateya": {
+      "versions": {
+        "1d7b1e4f64aee3e4c918750d10dc2a2b4a22ab63617d5807a6d762d431804438": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "Her solidarity in the strike and a legislatively precise request for paid leave place working women’s needs before an audience able to respond."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "Requested full-pay maternity leave from the legislators who could grant it."
+        }
+      ]
+    },
+    "roger-federer": {
+      "versions": {
+        "cd3e9565e0065f3d80f08a7549de19c0f5a012ef2a1023893ff5983e9370fab7": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            4,
+            3
+          ],
+          "reason": "The contrast between points and matches explicitly changes how graduates might think about losing. His doubles farewell communicates a different relationship with rivalry."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            4
+          ],
+          "reason": "The gap between matches won and points won recast failure for graduates; titles supply context only."
+        }
+      ]
+    },
+    "romano-prodi": {
+      "versions": {
+        "bcf42c5812036065826e62425f24e529ca197634183ca29d8c2f97ab560ff54e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "He connected the single currency with people’s daily experience and linked enlargement to institutional reform; the reform argument is more diagnostic than his office."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Explained enlargement through opportunity and integration through coins citizens could touch."
+        }
+      ]
+    },
+    "salvador-allende": {
+      "versions": {
+        "8b3d0c17a6b432ba18a41519709fd2b647f035df96613a9810623976af2d9484": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Allende put a specific constitutional change to Congress and asked an international audience to attend to pressures facing Chile; the bill is stronger evidence than a policy platform."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Took a specified constitutional change to Congress and endorsed a defined child nutrition program."
+        }
+      ]
+    },
+    "satyajit-ray": {
+      "versions": {
+        "3400dc19433caedbd92ca02b60298bb280828182659379e6a41176863053160a": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Ray changes whose circumstances the viewer sees, so education or going to work means something different from opposite sides of the same household."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Shows one event from multiple family members' positions, particularly the son's opportunity as the mother's loss."
+        }
+      ]
+    },
+    "sheikh-hasina": {
+      "versions": {
+        "e257c6f3960df361c102fb131d40966a4a71892be09c0713293d6f42987cbab4": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            3
+          ],
+          "reason": "She asked the UN for supervised safe zones and raised the funding and protection of Rohingya refugees with the resident coordinator. These are specific public acts."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Asked the UN for safe zones and a fact-finding mission; the water treaty is a distinct negotiated action."
+        }
+      ]
+    },
+    "shohei-ohtani": {
+      "versions": {
+        "1f77bfda9714a37248d1806f287bd56493adcaf611e39374549d81624b742b37": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "His instruction to suspend admiration for a day changed his teammates’ lens; batting and pitching records alone say little about communication."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2
+          ],
+          "reason": "Asked teammates to change how they saw the opponents before the final; the athletic records are weak corroboration."
+        }
+      ]
+    },
+    "sila-maria-calderon": {
+      "versions": {
+        "cebbca444bc21404d5cee4ddff34f9687e788ed9611f04ca27a0375a6aecdfc0": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Co-Builder",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Cantera explicitly gave community, business and government a shared project; an office for self-management is weaker corroboration."
+        },
+        {
+          "label": "The Co-Builder",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Worked with residents, business and government and gave self-management an institutional home."
+        }
+      ]
+    },
+    "simon-bolivar": {
+      "versions": {
+        "fe39f3c5f4de95c00d6666dcb995b06204d07d5ec602f63bc5b9d7e27680526c": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "His congress address and invitation to other governments document attempts to convene participants, with little detail on bilateral persuasion."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            3
+          ],
+          "reason": "Invited neighboring governments to deliberate together; the speeches argue independence but contain several different moves."
+        }
+      ]
+    },
+    "simone-veil": {
+      "versions": {
+        "77f8a5758b5e99c557c5874250b537ac1a532ed63148fbf63593ddd232c83e8f": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "She defended a specific bill before legislators and sought improvements for detainees during inspections."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Defended a specific bill before legislators and pursued improved treatment in prisons."
+        }
+      ]
+    },
+    "sri-mulyani-indrawati": {
+      "versions": {
+        "7dcc34dd57eff91b7bb974293b154a4b7dfb14228a9d1b4afbeb9b2a233fc4fa": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            4
+          ],
+          "reason": "Budget descriptions, a constituency statement and a portfolio outline several roles without a clear recurring act addressed to someone else."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2
+          ],
+          "reason": "Presented a specific capital request on behalf of eleven countries; executive credentials do not corroborate it alone."
+        }
+      ]
+    },
+    "stevie-wonder": {
+      "versions": {
+        "b13bd46a13affd68ab4e4710f2bf743002c911cd75784e584107a3f3f554087d": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "His holiday campaign supplied a specific action and public invitation. The duet separately illustrates persuasion through a musical analogy."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3
+          ],
+          "reason": "A singable chorus plus sleeve request mobilized support for a named holiday. Several musical collaborations do not test the same inference."
+        }
+      ]
+    },
+    "sushma-swaraj": {
+      "versions": {
+        "b569e9a3991341a209267cd40a9ef378c592708beadad83f751b46129c605313": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Asking the Saudi foreign minister for a concrete evacuation accommodation is diagnostic; delegation and speech records give little independent corroboration."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1
+          ],
+          "reason": "Asked the Saudi foreign minister for identifiable evacuation assistance; other excerpts mostly establish attendance."
+        }
+      ]
+    },
+    "tanni-grey-thompson": {
+      "versions": {
+        "2727b30729177c67c7082f3e50d93738c3e9b8365d933e1a20f160ec25759abd": "one"
+      },
+      "readers": [
+        {
+          "label": "The Mentor",
+          "examples": [
+            2,
+            4
+          ],
+          "reason": "She used athletic experience to offer other athletes a practical way of handling postponement. The medal totals carry little information about this behavior."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Reinterpreted a cancelled competition as a training block while separating controllable from uncontrollable results."
+        }
+      ]
+    },
+    "tatyana-mcfadden": {
+      "versions": {
+        "6ee0a8d0d10f32edce4f3224e7b3effb1e8100c6e1abb9b14f7d81ca36edd181": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Her court action sought equal participation, and she later urged room behind the camera for disabled filmmakers. Distinguish the initial request for herself."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Asked a court for integrated competition and pressed for disabled participation behind the camera."
+        }
+      ]
+    },
+    "therese-casgrain": {
+      "versions": {
+        "607d9ad15337cb576b68c3201af6356660bc2ee6196ffdddfefe035f92726dfe": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "The delegation pressing the Quebec Liberal convention is diagnostic, but cards one and four refer to the same delegation. Broadcasting supplies a separate awareness action."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Won entry for a women's delegation and support for its proposal. Two examples describe the same convention."
+        }
+      ]
+    },
+    "tilda-swinton": {
+      "versions": {
+        "1106c075ae015b8697eed1edb60cdd0c4d131d55dbe0728ca01673bc0f6f2340": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Her direct camera glance and the installation draw attention to the viewer’s part in the exchange. Film roles alone are indirect evidence."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            4
+          ],
+          "reason": "Looking at the camera and staging The Maybe redirected attention to the observer. Treat as performance evidence."
+        }
+      ]
+    },
+    "toni-morrison": {
+      "versions": {
+        "d1212f995643ce4c511cca67459a4dc604578cc4208aacc745581cea6409a828": "neither",
+        "131c3acb4d88703f7653ba4ea724deb3a7a7349daeb8d1bd9dfa8bea39d5cccb": "both"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "A child’s wish, a haunted family house and a bird in the hands of visitors make abstract arguments visible through a scene. The bird also changes the original question."
+        },
+        {
+          "label": "The Storyteller",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "A wish, a haunted family house and a bird in a listener's hands communicate broader arguments through specific scenes."
+        }
+      ]
+    },
+    "tony-blair": {
+      "versions": {
+        "47b000207a13f1469530f498f309be1d8781d77c42de086bf57631f245edb33e": "both"
+      },
+      "readers": [
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Blair recast the Union in terms of diversity and recast intervention as a collective obligation."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Recast union as accommodating diversity and intervention as a question of international responsibility."
+        }
+      ]
+    },
+    "tzipi-livni": {
+      "versions": {
+        "44304a204e69774182600feae155a704649f9831771f84b6b589dbde3a6181be": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Proceduralist",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "She publicly distinguished simultaneous processes and described mutually agreed negotiation rules; these are checkable procedural acts."
+        },
+        {
+          "label": "The Proceduralist",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Made the parallel tracks and rules of the ongoing talks explicit, alongside one challenge to the two-state label."
+        }
+      ]
+    },
+    "ursula-k-le-guin": {
+      "versions": {
+        "bc8cc7d27d1c0f9f8ac42ca6dfdfdc491c52a13a76e2a4ce69bb176ad8859463": "one"
+      },
+      "readers": [
+        {
+          "label": "The Storyteller",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Her envoy, the child in Omelas, and Shevek are concrete narrative devices that make abstract political or moral choices visible to readers."
+        },
+        {
+          "label": "The Reframer",
+          "examples": [
+            2,
+            3,
+            4
+          ],
+          "reason": "Changes the assumptions the reader must make about gender, prosperity and political institutions in three different stories."
+        }
+      ]
+    },
+    "ursula-von-der-leyen": {
+      "versions": {
+        "e2635046aaf333957c815886b57a7842dcb31d6b486a5be8945c7ca803d5f745": "neither"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            1,
+            2
+          ],
+          "reason": "Her request for an EU recovery instrument has a specified legislative audience and beneficiary; several other examples primarily show program administration."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2
+          ],
+          "reason": "Presented a specific recovery instrument and amount to Parliament. Other examples emphasize implementation."
+        }
+      ]
+    },
+    "venus-williams": {
+      "versions": {
+        "4de84cd4aabd31f2f148782177e66f364fca43f4da48d1568ed436837368f5c3": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Her Wimbledon intervention asked for a change to prize money. The coaching and doubles examples show different modes of communication."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2
+          ],
+          "reason": "Publicly called out unequal Wimbledon prizes. The teaching and doubles examples support other, distinct readings."
+        }
+      ]
+    },
+    "wangari-maathai": {
+      "versions": {
+        "03e35c135625b3e328ffdcf095ac542bb647c04f5893fc5fba4305f5331d14bb": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "She opposed the appropriation of Nairobi’s public park and supported mothers calling for identifiable prisoners’ release."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            2,
+            3
+          ],
+          "reason": "Public opposition to the park development and the prison vigil took identifiable constituents' requests to decision makers."
+        }
+      ]
+    },
+    "yingluck-shinawatra": {
+      "versions": {
+        "4a928059c28697028203a6abc2890575bc2ce783ea9d1dcd247810853d3112e4": "neither"
+      },
+      "readers": [
+        {
+          "label": "Insufficient evidence",
+          "examples": [
+            1,
+            2,
+            3
+          ],
+          "reason": "Two updates on flood recovery and one coalition formation do not show a recurring distinctive communicative act."
+        },
+        {
+          "label": "The Bridge Builder",
+          "examples": [
+            1,
+            3,
+            4
+          ],
+          "reason": "A coalition and cross-border cooperation suggest convening; status briefings show little about her choice of wording."
+        }
+      ]
+    },
+    "yuna-kim": {
+      "versions": {
+        "660c4894cc9dff9641ccc4d202c584b05abe27cc08b8858423c8a3dfbba039f4": "both"
+      },
+      "readers": [
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "Kim asked UN delegates to support the Olympic Truce and lent her public voice to a specific UNICEF appeal. The sporting records are background."
+        },
+        {
+          "label": "The Advocate",
+          "examples": [
+            3,
+            4
+          ],
+          "reason": "UN truce speech and televised appeal supplied an audience and an identifiable request; competition scores add little."
+        }
+      ]
+    }
+  }
+}

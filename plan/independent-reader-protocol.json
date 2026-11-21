@@ -1,0 +1,23 @@
+{
+  "edition": "2026-11-09",
+  "status": "specified before either independent ballot was received",
+  "purpose": "Test whether two independent readers can support the published interpretation from the supplied material. A match is not a diagnosis or evidence about someone's private life.",
+  "sampling": {
+    "tentative": "All 59 previously flagged uncertain leads. This is a targeted review, not a representative sample of 500 people.",
+    "holdout": "16 figures not in the earlier 155-profile AI review; the same career examples may have been selected by previous editors.",
+    "tone": "12 fictional unseen conversations including multilingual and ambiguous wording. A single model reading was sealed per case before human review. Do not extrapolate across languages from this set."
+  },
+  "blinding": {
+    "readers": 2,
+    "process": "Different human readers, independently randomized orders, same case material and definitions, no access to published leads, model outputs or each other's ballots. Readers can explicitly decline to rate a language or case. No coaching toward agreement.",
+    "replacement": "Do not replace an inconvenient result or modify an imported ballot. A material error or a changed case requires a new edition."
+  },
+  "analysis": {
+    "human_agreement": "Per group: same choice among cases both rated. Report denominator, numerator, unavailable cases, and the count of both choosing Insufficient evidence. Also give the count agreeing on a specific substantive label so shared uncertainty cannot inflate an accuracy claim.",
+    "reference_comparison": "For each group report individual rated votes agreeing with the frozen system reading; skip Unable to assess, retain Insufficient evidence as a real judgment. Separate results for the 59 tentative cases, the 16 holdout cases and the 12 tone cases. Show original words and dissent to authorized staff after both ballots are in.",
+    "editorial_action": "Two independent substantive choices matching the existing lead: retain it with cited examples. Disagreement, mutual uncertainty or a different lead: queue the case for a fresh source-based decision. No automatic relabel from two votes. A new lead needs both supporting and disconfirming evidence and an editorial version.",
+    "promotion": "Do not award a directory-wide or conversation-quality score of 9 from this selected, small study alone. Log revisions independently of the blind results. A later, larger stratified holdout should use an edition fixed before testing.",
+    "volunteer_outcomes": "Do not count missing feedback as a negative answer. Preserve the initial same-instrument attempt after restart; report the 7–28-day retest completion rate only after the full window. Report help among members who sent and rated a reply. Withhold volunteer evidence below the existing group thresholds.",
+    "couples": "A pair is eligible for scheduled-return reporting only if both partners independently chose return tracking before accepting the first agreement. Separate observed on-screen return on the due date + seven days from mutual check-in; pending pairs cannot enter the mature denominator. Withdrawal excludes the pair from future reports."
+  }
+}

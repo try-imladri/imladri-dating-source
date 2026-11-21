@@ -1,0 +1,120 @@
+{
+ "edition": "career-morisot-2026-11-09",
+ "reviewed_on": "2026-11-09",
+ "profiles": {
+  "berthe-morisot": {
+   "result": "career_supported",
+   "rationale": "In Cowes, the man named in the portrait looks out of the window, and his gaze takes us to the waterfront. At Fécamp, the eye moves from Madame Boursier close by to boats far below. On the Paris balcony we can look across the city with the child at the rail. In each painting the sitter becomes someone whose view we can share. That recurring change of viewpoint gives Reframer the lead.",
+   "scope": "How Morisot positions the viewer in portraits, terrace scenes and The Cradle, 1872–1875",
+   "alternative": "The Storyteller",
+   "sources": [
+    {
+     "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight, 1875",
+     "url": "https://www.marmottan.fr/en/notice/6029/",
+     "evidence": "The museum places Eugène at the left of the Cowes hotel window. It draws attention to the garden and waterfront beyond him and to the light and transparency of the glass."
+    },
+    {
+     "label": "Tokyo Fuji Art Museum · On the Terrace, 1874",
+     "url": "https://www.fujibi.or.jp/collection/artwork/01265",
+     "evidence": "The collection identifies Madame Boursier as the sitter at Fécamp. From the high terrace, the painted view reaches small pleasure boats at sea."
+    },
+    {
+     "label": "Norton Simon Museum · In a Villa at the Seaside, 1874",
+     "url": "https://www.nortonsimon.org/art/detail/M.1979.21.P/",
+     "evidence": "The museum describes a woman waiting on a high terrace, a visitor coming up the stairs and a child looking over the rail. It identifies the models as likely Morisot’s sister Edma and Edma’s daughter."
+    },
+    {
+     "label": "Artizon Museum · Woman and Child on the Balcony, 1872",
+     "url": "https://www.artizon.museum/en/collection/category/detail/12281",
+     "evidence": "Two figures survey Paris from a residential balcony. The city beyond the railing shares the canvas with the people who can see it."
+    },
+    {
+     "label": "Shimbata Yasuhide · Artizon Museum research on Woman and Child on the Balcony",
+     "url": "https://ifatz.repo.nii.ac.jp/record/174/files/Bulletin_2020_shimbata_en.pdf",
+     "evidence": "The curator describes the child looking out over the city and the woman attending to both the view and the child. X-ray examination revealed another composition underneath, with a woman embracing a child. The finding establishes what lies beneath the surface. Morisot’s reason for reusing it is unknown."
+    },
+    {
+     "label": "Musée d’Orsay · The Cradle, 1872",
+     "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1132",
+     "evidence": "Edma watches her sleeping daughter Blanche. The museum traces a diagonal through the mother’s gaze and the two bent arms, and describes the veil she draws between the baby and the viewer."
+    },
+    {
+     "label": "Jean Prouvaire in Le Rappel, 20 April 1874 · review reproduced on page 168 in the Met Library catalogue",
+     "url": "https://libmma.contentdm.oclc.org/digital/api/collection/p15324coll10/id/78652/download#page=1",
+     "evidence": "Writing after the first Impressionist exhibition, Prouvaire described being moved by the mother bending over the cradle. He also remarked on the muslin softening his view of the child. His account gives a contemporary viewer’s response to both the gesture and the veil."
+    }
+   ],
+   "previous_number": 156,
+   "lead_number": 156,
+   "alternative_number": 159,
+   "before": "4e8101e1ce20c9ca4d6cc3d47c702d90c049ee7cca6b515946c9a86929e7d17b",
+   "version": "200508340cef3ae7c43948b256e485f1a51b050019b970347e322640176cdb51",
+   "patch": {
+    "sections.communicates.examples": [
+     "In The Cradle (1872), Edma watches her sleeping daughter Blanche. The bend of Edma’s arm echoes the baby’s. The gauze she draws across the cradle lets us see the child while keeping us outside their shared space.",
+     "In On the Terrace (1874), Madame Boursier sits in the foreground at Fécamp. From the same high terrace we can see small boats on the water far below her. A single view holds both the close sitter and the distant coast.",
+     "In Eugène Manet on the Isle of Wight (1875), Morisot placed her husband at the left of a hotel window in Cowes. The same pane frames the garden and waterfront, so the viewer can look beyond the sitter and out with him.",
+     "In a Villa at the Seaside (1874) shows a visitor climbing the steps toward a seated woman. A child peers over the railing. Morisot gives us an arrival to follow while the child draws our attention to the view below."
+    ],
+    "sections.communicates.example_sources": [
+     {
+      "example": "In The Cradle (1872), Edma watches her sleeping daughter Blanche. The bend of Edma’s arm echoes the baby’s. The gauze she draws across the cradle lets us see the child while keeping us outside their shared space.",
+      "label": "Musée d’Orsay · The Cradle, 1872",
+      "url": "https://www.musee-orsay.fr/en/artworks/le-berceau-1132"
+     },
+     {
+      "example": "In On the Terrace (1874), Madame Boursier sits in the foreground at Fécamp. From the same high terrace we can see small boats on the water far below her. A single view holds both the close sitter and the distant coast.",
+      "label": "Tokyo Fuji Art Museum · On the Terrace, 1874",
+      "url": "https://www.fujibi.or.jp/collection/artwork/01265"
+     },
+     {
+      "example": "In Eugène Manet on the Isle of Wight (1875), Morisot placed her husband at the left of a hotel window in Cowes. The same pane frames the garden and waterfront, so the viewer can look beyond the sitter and out with him.",
+      "label": "Musée Marmottan Monet · Eugène Manet on the Isle of Wight",
+      "url": "https://www.marmottan.fr/en/notice/6029/"
+     },
+     {
+      "example": "In a Villa at the Seaside (1874) shows a visitor climbing the steps toward a seated woman. A child peers over the railing. Morisot gives us an arrival to follow while the child draws our attention to the view below.",
+      "label": "Norton Simon Museum · In a Villa at the Seaside, 1874",
+      "url": "https://www.nortonsimon.org/art/detail/M.1979.21.P/"
+     }
+    ],
+    "matches": [
+     {
+      "number": 156,
+      "why": "In Cowes, the man named in the portrait looks out of the window, and his gaze takes us to the waterfront. At Fécamp, the eye moves from Madame Boursier close by to boats far below. On the Paris balcony we can look across the city with the child at the rail. In each painting the sitter becomes someone whose view we can share. That recurring change of viewpoint gives Reframer the lead."
+     }
+    ],
+    "sections.matches": [
+     {
+      "number": 156,
+      "why": "In Cowes, the man named in the portrait looks out of the window, and his gaze takes us to the waterfront. At Fécamp, the eye moves from Madame Boursier close by to boats far below. On the Paris balcony we can look across the city with the child at the rail. In each painting the sitter becomes someone whose view we can share. That recurring change of viewpoint gives Reframer the lead."
+     }
+    ],
+    "sections.map.closest": {
+     "number": 156,
+     "rationale": "In Cowes, the man named in the portrait looks out of the window, and his gaze takes us to the waterfront. At Fécamp, the eye moves from Madame Boursier close by to boats far below. On the Paris balcony we can look across the city with the child at the rail. In each painting the sitter becomes someone whose view we can share. That recurring change of viewpoint gives Reframer the lead."
+    },
+    "sections.map.cousin": {
+     "number": 159,
+     "tell": "Storyteller fits two paintings especially well. In a Villa at the Seaside gives us a visitor about to reach the top of the stairs. In The Cradle, Edma watches her sleeping daughter, their bent arms echoing each other. The gauze also puts us just outside that moment of care."
+    },
+    "sections.communicates.text.0": "In the Cowes portrait, start with Eugène and then follow his gaze. From there the glass, garden and waterfront become part of the subject. On the Paris balcony, the child at the railing offers another way into the picture. We look across the city with her, while the woman beside her can still watch over her.",
+    "sections.communicates.text.1": "Morisot also gives the viewer scenes that work as stories. At the seaside villa, someone is about to reach the top of the stairs. In The Cradle, the small gesture of holding the gauze tells us how Edma attends to her sleeping daughter. The first scene invites us to anticipate a meeting. The second asks us to keep our distance."
+   },
+   "add_sources": [
+    {
+     "url": "https://www.fujibi.or.jp/collection/artwork/01265",
+     "label": "Tokyo Fuji Art Museum · On the Terrace, 1874"
+    },
+    {
+     "url": "https://www.nortonsimon.org/art/detail/M.1979.21.P/",
+     "label": "Norton Simon Museum · In a Villa at the Seaside, 1874"
+    }
+   ],
+   "previous_copy": {
+    "sections.communicates.text.0": "Morisot communicates through composition rather than declaration. The diagonal the Orsay describes linking mother's gaze, mirrored arm, and sleeping child is a line of relationship drawn without a word, and her signature at the lower center of The Harbor at Lorient is similarly plain and placed. Read as a public style, this is someone who shows she is present through arrangement, positioning, and steadiness rather than announcement. A reader looking at her catalogue will find, again and again, a person who lets the frame do the talking.",
+    "sections.communicates.text.1": "She also communicates by what she withholds and by when she steps back. After Le Berceau drew only modest notice at the 1874 exhibition and unsuccessful attempts to sell it, she withdrew it, and the painting stayed with the model's family for years. That is a communicator who reads a room accurately and acts on the reading. The National Gallery's account of Summer's Day shows the complementary side: a willingness to exhibit, to pair canvases that belong together, and to let a public moment be organized rather than improvised."
+   }
+  }
+ }
+}
